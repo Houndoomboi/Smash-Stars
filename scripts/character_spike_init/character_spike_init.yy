@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_spike_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_spike_init",
+  "parent":{
+    "name":"Spike",
+    "path":"folders/Characters/Spike.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

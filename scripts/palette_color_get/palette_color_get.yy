@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"palette_color_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"palette_color_get",
+  "parent":{
+    "name":"Palettes",
+    "path":"folders/[Engine]/Palettes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hitbox_group_connected",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hitbox_group_connected",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Hitboxes/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

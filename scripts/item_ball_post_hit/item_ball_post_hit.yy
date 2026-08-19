@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_ball_post_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_ball_post_hit",
+  "parent":{
+    "name":"Ball",
+    "path":"folders/Items/Ball.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

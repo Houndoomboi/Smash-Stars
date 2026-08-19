@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sephiroth_fspec_shadow_flare_post_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sephiroth_fspec_shadow_flare_post_hit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

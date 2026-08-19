@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"verlet_point_move_auto",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"verlet_point_move_auto",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Verlet/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

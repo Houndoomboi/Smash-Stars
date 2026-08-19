@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ryu_uspec_shoryuken_input_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ryu_uspec_shoryuken_input_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

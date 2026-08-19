@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"link_nspec_bow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"link_nspec_bow",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

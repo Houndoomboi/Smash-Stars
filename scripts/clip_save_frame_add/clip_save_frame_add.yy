@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"clip_save_frame_add",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"clip_save_frame_add",
+  "parent":{
+    "name":"Clips",
+    "path":"folders/[Engine]/Clips.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

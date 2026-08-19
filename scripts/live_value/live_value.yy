@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"live_value",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"live_value",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Utility/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

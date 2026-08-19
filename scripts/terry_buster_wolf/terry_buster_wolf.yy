@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"terry_buster_wolf",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"terry_buster_wolf",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

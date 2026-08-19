@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_spawn_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_spawn_script",
+  "parent":{
+    "name":"Items",
+    "path":"folders/Items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

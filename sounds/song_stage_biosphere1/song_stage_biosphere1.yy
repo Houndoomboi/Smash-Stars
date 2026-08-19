@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"song_stage_biosphere1",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":407.37958,
+  "exportDir":"",
+  "name":"song_stage_biosphere1",
+  "parent":{
+    "name":"Biosphere",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_stage_biosphere1.mp3",
+  "volume":0.65,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mewtwo_uspec_teleport",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mewtwo_uspec_teleport",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

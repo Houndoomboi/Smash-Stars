@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bayonetta_fspec_afterburner",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bayonetta_fspec_afterburner",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

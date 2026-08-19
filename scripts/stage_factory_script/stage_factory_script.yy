@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_factory_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_factory_script",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Stages/UnusedStages/Factory/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

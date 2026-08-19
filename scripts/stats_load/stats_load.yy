@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stats_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stats_load",
+  "parent":{
+    "name":"Startup",
+    "path":"folders/[Engine]/Startup.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

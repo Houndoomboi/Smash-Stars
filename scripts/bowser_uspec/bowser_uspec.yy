@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bowser_uspec",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bowser_uspec",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

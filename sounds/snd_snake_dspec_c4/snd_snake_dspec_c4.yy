@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_snake_dspec_c4",
+  "audioGroupId":{
+    "name":"audiogroup_sound_effects",
+    "path":"audiogroups/audiogroup_sound_effects",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.12322,
+  "exportDir":"",
+  "name":"snd_snake_dspec_c4",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Characters/[Shared]/Attacks/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_snake_dspec_c4.wav",
+  "volume":1.0,
+}

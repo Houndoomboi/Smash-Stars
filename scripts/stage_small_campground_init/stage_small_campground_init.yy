@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_small_campground_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_small_campground_init",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Stages/UnusedStages/Campgrounds/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

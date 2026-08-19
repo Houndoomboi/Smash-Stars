@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_shelly_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_shelly_init",
+  "parent":{
+    "name":"Shelly",
+    "path":"folders/Characters/Shelly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

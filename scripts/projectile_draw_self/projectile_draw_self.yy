@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"projectile_draw_self",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"projectile_draw_self",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Hitboxes/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

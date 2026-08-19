@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"simple_attack_definitions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"simple_attack_definitions",
+  "parent":{
+    "name":"[Shared]",
+    "path":"folders/Characters/[Shared].yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

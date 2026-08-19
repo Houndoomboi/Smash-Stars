@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_dspec_earth_wall_projectile_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_dspec_earth_wall_projectile_hit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_shotgun_post_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_shotgun_post_hit",
+  "parent":{
+    "name":"Shotgun",
+    "path":"folders/Items/Shotgun.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

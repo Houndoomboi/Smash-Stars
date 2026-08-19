@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"nudge_y",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"nudge_y",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

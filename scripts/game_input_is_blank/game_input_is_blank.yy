@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_input_is_blank",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_input_is_blank",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

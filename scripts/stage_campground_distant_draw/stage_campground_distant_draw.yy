@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_campground_distant_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_campground_distant_draw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Stages/UnusedStages/Campgrounds/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

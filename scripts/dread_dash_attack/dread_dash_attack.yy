@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"dread_dash_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dread_dash_attack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_desert_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_desert_init",
+  "parent":{
+    "name":"Desert",
+    "path":"folders/Stages/UnusedStages/Desert.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

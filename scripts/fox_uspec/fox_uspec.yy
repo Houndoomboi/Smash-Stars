@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fox_uspec",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fox_uspec",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

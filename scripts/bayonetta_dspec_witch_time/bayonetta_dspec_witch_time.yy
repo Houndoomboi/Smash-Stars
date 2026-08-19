@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bayonetta_dspec_witch_time",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bayonetta_dspec_witch_time",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

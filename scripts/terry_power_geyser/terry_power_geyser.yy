@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"terry_power_geyser",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"terry_power_geyser",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

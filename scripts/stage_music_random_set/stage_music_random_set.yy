@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_music_random_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_music_random_set",
+  "parent":{
+    "name":"Stages",
+    "path":"folders/[Engine]/Stages.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sheik_dspec_bouncing_fish",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sheik_dspec_bouncing_fish",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

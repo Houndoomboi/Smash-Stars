@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"replays_scan",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"replays_scan",
+  "parent":{
+    "name":"Replays",
+    "path":"folders/[Engine]/Replays.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

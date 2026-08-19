@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_biosphere_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_biosphere_init",
+  "parent":{
+    "name":"Biosphere",
+    "path":"folders/Stages/UnusedStages/Biosphere.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

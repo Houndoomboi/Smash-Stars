@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_islands_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_islands_init",
+  "parent":{
+    "name":"Islands",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"diddy_dspec_banana",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"diddy_dspec_banana",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spike_strong_draw_end",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spike_strong_draw_end",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Spike/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

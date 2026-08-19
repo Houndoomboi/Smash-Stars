@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"blastzones_reset",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"blastzones_reset",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

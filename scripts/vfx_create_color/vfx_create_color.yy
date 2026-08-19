@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"vfx_create_color",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vfx_create_color",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Effects/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

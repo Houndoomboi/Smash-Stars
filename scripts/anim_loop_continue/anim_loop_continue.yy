@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"anim_loop_continue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"anim_loop_continue",
+  "parent":{
+    "name":"Animation",
+    "path":"folders/[Engine]/Animation.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

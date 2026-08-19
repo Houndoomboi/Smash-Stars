@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rollback_frame_is_confirmed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rollback_frame_is_confirmed",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

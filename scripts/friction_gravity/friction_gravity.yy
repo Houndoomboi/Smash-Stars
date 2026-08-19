@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"friction_gravity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"friction_gravity",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

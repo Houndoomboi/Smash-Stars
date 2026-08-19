@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"profile_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"profile_get",
+  "parent":{
+    "name":"Profiles",
+    "path":"folders/[Engine]/Profiles.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

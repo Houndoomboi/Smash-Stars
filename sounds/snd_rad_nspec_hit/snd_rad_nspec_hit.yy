@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_rad_nspec_hit",
+  "audioGroupId":{
+    "name":"audiogroup_sound_effects",
+    "path":"audiogroups/audiogroup_sound_effects",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.5,
+  "exportDir":"",
+  "name":"snd_rad_nspec_hit",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Characters/Disabled Characters/Radian/Attacks/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_rad_nspec_hit.wav",
+  "volume":0.7,
+}

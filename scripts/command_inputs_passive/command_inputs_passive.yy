@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"command_inputs_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"command_inputs_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

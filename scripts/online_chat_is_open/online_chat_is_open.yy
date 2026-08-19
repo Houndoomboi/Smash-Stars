@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"online_chat_is_open",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"online_chat_is_open",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Menus/General/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

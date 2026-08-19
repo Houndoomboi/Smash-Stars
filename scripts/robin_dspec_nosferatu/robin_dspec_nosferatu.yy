@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"robin_dspec_nosferatu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"robin_dspec_nosferatu",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

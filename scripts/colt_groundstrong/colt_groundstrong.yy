@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"colt_groundstrong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"colt_groundstrong",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Colt/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

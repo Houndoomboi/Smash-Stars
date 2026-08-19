@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_daynight",
+  "name":"shd_daynight",
+  "parent":{
+    "name":"Stages",
+    "path":"folders/[Engine]/Stages.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bayonetta_dspec_witch_time_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bayonetta_dspec_witch_time_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

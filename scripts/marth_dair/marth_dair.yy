@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"marth_dair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"marth_dair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

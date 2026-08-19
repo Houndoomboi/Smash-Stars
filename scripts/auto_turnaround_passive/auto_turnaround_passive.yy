@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"auto_turnaround_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"auto_turnaround_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

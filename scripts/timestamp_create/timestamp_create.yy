@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"timestamp_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"timestamp_create",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

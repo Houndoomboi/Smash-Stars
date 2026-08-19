@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"trip_pre_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"trip_pre_hit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

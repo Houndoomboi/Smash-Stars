@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_motion",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_motion",
+  "parent":{
+    "name":"Input",
+    "path":"folders/[Engine]/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shelly_airstrong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shelly_airstrong",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Shelly/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

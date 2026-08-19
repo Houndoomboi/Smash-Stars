@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spike_special",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spike_special",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Spike/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

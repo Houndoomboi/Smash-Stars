@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_mortis_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_mortis_init",
+  "parent":{
+    "name":"Mortis",
+    "path":"folders/Characters/Mortis.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

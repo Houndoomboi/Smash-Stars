@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shelly_special",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shelly_special",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Shelly/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ganon_fspec",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ganon_fspec",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

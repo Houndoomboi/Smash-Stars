@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"background_get_clear_amount",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"background_get_clear_amount",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/[Engine]/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

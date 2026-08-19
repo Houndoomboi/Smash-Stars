@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"players_spawn",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"players_spawn",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

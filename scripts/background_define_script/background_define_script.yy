@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"background_define_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"background_define_script",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/[Engine]/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

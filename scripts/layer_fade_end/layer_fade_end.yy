@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"layer_fade_end",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"layer_fade_end",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/[Engine]/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

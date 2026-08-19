@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"clip_can_record",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"clip_can_record",
+  "parent":{
+    "name":"Clips",
+    "path":"folders/[Engine]/Clips.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

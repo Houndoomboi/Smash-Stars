@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_move_with_holder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_move_with_holder",
+  "parent":{
+    "name":"Items",
+    "path":"folders/[Engine]/Items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

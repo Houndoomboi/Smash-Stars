@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bitflag_read",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bitflag_read",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

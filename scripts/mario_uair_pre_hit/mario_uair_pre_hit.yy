@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mario_uair_pre_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mario_uair_pre_hit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

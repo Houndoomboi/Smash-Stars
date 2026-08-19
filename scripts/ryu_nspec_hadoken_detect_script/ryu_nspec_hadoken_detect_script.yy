@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ryu_nspec_hadoken_detect_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ryu_nspec_hadoken_detect_script",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

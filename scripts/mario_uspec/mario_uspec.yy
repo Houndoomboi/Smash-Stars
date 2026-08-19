@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mario_uspec",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mario_uspec",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
