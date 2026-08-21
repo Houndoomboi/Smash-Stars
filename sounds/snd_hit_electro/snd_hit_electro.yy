@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_hit_electro",
+  "audioGroupId":{
+    "name":"audiogroup_sound_effects",
+    "path":"audiogroups/audiogroup_sound_effects",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.83839,
+  "exportDir":"",
+  "name":"snd_hit_electro",
+  "parent":{
+    "name":"Hit Sounds",
+    "path":"folders/Effects/Sounds/Hit Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hit_electro.wav",
+  "volume":1.0,
+}

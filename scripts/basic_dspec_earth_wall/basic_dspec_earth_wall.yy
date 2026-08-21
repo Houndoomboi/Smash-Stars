@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_dspec_earth_wall",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_dspec_earth_wall",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

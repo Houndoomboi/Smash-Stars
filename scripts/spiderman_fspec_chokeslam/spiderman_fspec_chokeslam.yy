@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spiderman_fspec_chokeslam",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spiderman_fspec_chokeslam",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

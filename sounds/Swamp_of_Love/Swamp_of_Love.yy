@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Swamp_of_Love",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":145.97224,
+  "exportDir":"",
+  "name":"Swamp_of_Love",
+  "parent":{
+    "name":"Swamp of Love",
+    "path":"folders/Stages/Swamp of Love.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Swamp_of_Love.mp3",
+  "volume":1.0,
+}

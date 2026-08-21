@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"on_plat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"on_plat",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ness_fspec_pk_fire_post_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ness_fspec_pk_fire_post_hit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

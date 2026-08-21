@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"block_moving_ride_y",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"block_moving_ride_y",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

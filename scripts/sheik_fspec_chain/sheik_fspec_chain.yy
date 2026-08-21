@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sheik_fspec_chain",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sheik_fspec_chain",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

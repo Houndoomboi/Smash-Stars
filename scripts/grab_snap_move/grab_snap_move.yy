@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"grab_snap_move",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"grab_snap_move",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

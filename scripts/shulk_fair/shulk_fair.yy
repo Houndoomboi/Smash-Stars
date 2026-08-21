@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shulk_fair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shulk_fair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

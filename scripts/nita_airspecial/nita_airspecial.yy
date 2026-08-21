@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"nita_airspecial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"nita_airspecial",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Characters/Nita/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bayonetta_fair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bayonetta_fair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

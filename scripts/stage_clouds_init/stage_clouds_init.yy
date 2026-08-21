@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_clouds_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_clouds_init",
+  "parent":{
+    "name":"Clouds",
+    "path":"folders/Stages/UnusedStages/Clouds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

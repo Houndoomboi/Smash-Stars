@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cancel_airdodge_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cancel_airdodge_check",
+  "parent":{
+    "name":"Cancels",
+    "path":"folders/[Engine]/Attacking/Cancels.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

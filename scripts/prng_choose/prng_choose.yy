@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prng_choose",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prng_choose",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

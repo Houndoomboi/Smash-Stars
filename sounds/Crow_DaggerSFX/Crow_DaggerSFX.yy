@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Crow_DaggerSFX",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1148299,
+  "exportDir":"",
+  "name":"Crow_DaggerSFX",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/Crow/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Crow_DaggerSFX.ogg",
+  "volume":0.6,
+}

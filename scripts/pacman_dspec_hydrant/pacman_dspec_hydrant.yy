@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pacman_dspec_hydrant",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pacman_dspec_hydrant",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

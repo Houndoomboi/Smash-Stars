@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_data_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_data_get",
+  "parent":{
+    "name":"Stages",
+    "path":"folders/[Engine]/Stages.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

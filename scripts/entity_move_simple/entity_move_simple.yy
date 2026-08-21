@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"entity_move_simple",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"entity_move_simple",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

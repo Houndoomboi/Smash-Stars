@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_stage_haven_final",
+  "name":"shd_stage_haven_final",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Stages/UnusedStages/Haven/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

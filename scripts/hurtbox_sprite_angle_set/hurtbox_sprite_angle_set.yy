@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hurtbox_sprite_angle_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hurtbox_sprite_angle_set",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Hurtboxes/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

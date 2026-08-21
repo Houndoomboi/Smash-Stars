@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spread_positions_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spread_positions_get",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

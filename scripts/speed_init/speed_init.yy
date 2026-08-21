@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"speed_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"speed_init",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_parry",
+  "audioGroupId":{
+    "name":"audiogroup_sound_effects",
+    "path":"audiogroups/audiogroup_sound_effects",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.115011,
+  "exportDir":"",
+  "name":"snd_parry",
+  "parent":{
+    "name":"General Sounds",
+    "path":"folders/Effects/Sounds/General Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_parry.wav",
+  "volume":1.0,
+}

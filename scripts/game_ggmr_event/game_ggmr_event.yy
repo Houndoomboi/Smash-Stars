@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_ggmr_event",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_ggmr_event",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

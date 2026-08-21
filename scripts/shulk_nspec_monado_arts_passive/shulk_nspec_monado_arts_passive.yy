@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shulk_nspec_monado_arts_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shulk_nspec_monado_arts_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

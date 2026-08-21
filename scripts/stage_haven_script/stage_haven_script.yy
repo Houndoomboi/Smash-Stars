@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_haven_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_haven_script",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Stages/UnusedStages/Haven/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kessler_final_smash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kessler_final_smash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

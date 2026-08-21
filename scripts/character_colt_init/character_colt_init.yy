@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_colt_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_colt_init",
+  "parent":{
+    "name":"Colt",
+    "path":"folders/Characters/Colt.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

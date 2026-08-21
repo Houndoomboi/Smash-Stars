@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"entity_draw_self",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"entity_draw_self",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

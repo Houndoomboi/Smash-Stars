@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"byleth_uspec_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"byleth_uspec_draw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

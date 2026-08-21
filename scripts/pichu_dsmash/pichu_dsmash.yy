@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pichu_dsmash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pichu_dsmash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_spread_texture",
+  "name":"shd_spread_texture",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

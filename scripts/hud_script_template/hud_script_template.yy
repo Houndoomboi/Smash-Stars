@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hud_script_template",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hud_script_template",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

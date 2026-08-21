@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_settings",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_settings",
+  "parent":{
+    "name":"SmashStars",
+    "path":"SmashStars.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

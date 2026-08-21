@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CrowVoicelines",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CrowVoicelines",
+  "parent":{
+    "name":"Crow",
+    "path":"folders/Characters/Crow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

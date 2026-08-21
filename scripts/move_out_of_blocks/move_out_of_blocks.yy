@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_out_of_blocks",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_out_of_blocks",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

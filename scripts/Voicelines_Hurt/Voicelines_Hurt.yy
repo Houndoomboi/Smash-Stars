@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Voicelines_Hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Voicelines_Hurt",
+  "parent":{
+    "name":"Shelly",
+    "path":"folders/Characters/Shelly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

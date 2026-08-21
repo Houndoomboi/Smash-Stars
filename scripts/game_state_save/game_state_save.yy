@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_state_save",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_state_save",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

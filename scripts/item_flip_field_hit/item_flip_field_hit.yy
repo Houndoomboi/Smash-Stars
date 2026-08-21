@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_flip_field_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_flip_field_hit",
+  "parent":{
+    "name":"Flip_Field",
+    "path":"folders/Items/Flip_Field.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

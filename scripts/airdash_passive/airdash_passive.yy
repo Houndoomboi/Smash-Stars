@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"airdash_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"airdash_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

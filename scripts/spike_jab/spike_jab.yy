@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spike_jab",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spike_jab",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Spike/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

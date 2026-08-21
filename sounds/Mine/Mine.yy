@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Mine",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":225.88235,
+  "exportDir":"",
+  "name":"Mine",
+  "parent":{
+    "name":"Gem Mine",
+    "path":"folders/Stages/Gem Mine.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Mine.wav",
+  "volume":1.0,
+}

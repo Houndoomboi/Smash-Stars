@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"song_stage_haven_final",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":96.0261,
+  "exportDir":"",
+  "name":"song_stage_haven_final",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Stages/UnusedStages/Haven/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_stage_haven_final.mp3",
+  "volume":0.6,
+}

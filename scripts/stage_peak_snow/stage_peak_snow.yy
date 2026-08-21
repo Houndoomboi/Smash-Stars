@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stage_peak_snow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stage_peak_snow",
+  "parent":{
+    "name":"Peak",
+    "path":"folders/Stages/UnusedStages/Islands/Peak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

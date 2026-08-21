@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"NitaVoicelines_Hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"NitaVoicelines_Hurt",
+  "parent":{
+    "name":"Nita",
+    "path":"folders/Characters/Nita.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

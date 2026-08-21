@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"entity_owner_change",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"entity_owner_change",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

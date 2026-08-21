@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cpu_press",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cpu_press",
+  "parent":{
+    "name":"Input",
+    "path":"folders/[Engine]/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

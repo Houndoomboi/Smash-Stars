@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tension_gauge_hud",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tension_gauge_hud",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

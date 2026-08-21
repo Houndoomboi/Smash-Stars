@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"replay_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"replay_load",
+  "parent":{
+    "name":"Replays",
+    "path":"folders/[Engine]/Replays.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

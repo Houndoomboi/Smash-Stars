@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hit_sfx_play",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hit_sfx_play",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Effects/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

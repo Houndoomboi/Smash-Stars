@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"callback_clean",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"callback_clean",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"assert",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"assert",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Utility/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

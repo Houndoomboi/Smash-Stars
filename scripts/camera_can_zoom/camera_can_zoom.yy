@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"camera_can_zoom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"camera_can_zoom",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

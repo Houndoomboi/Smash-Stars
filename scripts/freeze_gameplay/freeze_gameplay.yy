@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"freeze_gameplay",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"freeze_gameplay",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_item_throw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_item_throw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

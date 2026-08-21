@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"debug_timer_start",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"debug_timer_start",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Utility/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_state_print_id_debug",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_state_print_id_debug",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

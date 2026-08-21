@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Fist_Vfx",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2312018,
+  "exportDir":"",
+  "name":"Fist_Vfx",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/El Primo/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Fist_Vfx.ogg",
+  "volume":0.61,
+}

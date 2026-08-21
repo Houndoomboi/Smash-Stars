@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"samus_nspec_charge_shot_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"samus_nspec_charge_shot_draw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

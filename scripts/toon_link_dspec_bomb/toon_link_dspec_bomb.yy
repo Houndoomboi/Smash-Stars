@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"toon_link_dspec_bomb",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"toon_link_dspec_bomb",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

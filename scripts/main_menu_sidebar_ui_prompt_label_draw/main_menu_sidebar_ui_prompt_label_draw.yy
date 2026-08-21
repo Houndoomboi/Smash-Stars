@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"main_menu_sidebar_ui_prompt_label_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"main_menu_sidebar_ui_prompt_label_draw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Menus/General/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

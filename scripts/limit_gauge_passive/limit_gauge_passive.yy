@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"limit_gauge_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"limit_gauge_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

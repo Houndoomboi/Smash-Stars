@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hitbox_create_detectbox",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hitbox_create_detectbox",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Hitboxes/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"min_min_ftilt_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"min_min_ftilt_draw",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

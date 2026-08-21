@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ex_move_is_activated",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ex_move_is_activated",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

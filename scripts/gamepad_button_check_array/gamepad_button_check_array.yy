@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gamepad_button_check_array",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gamepad_button_check_array",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

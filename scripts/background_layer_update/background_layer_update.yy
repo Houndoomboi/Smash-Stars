@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"background_layer_update",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"background_layer_update",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/[Engine]/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

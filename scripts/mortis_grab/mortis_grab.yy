@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mortis_grab",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mortis_grab",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Mortis/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

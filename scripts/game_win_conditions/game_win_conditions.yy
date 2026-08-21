@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_win_conditions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_win_conditions",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

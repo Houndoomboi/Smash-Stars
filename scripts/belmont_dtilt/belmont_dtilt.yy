@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"belmont_dtilt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"belmont_dtilt",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

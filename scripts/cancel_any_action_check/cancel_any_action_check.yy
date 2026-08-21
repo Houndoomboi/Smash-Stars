@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cancel_any_action_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cancel_any_action_check",
+  "parent":{
+    "name":"Cancels",
+    "path":"folders/[Engine]/Attacking/Cancels.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

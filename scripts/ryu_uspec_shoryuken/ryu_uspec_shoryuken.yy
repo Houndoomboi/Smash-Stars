@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ryu_uspec_shoryuken",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ryu_uspec_shoryuken",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

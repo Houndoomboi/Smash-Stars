@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pikachu_uspec_quick_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pikachu_uspec_quick_attack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

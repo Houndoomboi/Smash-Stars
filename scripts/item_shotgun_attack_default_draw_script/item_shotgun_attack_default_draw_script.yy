@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_shotgun_attack_default_draw_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_shotgun_attack_default_draw_script",
+  "parent":{
+    "name":"Shotgun",
+    "path":"folders/Items/Shotgun.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

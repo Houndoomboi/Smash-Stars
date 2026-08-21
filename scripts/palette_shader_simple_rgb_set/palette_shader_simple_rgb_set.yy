@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"palette_shader_simple_rgb_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"palette_shader_simple_rgb_set",
+  "parent":{
+    "name":"Palettes",
+    "path":"folders/[Engine]/Palettes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

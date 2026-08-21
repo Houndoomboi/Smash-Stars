@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"dr_mario_uair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dr_mario_uair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

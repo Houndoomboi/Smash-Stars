@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_and_watch_dsmash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_and_watch_dsmash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

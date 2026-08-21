@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_explosive_box_detectbox_hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_explosive_box_detectbox_hit",
+  "parent":{
+    "name":"Explosive_Box",
+    "path":"folders/Items/Explosive_Box.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

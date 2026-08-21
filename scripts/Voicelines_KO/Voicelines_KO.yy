@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Voicelines_KO",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Voicelines_KO",
+  "parent":{
+    "name":"Shelly",
+    "path":"folders/Characters/Shelly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

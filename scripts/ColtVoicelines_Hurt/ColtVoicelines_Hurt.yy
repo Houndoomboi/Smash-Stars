@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ColtVoicelines_Hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ColtVoicelines_Hurt",
+  "parent":{
+    "name":"Colt",
+    "path":"folders/Characters/Colt.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

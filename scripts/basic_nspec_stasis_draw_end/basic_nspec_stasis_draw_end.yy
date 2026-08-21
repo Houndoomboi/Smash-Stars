@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_nspec_stasis_draw_end",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_nspec_stasis_draw_end",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

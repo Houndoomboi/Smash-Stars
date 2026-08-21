@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"song_stage_islands",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":240.09143,
+  "exportDir":"",
+  "name":"song_stage_islands",
+  "parent":{
+    "name":"Islands",
+    "path":"folders/Stages/UnusedStages/Islands.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_stage_islands.mp3",
+  "volume":0.75,
+}

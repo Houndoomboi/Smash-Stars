@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"menu_background_color_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"menu_background_color_set",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Menus/General/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

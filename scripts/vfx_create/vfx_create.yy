@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"vfx_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"vfx_create",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Effects/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

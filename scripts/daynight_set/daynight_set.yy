@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"daynight_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"daynight_set",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/[Engine]/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"options_list",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"options_list",
+  "parent":{
+    "name":"Startup",
+    "path":"folders/[Engine]/Startup.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

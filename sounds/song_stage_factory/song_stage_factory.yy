@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"song_stage_factory",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":106.7102,
+  "exportDir":"",
+  "name":"song_stage_factory",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Stages/UnusedStages/Factory/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_stage_factory.mp3",
+  "volume":0.7,
+}

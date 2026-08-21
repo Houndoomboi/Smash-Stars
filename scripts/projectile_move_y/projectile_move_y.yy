@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"projectile_move_y",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"projectile_move_y",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

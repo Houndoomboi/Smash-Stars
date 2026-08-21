@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_through_platforms",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_through_platforms",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

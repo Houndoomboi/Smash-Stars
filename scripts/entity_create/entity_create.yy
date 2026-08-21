@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"entity_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"entity_create",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

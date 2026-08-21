@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_advance_frame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_advance_frame",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

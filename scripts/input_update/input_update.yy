@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_update",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_update",
+  "parent":{
+    "name":"Input",
+    "path":"folders/[Engine]/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

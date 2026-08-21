@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_hit_sizzle",
+  "audioGroupId":{
+    "name":"audiogroup_sound_effects",
+    "path":"audiogroups/audiogroup_sound_effects",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.633469,
+  "exportDir":"",
+  "name":"snd_hit_sizzle",
+  "parent":{
+    "name":"Hit Sounds",
+    "path":"folders/Effects/Sounds/Hit Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hit_sizzle.wav",
+  "volume":1.0,
+}

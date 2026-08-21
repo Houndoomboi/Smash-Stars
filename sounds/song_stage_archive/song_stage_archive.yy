@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"song_stage_archive",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":345.6,
+  "exportDir":"",
+  "name":"song_stage_archive",
+  "parent":{
+    "name":"Archive",
+    "path":"folders/Stages/UnusedStages/Archive.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_stage_archive.mp3",
+  "volume":0.55,
+}

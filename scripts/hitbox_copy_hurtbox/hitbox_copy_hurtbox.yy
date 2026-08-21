@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hitbox_copy_hurtbox",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hitbox_copy_hurtbox",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Hitboxes/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

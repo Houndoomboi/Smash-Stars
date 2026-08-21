@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"palette_slice",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"palette_slice",
+  "parent":{
+    "name":"Palettes",
+    "path":"folders/[Engine]/Palettes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ex_meter_player_hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ex_meter_player_hurt",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"object_is",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"object_is",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/[Engine]/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"final_smash_meter_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"final_smash_meter_passive",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

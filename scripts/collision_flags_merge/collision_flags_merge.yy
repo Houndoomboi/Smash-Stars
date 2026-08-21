@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"collision_flags_merge",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"collision_flags_merge",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

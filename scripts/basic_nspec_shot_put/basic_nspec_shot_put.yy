@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_nspec_shot_put",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_nspec_shot_put",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

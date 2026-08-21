@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hit_vfx_style_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hit_vfx_style_create",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Effects/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

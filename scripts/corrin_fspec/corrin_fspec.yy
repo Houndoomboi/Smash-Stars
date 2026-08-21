@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"corrin_fspec",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"corrin_fspec",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

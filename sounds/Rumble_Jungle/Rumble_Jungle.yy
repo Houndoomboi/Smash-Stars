@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Rumble_Jungle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":205.33333,
+  "exportDir":"",
+  "name":"Rumble_Jungle",
+  "parent":{
+    "name":"Rumble Jungle",
+    "path":"folders/Stages/Rumble Jungle.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Rumble_Jungle.wav",
+  "volume":1.0,
+}

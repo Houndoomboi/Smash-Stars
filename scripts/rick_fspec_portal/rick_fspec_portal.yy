@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rick_fspec_portal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rick_fspec_portal",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

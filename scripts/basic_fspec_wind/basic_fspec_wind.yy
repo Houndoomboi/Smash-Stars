@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basic_fspec_wind",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basic_fspec_wind",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

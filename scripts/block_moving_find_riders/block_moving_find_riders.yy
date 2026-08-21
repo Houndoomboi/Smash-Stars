@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"block_moving_find_riders",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"block_moving_find_riders",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

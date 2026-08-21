@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"collision_box_change",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"collision_box_change",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Collisions/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Primo_PRIMO",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.4893425,
+  "exportDir":"",
+  "name":"Primo_PRIMO",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/El Primo/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Primo_PRIMO.ogg",
+  "volume":0.69,
+}

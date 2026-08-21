@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_nita_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_nita_init",
+  "parent":{
+    "name":"Nita",
+    "path":"folders/Characters/Nita.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

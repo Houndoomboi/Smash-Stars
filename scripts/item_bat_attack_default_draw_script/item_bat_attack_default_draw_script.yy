@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"item_bat_attack_default_draw_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_bat_attack_default_draw_script",
+  "parent":{
+    "name":"Bat",
+    "path":"folders/Items/Bat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

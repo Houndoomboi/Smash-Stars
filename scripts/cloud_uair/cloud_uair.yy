@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cloud_uair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cloud_uair",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

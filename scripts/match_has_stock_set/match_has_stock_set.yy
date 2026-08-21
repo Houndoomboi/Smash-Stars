@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"match_has_stock_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"match_has_stock_set",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/[Engine]/Gameplay/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

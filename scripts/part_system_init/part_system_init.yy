@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"part_system_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"part_system_init",
+  "parent":{
+    "name":"Startup",
+    "path":"folders/[Engine]/Startup.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
