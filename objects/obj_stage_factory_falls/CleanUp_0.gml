@@ -1,2 +1,0 @@
-surface_free(surf);
-/* Copyright 2025 Springroll Games / Yosi */

@@ -1,7 +1,0 @@
-///@description
-GAME_STATE_OBJECT
-
-event_inherited();
-
-overlay_sprite = spr_link_nspec_bow_arrow;
-/* Copyright 2025 Springroll Games / Yosi */
