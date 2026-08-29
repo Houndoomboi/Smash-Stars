@@ -127,7 +127,7 @@ function standard_balloon()
 				//If you are launched hard enough, create ring effects
 				if (run && (state_frame + i) % 10 == 0 && _current_speed > reeling_speed_threshold)
 					{
-					var _scale = clamp((_current_speed + (state_frame / 50)) / 10, 0.5, 2.5);
+					_scale = clamp((_current_speed + (state_frame / 50)) / 10, 0.5, 2.5);
 					var _vfx = vfx_create
 						(
 						spr_hit_ring,
@@ -195,4 +195,4 @@ function standard_balloon()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

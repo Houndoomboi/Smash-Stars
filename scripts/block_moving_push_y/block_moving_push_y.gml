@@ -53,4 +53,4 @@ function block_moving_push_y()
 		
 	collision_flag_set(id, FLAG.solid, _pre_flag);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

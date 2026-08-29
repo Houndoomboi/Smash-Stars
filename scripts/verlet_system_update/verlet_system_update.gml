@@ -47,7 +47,7 @@ function verlet_system_update()
 			}
 			
 		//Update all sticks
-		var _num = array_length(verlet_sticks);
+		_num = array_length(verlet_sticks);
 		var _strength = verlet_sticks_strength_multiplier;
 		repeat (verlet_sticks_iterations)
 			{
@@ -85,4 +85,4 @@ function verlet_system_update()
 		}
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

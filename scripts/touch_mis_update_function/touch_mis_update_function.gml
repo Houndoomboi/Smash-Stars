@@ -42,4 +42,4 @@ function touch_mis_update_function()
 		_inputs[@ input_menu + MIS_INPUT.LENGTH] = held_time;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

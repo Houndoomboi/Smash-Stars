@@ -10,4 +10,4 @@ for (var i = 0; i < array_length(verlet_sticks); i++)
 	}
 verlet_sticks = noone;
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

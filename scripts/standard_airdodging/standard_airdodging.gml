@@ -27,9 +27,10 @@ function standard_airdodging()
 					
 					//Choose a control stick to use
 					var _stick = stick_choose_by_input(INPUT.shield);
+					var _dir = 90;
 					if (stick_tilted(_stick))
 						{
-						var _dir = stick_get_direction(_stick);
+						_dir = stick_get_direction(_stick);
 						if (airdodge_direction_limit != -1)
 							{
 							var _d = (360 / airdodge_direction_limit);
@@ -323,7 +324,7 @@ function standard_airdodging()
 											(
 											airdodge_dir_speed_max,
 											airdodge_dir_speed_min,
-											(-dsin(airdodge_direction) * 0.5) + 0.5,
+											(-dsin(airdodge_direction) * 0.5) + 0.5
 											);
 										}
 									var dir = airdodge_direction;
@@ -353,7 +354,7 @@ function standard_airdodging()
 											(
 											airdodge_dir_endlag_min,
 											airdodge_dir_endlag_max,
-											(dsin(airdodge_direction) * 0.5) + 0.5,
+											(dsin(airdodge_direction) * 0.5) + 0.5
 											);
 										}
 									else
@@ -419,4 +420,4 @@ function standard_airdodging()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

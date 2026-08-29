@@ -45,4 +45,4 @@ function audio_play_sound_adjusted()
 	audio_sound_gain(_snd, _volume, 0);
 	return _snd;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

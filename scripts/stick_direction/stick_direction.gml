@@ -41,12 +41,10 @@ function stick_direction()
 			break;
 		case DIR.any:
 			return true;
-			break;
 		case DIR.none:
 			return false;
-			break;
 		default: crash("[stick_direction] Direction is invalid (", argument[1], ")"); break;
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

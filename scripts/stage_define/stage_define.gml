@@ -25,4 +25,4 @@ function stage_define()
 	_new[@ STAGE_DATA.frame				] = argument_count > 5 ? argument[5] : 0;
 	return _new;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

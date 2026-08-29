@@ -63,7 +63,7 @@ function palette_shader_set()
 		color_get_red  (_outline_color) / 255,
 		color_get_green(_outline_color) / 255,
 		color_get_blue (_outline_color) / 255,
-		1.0,
+		1.0
 		);
 	shader_set_uniform_f(palette_shader_uniforms().uni_ti, _tint[@ 0], _tint[@ 1], _tint[@ 2]);
 	shader_set_uniform_f
@@ -72,9 +72,9 @@ function palette_shader_set()
 		color_get_red  (_flash_color) / 255,
 		color_get_green(_flash_color) / 255,
 		color_get_blue (_flash_color) / 255,
-		_flash_alpha,
+		_flash_alpha
 		);
 	
 	return true;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

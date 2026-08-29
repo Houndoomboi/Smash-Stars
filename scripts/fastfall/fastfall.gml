@@ -9,4 +9,4 @@ function fastfall()
 	//VFX
 	vfx_create(spr_shine_fastfall, 1, 0, 14, x + prng_number(0, 5, -5), y + prng_number(1, 5, -5), 2, 0);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

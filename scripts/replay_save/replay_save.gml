@@ -64,4 +64,4 @@ function replay_save()
 	buffer_delete(_compress);
 	buffer_delete(_final);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

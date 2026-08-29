@@ -6,4 +6,4 @@ function stage_count()
 	{
 	return array_length(stage_data_get_all());
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -7,4 +7,4 @@ function modulo()
 	{
 	return (argument[0] % argument[1] + argument[1]) % argument[1];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

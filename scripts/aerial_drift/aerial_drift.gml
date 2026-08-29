@@ -17,4 +17,4 @@ function aerial_drift()
 	
 	hsp = clamp(hsp, -_max_speed, _max_speed);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

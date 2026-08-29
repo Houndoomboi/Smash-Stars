@@ -21,7 +21,7 @@ function entity_create()
 	with (_entity)
 		{
 		owner = other.id;
-		player_id = other.player_id;
+		player_instance_id = other.player_instance_id;
 		//Pass the owner's variables
 		palette_base = owner.palette_base;
 		palette_swap = owner.palette_swap;
@@ -31,4 +31,4 @@ function entity_create()
 		}
 	return _entity;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

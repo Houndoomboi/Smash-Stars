@@ -7,4 +7,4 @@ if (surface_exists(obj_game.game_surface))
 
 	if (game_surface_enable) surface_reset_target();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

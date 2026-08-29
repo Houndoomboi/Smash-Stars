@@ -47,4 +47,4 @@ function character_define()
 	
 	return _new;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

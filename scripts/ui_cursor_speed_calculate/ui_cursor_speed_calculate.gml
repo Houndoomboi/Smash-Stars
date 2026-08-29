@@ -13,4 +13,4 @@ function ui_cursor_speed_calculate()
 	var _max_speed = argument[2];
 	return min(point_distance(0, 0, _x * _max_speed, _y * _max_speed), _max_speed);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

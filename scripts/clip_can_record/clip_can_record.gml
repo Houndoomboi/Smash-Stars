@@ -8,4 +8,4 @@ function clip_can_record()
 	{
 	return (!web_export && setting().clip_record && !game_is_online());
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

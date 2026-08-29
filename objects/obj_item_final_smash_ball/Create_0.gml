@@ -23,7 +23,7 @@ with (_ids.hurtbox)
 		item_final_smash_ball_hit,
 		-1,
 		-1,
-		item_final_smash_ball_hit,
+		item_final_smash_ball_hit
 		);
 	}
 	
@@ -43,4 +43,4 @@ with (obj_player)
 		exit;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

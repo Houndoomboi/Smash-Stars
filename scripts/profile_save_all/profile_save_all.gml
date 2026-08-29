@@ -14,4 +14,4 @@ function profile_save_all()
 	string_file_save(savefile_profiles, _json);
 	log("Saved All profiles (", _json, ")");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

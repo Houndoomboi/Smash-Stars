@@ -6,4 +6,4 @@ function css_players_count()
 	{
 	return array_length(engine().css_player_data);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

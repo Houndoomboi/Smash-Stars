@@ -18,7 +18,7 @@ function standard_knockdown()
 		case PLAYER_STATE_PHASE.start:
 			{
 			//Animation
-			anim_set(my_sprites[$ "Flinch"]);
+			anim_set(my_sprites[$ "Knockdown"]);
 			
 			//Sound
 			game_sound_play(snd_collide);
@@ -61,7 +61,7 @@ function standard_knockdown()
 				//Reset the animation after being locked
 				if (state_time == 1 && state_phase > 0)
 					{
-					anim_set(my_sprites[$ "Idle"]);
+					anim_set(my_sprites[$ "Lock"]);
 					}
 	
 				//No vertical movement
@@ -88,7 +88,7 @@ function standard_knockdown()
 						input_held(INPUT.grab) || 
 						input_held(INPUT.smash)))
 						{
-						attack_start(my_attacks[$ "Jab"]);
+						attack_start(my_attacks[$ "Getup_Attack"]);
 						run = false;
 						}
 						
@@ -124,4 +124,4 @@ function standard_knockdown()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

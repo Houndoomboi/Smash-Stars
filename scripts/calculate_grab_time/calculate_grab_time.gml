@@ -9,4 +9,4 @@ function calculate_grab_time()
 	var _d = argument[0];
 	return ceil(grab_time_min + (_d * grab_time_multiplier));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

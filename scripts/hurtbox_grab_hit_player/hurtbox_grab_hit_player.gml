@@ -21,9 +21,9 @@ function hurtbox_grab_hit_player()
 	//Grabbing players behind you
 	if (!grab_opponents_behind)
 		{
-		if (sign(_hitbox.player_id.x - x) == _hitbox.facing && _hitbox.player_id.x != x)
+		if (sign(_hitbox.player_instance_id.x - x) == _hitbox.facing && _hitbox.player_instance_id.x != x)
 			{
-			if (abs(_hitbox.player_id.x - x) > grab_opponents_behind_threshold)
+			if (abs(_hitbox.player_instance_id.x - x) > grab_opponents_behind_threshold)
 				{
 				return false;
 				}
@@ -78,7 +78,6 @@ function hurtbox_grab_hit_player()
 				}
 			//Acknowledge the grab
 			return true;
-			break;
 		case INV.invincible:
 			//No knockback or damage or hitlag
 			//Do not add the player to the hitbox group array
@@ -126,8 +125,7 @@ function hurtbox_grab_hit_player()
 				//Acknowledge the grab
 				return true;
 				}
-			break;
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

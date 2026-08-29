@@ -1,5 +1,5 @@
 ///@category Character Select Screen
-///@param {int} player_id		The player to remove from the character select screen
+///@param {int} player_instance_id		The player to remove from the character select screen
 /*
 Deletes the player with the given id number from the character select screen.
 */
@@ -8,7 +8,7 @@ function css_player_delete()
 	for (var i = 0; i < array_length(engine().css_player_data); i++)
 		{
 		var _player = engine().css_player_data[@ i];
-		if (_player[@ CSS_PLAYER.player_id] == argument[0])
+		if (_player[@ CSS_PLAYER.player_instance_id] == argument[0])
 			{
 			array_delete(engine().css_player_data, i, 1);
 			return true;
@@ -16,4 +16,4 @@ function css_player_delete()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

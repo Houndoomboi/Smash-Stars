@@ -1,7 +1,7 @@
 function main_menu_ui_button_web_create()
 	{
 	//Disable the button on web exports
-	if (web_export || true)
+	if (web_export)
 		{
 		var _c = c_ltgray;
 		color_normal = _c;
@@ -12,4 +12,4 @@ function main_menu_ui_button_web_create()
 		
 	ui_button_create();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

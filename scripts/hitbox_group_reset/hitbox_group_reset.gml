@@ -10,4 +10,4 @@ function hitbox_group_reset()
 	var _groups = argument_count > 1 ? argument[1] : hitbox_groups;
 	array_resize(_groups[@ argument[0]], 0);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

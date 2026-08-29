@@ -19,7 +19,7 @@ function grab_snap_move()
 				(
 				grab_hold_id.x + (grab_hold_x * grab_hold_id.facing),
 				grab_hold_id.y + grab_hold_y,
-				_speed,
+				_speed
 				);
 				
 			move_through_platforms();
@@ -28,4 +28,4 @@ function grab_snap_move()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

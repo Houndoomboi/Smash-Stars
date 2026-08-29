@@ -40,4 +40,4 @@ function replay_fetch_metadata()
 		crash("[replay_fetch_metadata] Replay has failed to load because the file does not exist! (", _name, ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

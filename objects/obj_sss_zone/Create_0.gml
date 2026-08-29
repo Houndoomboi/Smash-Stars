@@ -5,4 +5,4 @@ You can change the stage in the room editor through the Variables tab.
 */
 ///@description
 selected_animation_time = 0;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -4,4 +4,4 @@ function css_ui_prompt_label_draw()
 	draw_text_and_sprites(x, y, text, 0);
 	draw_set_color(c_white);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

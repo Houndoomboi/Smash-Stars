@@ -43,10 +43,10 @@ function input_update()
 	_ly = sign(_ly) * clamp((abs(_ly) - _min) / _range, 0, 1);
 	if (_invert_y) then _ly *= -1;
 	
-	var _min = acs[@ ACS.deadzone_r];
-	var _range = (1 - _min) * acs[@ ACS.maximum_r];
-	var _invert_x = acs[@ ACS.invert_x_r];
-	var _invert_y = acs[@ ACS.invert_y_r];
+	_min = acs[@ ACS.deadzone_r];
+	_range = (1 - _min) * acs[@ ACS.maximum_r];
+	_invert_x = acs[@ ACS.invert_x_r];
+	_invert_y = acs[@ ACS.invert_y_r];
 	_rx = sign(_rx) * clamp((abs(_rx) - _min) / _range, 0, 1);
 	if (_invert_x) then _rx *= -1;
 	_ry = sign(_ry) * clamp((abs(_ry) - _min) / _range, 0, 1);
@@ -85,7 +85,7 @@ function input_update()
 		acs[@ ACS.rotate_l] ? _ly : _lx, 
 		acs[@ ACS.rotate_l] ? _lx : _ly, 
 		_count,
-		acs[@ ACS.speed_l],
+		acs[@ ACS.speed_l]
 		);
 	stick_cache_values
 		(
@@ -93,7 +93,7 @@ function input_update()
 		acs[@ ACS.rotate_r] ? _ry : _rx, 
 		acs[@ ACS.rotate_r] ? _rx : _ry, 
 		_count,
-		acs[@ ACS.speed_r],
+		acs[@ ACS.speed_r]
 		);
 	
 	var _dist = stick_get_distance(Lstick);
@@ -108,7 +108,7 @@ function input_update()
 		control_tilted_l = 0;
 		}
 	
-	var _dist = stick_get_distance(Rstick);
+	_dist = stick_get_distance(Rstick);
 	if (_dist > rstick_flick_amount &&
 		stick_get_speed(Rstick) > rstick_flick_speed &&
 		control_flicked_r > stick_flick_cooldown)
@@ -206,4 +206,4 @@ function input_update()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

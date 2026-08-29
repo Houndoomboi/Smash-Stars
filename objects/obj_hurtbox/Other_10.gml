@@ -111,4 +111,4 @@ else if (hurtbox_type == HURTBOX_TYPE.shield)
 		exit;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

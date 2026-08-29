@@ -13,4 +13,4 @@ draw_rectangle_color(16, 16, 180, 128, c_ltgray, c_ltgray, c_ltgray, c_ltgray, f
 draw_text_color(32, 32, to_string("Knockback: ", kb_angle), c_red, c_red, c_red, c_red, 1);
 draw_text_color(32, 64, to_string("Stick: ", stick_angle), c_blue, c_blue, c_blue, c_blue, 1);
 draw_text_color(32, 96, to_string("Final DI: ", di_angle), c_lime, c_lime, c_lime, c_lime, 1);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

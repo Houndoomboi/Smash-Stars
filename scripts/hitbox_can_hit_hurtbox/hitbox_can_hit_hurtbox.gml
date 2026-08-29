@@ -7,7 +7,7 @@ Does not check invulnerability or hit restrictions.
 function hitbox_can_hit_hurtbox()
 	{
 	var _hurtbox = argument[0];
-	
+
 	//Ensure the hurtbox still exists (it could be destroyed if attack_stop was called)
 	if (!instance_exists(_hurtbox)) then return false;
 	
@@ -39,4 +39,4 @@ function hitbox_can_hit_hurtbox()
 	
 	return true;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -9,4 +9,4 @@ function move_grounded()
 	move_x_grounded(sprite_get_bbox_right(mask_index) - sprite_get_bbox_left(mask_index), hsp);
 	move_y();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

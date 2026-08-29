@@ -18,4 +18,4 @@ function speed_fraction()
 	hsp = floor(hsp);
 	vsp = floor(vsp);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

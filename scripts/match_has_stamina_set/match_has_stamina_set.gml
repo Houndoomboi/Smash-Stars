@@ -6,4 +6,4 @@ function match_has_stamina_set()
 	{
 	return setting().match_stamina > 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

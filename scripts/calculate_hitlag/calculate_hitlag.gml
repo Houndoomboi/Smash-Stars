@@ -14,4 +14,4 @@ function calculate_hitlag()
 	var _sca = argument[2];
 	return ceil(min((_dmg * _sca * hitlag_damage_multiplier) + (_lag * hitlag_multiplier), hitlag_time_max));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

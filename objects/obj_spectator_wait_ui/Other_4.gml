@@ -6,9 +6,6 @@ mis_auto_connect_enable(true);
 //UI
 group_start_number = 10;
 
-//Background animation
-menu_background_color_set($FFAC30);
-
 //Universal Cursor
 ui_cursor_add(0, room_width div 2, room_height div 2);
 

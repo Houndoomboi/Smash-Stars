@@ -68,7 +68,7 @@ if (surface_exists(obj_game.game_surface))
 			sprite_scale, 
 			0, 
 			image_blend, 
-			image_alpha,
+			image_alpha
 			);
 		shader_reset();
 		}
@@ -145,7 +145,7 @@ if (surface_exists(obj_game.game_surface))
 					y + stick_get_value(Lstick, DIR.vertical, i - 1) * _radius,
 					x + stick_get_value(Lstick, DIR.horizontal, i) * _radius, 
 					y + stick_get_value(Lstick, DIR.vertical, i) * _radius, 
-					4,
+					4
 					);
 				}
 			draw_set_alpha(1);
@@ -161,4 +161,4 @@ if (surface_exists(obj_game.game_surface))
 		
 	if (game_surface_enable) surface_reset_target();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

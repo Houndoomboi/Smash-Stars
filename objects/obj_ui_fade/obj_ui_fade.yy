@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_ui_fade",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_default_draw","path":"scripts/ui_default_draw/ui_default_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_fade_draw","path":"scripts/ui_fade_draw/ui_fade_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_fade_draw",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_fade_step","path":"scripts/ui_fade_step/ui_fade_step.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_fade_step",},
   ],
   "parent":{
     "name":"Objects",

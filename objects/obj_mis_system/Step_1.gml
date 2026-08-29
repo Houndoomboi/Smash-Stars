@@ -47,7 +47,7 @@ if (mis_data().auto_connect && array_length(mis_data().devices) < mis_data().max
 			}
 		}
 	//Keyboards
-	var _num = mis_data().max_keyboards;
+	_num = mis_data().max_keyboards;
 	for (var i = 0; i < _num; i++)
 		{
 		if (!mis_device_port_is_connected(i, MIS_DEVICE_TYPE.keyboard))
@@ -100,10 +100,10 @@ for (var i = 0; i < _size; i++)
 			sign
 				(
 				gamepad_button_check(_port, gp_padr) -
-				gamepad_button_check(_port, gp_padl),
+				gamepad_button_check(_port, gp_padl)
 				),
 			-1,
-			1,
+			1
 			);
 		_stick.y = clamp
 			(
@@ -111,10 +111,10 @@ for (var i = 0; i < _size; i++)
 			sign
 				(
 				gamepad_button_check(_port, gp_padd) -
-				gamepad_button_check(_port, gp_padu),
+				gamepad_button_check(_port, gp_padu)
 				),
 			-1,
-			1,
+			1
 			);
 		var _len = point_distance(0, 0, _stick.x, _stick.y);
 		if (_len > mis_data().controller_deadzone) 
@@ -201,4 +201,4 @@ for (var i = 0; i < _size; i++)
 		}
 	else crash("[obj_mis_system: Begin Step] Invalid MIS device type (", _type, ")");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

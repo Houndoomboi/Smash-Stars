@@ -25,14 +25,16 @@ function cpu_script_base()
 	//CPU Stage Data
 	var _cpu_up_b_distance = obj_stage_manager.cpu_up_b_distance;
 	var _cpu_main_stage_distance = obj_stage_manager.cpu_main_stage_distance;
+	var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
+	var _shield;
+	var _nearest;
+	var _shield_multihit_attacks;
 	
 	#region CPU Types
 	switch (_cpu_type)
 		{
 		case CPU_TYPE.idle:
 			#region IDLE
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.lost || state == PLAYER_STATE.knocked_out)
 				{
 				//Do nothing
@@ -122,8 +124,6 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.attack:
 			#region ATTACK
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.lost || state == PLAYER_STATE.knocked_out)
 				{
 				//Do nothing
@@ -297,13 +297,6 @@ function cpu_script_base()
 								cpu_press(INPUT.jump);
 								}
 							}
-						if (airdodges > 0)
-							{
-							if (_cpu_time % 20 == 0)
-								{
-								cpu_press(INPUT.shield);
-								}
-							}
 						//Use Up B when below the Up B threshold
 						if (y > (room_height - _cpu_up_b_distance))
 							{
@@ -325,7 +318,7 @@ function cpu_script_base()
 						else
 							{
 							//Jump/attack when close to opponents
-							var _nearest = find_nearest_player(x, y, infinity, player_team, false);
+							_nearest = find_nearest_player(x, y, infinity, player_team, false);
 							if (_nearest != noone)
 								{
 								var _dir = point_direction(x, y, _nearest.x, _nearest.y);
@@ -346,7 +339,7 @@ function cpu_script_base()
 										{
 										_lx = lengthdir_x(1, _dir);
 										_ly = lengthdir_y(1, _dir);
-										cpu_press(choose_weighted([INPUT.attack, 3, INPUT.smash, 1]));
+										cpu_press(INPUT.attack);
 										}
 									//Airdodging away from the other player immediately
 									if (array_length(_nearest.my_hitboxes) > 0)
@@ -381,8 +374,8 @@ function cpu_script_base()
 					_ly = 0;
 				
 					//Find the nearest opponent
-					var _shield = false;
-					var _nearest = find_nearest_player(x, y, infinity, player_team, false);
+					_shield = false;
+					_nearest = find_nearest_player(x, y, infinity, player_team, false);
 					if (_nearest != noone)
 						{
 						var _dir = point_direction(x, y, _nearest.x, _nearest.y);
@@ -478,11 +471,10 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.shield_hold:
 			#region SHIELD_TYPE HOLD
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			var _shield = false;
+			_shield = false;
 			
 			//Find the nearest opponent
-			var _nearest = find_nearest_player(x, y, infinity, player_team, false);
+			_nearest = find_nearest_player(x, y, infinity, player_team, false);
 			if (_nearest != noone)
 				{
 				_shield = (_nearest.state == PLAYER_STATE.attacking);
@@ -531,15 +523,12 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.shield_grab:
 			#region SHIELD_TYPE GRAB
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
-			var _shield_multihit_attacks = true;
-			var _shield = false;
+			_shield_multihit_attacks = true;
+			_shield = false;
 			var _grab = false;
 			
 			//Find the nearest opponent
-			var _nearest = find_nearest_player(x, y, infinity, player_team, false);
-			
+			_nearest = find_nearest_player(x, y, infinity, player_team, false);
 			if (_nearest != noone)
 				{
 				_shield = (_nearest.attack_frame == 1 || array_length(_nearest.my_hitboxes) > 0);
@@ -627,14 +616,12 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.shield_attack:
 			#region SHIELD_TYPE ATTACK
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
-			var _shield_multihit_attacks = true;
-			var _shield = false;
+			_shield_multihit_attacks = true;
+			_shield = false;
 			var _attack = false;
 			
 			//Find the nearest opponent
-			var _nearest = find_nearest_player(x, y, infinity, player_team, false);
+			_nearest = find_nearest_player(x, y, infinity, player_team, false);
 			if (_nearest != noone)
 				{
 				_shield = (_nearest.attack_frame == 1 || array_length(_nearest.my_hitboxes) > 0);
@@ -728,8 +715,6 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.di_in:
 			#region DI In
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.respawning)
 				{
 				_ly = 1;
@@ -818,8 +803,6 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.di_out:
 			#region DI Out
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.respawning)
 				{
 				_ly = 1;
@@ -908,8 +891,6 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.di_random:
 			#region DI Random
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.respawning)
 				{
 				_ly = 1;
@@ -991,14 +972,12 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.parry_ult:
 			#region PARRY ULTIMATE
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			var _parry_multihit_attacks = false;
-			var _shield = false;
+			_shield = false;
 			var _attacked = false;
 			
 			//Find the nearest player
-			var _nearest = find_nearest_player(x, y, infinity, player_team, false);
+			_nearest = find_nearest_player(x, y, infinity, player_team, false);
 			if (_nearest != noone)
 				{
 				_shield = (_nearest.state == PLAYER_STATE.attacking);
@@ -1075,8 +1054,6 @@ function cpu_script_base()
 			#endregion
 		case CPU_TYPE.airdodge:
 			#region AIRDODGE_TYPE
-			var _center = sign((room_width / 2) - x); //The direction toward the center of the stage
-			
 			if (state == PLAYER_STATE.respawning)
 				{
 				_ly = 1;
@@ -1199,4 +1176,4 @@ function cpu_script_base()
 	
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

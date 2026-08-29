@@ -26,4 +26,4 @@ magnet_relative = false;
 can_lock = false;
 shieldstun_scaling = 1;
 custom_shield_damage = -1;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -24,7 +24,7 @@ with (_ids.hurtbox)
 		item_ball_hit,
 		-1,
 		-1,
-		item_ball_hit,
+		item_ball_hit
 		);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

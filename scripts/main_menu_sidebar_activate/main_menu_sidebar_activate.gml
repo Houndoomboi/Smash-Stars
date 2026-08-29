@@ -17,4 +17,4 @@ function main_menu_sidebar_activate()
 		}
 	crash("obj_main_menu_sidebar_ui did not exist when main_menu_sidebar_activate was called");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

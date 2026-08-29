@@ -11,4 +11,4 @@ ui_instance_current = 0;
 cursors = ds_list_create();
 
 only_one();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

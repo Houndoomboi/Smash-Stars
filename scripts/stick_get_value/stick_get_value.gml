@@ -22,29 +22,22 @@ function stick_get_value()
 		{
 		case DIR.horizontal:
 			return _stick_x;
-			break;
 		case DIR.left:
 			return _stick_x < 0 ? abs(_stick_x) : 0;
-			break;
 		case DIR.right:
 			return _stick_x > 0 ? _stick_x : 0;
 		case DIR.vertical:
 			return _stick_y;
-			break;
 		case DIR.down:
 			return _stick_y > 0 ? _stick_y : 0;
-			break;
 		case DIR.up:
 			return _stick_y < 0 ? abs(_stick_y) : 0;
-			break;
 		case DIR.any:
 			return point_distance(0, 0, _stick_x, _stick_y);
-			break;
 		case DIR.none:
 			return 0;
-			break;
 		default: crash("[stick_get_value] Direction is invalid (", argument[1], ")"); break;
 		}
 	return 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

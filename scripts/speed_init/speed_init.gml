@@ -13,4 +13,4 @@ function speed_init()
 	hsp_moved = 0;
 	vsp_moved = 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

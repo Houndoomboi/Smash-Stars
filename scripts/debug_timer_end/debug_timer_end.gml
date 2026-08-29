@@ -8,4 +8,4 @@ function debug_timer_end()
 	var _time = (get_timer() - ds_stack_pop(Debug_Timerstack()));
 	log("Time: " + string(_time));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

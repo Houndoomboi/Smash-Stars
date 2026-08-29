@@ -1,10 +1,12 @@
 ///@description
 
+//Offline
+engine().is_online = false;
+ggmr_destroy_all();
+				
 //Menu Input System
 mis_init();
 mis_auto_connect_enable(true);
-
-//Background animation
 
 
 //Get the data from the Credits.txt file
@@ -57,4 +59,4 @@ credits_mouse_drag_start_y = 0;
 credits_scroll_start_y = 0;
 
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -8,4 +8,4 @@ function hitbox_owner_cleanup()
 	my_hitboxes = noone;
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

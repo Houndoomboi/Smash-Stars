@@ -64,4 +64,4 @@ with (obj_ui_runner)
 	assert(variable_instance_exists(id, "ui_instances"), "[obj_ui_parent: Create] obj_ui_runner must be created before any ui instances");
 	array_push(ui_instances, other.id);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -123,7 +123,7 @@ function player_init_start()
 	drift_di_multiplier = 1;
 	di_angle = di_default;
 	ko_property = noone; //Determines SD's / normal KO's
-	player_id = id;
+	player_instance_id = id;
 	stock = setting().match_stock;
 	points = 0; //Time no-stock matches
 	stamina = setting().match_stamina;
@@ -246,4 +246,4 @@ function player_init_start()
 	callback_hit = [];
 	callback_hurt = [];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

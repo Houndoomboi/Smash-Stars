@@ -3,6 +3,7 @@ var _x = x;
 var _y = 0;
 var _pad = 48;
 var _selected = array_create(array_length(menu_choices), false);
+var _c;
 
 //Background
 draw_sprite_ext(spr_rectangle, 0, _x, _y, 5, 17, 0, $333333, 1);
@@ -14,7 +15,7 @@ for (var i = 0; i < array_length(menu_choice_current); i++)
 	if (_current != -1)
 		{
 		_selected[@ _current] = true;
-		var _c = player_color_get(i);
+		_c = player_color_get(i);
 		draw_sprite_ext(spr_rectangle, 0, _x, _y + (_pad * _current), 5, 1.5, 0, _c, 1);
 		}
 	}
@@ -38,7 +39,7 @@ for (var i = 0; i < array_length(menu_choices); i++)
 		}
 		
 	//Ooptions that are disabled on web exports
-	if (web_export || true)
+	if (web_export)
 		{
 		if (!_choice.web)
 			{
@@ -56,4 +57,4 @@ for (var i = 0; i < array_length(menu_choices); i++)
 	//Move down
 	_y += _pad;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

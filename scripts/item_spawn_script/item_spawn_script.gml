@@ -49,7 +49,7 @@ function item_spawn_script()
 								obj_item_ball, 7,
 								obj_item_bat, 9,
 								obj_item_shotgun, 9,
-								],
+								]
 							);
 						var _item = item_create(_x, _y, _obj, noone);
 						
@@ -72,4 +72,4 @@ function item_spawn_script()
 		
 	return noone;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

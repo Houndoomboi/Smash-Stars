@@ -27,4 +27,4 @@ function freeze_gameplay()
 		self_hitlag_frame = _frames;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

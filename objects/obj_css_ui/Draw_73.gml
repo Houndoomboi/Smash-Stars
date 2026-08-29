@@ -123,4 +123,4 @@ else if (state == CSS_STATE.match_settings)
 		_y += _pad;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

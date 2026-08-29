@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_ui_toast",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_default_draw","path":"scripts/ui_default_draw/ui_default_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_toast_step","path":"scripts/ui_toast_step/ui_toast_step.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_toast_step",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_toast_draw","path":"scripts/ui_toast_draw/ui_toast_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_toast_draw",},
   ],
   "parent":{
     "name":"Objects",

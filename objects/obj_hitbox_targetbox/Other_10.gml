@@ -30,11 +30,11 @@ if (instance_exists(owner))
 			{
 			var _hurtbox = ds_priority_delete_min(temp_priority_get());
 			
-			//Targetboxes cannot hit instances other than the "target"
-			if (_hurtbox.owner != target) then continue;
-			
 			if (hitbox_can_hit_hurtbox(_hurtbox))
 				{
+				//Targetboxes cannot hit instances other than the "target"
+				if (_hurtbox.owner != target) then continue;
+				
 				//Run the pre hit script
 				hitbox_hit_script_run(pre_hit_script, _hurtbox);
 			
@@ -55,4 +55,4 @@ if (instance_exists(owner))
 	//Clear the DS
 	ds_list_clear(hurtbox_hit_list);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -55,4 +55,4 @@ void main()
 	//Get the color sample
 	gl_FragColor = texture2D(gm_BaseTexture, texture_uvs.xy + ((texture_uvs.zw - texture_uvs.xy) * uv));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

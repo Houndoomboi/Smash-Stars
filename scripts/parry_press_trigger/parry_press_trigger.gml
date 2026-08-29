@@ -33,4 +33,4 @@ function parry_press_trigger()
 	
 	hit_sfx_play(snd_parry);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

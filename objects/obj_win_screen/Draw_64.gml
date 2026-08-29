@@ -46,7 +46,7 @@ draw_text(55 + (_value * 100), (screen_height / 3) - 64, win_name);
 if (state_phase >= 1)
 	{
 	var _player_name = _winner[@ WIN_SCREEN_DATA.player_name];
-	var _value = (state_phase == 1 ? _percent : 0);
+	_value = (state_phase == 1 ? _percent : 0);
 	draw_set_alpha(1 - _value);
 	draw_set_font(fnt_win_subtitle);
 	draw_set_color(c_black);
@@ -72,7 +72,7 @@ if (state_phase >= 2)
 	assert(!is_undefined(_m) && is_struct(_m), "[obj_win_screen: Draw GUI] The replay_metadata is not a valid value (", replay_metadata, ")");
 	
 	//Drawing the background fade
-	var _value = (state_phase == 2 ? _percent : 0);
+	_value = (state_phase == 2 ? _percent : 0);
 	draw_set_alpha((1 - _value) * 0.9);
 	draw_rectangle_color(0, 0, screen_width, screen_height, c_black, c_black, c_black, c_black, false);
 	
@@ -124,7 +124,7 @@ if (state_phase >= 2)
 	draw_sprite(spr_icon_items, 0, _left + 8, _y + 8);
 	draw_text(_right, _y, _m[$ "match_items_enable"] ? string(_m[$ "match_items_frequency"]) + "%" : "OFF");
 	_y += 16;
-	var _x = _left + 8;
+	_x = _left + 8;
 	if (_m[$ "match_screen_wrap"])
 		{
 		draw_sprite(spr_icon_screen_wrap, 0, _x, _y + 8);
@@ -142,8 +142,8 @@ if (state_phase >= 2)
 		}
 	
 	//Replay KO data
-	var _x = _left;
-	var _y = 328;
+	_x = _left;
+	_y = 328;
 	var _w = 376;
 	var _h = 8;
 	var _pad = 2;
@@ -154,7 +154,7 @@ if (state_phase >= 2)
 	for (var i = 0; i < _kos; i++)
 		{
 		var _data = _m.replay_player_ko_frames[@ i];
-		var _p = (_data.frame / _m.replay_total_frames);
+		var _p = (_data.frame / real(_m.replay_total_frames));
 		var _palette_column_arrays = character_data_get(_data.character, CHARACTER_DATA.palette_column_arrays);
 		palette_shader_simple_set(_palette_column_arrays[@ 0], _palette_column_arrays[@ _data.color]);
 		draw_sprite_ext(character_data_get(_data.character, CHARACTER_DATA.stock_sprite), 0, _x + (_w * _p), _y - (_pad * _data.number), 2, 2, 0, c_white, 1);
@@ -162,8 +162,8 @@ if (state_phase >= 2)
 		}
 	
 	//Variables
-	var _x = 80;
-	var _y = 172 + 16;
+	_x = 80;
+	_y = 172 + 16;
 	
 	//Replay name
 	draw_set_font(fnt_window);
@@ -197,7 +197,7 @@ if (state_phase >= 2)
 	//Replay saving prompt
 	if (state_phase > 0 && can_save_replay)
 		{
-		var _text = 
+		_text = 
 			[
 			"Press ",
 			[spr_icon_input_button_universal, gamepad_button_number(menu_option_button)],
@@ -214,7 +214,7 @@ if (state_phase >= 2)
 //All players
 if (state_phase >= 1)
 	{
-	var _value = (state_phase == 1 ? _percent : 0);
+	_value = (state_phase == 1 ? _percent : 0);
 	draw_set_alpha(1 - _value);
 	draw_set_font(fnt_podium);
 	draw_set_halign(fa_center);
@@ -230,10 +230,10 @@ if (state_phase >= 1)
 		var _x = (_spacing * _place) + _spacing;
 		var _y = lerp(screen_height - 96, screen_height, _value) + (_vspace * _place);
 		var _player = engine().win_screen_order[@ i];
-		var _character = _player[@ WIN_SCREEN_DATA.character];
-		var _color = _player[@ WIN_SCREEN_DATA.color];
-		var _palette_base = character_data_get(_character, CHARACTER_DATA.palette_column_arrays)[@ 0];
-		var _palette_swap = character_data_get(_character, CHARACTER_DATA.palette_column_arrays)[@ _color];
+		_character = _player[@ WIN_SCREEN_DATA.character];
+		_color = _player[@ WIN_SCREEN_DATA.color];
+		_palette_base = character_data_get(_character, CHARACTER_DATA.palette_column_arrays)[@ 0];
+		_palette_swap = character_data_get(_character, CHARACTER_DATA.palette_column_arrays)[@ _color];
 		var _portrait = character_data_get(_character, CHARACTER_DATA.hud_portrait);
 		var _name = _player[@ WIN_SCREEN_DATA.player_name];
 
@@ -249,7 +249,7 @@ if (state_phase >= 1)
 			}
 	
 		//Player portrait outline
-		var _scale = win_screen_losers_portrait_scale;
+		_scale = win_screen_losers_portrait_scale;
 		draw_sprite_ext(_portrait, 0, _x + 2, _y, _scale, _scale, 0, c_black, 1);
 		draw_sprite_ext(_portrait, 0, _x - 2, _y, _scale, _scale, 0, c_black, 1);
 		draw_sprite_ext(_portrait, 0, _x, _y + 2, _scale, _scale, 0, c_black, 1);
@@ -291,8 +291,8 @@ if ((state_phase == 0 && state_timer == 0) || state_phase >= 1)
 			" to continue...",
 			],
 		0,
-		true,
+		true
 		);
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

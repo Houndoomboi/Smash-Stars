@@ -103,4 +103,4 @@ for (var i = 0; i < _num; i++)
 		_y += _pad;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

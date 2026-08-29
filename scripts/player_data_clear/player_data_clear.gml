@@ -7,4 +7,4 @@ function player_data_clear()
 	engine().player_data = [];
 	log("Reset all of the engine player data!");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

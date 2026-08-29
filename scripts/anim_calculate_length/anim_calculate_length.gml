@@ -13,4 +13,4 @@ function anim_calculate_length()
 	var _rounded = floor(_subimages / _speed);
 	return (_rounded == _subimages / _speed) ? (_rounded - 1) : _rounded;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

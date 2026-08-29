@@ -25,4 +25,4 @@ function hitbox_standard_actions()
 		_vfx.vfx_blend = image_blend;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

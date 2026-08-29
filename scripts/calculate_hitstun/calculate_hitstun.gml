@@ -31,22 +31,22 @@ function calculate_hitstun()
 				(
 				(_b * hitstun_base_multiplier * ((_w - 1) * hitstun_weight_multiplier + 1)) + 
 				(_d * hitstun_damage_multiplier * _s * hitstun_knockback_multiplier * _m * _w) +
-				(lerp(0, hitstun_hp_increase_max, _hp / damage_max)),
+				(lerp(0, hitstun_hp_increase_max, _hp / damage_max))
 				);
 		case HITSTUN_TYPE.previous:
 			return ceil
 				(
 				_b * hitstun_base_multiplier * ((_w - 1) * hitstun_weight_multiplier + 1) + 
-				_d * hitstun_damage_multiplier * _s * hitstun_knockback_multiplier * _m * _w,
+				_d * hitstun_damage_multiplier * _s * hitstun_knockback_multiplier * _m * _w
 				);
 		case HITSTUN_TYPE.damage_scaled:
 			return ceil
 				(
 				((_b * hitstun_base_multiplier * ((_w - 1) * hitstun_weight_multiplier + 1)) + 
-				(_hp * hitstun_damage_multiplier * _s * hitstun_knockback_multiplier)) * _m,
+				(_hp * hitstun_damage_multiplier * _s * hitstun_knockback_multiplier)) * _m
 				);
 		case HITSTUN_TYPE.simple:
 			return ceil((_b * _w) + (_hp * _d * _s) * _m);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

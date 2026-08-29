@@ -103,4 +103,4 @@ function replays_ui_metadata_label_draw()
 		log(_e);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -16,4 +16,4 @@ function on_ground()
 
 	return (on_solid(_x, _y) || on_plat(_x, _y, _vsp));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -58,7 +58,7 @@ for (var i = 0; i <= _w; i++)
 			_prev_x1,
 			_prev_y1,
 			_x1,
-			_y1,
+			_y1
 			);
 		draw_set_color(c_red);
 		draw_line
@@ -66,7 +66,7 @@ for (var i = 0; i <= _w; i++)
 			_prev_x2,
 			_prev_y2,
 			_x2,
-			_y2,
+			_y2
 			);
 		_prev_x1 = _x1;
 		_prev_y1 = _y1;
@@ -74,4 +74,4 @@ for (var i = 0; i <= _w; i++)
 		_prev_y2 = _y2;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -18,4 +18,4 @@ function clip_save_finish()
 		}
 	else crash("[clip_save_finish] Invalid clip_gif (", clip_gif, ")");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

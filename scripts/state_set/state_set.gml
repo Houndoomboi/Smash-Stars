@@ -77,4 +77,4 @@ function state_set()
 	//Run the Start Phase of the new state
 	script_execute(state_script, PLAYER_STATE_PHASE.start);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

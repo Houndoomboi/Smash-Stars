@@ -10,4 +10,4 @@ function player_data_get()
 	var _player = engine().player_data[argument[0]];
 	return _player[@ argument[1]];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

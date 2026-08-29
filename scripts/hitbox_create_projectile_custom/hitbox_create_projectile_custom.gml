@@ -33,7 +33,7 @@ function hitbox_create_projectile_custom()
 		lifetime = argument[9];
 		hitbox_shape_set(id, argument[10]);
 		owner = other.id;
-		player_id = other.player_id;
+		player_instance_id = other.player_instance_id;
 		facing = other.facing;
 		hsp = argument[11] * other.facing;
 		vsp = argument[12];
@@ -42,4 +42,4 @@ function hitbox_create_projectile_custom()
 		}
 	return _newhitbox;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -122,4 +122,4 @@ if ((state_phase >= 2 && (_confirm || _start) && !popup_is_open()) || _time_up |
 	exit;
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

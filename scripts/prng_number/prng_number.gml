@@ -21,4 +21,4 @@ function prng_number()
 	var _num = clamp(floor(((obj_game.prng_numbers[@ _channel]) / prng_range) * _difference) + _min, _min, _max);
 	return _num;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

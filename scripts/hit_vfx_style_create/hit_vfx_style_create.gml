@@ -26,6 +26,7 @@ function hit_vfx_style_create()
 		_styles = [_style];
 		}
 
+	var _vfx;
 	for (var i = 0; i < array_length(_styles); i++)
 		{
 		switch (_styles[@ i])
@@ -33,7 +34,7 @@ function hit_vfx_style_create()
 			//Standard
 			#region Normal Weak
 			case HIT_VFX.normal_weak:
-				var _vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
+				_vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
 				_vfx.vfx_blend = make_color_hsv(prng_number(0, 40, 25), 217, 255);
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
 
@@ -52,10 +53,10 @@ function hit_vfx_style_create()
 			#endregion
 			#region Normal Medium
 			case HIT_VFX.normal_medium:
-				var _vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
+				_vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
 				_vfx.vfx_blend = $338bff;
-				var _vfx = vfx_create(spr_hit_normal_medium, 1, 0, 12, x, y, 1, _angle + prng_number(0, 15, -15), _layer);
+				_vfx = vfx_create(spr_hit_normal_medium, 1, 0, 12, x, y, 1, _angle + prng_number(0, 15, -15), _layer);
 				_vfx.vfx_yscale *= prng_choose(1, -1, 1);
 				_vfx.vfx_blend = $66e0ff;
 			
@@ -74,16 +75,16 @@ function hit_vfx_style_create()
 			#endregion
 			#region Normal Strong
 			case HIT_VFX.normal_strong:
-				var _vfx = vfx_create(spr_hit_strong_initial_hit, 1, 0, 4, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 1.5, prng_number(0, 360), _layer);
+				_vfx = vfx_create(spr_hit_strong_initial_hit, 1, 0, 4, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 1.5, prng_number(0, 360), _layer);
 				_vfx.vfx_blend = $457dff;
-				var _vfx = vfx_create(spr_hit_normal_strong, 1, 0, 14, x, y, 1, _angle - 30, _layer);
+				_vfx = vfx_create(spr_hit_normal_strong, 1, 0, 14, x, y, 1, _angle - 30, _layer);
 				_vfx.vfx_blend = make_color_hsv(prng_number(0, 40, 25), 217, 255);
 		
 				//Powerful Knockback
 				if (_knock > 16)
 					{
 					vfx_create_action_lines(15, x, y, prng_number(0, 10), _layer);
-					var _vfx = vfx_create(spr_hit_strong_lightning, 1, 0, 8, x, y, 2, _angle, _layer);
+					_vfx = vfx_create(spr_hit_strong_lightning, 1, 0, 8, x, y, 2, _angle, _layer);
 					_vfx.vfx_blend = $457dff;
 					}
 			
@@ -96,10 +97,10 @@ function hit_vfx_style_create()
 			#endregion
 			#region Slash Weak
 			case HIT_VFX.slash_weak:
-				var _vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
+				_vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _angle, _layer);
 				_vfx.vfx_blend = $26ff64;
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
-				var _vfx = vfx_create(spr_hit_slash, 1, 0, 12, x, y, 1.5, _angle, _layer);
+				_vfx = vfx_create(spr_hit_slash, 1, 0, 12, x, y, 1.5, _angle, _layer);
 				_vfx.vfx_yscale = prng_choose(1, -1, 1);
 				_vfx.vfx_alpha = 0.5;
 				
@@ -118,12 +119,12 @@ function hit_vfx_style_create()
 			#endregion
 			#region Slash Medium
 			case HIT_VFX.slash_medium:
-				var _vfx = vfx_create(spr_hit_normal_medium, 1, 0, 12, x, y, 1, _angle + 5, _layer);
+				_vfx = vfx_create(spr_hit_normal_medium, 1, 0, 12, x, y, 1, _angle + 5, _layer);
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
 				_vfx.vfx_blend = $42f5b0;
-				var _vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle, _layer);
+				_vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle, _layer);
 				_vfx.vfx_blend = $26ff64;
-				var _vfx = vfx_create(spr_hit_slash, 1, 0, 12, x, y, 1.5, _angle, _layer);
+				_vfx = vfx_create(spr_hit_slash, 1, 0, 12, x, y, 1.5, _angle, _layer);
 				_vfx.vfx_yscale = prng_choose(1, -1, 1);
 				_vfx.vfx_alpha = 0.5;
 				
@@ -142,11 +143,11 @@ function hit_vfx_style_create()
 			#endregion
 			#region Slash Strong
 			case HIT_VFX.slash_strong:
-				var _vfx = vfx_create(spr_hit_normal_strong, 1, 0, 14, x, y, 1, _angle - 30, _layer);
+				_vfx = vfx_create(spr_hit_normal_strong, 1, 0, 14, x, y, 1, _angle - 30, _layer);
 				_vfx.vfx_blend = $42f5b0;
-				var _vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle + 5, _layer);
+				_vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle + 5, _layer);
 				_vfx.vfx_blend = $26ff64;
-				var _vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle - 5, _layer);
+				_vfx = vfx_create(spr_hit_slash2, 1, 0, 16, x, y, 1.5, _angle - 5, _layer);
 				_vfx.vfx_blend = $26ff64;
 
 				//Powerful Knockback
@@ -186,10 +187,10 @@ function hit_vfx_style_create()
 			#endregion
 			#region Magic
 			case HIT_VFX.magic:
-				var _vfx = vfx_create(spr_hit_magic, 1, 0, 14, x, y, 1, _angle, _layer);
+				_vfx = vfx_create(spr_hit_magic, 1, 0, 14, x, y, 1, _angle, _layer);
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
 				_vfx.vfx_blend = make_color_hsv(prng_number(0, 255, 180), 87, 255);
-				var _vfx = vfx_create(spr_hit_darkness, 1, 0, 29, x, y, 2, _angle, _layer);
+				_vfx = vfx_create(spr_hit_darkness, 1, 0, 29, x, y, 2, _angle, _layer);
 				_vfx.vfx_yscale *= prng_choose(1, -1, 1);
 
 				//Camera shake
@@ -203,11 +204,11 @@ function hit_vfx_style_create()
 			case HIT_VFX.grab:
 				//With the target
 				var _dir = prng_number(0, 360);
-				var _vfx = vfx_create(spr_hit_grab, 0, 0, 16, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 3, _dir, "VFX_Layer_Below");
+				_vfx = vfx_create(spr_hit_grab, 0, 0, 16, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 3, _dir, "VFX_Layer_Below");
 				_vfx.shrink = 0.88;
 				_vfx.spin = 9;
 				_vfx.fade = true;
-				var _vfx = vfx_create(spr_hit_grab, 0, 0, 16, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 3, _dir + 180, "VFX_Layer_Below");
+				_vfx = vfx_create(spr_hit_grab, 0, 0, 16, mean(_hitbox.owner.x, x), mean(_hitbox.owner.y, y), 3, _dir + 180, "VFX_Layer_Below");
 				_vfx.shrink = 0.88;
 				_vfx.spin = 9;
 				_vfx.fade = true;
@@ -231,7 +232,7 @@ function hit_vfx_style_create()
 			#endregion
 			#region Splash
 			case HIT_VFX.splash:
-				var _vfx = vfx_create(spr_hit_water, 1, 0, 28, x, y, 2, _angle, _layer);
+				_vfx = vfx_create(spr_hit_water, 1, 0, 28, x, y, 2, _angle, _layer);
 				_vfx.vfx_yscale *= prng_choose(0, -1, 1);
 				_vfx.vfx_blend = $fab387;
 
@@ -272,7 +273,7 @@ function hit_vfx_style_create()
 			#endregion
 			#region Shine
 			case HIT_VFX.shine:
-				var _vfx = vfx_create(spr_shine_attack_long, 1, 0, 16, _hitbox.x, _hitbox.y, 2, _angle, _layer);
+				_vfx = vfx_create(spr_shine_attack_long, 1, 0, 16, _hitbox.x, _hitbox.y, 2, _angle, _layer);
 				_vfx.spin = 1;
 				break;
 			#endregion
@@ -308,4 +309,4 @@ function hit_vfx_style_create()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

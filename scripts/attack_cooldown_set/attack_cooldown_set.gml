@@ -16,4 +16,4 @@ function attack_cooldown_set()
 		attack_cooldowns[$ string(_script)] = _cool;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -25,7 +25,6 @@ function draw_action_lines()
 	var _color = argument_count > 8 ? argument[8] : c_white;
 	var _random = argument_count > 9 ? argument[9] : 1;
 	var _angle_variation = 20;
-	var _dir = 0;
 	var _inc = 360 / _number;
 	var _length = sqrt((_w * _w) + (_h * _h));
 
@@ -49,4 +48,4 @@ function draw_action_lines()
 		}
 	draw_primitive_end();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

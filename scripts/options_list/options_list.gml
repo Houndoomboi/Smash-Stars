@@ -34,7 +34,14 @@ function options_list()
 		];
 	_struct[$ "engine"] =
 		[
+		"online_name",
+		"online_show_names",
+		"online_show_connect_codes",
+		"online_show_matchmaking",
+		"online_show_ping",
+		"online_default_name",
+		"private_lobby_spectator_ready",
 		];
 	return _struct;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

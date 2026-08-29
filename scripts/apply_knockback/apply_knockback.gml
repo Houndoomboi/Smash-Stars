@@ -22,4 +22,4 @@ function apply_knockback()
 	state_set(PLAYER_STATE.hitlag);
 	state_frame = argument[2];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

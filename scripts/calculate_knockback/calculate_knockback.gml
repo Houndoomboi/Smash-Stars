@@ -31,7 +31,6 @@ function calculate_knockback()
 				{
 				return min(_knockback + (_target_damage + _damage) * _scaling * knockback_scaling_multiplier * _target_weight, knockback_max);
 				}
-			break;
 		case KNOCKBACK_FORMULA.stronger:
 			if (match_has_stamina_set() && !setting().match_screen_wrap)
 				{
@@ -41,7 +40,6 @@ function calculate_knockback()
 				{
 				return min(_knockback + (power((_target_damage + _damage) / 25, 1 + _scaling) * _target_weight), knockback_max);
 				}
-			break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

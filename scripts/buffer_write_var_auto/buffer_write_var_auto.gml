@@ -15,4 +15,5 @@ function buffer_write_var_auto()
 	buffer_write(_b, buffer_string, _name);
 	buffer_write_auto(_b, _val);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+
+/* Copyright 2026 Springroll Games / Yosi */

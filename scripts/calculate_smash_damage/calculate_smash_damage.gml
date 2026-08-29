@@ -14,4 +14,4 @@ function calculate_smash_damage()
 		_mult =		argument_count > 3 ? argument[3] : smash_attack_multiplier;
 	return (_dmg * (1 + (_charge / _max) * _mult));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

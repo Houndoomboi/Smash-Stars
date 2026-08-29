@@ -12,4 +12,4 @@ damage2 = 10;
 base_knockback2 = 10;
 knockback_scaling2 = 1;
 formula2 = KNOCKBACK_FORMULA.stronger;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

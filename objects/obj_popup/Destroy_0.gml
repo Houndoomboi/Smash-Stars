@@ -5,4 +5,4 @@ for (var i = 0; i < array_length(_array); i++)
 	var _id = _array[@ i]; 
 	mis_device_input_clear(_id);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

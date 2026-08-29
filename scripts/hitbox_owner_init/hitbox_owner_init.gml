@@ -8,7 +8,7 @@ function hitbox_owner_init()
 	state = PLAYER_STATE.attacking;
 
 	//The id of the player who gets credit for a KO
-	player_id = noone;
+	player_instance_id = noone;
 
 	//Hitbox groups array
 	hitbox_groups = array_create(hitbox_groups_max, undefined);
@@ -39,4 +39,4 @@ function hitbox_owner_init()
 	damage_attack_multiplier = 1.0;
 	knockback_multiplier = 1.0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -6,9 +6,10 @@ If a filename is given, it loads from that file instead.
 */
 function profile_load_all()
 	{
+	var _file = noone;
 	try 
 		{
-		var _file = argument_count > 0 ? argument[0] : savefile_profiles;
+		_file = argument_count > 0 ? argument[0] : savefile_profiles;
 		if (!file_exists(_file))
 			{
 			_file = "default_profiles.sav";
@@ -26,7 +27,7 @@ function profile_load_all()
 					(
 					to_string("The profiles save file (", _file, ") is not in the correct format! The file will be renamed, and a new profiles save file will be created."),
 					[],
-					c_red,
+					c_red
 					);
 				}
 			file_copy(_file, "deleted_" + _file);
@@ -53,7 +54,7 @@ function profile_load_all()
 					(
 					to_string("The profiles save file (", _file, ") is not in the correct format! The file will be renamed, and a new profiles save file will be created."),
 					[],
-					c_red,
+					c_red
 					);
 				}
 			file_copy(_file, string(_profile_data.version) + "_" + _file);
@@ -105,7 +106,7 @@ function profile_load_all()
 				(
 				to_string("There was an error reading the profiles file. The file will be deleted. (" + string(_e) + ")"),
 				[],
-				c_red,
+				c_red
 				);
 			}
 		file_delete(_file);
@@ -118,4 +119,4 @@ function profile_load_all()
 		return;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

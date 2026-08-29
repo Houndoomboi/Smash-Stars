@@ -74,4 +74,4 @@ function player_init_end()
 		callback_add(callback_overhead, ex_meter_overhead, CALLBACK_TYPE.permanent);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

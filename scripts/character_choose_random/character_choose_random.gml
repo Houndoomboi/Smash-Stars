@@ -27,4 +27,4 @@ function character_choose_random()
 	assert(array_length(_possible) > 0, "[character_choose_random] Either there are no characters besides Random in character_data, or every other character has been banned.");
 	return _possible[@ irandom(array_length(_possible) - 1)];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

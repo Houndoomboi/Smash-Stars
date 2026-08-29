@@ -10,9 +10,9 @@ function allow_pummels()
 		input_pressed(INPUT.grab, buffer_time_standard, false) || 
 		input_pressed(INPUT.special, buffer_time_standard, false))
 		{
-		var _started = attack_start(my_attacks[$ "Pummel"]);
+		//var _started = attack_start(my_attacks[$ "Pummel"]);
 		return _started;
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

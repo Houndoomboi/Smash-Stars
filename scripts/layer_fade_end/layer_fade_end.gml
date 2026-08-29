@@ -12,4 +12,4 @@ function layer_fade_end()
 		if (game_surface_enable) surface_reset_target();
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

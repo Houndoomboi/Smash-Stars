@@ -26,4 +26,4 @@ function hitbox_overlay_sprite_set()
 		overlay_facing = argument[8];
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

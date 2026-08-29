@@ -10,9 +10,10 @@ function live_values_reload()
     var _file = argument_count > 0 ? argument[0] : "live_values.json";
     if (file_exists(_file))
         {
+		var _b = noone;
         try
             {
-            var _b = buffer_load(_file);
+            _b = buffer_load(_file);
             var _json = buffer_read(_b, buffer_string);
             var _data = json_parse(_json);
             if (_data != undefined && is_struct(_data))
@@ -62,4 +63,4 @@ function live_values_reload()
             }
         }
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

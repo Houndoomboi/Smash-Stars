@@ -22,7 +22,7 @@ function verlet_system_group_destroy()
 			}
 		
 		//Sticks
-		var _num = array_length(verlet_sticks);
+		_num = array_length(verlet_sticks);
 		for (var i = _num - 1; i >= 0; i--)
 			{
 			if (verlet_sticks[@ i].group == _group)
@@ -33,4 +33,4 @@ function verlet_system_group_destroy()
 		}
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

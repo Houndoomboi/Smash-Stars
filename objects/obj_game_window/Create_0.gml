@@ -19,4 +19,4 @@ disable = (!game_window_bar_enable || web_export);
 button_exit_fade = 0;
 button_full_fade = 0;
 button_size_fade = 0;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

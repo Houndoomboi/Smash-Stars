@@ -6,4 +6,4 @@ function player_move_to_front()
 	{
 	ds_list_re_add(obj_game.player_depth_list, id);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

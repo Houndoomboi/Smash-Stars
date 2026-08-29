@@ -6,4 +6,4 @@ function character_count()
 	{
 	return array_length(character_data_get_all());
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

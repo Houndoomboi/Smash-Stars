@@ -25,4 +25,4 @@ selected_animation_time = 0;
 //Surface
 surf = noone;
 surf_drawn = false;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

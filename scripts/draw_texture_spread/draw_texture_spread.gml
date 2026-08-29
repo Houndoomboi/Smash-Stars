@@ -47,4 +47,4 @@ vertex_format_begin();
 vertex_format_add_position();
 global.draw_texture_spread_format = vertex_format_end();
 global.draw_texture_spread_buffer = vertex_create_buffer();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

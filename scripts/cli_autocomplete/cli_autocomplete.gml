@@ -32,4 +32,4 @@ function cli_autocomplete()
         
     return _commands_left;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

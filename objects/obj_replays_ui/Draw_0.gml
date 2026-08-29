@@ -37,4 +37,4 @@ for (var i = 0; i < _num; i++)
 	draw_text(_x + _w + (-_text_offset_x), _y + _half, string(_replay + 1));
 	_y += _pad;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

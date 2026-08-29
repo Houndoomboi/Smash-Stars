@@ -10,4 +10,4 @@ function client_data_set()
 	var _client = engine().client_data[argument[0]];
 	_client[@ argument[1]] = argument[2];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

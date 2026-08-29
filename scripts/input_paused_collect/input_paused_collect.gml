@@ -125,4 +125,4 @@ function input_paused_collect()
 	paused_inputs_flag = _flag;
 	return true;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

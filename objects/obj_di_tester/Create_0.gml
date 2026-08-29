@@ -10,4 +10,4 @@ control_tilted_l = 0;
 
 x = room_width div 2;
 y = room_height div 2;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -11,4 +11,4 @@ while (_total_minutes > 60)
 stats_set("playtime_hours", _total_hours);
 stats_set("playtime_minutes", _total_minutes);
 stats_save();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

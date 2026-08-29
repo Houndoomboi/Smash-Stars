@@ -183,7 +183,7 @@ function game_win_conditions()
 							}
 						}
 					}
-				var _winning_team = _players_lost[@ _min_damage_player].player_team;
+				var _winning_team = _min_damage_player.player_team;
 				for (var i = 0; i < _num_players; i++)
 					{
 					with (ordered_player_list[| i])
@@ -324,4 +324,4 @@ function game_win_conditions()
 		return true;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

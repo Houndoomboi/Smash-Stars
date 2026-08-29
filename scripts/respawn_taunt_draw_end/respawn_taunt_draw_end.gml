@@ -19,8 +19,8 @@ function respawn_taunt_draw_end()
 		sprite_scale, 
 		0, 
 		image_blend, 
-		image_alpha,
+		image_alpha
 		);
 	shader_reset();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

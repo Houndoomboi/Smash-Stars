@@ -32,4 +32,4 @@ function character_data_get()
 
 	return character_data_get_all()[@ _char][@ _data];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

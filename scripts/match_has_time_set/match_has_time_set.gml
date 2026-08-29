@@ -6,4 +6,4 @@ function match_has_time_set()
 	{
 	return setting().match_time > 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -13,4 +13,4 @@ function main_menu_ui_stats_label_create()
 		stats_get("online_wins"),
 		);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

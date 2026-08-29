@@ -73,4 +73,4 @@ function replays_scan()
 		unknown_number : _unknown_number,
 		};
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

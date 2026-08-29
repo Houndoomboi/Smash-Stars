@@ -15,4 +15,4 @@ function profile_clean_auto()
 		}
 	log("Number of Profiles After Clean: ", array_length(engine().profiles));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

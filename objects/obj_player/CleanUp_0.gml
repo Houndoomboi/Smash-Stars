@@ -12,4 +12,4 @@ attack_cooldowns = noone;
 attack_uses = noone;
 
 //Please note: Set data structures to noone instead of undefined to prevent a silent crash with ds_exists.
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

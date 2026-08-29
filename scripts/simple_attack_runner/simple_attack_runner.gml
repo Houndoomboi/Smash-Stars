@@ -134,7 +134,7 @@ function simple_attack_runner()
 				//Variables
 				if (variable_struct_exists(_window, "vars"))
 					{
-					var _vars = _window[$ "vars"];
+					_vars = _window[$ "vars"];
 					var _var_names = variable_struct_get_names(_vars);
 					for (var i = 0; i < array_length(_var_names); i++)
 						{
@@ -176,13 +176,13 @@ function simple_attack_runner()
 							{
 							//Get hitbox properties from the struct
 							assert(variable_struct_exists(_hitbox, "type"), "[simple_attack_runner] No 'type' property exists in the struct for window ", attack_phase, ", hitbox ", i);
-							var _type = _hitbox[$ "type"];
+							var _hitbox_type = _hitbox[$ "type"];
 							assert(variable_struct_exists(_hitbox, "args"), "[simple_attack_runner] No 'args' property exists in the struct for window ", attack_phase, ", hitbox ", i);
 							var _a = _hitbox[$ "args"];
 							var _a_len = array_length(_a);
 							var _hitbox_id = noone;
 							
-							switch (_type)
+							switch (_hitbox_type)
 								{
 								case "melee":
 									_hitbox_id = hitbox_create_melee(_a[@ 0], _a[@ 1], _a[@ 2], _a[@ 3], _a[@ 4], _a[@ 5], _a[@ 6], _a[@ 7], _a[@ 8], _a[@ 9], _a[@ 10], _a[@ 11], 
@@ -222,13 +222,13 @@ function simple_attack_runner()
 									_hitbox_id = hitbox_create_melee(_a[@ 0], _a[@ 1], _a[@ 2], _a[@ 3], _damage, _a[@ 5], _a[@ 6], _a[@ 7], _a[@ 8], _a[@ 9], _a[@ 10], _a[@ 11], 
 										_a_len > 12 ? _a[@ 12] : undefined);
 									break;
-								default: crash("[simple_attack_runner] Invalid hitbox type string (", _type, ") for window ", attack_phase, ", hitbox ", i);
+								default: crash("[simple_attack_runner] Invalid hitbox type string (", _hitbox_type, ") for window ", attack_phase, ", hitbox ", i);
 								}
 								
 							//Hitbox vars
 							if (variable_struct_exists(_hitbox, "vars"))
 								{
-								var _vars = _hitbox[$ "vars"];
+								_vars = _hitbox[$ "vars"];
 								var _var_names = variable_struct_get_names(_vars);
 								for (var m = 0; m < array_length(_var_names); m++)
 									{
@@ -350,4 +350,4 @@ function simple_attack_runner()
 		default: crash("[simple_attack_runner] Invalid movement string (", _movement, ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

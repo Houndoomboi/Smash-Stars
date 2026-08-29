@@ -14,4 +14,4 @@ function camera_shake()
 		cam_shake_v = max(cam_shake_v, round(argument_count > 1 ? argument[1] : argument[0]));
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -36,12 +36,10 @@ function stage_data_get()
 			}
 		if (!_found)
 			{
-			crash("[stage_data_get] No stage in stage_data exists with the given name or room: ", room_get_name(_stage), " (", _stage, ")\n",
-				"\tIf you got this error, there's a high chance you're not using the LTS branch of GameMaker.\n",
-				"\tCheck the PFE website for a tutorial on how to switch to the LTS branch, or revert to a previous version of GameMaker.");
+			crash("[stage_data_get] No stage in stage_data exists with the given name or room: ", room_get_name(_stage), " (", _stage, ")");
 			}
 		}
 	
 	return stage_data_get_all()[@ _stage][@ _data];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

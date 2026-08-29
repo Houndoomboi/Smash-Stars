@@ -37,4 +37,4 @@ function anim_define_ext()
 	_new[@ ANIMATION.finish] =	argument_count > 9 ? argument[9] : anim_finish_normal;
 	return _new;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

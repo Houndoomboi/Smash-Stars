@@ -18,4 +18,4 @@ function palette_color_get()
 	var _colors_per_column = _pal.colors_per_column;
 	return _pal_array[@ _in + (_col * _colors_per_column)];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

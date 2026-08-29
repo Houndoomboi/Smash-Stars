@@ -41,7 +41,7 @@ function allow_upward_ground_attacks()
 				}
 			}
 		
-		var _stick = stick_choose_by_input(INPUT.special);
+		_stick = stick_choose_by_input(INPUT.special);
 		if (stick_tilted(_stick, DIR.up))
 			{
 			//Up Special
@@ -65,4 +65,4 @@ function allow_upward_ground_attacks()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

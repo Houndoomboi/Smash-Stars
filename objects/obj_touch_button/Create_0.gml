@@ -8,4 +8,4 @@ image_speed = 0;
 pressed = false;
 held_time = 0;
 mouse_inside = false;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

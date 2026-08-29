@@ -17,4 +17,4 @@ function game_input_template()
 	buffer_write(_b, buffer_s8, 0);
 	return _b;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

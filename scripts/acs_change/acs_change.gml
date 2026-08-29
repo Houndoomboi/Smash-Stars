@@ -67,4 +67,4 @@ function acs_change()
 		default: crash("[acs_change] Invalid ACS number (", _acs, ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

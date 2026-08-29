@@ -8,4 +8,4 @@ function mis_device_disconnect_all()
 	mis_data().devices = [];
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

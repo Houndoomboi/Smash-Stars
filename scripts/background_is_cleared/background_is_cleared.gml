@@ -9,4 +9,4 @@ function background_is_cleared()
 		? (obj_stage_manager.background_clear_frame != 0)
 		: false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

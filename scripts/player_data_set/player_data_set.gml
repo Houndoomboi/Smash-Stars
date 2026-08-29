@@ -11,4 +11,4 @@ function player_data_set()
 	var _player = engine().player_data[argument[0]];
 	_player[@ argument[1]] = argument[2];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

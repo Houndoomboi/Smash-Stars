@@ -122,7 +122,7 @@ function standard_ledge_tether()
 							ledge_id.x + (ledge_hang_relative_x * facing),
 							ledge_id.y + (ledge_hang_relative_y),
 							ledge_tether_snap_accel,
-							ledge_tether_snap_speed,
+							ledge_tether_snap_speed
 							);
 						}
 					}
@@ -139,4 +139,4 @@ function standard_ledge_tether()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

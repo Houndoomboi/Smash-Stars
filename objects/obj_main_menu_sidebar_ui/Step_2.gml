@@ -29,7 +29,7 @@ if (menu_active)
 				}
 			
 			//Skip over web choices
-			if (web_export || true)
+			if (web_export)
 				{
 				while (!menu_choices[@ menu_choice_current[@ i]].web)
 					{
@@ -68,4 +68,4 @@ else
 	//Frame counter
 	menu_active_frame = 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

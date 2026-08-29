@@ -25,4 +25,4 @@ function attack_stop_preserve_state()
 	if (run && check_parried()) then run = false;
 	parry_stun_time = parry_press_stun_time_default;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

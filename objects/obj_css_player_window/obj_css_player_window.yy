@@ -5,9 +5,9 @@
   "managed":true,
   "name":"obj_css_player_window",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_default_draw","path":"scripts/ui_default_draw/ui_default_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"css_ui_player_window_draw","path":"scripts/css_ui_player_window_draw/css_ui_player_window_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"css_ui_player_window_draw",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"css_ui_player_window_create","path":"scripts/css_ui_player_window_create/css_ui_player_window_create.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"css_ui_player_window_create",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"css_ui_player_window_step","path":"scripts/css_ui_player_window_step/css_ui_player_window_step.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"css_ui_player_window_step",},
   ],
   "parent":{
     "name":"Objects",

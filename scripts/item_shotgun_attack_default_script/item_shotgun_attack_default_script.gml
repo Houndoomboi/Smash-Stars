@@ -56,13 +56,15 @@ function item_shotgun_attack_default_script()
 					_proj.overlay_frame = 0;
 					_proj.destroy_on_hit = true;
 					_proj.knockback_state = PLAYER_STATE.balloon;
-					var _proj = hitbox_create_projectile_custom(obj_item_shotgun_projectile, 18, 3, 0.1, 0.1, 4, 7, 1, 45, 7, SHAPE.square, 20, 2);
+					
+					_proj = hitbox_create_projectile_custom(obj_item_shotgun_projectile, 18, 3, 0.1, 0.1, 4, 7, 1, 45, 7, SHAPE.square, 20, 2);
 					_proj.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.explosion];
 					_proj.hit_sfx = snd_hit_strong0;
 					_proj.overlay_frame = 1;
 					_proj.destroy_on_hit = true;
 					_proj.knockback_state = PLAYER_STATE.balloon;
-					var _proj = hitbox_create_projectile_custom(obj_item_shotgun_projectile, 18, -3, 0.1, 0.1, 4, 7, 1, 45, 7, SHAPE.square, 20, -2);
+					
+					_proj = hitbox_create_projectile_custom(obj_item_shotgun_projectile, 18, -3, 0.1, 0.1, 4, 7, 1, 45, 7, SHAPE.square, 20, -2);
 					_proj.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.explosion];
 					_proj.hit_sfx = snd_hit_strong0;
 					_proj.overlay_frame = 2;
@@ -74,7 +76,7 @@ function item_shotgun_attack_default_script()
 					camera_shake(6, 6);
 					var _vfx = vfx_create(spr_dust_run, 1, 0, 14, x + (-16 * facing), (bbox_bottom - 1) - 1, 2, 0, "VFX_Layer_Below");
 					_vfx.vfx_xscale = 2 * facing;
-					var _vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x + (16 * facing), y - 4, 1, 0, "VFX_Layer_Below");
+					_vfx = vfx_create(spr_hit_normal_weak, 1, 0, 14, x + (16 * facing), y - 4, 1, 0, "VFX_Layer_Below");
 					_vfx.vfx_xscale = 1 * facing;
 					}
 				break;
@@ -111,4 +113,4 @@ function item_shotgun_attack_default_script()
 	//Movement
 	move();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -28,4 +28,4 @@ function calculate_damage_color()
 		return merge_color(c_red, c_dkgray, min((d - 140) / 300, 1));
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

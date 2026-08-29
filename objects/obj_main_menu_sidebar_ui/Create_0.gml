@@ -30,4 +30,4 @@ if (!audio_is_playing(song_menu))
 	{
 	audio_play_sound_adjusted(song_menu, 0, true, audiogroup_music_menu);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

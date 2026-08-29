@@ -37,4 +37,4 @@ function ui_button_colors_set()
 		_id.image_blend = color_normal;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

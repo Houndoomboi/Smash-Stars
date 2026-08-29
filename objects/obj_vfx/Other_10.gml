@@ -6,7 +6,7 @@ y += vsp;
 //Frame increase, except for the first frame
 if (lifetime != total_life)
 	{
-	vfx_frame += vfx_speed * sprite_get_speed(vfx_sprite) / (sprite_get_speed_type(vfx_sprite) == spritespeed_framespergameframe ? 1 : room_speed);
+	vfx_frame += vfx_speed * sprite_get_speed(vfx_sprite) / (sprite_get_speed_type(vfx_sprite) == spritespeed_framespergameframe ? 1 : game_get_speed(gamespeed_fps));
 	}
 if (vfx_frame > sprite_get_number(vfx_sprite))
 	{
@@ -39,4 +39,4 @@ if (--lifetime < 0 || (setting().performance_mode && !important))
 	instance_destroy();
 	exit;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

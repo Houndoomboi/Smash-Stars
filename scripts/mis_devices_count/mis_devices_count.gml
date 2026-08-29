@@ -6,4 +6,4 @@ function mis_devices_count()
 	{
 	return array_length(mis_data().devices);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -27,4 +27,4 @@ function draw_text_outline()
 
 	draw_text(_x, _y, _s);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

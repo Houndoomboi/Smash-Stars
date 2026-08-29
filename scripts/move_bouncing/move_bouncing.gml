@@ -67,4 +67,4 @@ function move_bouncing()
 	x = round(x);
 	y = round(y);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

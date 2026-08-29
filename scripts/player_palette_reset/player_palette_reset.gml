@@ -9,4 +9,4 @@ function player_palette_reset()
 	palette_base = character_data_get(character, CHARACTER_DATA.palette_column_arrays)[@ 0];
 	palette_swap = character_data_get(character, CHARACTER_DATA.palette_column_arrays)[@ player_color];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

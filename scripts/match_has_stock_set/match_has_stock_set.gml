@@ -6,4 +6,4 @@ function match_has_stock_set()
 	{
 	return setting().match_stock > 0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

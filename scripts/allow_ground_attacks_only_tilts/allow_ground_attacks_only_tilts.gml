@@ -21,19 +21,19 @@ function allow_ground_attacks_only_tilts()
 				//Utilt
 				if (stick_flicked(Rstick, DIR.up, buffer_time_standard, true, STICK_CHECK_TYPE.backwards))
 					{
-					_started = attack_start(my_attacks[$ "Utilt"], true, Rstick, _frame);
+					//_started = attack_start(my_attacks[$ "Utilt"], true, Rstick, _frame);
 					}
 				else
 				//Dtilt
 				if (stick_flicked(Rstick, DIR.down, buffer_time_standard, true, STICK_CHECK_TYPE.backwards))
 					{
-					_started = attack_start(my_attacks[$ "Dtilt"], true, Rstick, _frame);
+					//_started = attack_start(my_attacks[$ "Dtilt"], true, Rstick, _frame);
 					}
 				else
 				//Ftilt
 				if (stick_flicked(Rstick, DIR.horizontal, buffer_time_standard, true, STICK_CHECK_TYPE.backwards))
 					{
-					_started = attack_start(my_attacks[$ "Ftilt"], true, Rstick, _frame);
+					//_started = attack_start(my_attacks[$ "Ftilt"], true, Rstick, _frame);
 					}
 				}
 			else
@@ -41,19 +41,19 @@ function allow_ground_attacks_only_tilts()
 				//Utilt
 				if (stick_tilted(Lstick, DIR.up))
 					{
-					_started = attack_start(my_attacks[$ "Utilt"], true, Lstick);
+					//_started = attack_start(my_attacks[$ "Utilt"], true, Lstick);
 					}
 				else
 				//Dtilt
 				if (stick_tilted(Lstick, DIR.down))
 					{
-					_started = attack_start(my_attacks[$ "Dtilt"], true, Lstick);
+					//_started = attack_start(my_attacks[$ "Dtilt"], true, Lstick);
 					}
 				else
 				//Ftilt
 				if (stick_tilted(Lstick, DIR.horizontal))
 					{
-					_started = attack_start(my_attacks[$ "Ftilt"], true, Lstick);
+					//_started = attack_start(my_attacks[$ "Ftilt"], true, Lstick);
 					}
 				}
 			return _started;
@@ -61,4 +61,4 @@ function allow_ground_attacks_only_tilts()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

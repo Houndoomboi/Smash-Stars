@@ -19,7 +19,7 @@ if (!surf_drawn)
 		palette_shader_simple_set
 			(
 			palette_base,
-			palette_swap,
+			palette_swap
 			);
 		draw_sprite_ext(sprite, 0, sprite_width div 2, sprite_height div 2, css_character_sprite_scale, css_character_sprite_scale, 0, c_white, 1);
 		shader_reset();
@@ -53,4 +53,4 @@ draw_set_valign(fa_middle);
 draw_set_color(c_white);
 draw_set_alpha(1);
 draw_text(x + (sprite_width div 2), y + sprite_height - 24, name);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

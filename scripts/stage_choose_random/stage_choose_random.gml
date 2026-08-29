@@ -22,4 +22,4 @@ function stage_choose_random()
 	assert(array_length(_possible) > 0, "[stage_choose_random] Either there are no stages in stage_data, or every stage has been banned.");
 	return _possible[@ irandom(array_length(_possible) - 1)];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

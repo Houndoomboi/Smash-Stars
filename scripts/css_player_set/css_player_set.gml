@@ -1,5 +1,5 @@
 ///@category Character Select Screen
-///@param {int} player_id		The player number to set a property of
+///@param {int} player_instance_id		The player number to set a property of
 ///@param {int} property		The property to set, from the CSS_PLAYER enum
 ///@param {any} value			The value
 /*
@@ -10,7 +10,7 @@ function css_player_set()
 	for (var i = 0; i < array_length(engine().css_player_data); i++)
 		{
 		var _player = engine().css_player_data[@ i];
-		if (_player[@ CSS_PLAYER.player_id] == argument[0])
+		if (_player[@ CSS_PLAYER.player_instance_id] == argument[0])
 			{
 			_player[@ argument[1]] = argument[2];
 			return true;
@@ -18,4 +18,4 @@ function css_player_set()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -160,8 +160,6 @@ ggmr_custom_init
 ggmr_logger_init();
 ggmr_logger_display(true);
 
-//Background animation
-menu_background_color_set($FFAC30);
 
 //Add the CSS players based on the Engine Player Data
 css_players_clear();

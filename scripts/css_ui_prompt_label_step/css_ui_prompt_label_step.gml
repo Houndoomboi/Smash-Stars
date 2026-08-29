@@ -8,7 +8,7 @@ function css_ui_prompt_label_step()
 		var _state = undefined;
 		with (obj_css_player_window)
 			{
-			if (player_id == _array[@ 0])
+			if (player_instance_id == _array[@ 0])
 				{
 				//Grab the state
 				_state = state;
@@ -80,4 +80,4 @@ function css_ui_prompt_label_step()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

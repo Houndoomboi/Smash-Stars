@@ -52,4 +52,4 @@ function find_nearest_player()
 	//Return the id
 	return _nearest_id;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -30,6 +30,7 @@ function apply_angle_flipper()
 	var _target = argument_count > 3 ? argument[3] : noone;
 	var _knockback = argument_count > 4 ? argument[4] : 0;
 	var _facing = argument_count > 5 ? argument[5] : _player.facing;
+	var _new_x, _new_y;
 	switch (_flipper)
 		{
 		case FLIPPER.standard:
@@ -149,14 +150,14 @@ function apply_angle_flipper()
 			break;
 		case FLIPPER.autolink:
 			//Find the angle that will send towards the player's next position
-			var _new_x = _player.hsp * autolink_speed_multiplier;
-			var _new_y = _player.vsp * autolink_speed_multiplier;
+			_new_x = _player.hsp * autolink_speed_multiplier;
+			_new_y = _player.vsp * autolink_speed_multiplier;
 			_angle = point_direction(0, 0, _new_x, _new_y);
 			break;
 		case FLIPPER.autolink_center:
 			//Find the angle that will send towards the player's next position
-			var _new_x = _player.hsp * autolink_speed_multiplier;
-			var _new_y = _player.vsp * autolink_speed_multiplier;
+			_new_x = _player.hsp * autolink_speed_multiplier;
+			_new_y = _player.vsp * autolink_speed_multiplier;
 			_angle = point_direction(_target.x, _target.y, _player.x + _new_x, _player.y + _new_y);
 			break;
 		case FLIPPER.fixed:
@@ -165,4 +166,4 @@ function apply_angle_flipper()
 		}
 	return _angle;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

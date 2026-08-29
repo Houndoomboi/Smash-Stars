@@ -30,4 +30,4 @@ extra_hitlag = 0;
 hit_vfx_style = -1;
 hit_sfx = -1;
 shieldstun_scaling = 1;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

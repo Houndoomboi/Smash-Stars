@@ -1,5 +1,19 @@
 function main_menu_ui_news_label_step()
 	{
-	text = "Buy the full version of PFE on itch.io!";
+	if (engine().main_menu_fetched_news)
+		{
+		if (engine().main_menu_news == "")
+			{
+			text = "No news or announcements have been returned from the server yet...";
+			}
+		else
+			{
+			text = engine().main_menu_news;
+			}
+		}
+	else
+		{
+		text = "News and announcements were not requested from the server.";
+		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

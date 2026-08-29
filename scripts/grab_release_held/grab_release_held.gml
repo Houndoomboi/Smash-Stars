@@ -15,4 +15,4 @@ function grab_release_held()
 	apply_damage(id, grab_release_damage);
 	if (is_knocked_out()) then return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

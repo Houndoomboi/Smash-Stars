@@ -17,4 +17,4 @@ function profile_create()
 	array_push(engine().profiles, _new);
 	return array_length(engine().profiles) - 1;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

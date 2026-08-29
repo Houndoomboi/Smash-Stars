@@ -71,7 +71,7 @@ function standard_screen_ko()
 				var _col = palette_color_get(palette_data, 0);
 				var _vfx = vfx_create(spr_hit_ko_explosion, 1, 0, 48, x, y, 2, point_direction(x, y, room_width / 2, room_height / 2));
 				_vfx.vfx_blend = _col;
-				var _vfx = vfx_create(spr_hit_ko_explosion, 1, 0, 48, x, y, 1.5, point_direction(x, y, room_width / 2, room_height / 2));
+				_vfx = vfx_create(spr_hit_ko_explosion, 1, 0, 48, x, y, 1.5, point_direction(x, y, room_width / 2, room_height / 2));
 				_vfx.vfx_yscale *= -1;
 				_vfx.vfx_blend = _col;
 	
@@ -102,4 +102,4 @@ function standard_screen_ko()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

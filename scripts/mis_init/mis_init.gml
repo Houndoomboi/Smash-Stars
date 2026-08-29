@@ -9,7 +9,7 @@ function mis_init()
 	{
 	if (!instance_exists(obj_mis_system)) 
 		{
-		instance_create_layer(0, 0, layer, obj_mis_system);
+		instance_create_depth(0, 0, 0, obj_mis_system);
 		mis_data().connect_callback = undefined;
 		}
 	}
@@ -91,4 +91,4 @@ enum MIS_DEVICE_TYPE
 	custom,
 	none,
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

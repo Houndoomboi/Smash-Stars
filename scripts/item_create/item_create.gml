@@ -24,7 +24,7 @@ function item_create()
 		if (owner != noone)
 			{
 			//Pass the owner's variables
-			player_id = owner.player_id;
+			player_instance_id = owner.player_instance_id;
 			palette_base = owner.palette_base;
 			palette_swap = owner.palette_swap;
 			palette_data = owner.palette_data;
@@ -34,4 +34,4 @@ function item_create()
 		}
 	return _item;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

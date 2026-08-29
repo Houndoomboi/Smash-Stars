@@ -10,4 +10,4 @@ function spectator_data_set()
 	var _spectator = engine().spectator_data[argument[0]];
 	_spectator[@ argument[1]] = argument[2];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

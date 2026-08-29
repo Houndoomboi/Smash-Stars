@@ -27,4 +27,4 @@ function dynamic_resource_count_all()
 		instance : instance_count,
 		};
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

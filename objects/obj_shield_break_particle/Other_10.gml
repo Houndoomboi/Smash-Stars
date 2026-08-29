@@ -25,4 +25,4 @@ if (--lifetime < 0 || setting().performance_mode)
 	{
 	instance_destroy();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

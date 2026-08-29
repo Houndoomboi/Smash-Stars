@@ -7,7 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_depth","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_image_draw","path":"scripts/ui_image_draw/ui_image_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_image_draw",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_image_create","path":"scripts/ui_image_create/ui_image_create.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_image_create",},
   ],
   "parent":{
     "name":"Objects",

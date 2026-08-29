@@ -176,4 +176,4 @@ for (var i = 0; i < array_length(_array); i++)
 		}
 	else crash("[obj_string_inputter: Begin Step] Invalid MIS device type (", _type, ")");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

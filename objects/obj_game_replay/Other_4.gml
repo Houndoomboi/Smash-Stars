@@ -20,6 +20,7 @@ frame_delta_time = 0;
 //Replay variables
 replay_draw_hud = true;
 replay_playback_speed = 1;
+replay_rewind_saves = [];
 replay_frame = 0;
 
 replay_menu_current = 0;
@@ -30,6 +31,7 @@ if (clip_can_record()) then array_push(replay_menu_choices, "Save Clip");
 array_push(replay_menu_choices, "Camera Mode");
 array_push(replay_menu_choices, "Hide HUD");
 array_push(replay_menu_choices, "Frame Advance");
+if (replay_rewind_enable) then array_push(replay_menu_choices, "Rewind");
 array_push(replay_menu_choices, "Take Control");
 array_push(replay_menu_choices, "Quit");
 
@@ -43,4 +45,4 @@ replay_took_control = false;
 replay_control_device = noone;
 replay_control_player = 0;
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

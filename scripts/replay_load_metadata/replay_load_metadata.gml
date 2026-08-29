@@ -19,4 +19,4 @@ function replay_load_metadata()
 	
 	//Don't do anything with the player metadata - that's only for the replay menu to read!
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

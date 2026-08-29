@@ -53,4 +53,4 @@ function double_jump()
 		anim_set(my_sprites[$ "DFastfall"]);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

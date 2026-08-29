@@ -37,4 +37,4 @@ drift_di_multiplier = 1;
 shieldstun_scaling = 1;
 custom_shield_damage = -1;
 background_clear_allow = true;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -58,7 +58,7 @@ function pick_up_item()
 					_args.item = id;
 					}
 				},
-			_args,
+			_args
 			);
 			
 		//Pick up the last item that was able to be picked up, if any
@@ -108,7 +108,7 @@ function pick_up_item()
 			var _ids = custom_ids_struct;
 			_ids.item_holder = other.id;
 			_s.item_thrown = false;
-			player_id = other.player_id;
+			player_instance_id = other.player_instance_id;
 				
 			//VFX
 			var _vfx = vfx_create(spr_shine_item_grab, 1, 0, 14, x, y, 1, 41, "VFX_Layer_Below");
@@ -127,4 +127,4 @@ function pick_up_item()
 	//No item was picked up
 	return noone;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -10,4 +10,4 @@ function hurtbox_owner_init()
 	//Multipliers
 	damage_taken_multiplier = 1.0;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

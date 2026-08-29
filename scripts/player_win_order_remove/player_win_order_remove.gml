@@ -30,4 +30,4 @@ function player_win_order_remove()
 		crash("[player_win_order_remove] The given instance is not an instance of obj_player! (", object_get_name(_inst.object_index), ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

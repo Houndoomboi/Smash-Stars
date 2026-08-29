@@ -7,4 +7,4 @@ if (frame > 15)
 	draw_sprite_ext(spr_logo_128, 0, image_x, y, 1, 1, 0, c_white, image_alpha);
 	draw_sprite_ext(spr_logo_text, 0, text_x, y, 1, 1, 0, c_white, image_alpha);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

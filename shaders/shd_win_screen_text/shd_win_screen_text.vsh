@@ -19,4 +19,4 @@ void main()
     v_vTexcoord = in_TextureCoord;
 	v_vPosition = in_Position.xy;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

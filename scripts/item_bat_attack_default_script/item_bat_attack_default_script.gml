@@ -102,4 +102,4 @@ function item_bat_attack_default_script()
 	//Movement
 	move_grounded();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

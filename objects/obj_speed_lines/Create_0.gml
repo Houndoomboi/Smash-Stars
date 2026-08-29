@@ -7,4 +7,4 @@ Use <vfx_create_speed_lines> to create it.
 GAME_STATE_OBJECT
 
 event_inherited();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

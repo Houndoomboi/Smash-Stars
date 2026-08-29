@@ -19,4 +19,4 @@ function is_launched()
 		_p.state == PLAYER_STATE.hitstun		||
 		_p.state == PLAYER_STATE.magnetized;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

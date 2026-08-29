@@ -9,4 +9,4 @@ if (lifetime < 10)
 	}
 	
 y = lerp(y, custom_vfx_struct.y_start - 30, 0.1);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

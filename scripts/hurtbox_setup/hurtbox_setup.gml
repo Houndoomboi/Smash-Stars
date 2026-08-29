@@ -27,4 +27,4 @@ function hurtbox_setup()
 	if (script_exists(argument[6])) then projectile_hit = argument[6];
 	else projectile_hit = hurtbox_hit_script_template;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

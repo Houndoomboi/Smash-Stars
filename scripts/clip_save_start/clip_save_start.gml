@@ -15,4 +15,4 @@ function clip_save_start()
 	clip_is_saving = true;
 	meta_state = GAME_META_STATE.saving_clip;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

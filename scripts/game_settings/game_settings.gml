@@ -27,10 +27,12 @@ function setting()
 		match_fs_meter :					match_fs_meter_default, //{bool} Whether Final Smash meters are enabled or not. The default value is <match_fs_meter_default>.
 		match_screen_wrap :					match_screen_wrap_default, //{bool} Whether players should wrap around the screen instead of getting KO'ed. The default value is <match_screen_wrap_default>. Warning: This should only be used in Time or Stamina matches, and will change the knockback formula for Stamina matches.
 		match_ex_meter :					match_ex_meter_default, //{bool} Whether EX meters are enabled or not. The default value is <match_ex_meter_default>.
+		debug_sync_test :					false, //{bool} Saves & loads the game every single frame, for the purpose of testing performance. Warning: This is for debug use ONLY!
 		debug_fps :							false, //{bool} Whether to show FPS numbers in the top right corner or not.
 		performance_mode :					false, //{bool} Performance mode turns off certain visual effects to increase performance.
 		disable_shaders :					false, //{bool} Whether to disable all shaders or not.
 		local_frame_skip :					true, //{bool} Whether frames can be skipped locally if the game is running under 60fps or not.
+		negative_input_delay :				0, //{int} The number of frames backwards players' inputs will be applied, during local matches. Must be greater than or equal to 0. Warning: Using negative input delay will increase performance and cause visual artifacts.
 		//Visibility
 		show_hitboxes :						false, //{bool} Whether to make hitboxes visible or not.
 		show_hurtboxes :					false, //{bool} Whether to make hurtboxes visible or not.
@@ -123,7 +125,7 @@ function setting()
 */
 //Game
 #macro show_debug_logs						false //{bool} Whether messages from the <log> function are displayed in the console. Debug mode must also be enabled.
-#macro max_players							6 //{int} The maximum number of players.
+#macro max_players							8 //{int} The maximum number of players.
 #macro max_teams							4 //{int} The maximum number of teams.
 #macro airdodge_type						AIRDODGE_TYPE.momentum_stop //{int} The type of airdodge to use, from the enum AIRDODGE_TYPE.
 #macro shield_type							SHIELD_TYPE.parry_shield //{int} The type of shield to use, from the enum SHIELD_TYPE.
@@ -432,8 +434,8 @@ function setting()
 #macro star_ko_chance						5 //{int} Players KOed off the top on a frame number divisible by this number will be star KOed.
 #macro star_ko_distance						(room_height div 2) //{real} The distance players fall during the star KO animation.
 #macro screen_ko_time						100 //{int} The number of frames the screen KO animation takes.
-#macro screen_ko_chance						2 //{int} Players KOed off the top on a frame number divisible by this number will be screen KOed.
-#macro screen_ko_scale_multiplier			0.5 //{real} The sprite scale used for players being screen KOed.
+#macro screen_ko_chance						6 //{int} Players KOed off the top on a frame number divisible by this number will be screen KOed.
+#macro screen_ko_scale_multiplier			3 //{real} The sprite scale used for players being screen KOed.
 #macro respawn_platform_time_max			180 //{int} The maximum amount of time players can stay on the respawn platform.
 #macro respawn_inv_time						90 //{int} The number of frames of invincibility players get after leaving the respawn platform.
 #macro respawn_inv_end_on_attack			true //{bool} Whether respawn invincibility goes away after a player attacks or not.
@@ -480,10 +482,13 @@ function setting()
 #macro win_screen_losers_portrait_scale		2 //{int} The scaling of the losers' portrait sprites on the Win Screen.
 //Online
 //Replays
+#macro replay_rewind_enable					true //{bool} Whether the game supports replay rewinding or not.
+#macro replay_rewind_interval				180 //{int} The number of frames between each rewind save point.
+#macro replay_rewind_saves_max				100 //{int} The maximum number of rewind save points that can stored at once.
 #macro replay_sync_mode						true //{bool} Whether to save extra data in replays to catch desyncs or not. This will greatly increase the file size of replays.
 //Clips
 #macro clip_length							180 //{int} The number of previous frames that are saved in a clip. Clips are saved at 30fps.
 #macro clip_quality							1 //{int} The quality of GIF to export for clips. This is a number from 0-3.
 #macro clip_save_interval					2 //{int} The interval between frames that are saved in a clip. By default this number is 2, because clips are saved at 30fps.
 #endregion
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -11,4 +11,4 @@ function cpu_check_input()
 		? cpu_inputs_bitflag & (1 << argument[0] + INPUT.LENGTH)
 		: cpu_inputs_bitflag & (1 << argument[0]);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

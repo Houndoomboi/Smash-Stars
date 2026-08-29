@@ -5,5 +5,5 @@ Any sound effect played through <sound_system_play>, <game_sound_player>, or <hi
 */
 ///@description
 sound_system_all_sounds = {};
-sound_system_max_frame_count = 10;
-/* Copyright 2025 Springroll Games / Yosi */
+sound_system_max_frame_count = GGMR_MAX_FRAMES_STORED;
+/* Copyright 2026 Springroll Games / Yosi */

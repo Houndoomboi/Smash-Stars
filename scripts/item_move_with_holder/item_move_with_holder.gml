@@ -15,4 +15,4 @@ function item_move_with_holder()
 		y = _player.y + (_player.item_hold_y);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

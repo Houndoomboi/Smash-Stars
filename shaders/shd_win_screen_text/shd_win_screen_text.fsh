@@ -10,4 +10,4 @@ void main()
     gl_FragColor = v_vColour * texture2D(gm_BaseTexture, v_vTexcoord);
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

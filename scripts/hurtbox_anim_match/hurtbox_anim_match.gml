@@ -21,4 +21,4 @@ function hurtbox_anim_match()
 		hurtbox.image_angle = anim_angle;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

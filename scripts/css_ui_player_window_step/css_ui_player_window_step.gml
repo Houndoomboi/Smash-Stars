@@ -6,10 +6,10 @@ function css_ui_player_window_step()
 	if (obj_css_ui.state == CSS_STATE.normal)
 		{
 		//Exit out if it's a CPU
-		if (css_player_get(player_id, CSS_PLAYER.is_cpu)) then return;
+		if (css_player_get(player_instance_id, CSS_PLAYER.is_cpu)) then return;
 		
 		//Inputs
-		var _custom = css_player_get(player_id, CSS_PLAYER.custom);
+		var _custom = css_player_get(player_instance_id, CSS_PLAYER.custom);
 		var _device_id = _custom.device_id;
 		var _confirm = mis_device_input(_device_id, MIS_INPUT.confirm);
 		var _option = mis_device_input(_device_id, MIS_INPUT.option);
@@ -33,7 +33,7 @@ function css_ui_player_window_step()
 				//Recall token
 				if ((_back || _delete) && _custom.token_held == noone)
 					{
-					_custom.token_held = player_id;
+					_custom.token_held = player_instance_id;
 					}
 					
 				//Hold to go back
@@ -46,7 +46,7 @@ function css_ui_player_window_step()
 				if (_option || _next || _last)
 					{
 					var _token_id = _custom.token_held;
-					if (_token_id == noone) then _token_id = player_id;
+					if (_token_id == noone) then _token_id = player_instance_id;
 					var _char = css_player_get(_token_id, CSS_PLAYER.character);
 					css_player_set
 						(
@@ -57,15 +57,15 @@ function css_ui_player_window_step()
 							_token_id, 
 							_char,
 							css_player_get(_token_id, CSS_PLAYER.color),
-							_option ? 1 : sign(_next - _last),
+							_option ? 1 : sign(_next - _last)
 							)
 						);
 						
 					//Store the favorite color if you are changing your own color
-					if (_token_id == player_id)
+					if (_token_id == player_instance_id)
 						{
-						var _favorite_colors = profile_get(css_player_get(player_id, CSS_PLAYER.profile), PROFILE.favorite_colors);
-						_favorite_colors[@ _char] = css_player_get(player_id, CSS_PLAYER.color);
+						var _favorite_colors = profile_get(css_player_get(player_instance_id, CSS_PLAYER.profile), PROFILE.favorite_colors);
+						_favorite_colors[@ _char] = css_player_get(player_instance_id, CSS_PLAYER.color);
 						}
 					}
 					
@@ -103,7 +103,7 @@ function css_ui_player_window_step()
 				if (_confirm)
 					{
 					menu_sound_play(snd_menu_select);
-					css_player_set(player_id, CSS_PLAYER.profile, profile_current);
+					css_player_set(player_instance_id, CSS_PLAYER.profile, profile_current);
 					state = CSS_PLAYER_WINDOW_STATE.select_character;
 					//Re activate cursor
 					_custom.cursor_active = true;
@@ -153,10 +153,10 @@ function css_ui_player_window_step()
 							with (obj_css_player_window)
 								{
 								//Move down the profile index if it was after the deleted profile...
-								var _profile_number = css_player_get(player_id, CSS_PLAYER.profile);
+								var _profile_number = css_player_get(player_instance_id, CSS_PLAYER.profile);
 								if (_profile_number > _deleted_profile)
 									{
-									css_player_set(player_id, CSS_PLAYER.profile, _profile_number - 1);
+									css_player_set(player_instance_id, CSS_PLAYER.profile, _profile_number - 1);
 									}
 									
 								//Make sure other players' cursors are not on an undefined profile
@@ -210,9 +210,14 @@ function css_ui_player_window_step()
 						{
 						menu_sound_play(snd_menu_start);
 						var _profile = profile_create(profile_new_name, custom_controls_create(), false);
-						css_player_set(player_id, CSS_PLAYER.profile, _profile);
+						css_player_set(player_instance_id, CSS_PLAYER.profile, _profile);
 						//Save profiles
 						profile_save_all();
+						//If there is no online default profile set right now, set the newly create profile
+						if (engine().online_default_name == "" || !profile_exists(profile_find(engine().online_default_name), true))
+							{
+							engine().online_default_name = profile_new_name;
+							}
 						//Re-activate cursor
 						state = CSS_PLAYER_WINDOW_STATE.select_character;
 						_custom.cursor_active = true;
@@ -312,7 +317,7 @@ function css_ui_player_window_step()
 				var _any_input = false;
 				var _any_held = false;
 				var _stop = false;
-				var _device_type = mis_device_convert_to_game_device(mis_device_get(_device_id, MIS_DEVICE_PROPERTY.device_type));
+				_device_type = mis_device_convert_to_game_device(mis_device_get(_device_id, MIS_DEVICE_PROPERTY.device_type));
 				var _device = mis_device_get(_device_id, MIS_DEVICE_PROPERTY.port_number);
 		
 				//Inputs
@@ -466,4 +471,4 @@ function css_ui_player_window_step()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

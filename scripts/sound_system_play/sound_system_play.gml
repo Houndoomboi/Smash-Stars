@@ -56,7 +56,7 @@ function sound_system_play()
 					false, 
 					audiogroup_sound_effects, 
 					_x,
-					_w,
+					_w
 					);
 			
 				//Pitch
@@ -75,4 +75,4 @@ function sound_system_play()
 		}
 	crash("obj_sound_system did not exist when sound_system_play was called");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

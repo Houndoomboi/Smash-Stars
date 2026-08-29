@@ -4,7 +4,7 @@
 /*
 Changes the owner of the specified hitbox to the specified instance.
 Please note: The new owner instance must have the following variable:
-	- player_id
+	- player_instance_id
 */
 function hitbox_owner_change()
 	{
@@ -13,7 +13,7 @@ function hitbox_owner_change()
 		var _id = argument[1];
 		assert(instance_exists(_id), "[hitbox_owner_change] The provided instance does not exist (", _id, ")");
 		owner = _id;
-		player_id = _id.player_id;
+		player_instance_id = _id.player_instance_id;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

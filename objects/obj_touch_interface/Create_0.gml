@@ -16,4 +16,4 @@ if (_mobile) then disable = false;
 //Go to the room after rm_init
 room_goto(room_next(rm_init));
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

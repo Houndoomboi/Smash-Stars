@@ -30,6 +30,9 @@ if (instance_exists(owner))
 			{
 			var _hurtbox = ds_priority_delete_min(temp_priority_get());
 			
+			//Ensure the hurtbox still exists (it could be destroyed if attack_stop was called)
+			if (!instance_exists(_hurtbox)) then return false;
+			
 			//Hitboxes cannot hit their owners
 			if (_hurtbox.owner == noone || _hurtbox.owner == owner) then continue;
 			
@@ -65,4 +68,4 @@ if (instance_exists(owner))
 	//Clear the DS
 	ds_list_clear(hurtbox_hit_list);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

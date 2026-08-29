@@ -40,4 +40,4 @@ function calculate_jump_height()
 	
 	return -1;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -31,7 +31,7 @@ for (var i = 0; i < array_length(_vals); i++)
 		break;
 		}
 	}
-var _vals = items_frequency_valid_values;
+_vals = items_frequency_valid_values;
 items_frequency_index = 0;
 for (var i = 0; i < array_length(_vals); i++)
 	{
@@ -42,8 +42,10 @@ for (var i = 0; i < array_length(_vals); i++)
 		}
 	}
 
-//Background animation
 
+//Offline
+engine().is_online = false;
+ggmr_destroy_all();
 
 //Menu Input System
 mis_init();
@@ -70,8 +72,8 @@ mis_device_connect_callback_set
 				noone,
 				room_width div 2,
 				room_height div 2,
-				true,
-				),
+				true
+				)
 			);
 			
 		//Exit out if the player could not be added
@@ -86,7 +88,7 @@ mis_device_connect_callback_set
 				(
 				"PLAYER " + string(css_players_count()),
 				custom_controls_create(),
-				true,
+				true
 				)
 			);
 			
@@ -133,4 +135,6 @@ player_data_clear();
 spectator_data_clear();
 client_data_clear();
 
-/* Copyright 2025 Springroll Games / Yosi */
+//The game is NOT online
+engine().is_online = false;
+/* Copyright 2026 Springroll Games / Yosi */

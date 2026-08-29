@@ -70,4 +70,4 @@ function player_state_name_get()
 		default: crash("[player_state_name_get] Invalid state (", argument[0], "). Did you add a value to PLAYER_STATE without adding it to this script?");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

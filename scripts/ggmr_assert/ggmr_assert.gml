@@ -27,4 +27,5 @@ function ggmr_assert()
 		ggmr_crash(_output);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+
+/* Copyright 2026 Springroll Games / Yosi */

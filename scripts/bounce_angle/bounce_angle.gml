@@ -14,4 +14,4 @@ function bounce_angle()
 
 	return _s + 90 - _diff;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

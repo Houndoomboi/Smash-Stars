@@ -32,7 +32,7 @@ function hitbox_create_melee()
 		lifetime = argument[9];
 		hitbox_shape_set(_newhitbox, argument[10]);
 		owner = other.id;
-		player_id = other.player_id;
+		player_instance_id = other.player_instance_id;
 		owner_xstart = other.x;
 		owner_ystart = other.y;
 		hitbox_group = argument[11];
@@ -43,4 +43,4 @@ function hitbox_create_melee()
 	array_push(my_hitboxes, _newhitbox);
 	return _newhitbox;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

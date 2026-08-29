@@ -20,4 +20,4 @@ function match_settings_load()
 	if (variable_struct_exists(_struct, "match_screen_wrap")) then setting().match_screen_wrap = _struct.match_screen_wrap;
 	if (variable_struct_exists(_struct, "match_ex_meter")) then setting().match_ex_meter = _struct.match_ex_meter;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -120,4 +120,4 @@ function move_x_grounded()
 		hsp_moved = _hsp_moved;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

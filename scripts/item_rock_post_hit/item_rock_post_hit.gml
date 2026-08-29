@@ -34,17 +34,17 @@ function item_rock_post_hit()
 					y, 
 					2, 
 					i * 36, 
-					"VFX_Layer_Below",
+					"VFX_Layer_Below"
 					);
 				_vfx.fade = true;
 				var _len = prng_number((i + 1) % prng_channels, 3, 1);
 				_vfx.hsp = lengthdir_x(_len, i * 36);
 				_vfx.vsp = lengthdir_y(_len, i * 36);
-				var _len = prng_number((i + 2) % prng_channels, 30, 10);
+				_len = prng_number((i + 2) % prng_channels, 30, 10);
 				_vfx.x += lengthdir_x(_len, i * 36);
 				_vfx.y += lengthdir_y(_len, i * 36);
 				}
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

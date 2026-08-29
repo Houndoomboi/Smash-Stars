@@ -10,6 +10,7 @@ After changing collision masks, the player will attempt to move out of blocks. T
 function collision_box_change()
 	{
 	var _mask = argument_count > 0 ? argument[0] : collision_box;
+	var _anchor;
 	
 	//Turn around collision box if needed
 	if (facing != 0)
@@ -23,22 +24,22 @@ function collision_box_change()
 		switch (argument[1])
 			{
 			case "top":
-				var _anchor = bbox_top;
+				_anchor = bbox_top;
 				mask_index = _mask;
 				y += _anchor - bbox_top;
 				break;
 			case "bottom":
-				var _anchor = (bbox_bottom - 1);
+				_anchor = (bbox_bottom - 1);
 				mask_index = _mask;
 				y += _anchor - (bbox_bottom - 1);
 				break;
 			case "left":
-				var _anchor = bbox_left;
+				_anchor = bbox_left;
 				mask_index = _mask;
 				x += _anchor - bbox_left;
 				break;
 			case "right":
-				var _anchor = (bbox_right - 1);
+				_anchor = (bbox_right - 1);
 				mask_index = _mask;
 				x += _anchor - (bbox_right - 1);
 				break;
@@ -54,4 +55,4 @@ function collision_box_change()
 	//Handles collisions
 	move_out_of_blocks(-1);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

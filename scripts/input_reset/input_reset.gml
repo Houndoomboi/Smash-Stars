@@ -13,4 +13,4 @@ function input_reset()
 
 	input_buffer[@ _input] = _val;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

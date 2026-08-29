@@ -14,7 +14,6 @@ function item_rock_actions()
 			with (_ids.hitbox) instance_destroy();
 	
 			//Snap to the holder's location
-			var _player = _ids.item_holder;
 			x = _player.x + (_player.item_hold_x * _player.facing);
 			y = _player.y + (_player.item_hold_y);
 			break;
@@ -73,4 +72,4 @@ function item_rock_actions()
 			break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

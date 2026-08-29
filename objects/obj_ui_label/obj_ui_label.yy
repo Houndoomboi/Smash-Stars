@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_ui_label",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_default_draw","path":"scripts/ui_default_draw/ui_default_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_label_draw","path":"scripts/ui_label_draw/ui_label_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_label_draw",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_depth","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{

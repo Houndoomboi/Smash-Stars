@@ -23,4 +23,4 @@ function grab_break_struggle_start()
 	//Reset variables
 	grab_hold_id = noone;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

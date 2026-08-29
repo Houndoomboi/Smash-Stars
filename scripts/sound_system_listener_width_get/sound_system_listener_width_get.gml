@@ -11,4 +11,4 @@ function sound_system_listener_width_get()
 		? abs(obj_stage_manager.blastzones.left - obj_stage_manager.blastzones.right) / 4
 		: (room_width / 4);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

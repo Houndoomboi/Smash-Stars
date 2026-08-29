@@ -31,4 +31,4 @@ for (var i = 0; i < array_length(_array); i++)
 	}
 
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

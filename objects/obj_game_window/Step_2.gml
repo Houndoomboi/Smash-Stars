@@ -84,7 +84,7 @@ if (window_hover)
 			window_set_position
 				(
 				(display_get_width() div 2) - (_ww div 2),
-				(display_get_height() div 2) - (_wh div 2),
+				(display_get_height() div 2) - (_wh div 2)
 				);
 			}
 		}
@@ -128,9 +128,9 @@ if (window_dragged)
 		window_set_position
 			(
 			window_start_x + (_mx - window_drag_x),
-			window_start_y + (_my - window_drag_y),
+			window_start_y + (_my - window_drag_y)
 			);
 		}
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

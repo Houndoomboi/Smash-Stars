@@ -23,4 +23,4 @@ function speed_set_towards_point_accel()
 		false, false
 		);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

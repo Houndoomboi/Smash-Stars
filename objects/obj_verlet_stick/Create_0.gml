@@ -15,4 +15,4 @@ point2 = noone;
 group = 0;
 image_blend = c_white;
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -8,4 +8,4 @@ for (var i = 0; i < array_length(_array); i++)
 	var _col = player_color_get(i);
 	draw_sprite_ext(spr_menu_cursor, 0, round(_x), round(_y), 1, 1, 0, _col, 1);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

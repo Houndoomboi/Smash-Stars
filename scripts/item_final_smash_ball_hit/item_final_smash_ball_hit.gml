@@ -50,7 +50,7 @@ function item_final_smash_ball_hit()
 		_s.hp -= _hitbox.damage;
 		if (_s.hp <= 0)
 			{
-			with (_hitbox.player_id)
+			with (_hitbox.player_instance_id)
 				{
 				final_smash_uses++;
 				
@@ -71,4 +71,4 @@ function item_final_smash_ball_hit()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

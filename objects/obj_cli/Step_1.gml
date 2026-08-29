@@ -11,7 +11,7 @@ if (in_focus)
 			(
 			history_index + keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down), 
 			-1, 
-			array_length(history) - 1,
+			array_length(history) - 1
 			);
 		if (history_index != -1)
 			{
@@ -69,4 +69,4 @@ if (keyboard_check_pressed(cli_key_toggle))
 	}
 
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

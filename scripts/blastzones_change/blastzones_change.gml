@@ -19,4 +19,4 @@ function blastzones_change()
 		}
 	crash("obj_stage_manager did not exist when blastzones_reset was called");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

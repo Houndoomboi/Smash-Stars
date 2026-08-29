@@ -16,4 +16,4 @@ function ledge_getup_move()
 		move_out_of_blocks(90);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -9,4 +9,4 @@ function cli_text_set()
     var _cli = argument[0];
     _cli.text = argument[1];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -31,4 +31,4 @@ function css_ui_start_button_step()
 		color_clicked = $888888;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

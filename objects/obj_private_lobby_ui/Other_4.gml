@@ -62,8 +62,6 @@ ggmr_lobby_init
 		}
 	);
 
-//Background animation
-menu_background_color_set($4E4EE5);
 
 //Join requests
 join_request_list_show = false;

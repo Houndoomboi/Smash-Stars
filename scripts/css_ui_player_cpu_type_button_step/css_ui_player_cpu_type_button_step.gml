@@ -7,12 +7,12 @@ function css_ui_player_cpu_type_button_step()
 		menu_sound_play(snd_menu_select);
 		
 		//Change the type
-		var _type = modulo(css_player_get(player_id, CSS_PLAYER.cpu_type) + 1, CPU_TYPE.LENGTH);
+		var _type = modulo(css_player_get(player_instance_id, CSS_PLAYER.cpu_type) + 1, CPU_TYPE.LENGTH);
 		if (_type == CPU_TYPE.input_test && !setting().debug_mode_enable)
 			{
 			_type = modulo(_type + 1, CPU_TYPE.LENGTH);
 			}
-		css_player_set(player_id, CSS_PLAYER.cpu_type, _type);
+		css_player_set(player_instance_id, CSS_PLAYER.cpu_type, _type);
 		
 		//Toast message
 		instance_destroy(obj_ui_toast);
@@ -59,4 +59,4 @@ function css_ui_player_cpu_type_button_step()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

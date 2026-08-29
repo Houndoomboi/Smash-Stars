@@ -7,7 +7,7 @@ function css_ui_player_delete_button_step()
 		with (obj_css_ui)
 			{
 			menu_sound_play(snd_menu_back);
-			var _player_id = other.player_id
+			var _player_id = other.player_instance_id
 			var _custom = css_player_get(_player_id, CSS_PLAYER.custom);
 			//Delete the player
 			css_player_delete(_player_id);
@@ -22,4 +22,4 @@ function css_ui_player_delete_button_step()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

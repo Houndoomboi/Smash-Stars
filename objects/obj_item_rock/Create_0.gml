@@ -11,4 +11,4 @@ _s.item_actions = item_rock_actions;
 var _ids = custom_ids_struct;
 _ids.hitbox = noone;
 _ids.hurtbox = noone;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

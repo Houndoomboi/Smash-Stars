@@ -15,4 +15,4 @@ function mis_device_connect_callback_set()
 		crash("[mis_device_connect_callback_set] Argument is not a valid script or method! (", argument[0], ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

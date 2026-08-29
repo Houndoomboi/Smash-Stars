@@ -15,4 +15,4 @@ function ui_cursors_get_array()
 		}
 	crash("obj_ui_runner did not exist when ui_cursors_get_array was called");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

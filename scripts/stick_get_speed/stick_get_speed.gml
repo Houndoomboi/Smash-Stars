@@ -14,4 +14,4 @@ function stick_get_speed()
 	var _index = (_frame * CONTROL_STICK.LENGTH);
 	return _array[@ CONTROL_STICK.spd + _index];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -35,4 +35,4 @@ function replay_save_players()
 		buffer_write(_b, buffer_string, profile_get(_p, PROFILE.name));
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

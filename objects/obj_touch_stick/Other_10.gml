@@ -58,7 +58,7 @@ if (stick_device_index != -1)
 			stick_y = lengthdir_y(_len, _dir);
 			
 			//Drawn position
-			var _len = min(point_distance(anchor_x, anchor_y, x, y), stick_distance);
+			_len = min(point_distance(anchor_x, anchor_y, x, y), stick_distance);
 			draw_x = lengthdir_x(_len, _dir);
 			draw_y = lengthdir_y(_len, _dir);
 			x = anchor_x + draw_x;
@@ -98,4 +98,4 @@ if (stick_device_index == -1)
 	draw_y = lerp(draw_y, 0, 0.5);
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

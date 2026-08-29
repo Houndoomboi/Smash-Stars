@@ -56,4 +56,4 @@ void main()
 	gl_FragColor.rgb *= fade_value;
 	gl_FragColor.a	 *= alpha_value;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

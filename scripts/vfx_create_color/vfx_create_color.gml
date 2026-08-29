@@ -29,4 +29,4 @@ function vfx_create_color()
 		}
 	return _vfx;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

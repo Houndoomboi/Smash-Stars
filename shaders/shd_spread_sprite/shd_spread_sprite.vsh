@@ -48,4 +48,4 @@ void main()
 	//Pass the A corner, because GameMaker doesn't allow using uniforms in both parts of the shader
 	v_vA = A;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

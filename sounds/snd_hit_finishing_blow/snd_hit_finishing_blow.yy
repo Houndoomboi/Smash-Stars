@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.846146,
+  "duration":1.8461678,
   "exportDir":"",
   "name":"snd_hit_finishing_blow",
   "parent":{

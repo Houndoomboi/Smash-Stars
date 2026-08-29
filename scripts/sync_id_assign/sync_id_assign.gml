@@ -16,4 +16,5 @@ function sync_id_assign()
 	//Register the ID
 	sync_id_register();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+
+/* Copyright 2026 Springroll Games / Yosi */

@@ -25,7 +25,7 @@ function item_ball_hit()
 		_hitbox.owner.self_hitlag_frame = 5;
 		
 		//Change the ownership
-		player_id = _hitbox.player_id;
+		player_instance_id = _hitbox.player_instance_id;
 		
 		//Create the hitbox
 		any_hitbox_has_hit = false;
@@ -47,7 +47,7 @@ function item_ball_hit()
 		_ids.hitbox = _new;
 		
 		//Make sure the person who threw the ball doesn't get hit by it
-		hitbox_group_whitelist_id(_hitbox.player_id, 0);
+		hitbox_group_whitelist_id(_hitbox.player_instance_id, 0);
 		
 		//Effects
 		vfx_create(spr_hit_normal_weak, 1, 0, 14, x, y, 1, _calc_angle, "VFX_Layer_Below");
@@ -59,4 +59,4 @@ function item_ball_hit()
 		vsp = lengthdir_y(_len, _calc_angle);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

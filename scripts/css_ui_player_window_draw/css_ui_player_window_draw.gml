@@ -1,5 +1,8 @@
 function css_ui_player_window_draw()
 	{
+	var _c;
+	var _pad;
+	var _half;
 	switch (state)
 		{
 		case CSS_PLAYER_WINDOW_STATE.select_character:
@@ -13,14 +16,14 @@ function css_ui_player_window_draw()
 			draw_clear_alpha(c_white, 0);
 			
 			//Draw the character
-			var _char = css_player_get(player_id, CSS_PLAYER.character);
-			var _color = css_player_get(player_id, CSS_PLAYER.color);
+			var _char = css_player_get(player_instance_id, CSS_PLAYER.character);
+			var _color = css_player_get(player_instance_id, CSS_PLAYER.color);
 			if (!setting().disable_shaders)
 				{
 				palette_shader_simple_set
 					(
 					character_data_get(_char, CHARACTER_DATA.palette_column_arrays)[@ 0], 
-					character_data_get(_char, CHARACTER_DATA.palette_column_arrays)[@ _color],
+					character_data_get(_char, CHARACTER_DATA.palette_column_arrays)[@ _color]
 					);
 				draw_sprite_ext(character_data_get(_char, CHARACTER_DATA.css_portrait), 0, half_width, half_height, css_character_sprite_scale, css_character_sprite_scale, 0, c_white, 1);
 				shader_reset();
@@ -36,7 +39,7 @@ function css_ui_player_window_draw()
 			break;
 		case CSS_PLAYER_WINDOW_STATE.select_profile:
 			//Draw background
-			var _c = $666666;
+			_c = $666666;
 			draw_rectangle_color(x - half_width, y - half_height, x + half_width - 1, y + half_height - 1, _c, _c, _c, _c, false);
 			
 			//Draw profiles
@@ -44,9 +47,9 @@ function css_ui_player_window_draw()
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
 			draw_set_font(fnt_consolas);
-			var _pad = half_height div 2;
-			var _half = _pad div 2;
-			var _c = c_dkgray;
+			_pad = half_height div 2;
+			_half = _pad div 2;
+			_c = c_dkgray;
 			for (var i = 0; i < min(profile_count(), 4); i++)
 				{
 				var _num = profile_scroll + i;
@@ -60,7 +63,7 @@ function css_ui_player_window_draw()
 			break;
 		case CSS_PLAYER_WINDOW_STATE.create_profile:
 			//Draw background
-			var _c = $666666;
+			_c = $666666;
 			draw_rectangle_color(x - half_width, y - half_height, x + half_width - 1, y + half_height, _c, _c, _c, _c, false);
 			
 			//Draw the letters
@@ -82,7 +85,7 @@ function css_ui_player_window_draw()
 			break;
 		case CSS_PLAYER_WINDOW_STATE.controls:
 			//Draw background
-			var _c = $666666;
+			_c = $666666;
 			draw_rectangle_color(x - half_width, y - half_height, x + half_width - 1, y + half_height - 1, _c, _c, _c, _c, false);
 			
 			//Custom controls selection
@@ -90,11 +93,11 @@ function css_ui_player_window_draw()
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
 			draw_set_font(fnt_consolas);
-			var _type = css_player_get(player_id, CSS_PLAYER.device_type);
+			var _type = css_player_get(player_instance_id, CSS_PLAYER.device_type);
 			var _cc = custom_controls_struct;
-			var _pad = half_height div 2;
-			var _half = _pad div 2;
-			var _c = c_dkgray;
+			_pad = half_height div 2;
+			_half = _pad div 2;
+			_c = c_dkgray;
 			var _inputs;
 			if (_type == DEVICE.controller)
 				{
@@ -278,7 +281,7 @@ function css_ui_player_window_draw()
 			break;
 		case CSS_PLAYER_WINDOW_STATE.control_set:
 			//Draw background
-			var _c = $666666;
+			_c = $666666;
 			draw_rectangle_color(x - half_width, y - half_height, x + half_width - 1, y + half_height, _c, _c, _c, _c, false);
 			
 			//Custom controls selection
@@ -286,7 +289,7 @@ function css_ui_player_window_draw()
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
 			draw_set_font(fnt_consolas);
-			var _type = css_player_get(player_id, CSS_PLAYER.device_type);
+			_type = css_player_get(player_instance_id, CSS_PLAYER.device_type);
 			draw_text(x, y - 16, cc_input_name_get(_type, custom_controls_current) + ":");
 			var _length = array_length(custom_controls_array);
 			if (_type == DEVICE.controller)
@@ -320,4 +323,4 @@ function css_ui_player_window_draw()
 			break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

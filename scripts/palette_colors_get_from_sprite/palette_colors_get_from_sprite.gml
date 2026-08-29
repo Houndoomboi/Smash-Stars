@@ -37,11 +37,11 @@ function palette_colors_get_from_sprite()
 		for (var m = 0; m < _colors_per_column; m++)
 			{
 			var _pos = (i + (m * _num_of_columns)) * 4;
-			var _col = make_color_rgb
+			_col = make_color_rgb
 				(
 				buffer_peek(_b, _pos, buffer_u8),
 				buffer_peek(_b, _pos + 1, buffer_u8),
-				buffer_peek(_b, _pos + 2, buffer_u8),
+				buffer_peek(_b, _pos + 2, buffer_u8)
 				);
 			array_push(_array, _col);
 			array_push(_alphas, buffer_peek(_b, _pos + 3, buffer_u8));
@@ -57,4 +57,4 @@ function palette_colors_get_from_sprite()
 		alphas : _alphas,
 		};
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -13,4 +13,4 @@ _s.text = "";
 _s.font = fnt_notice;
 _s.y_start = y;
 _s.color = c_white;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

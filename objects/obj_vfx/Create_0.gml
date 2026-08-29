@@ -32,4 +32,4 @@ vfx_allow_fade = true;
 owner = noone;
 important = false; //Important VFX will not be turned off when performance mode is on
 custom_vfx_struct = {};
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

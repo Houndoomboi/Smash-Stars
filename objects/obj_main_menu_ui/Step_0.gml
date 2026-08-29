@@ -24,7 +24,7 @@ for (var i = 0; i < array_length(_array); i++)
 		clamp(ui_cursor_y(_cursor) + _y, 0, room_height - 1),
 		false,
 		mis_device_input(_device_id, MIS_INPUT.confirm),
-		mis_device_input(_device_id, MIS_INPUT.confirm, true),
+		mis_device_input(_device_id, MIS_INPUT.confirm, true)
 		);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

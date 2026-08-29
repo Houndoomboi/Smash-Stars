@@ -56,7 +56,7 @@ if (state == CSS_STATE.normal)
 				_cy,
 				false,
 				mis_device_input(_device_id, MIS_INPUT.confirm),
-				mis_device_input(_device_id, MIS_INPUT.confirm, true),
+				mis_device_input(_device_id, MIS_INPUT.confirm, true)
 				);
 			}
 		else
@@ -114,7 +114,7 @@ if (state == CSS_STATE.normal)
 							_custom.token_held,
 							css_player_get(_custom.token_held, CSS_PLAYER.character),
 							css_player_get(_custom.token_held, CSS_PLAYER.color) - 1, //Subtract 1 so it goes to the current color
-							1,
+							1
 							)
 						);
 					}
@@ -144,7 +144,7 @@ if (state == CSS_STATE.normal)
 							_custom.token_held,
 							_zone.character,
 							_favorite_color - 1, //Subtract 1 so it goes to the current color
-							1,
+							1
 							);
 						css_player_set(_custom.token_held, CSS_PLAYER.color, _favorite_color);
 						}
@@ -179,6 +179,7 @@ else if (state == CSS_STATE.match_settings)
 		{
 		menu_sound_play(snd_menu_select);
 		var _choice = match_settings_choices[@ match_settings_current];
+		var _vals;
 		switch (_choice)
 			{
 			case "Stock":
@@ -188,7 +189,7 @@ else if (state == CSS_STATE.match_settings)
 				setting().match_time = modulo(setting().match_time + _rl, time_value_limit + 1);
 				break;
 			case "Stamina":
-				var _vals = stamina_valid_values;
+				_vals = stamina_valid_values;
 				stamina_index = modulo(stamina_index + _rl, array_length(_vals));
 				setting().match_stamina = _vals[@ stamina_index];
 				break;
@@ -199,7 +200,7 @@ else if (state == CSS_STATE.match_settings)
 				setting().match_team_attack ^= true;
 				break;
 			case "Items":
-				var _vals = items_frequency_valid_values;
+				_vals = items_frequency_valid_values;
 				items_frequency_index = modulo(items_frequency_index + _rl, array_length(_vals));
 				setting().match_items_frequency = _vals[@ items_frequency_index];
 				setting().match_items_enable = (setting().match_items_frequency > 0);
@@ -260,4 +261,4 @@ if (state == CSS_STATE.normal)
 	
 //Hold to go back
 css_back_button_timer = max(0, --css_back_button_timer);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

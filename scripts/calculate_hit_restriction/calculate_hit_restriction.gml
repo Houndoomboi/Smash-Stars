@@ -114,4 +114,4 @@ function calculate_hit_restriction()
 		default: crash("[calculate_hit_restriction] Invalid hit restriction (", _hitbox.hit_restriction, ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

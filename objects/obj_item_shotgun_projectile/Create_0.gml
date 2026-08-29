@@ -6,4 +6,4 @@ event_inherited();
 overlay_sprite = spr_item_shotgun_bullet;
 overlay_speed = 0;
 destroy_on_blocks = true;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

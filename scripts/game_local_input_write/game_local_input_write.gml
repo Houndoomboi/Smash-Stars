@@ -4,9 +4,11 @@
 ///@param {int} device_type					The device type, from the DEVICE enum
 ///@param {array} custom_controls			The custom controls array
 ///@param {int} flag						The input flag storing existing inputs
+///@param {bool} [count_pressed_inputs]		Whether pressed inputs are counted or not
 /*
 A helper function that gets the input of a local player and writes it to the given buffer.
 This is only intended to be used in <game_local_input> and <game_local_input_online>.
+You can optionally choose to NOT count pressed inputs, which is necessary if multiple frames are being run within 1 Step.
 */
 function game_local_input_write()
 	{
@@ -15,6 +17,7 @@ function game_local_input_write()
 	var _dt = argument[2];
 	var _cc = argument[3];
 	var _flag = argument[4];
+	var _count_pressed_inputs = argument_count > 5 ? argument[5] : true;
 	var _lx = 0;
 	var _ly = 0;
 	var _rx = 0;
@@ -257,6 +260,15 @@ function game_local_input_write()
 	#endregion
 	else crash("[game_local_input_write] Invalid device type (", _dt, ")");
 	
+	//Remove pressed inputs if necessary
+	if (!_count_pressed_inputs)
+		{
+		for (var i = 0; i < INPUT.LENGTH; i++)
+			{
+			_flag = bitflag_write(_flag, i, false);
+			}
+		}
+	
 	//Write to the buffer
 	buffer_write(_b, buffer_u32, _flag);
 	
@@ -265,4 +277,4 @@ function game_local_input_write()
 	buffer_write(_b, buffer_s8, round(_rx * 100.0));
 	buffer_write(_b, buffer_s8, round(_ry * 100.0));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

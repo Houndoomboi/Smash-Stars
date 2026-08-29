@@ -25,4 +25,4 @@ function entity_draw_self()
 	draw_surface_ext(object_surface_get(), x - _cx, y - _cy, abs(image_xscale), image_yscale, image_angle, image_blend, image_alpha);
 	shader_reset();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

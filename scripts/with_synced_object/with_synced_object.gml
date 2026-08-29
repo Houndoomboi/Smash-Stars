@@ -17,14 +17,14 @@ function with_synced_object()
 		var _index = -1;
 		for (var i = 0; i < sync_objects_length; i++) 
 			{
-			if (sync_objects[@ i] == _obj)
+			if (object_is(_obj, sync_objects[@ i]))
 				{
 				_index = i;
 				break;
 				}
 			}
 		
-		assert(_index != -1, "[with_synced_object] The object ", object_get_name(_obj), " was not included in the \"sync_id_system_init\" call");
+		ggmr_assert(_index != -1, "[with_synced_object] The object ", object_get_name(_obj), " was not included in the \"sync_id_system_init\" call");
 		
 		var _array = [];
 		var _source = sync_grid[# SYNC_GRID.structs, _index];
@@ -45,4 +45,5 @@ function with_synced_object()
 		}
 	ggmr_crash("obj_sync_id_system did not exist when with_synced_object was called");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+
+/* Copyright 2026 Springroll Games / Yosi */

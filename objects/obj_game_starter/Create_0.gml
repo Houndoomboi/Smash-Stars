@@ -10,4 +10,4 @@ image_x = 0;
 text_x = room_width;
 y = screen_height div 2;
 image_alpha = 0;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

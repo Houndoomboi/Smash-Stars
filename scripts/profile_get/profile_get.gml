@@ -10,4 +10,4 @@ function profile_get()
 		_setting = argument[1];
 	return _array[@ _setting];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

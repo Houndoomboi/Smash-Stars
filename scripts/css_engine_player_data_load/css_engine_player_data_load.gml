@@ -22,7 +22,7 @@ function css_engine_player_data_load()
 				_player[@ PLAYER_DATA.device_type],
 				_player[@ PLAYER_DATA.profile],
 				_player[@ PLAYER_DATA.is_cpu],
-				_player[@ PLAYER_DATA.custom],
+				_player[@ PLAYER_DATA.custom]
 				);
 			var _css_player = engine().css_player_data[@ i];
 			_css_player[@ CSS_PLAYER.color] = _player[@ PLAYER_DATA.color];
@@ -43,4 +43,4 @@ function css_engine_player_data_load()
 		}
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -26,4 +26,4 @@ function player_palette_change_colors()
 	//Update other variables
 	palette_swap = palette_column_array(palette_data);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

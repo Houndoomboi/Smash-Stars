@@ -16,4 +16,4 @@ function speed_set_towards_point()
 
 	speed_set(lengthdir_x(_dist, _dir), lengthdir_y(_dist, _dir), false, false);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

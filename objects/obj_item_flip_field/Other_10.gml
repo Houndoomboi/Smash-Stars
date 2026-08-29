@@ -52,4 +52,4 @@ else
 //Inherit the parent event
 event_inherited();
 if (!instance_exists(id)) then exit;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

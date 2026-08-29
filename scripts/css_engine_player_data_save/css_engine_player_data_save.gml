@@ -34,9 +34,9 @@ function css_engine_player_data_save()
 			_player[@ CSS_PLAYER.is_cpu],
 			_player[@ CSS_PLAYER.cpu_type],
 			_player[@ CSS_PLAYER.team],
-			_player[@ CSS_PLAYER.custom],
+			_player[@ CSS_PLAYER.custom]
 			);
 		}
 	return true;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

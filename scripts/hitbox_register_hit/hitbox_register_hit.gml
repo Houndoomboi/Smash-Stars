@@ -25,7 +25,7 @@ function hitbox_register_hit()
 			_hitbox.owner.any_hitbox_has_hit = true;
 		
 			//The hit will count toward KO points in a Time match with infinite stock
-			ko_property = _hitbox.player_id;
+			ko_property = _hitbox.player_instance_id;
 			}
 		else
 			{
@@ -48,7 +48,7 @@ function hitbox_register_hit()
 			_hitbox.has_hit = true;
 			
 			//The hit will count toward KO points in a Time match with infinite stock
-			ko_property = _hitbox.player_id;
+			ko_property = _hitbox.player_instance_id;
 			}
 		else
 			{
@@ -63,4 +63,4 @@ function hitbox_register_hit()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

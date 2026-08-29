@@ -6,4 +6,4 @@ function round_hundredth()
 	{
 	return floor(argument[0] * 100) / 100;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

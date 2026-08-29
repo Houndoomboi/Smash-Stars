@@ -32,4 +32,4 @@ function match_settings_default()
 		setting().match_ex_meter = match_ex_meter_default;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

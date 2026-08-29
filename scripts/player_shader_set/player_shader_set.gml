@@ -27,4 +27,4 @@ function player_shader_set()
 	var _outline_color = setting().match_team_mode ? player_color_get(player_team) : player_outline_color;
 	palette_shader_set(_palette_base, _palette_swap, _light, _alpha, fade_value, player_outline, _outline_color, -1, -1, object_surface_get(), flash_color, flash_alpha);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -5,4 +5,4 @@ It handles automatically connecting devices and getting inputs from devices.
 Data for the MIS is stored in the global function mis_data (in <mis_init>), NOT in obj_mis_system.
 */
 ///@description Docs
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -35,4 +35,4 @@ function mis_device_stick_press_repeated()
 		}
 	crash("[mis_device_stick_press_repeated] No device exists with the given ID (", _id, ")");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

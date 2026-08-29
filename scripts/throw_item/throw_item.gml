@@ -46,4 +46,4 @@ function throw_item()
 	//No item was thrown
 	return noone;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -21,17 +21,18 @@ function anim_set()
 	if (is_array(argument[0]))
 		{
 		var _array = argument[0];
+		var _a;
 	
 		//Check if it is a single animation or an array of animations
 		if (_array[@ ANIMATION._FLAG_] == -1)
 			{
 			//Single animation
-			var _a = _array;
+			_a = _array;
 			}
 		else
 			{
 			//Array of animations - choose a random one
-			var _a = _array[@ prng_number(0, array_length(_array) - 1)];
+			_a = _array[@ prng_number(0, array_length(_array) - 1)];
 		
 			//If it is a single sprite and not an animation, simply set the sprite
 			if (!is_array(_a))
@@ -97,4 +98,4 @@ function anim_set()
 		anim_finish = argument_count > 9 ? argument[9] : anim_finish_normal;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -13,4 +13,4 @@ function timestamp_create()
 		string_replace(string_format(current_second,	2, 0), " ", "0") + ")";
 	return _stamp;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

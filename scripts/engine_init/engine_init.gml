@@ -36,7 +36,7 @@ function engine_init()
 		window_set_position
 			(
 			(display_get_width() div 2) - (_width div 2),
-			(display_get_height() div 2) - (_height div 2),
+			(display_get_height() div 2) - (_height div 2)
 			);
 		}
 	else
@@ -79,4 +79,4 @@ function engine_init()
 	//Simple Attack Predefinitions
 	simple_attack_definitions();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -13,4 +13,4 @@ function stick_get_distance()
 	var _index = (_frame * CONTROL_STICK.LENGTH);
 	return point_distance(0, 0, _array[@ CONTROL_STICK.xval + _index], _array[@ CONTROL_STICK.yval + _index]);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

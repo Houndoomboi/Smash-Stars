@@ -31,4 +31,4 @@ function stats_set()
 	log("Stat \"", _name, "\" has been updated to ", _value);
 	return _struct[$ _name];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

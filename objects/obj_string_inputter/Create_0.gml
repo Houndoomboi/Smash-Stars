@@ -22,4 +22,4 @@ mis_init();
 
 //Keyboard backspace repeat
 inputter_backspace_held_time = 0;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

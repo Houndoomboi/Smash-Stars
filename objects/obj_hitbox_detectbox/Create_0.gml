@@ -18,4 +18,4 @@ owner_xstart = 0;
 owner_ystart = 0;
 detect_script = -1;
 detect_multihit = false;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

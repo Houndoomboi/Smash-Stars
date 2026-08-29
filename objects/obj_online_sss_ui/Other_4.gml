@@ -2,8 +2,6 @@
 //MIS
 mis_init();
 
-//Background animation
-menu_background_color_set($7FB252);
 
 //Universal Cursor
 ui_cursor_add(0, room_width div 2, room_height div 2);

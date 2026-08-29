@@ -35,9 +35,6 @@ can_save_replay = setting().replay_record;
 replay_metadata = replay_metadata_struct();
 replay_name = "Replay " + string(replay_data_get().time);
 
-//Background animation
-
-
 //Play the victory theme
 audio_stop_all();
 var _music = character_data_get(_character, CHARACTER_DATA.music);
@@ -48,4 +45,4 @@ if (audio_exists(_music))
 
 //Time Limit
 time_left = (engine().win_screen_time_limit * 60);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

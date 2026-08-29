@@ -18,12 +18,12 @@ else
 			(
 			_stick.point1.x, _stick.point1.y,
 			_stick.point2.x, _stick.point2.y, 
-			3,
+			3
 			);
 		}
 		
 	//Draw points
-	var _num = array_length(verlet_points);
+	_num = array_length(verlet_points);
 	for (var i = 0; i < _num; i++)
 		{
 		var _point = verlet_points[@ i];
@@ -31,4 +31,4 @@ else
 		}
 	}
 	
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

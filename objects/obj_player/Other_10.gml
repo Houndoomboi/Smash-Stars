@@ -255,4 +255,4 @@ assert(di_angle >= 0, "[obj_player: User Event 0] DI angle cannot be negative!")
 assert(anim_frame >= 0, "[obj_player: User Event 0] Anim Frame cannot be negative!");
 assert(frac(anim_offsetx) == 0, "[obj_player: User Event 0] Anim Offset X cannot be a float!");
 assert(frac(anim_offsety) == 0, "[obj_player: User Event 0] Anim Offset Y cannot be a float!");
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

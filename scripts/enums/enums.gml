@@ -535,6 +535,7 @@ enum DEVICE
 enum CSS_PLAYER
 	{
 	player_id,
+	player_instance_id,
 	device,
 	device_type,
 	character,

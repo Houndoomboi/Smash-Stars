@@ -1,5 +1,5 @@
 ///@category Attacking
-///@param {id} player_id			The id of the player to be damaged
+///@param {id} player_instance_id			The id of the player to be damaged
 ///@param {int/real} damage			How much damage to give to the player
 /*
 Applies a given amount of damage to a player instance.
@@ -54,4 +54,4 @@ function apply_damage()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

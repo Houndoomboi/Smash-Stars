@@ -48,7 +48,7 @@ function draw_damage_text_overhead()
 				_scale,
 				0,
 				_col,
-				1,
+				1
 				);
 			_x += _pad;
 			}
@@ -79,7 +79,7 @@ function draw_damage_text_overhead()
 					_scale,
 					0,
 					_col,
-					1,
+					1
 					);
 				_x += (_pad / 2);
 				}
@@ -96,7 +96,7 @@ function draw_damage_text_overhead()
 					_scale,
 					0,
 					_col,
-					1,
+					1
 					);
 				_x += _pad;
 				}
@@ -122,7 +122,7 @@ function draw_damage_text_overhead()
 					_scale,
 					0,
 					_col,
-					1,
+					1
 					);
 				_x += _pad;
 				}
@@ -141,7 +141,7 @@ function draw_damage_text_overhead()
 				_scale,
 				0,
 				_col,
-				1,
+				1
 				);
 			_x += _pad;
 			for (var i = 0; i < string_length(_stock_string); i++)
@@ -158,11 +158,11 @@ function draw_damage_text_overhead()
 					_scale,
 					0,
 					_col,
-					1,
+					1
 					);
 				_x += _pad;
 				}
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -32,4 +32,4 @@ function hurtbox_create()
 		}
 	return _hurtbox;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

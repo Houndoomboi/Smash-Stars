@@ -172,7 +172,7 @@ cli = cli_init
 				window_set_position
 					(
 					(display_get_width() div 2) - (_ww div 2),
-					(display_get_height() div 2) - (_wh div 2),
+					(display_get_height() div 2) - (_wh div 2)
 					);
 				},
 			CLI_TYPE.general,
@@ -195,7 +195,7 @@ cli = cli_init
 				},
 			CLI_TYPE.general,
 			],
-		],
+		]
 	);
 	
 array_sort
@@ -204,8 +204,8 @@ array_sort
 	function(_a, _b)
 		{
 		return ord(string_char_at(_a[@ 0], 1)) - ord(string_char_at(_b[@ 0], 1));
-		},
+		}
 	);
 
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

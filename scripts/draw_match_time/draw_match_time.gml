@@ -50,12 +50,12 @@ function draw_match_time()
 			_scale,
 			0,
 			_col,
-			_alpha,
+			_alpha
 			);
 		_x += _pad;
 		}
 		
-	var _len = string_length(_seconds);
+	_len = string_length(_seconds);
 	_x = _center_x + _pad;
 	for (var i = 0; i < _len; i++)
 		{
@@ -71,9 +71,9 @@ function draw_match_time()
 			_scale,
 			0,
 			_col,
-			_alpha,
+			_alpha
 			);
 		_x += _pad;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

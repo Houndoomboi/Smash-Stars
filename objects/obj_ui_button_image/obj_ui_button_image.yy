@@ -1,16 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"obj_ui_button_image",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_ui_button_image",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_depth","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_button_image_create","path":"scripts/ui_button_image_create/ui_button_image_create.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_button_image_create",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_button_step","path":"scripts/ui_button_step/ui_button_step.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_button_step",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_default_draw","path":"scripts/ui_default_draw/ui_default_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_draw","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"ui_image_draw","path":"scripts/ui_image_draw/ui_image_draw.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ui_image_draw",},
   ],
   "parent":{
     "name":"Objects",
@@ -27,16 +25,11 @@
   "physicsGroup":0,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":true,
+  "physicsObject":false,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":32.0,"y":0.0,},
-    {"x":32.0,"y":32.0,},
-    {"x":0.0,"y":32.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"sprite","filters":[
@@ -67,7 +60,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ui_image",
+    "path":"sprites/spr_ui_image/spr_ui_image.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

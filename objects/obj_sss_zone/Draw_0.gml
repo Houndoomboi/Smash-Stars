@@ -16,4 +16,4 @@ else
 	{
 	draw_sprite(spr_stage_random_button, 0, x + (sprite_width / 2), y + (sprite_height / 2));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

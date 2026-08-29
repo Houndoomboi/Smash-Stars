@@ -11,15 +11,15 @@ function player_color_get()
 
 	switch (argument[0])
 		{
-		case 0: return $5959E0; break;
-		case 1: return $DD8A56; break;
-		case 2: return $32E0FF; break;
-		case 3: return $2DFF62; break;
-		case 4: return $FF70C3; break;
-		case 5: return $FFF070; break;
-		case 6: return $995BE5; break;
-		case 7: return $5A9AE2; break;
+		case 0: return $5959E0;
+		case 1: return $DD8A56;
+		case 2: return $32E0FF;
+		case 3: return $2DFF62;
+		case 4: return $FF70C3;
+		case 5: return $FFF070;
+		case 6: return $995BE5;
+		case 7: return $5A9AE2;
 		default: return $FFFFFF; //Returns pure white for player numbers higher than 7, the default max.
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

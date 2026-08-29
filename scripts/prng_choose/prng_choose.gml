@@ -9,4 +9,4 @@ function prng_choose()
 	var _random = prng_number(_channel, argument_count - 1, 1);
 	return argument[_random];
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

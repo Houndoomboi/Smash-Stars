@@ -18,4 +18,4 @@ function mis_device_limit_set()
 	mis_data().max_total = _t;
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

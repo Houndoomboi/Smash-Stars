@@ -10,4 +10,4 @@ function bitflag_read()
 	
 	return (_num >> _pos) & 1;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

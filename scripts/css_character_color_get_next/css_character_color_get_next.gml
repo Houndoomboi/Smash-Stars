@@ -1,5 +1,5 @@
 ///@category Character Select Screen
-///@param {int} player_id				The player in the character select screen
+///@param {int} player_instance_id				The player in the character select screen
 ///@param {int} character				The character selected
 ///@param {int} [current_color]			The color the player currently has
 ///@param {int} [direction]				The direction to change the color
@@ -38,7 +38,7 @@ function css_character_color_get_next()
 			{
 			//The checking player does not count itself
 			var _player = engine().css_player_data[@ i];
-			if (_player[@ CSS_PLAYER.player_id] == _id) then continue;
+			if (_player[@ CSS_PLAYER.player_instance_id] == _id) then continue;
 				
 			//Only check other players using the same character
 			if (_player[@ CSS_PLAYER.character] == _character && _player[@ CSS_PLAYER.color] == _col)
@@ -54,4 +54,4 @@ function css_character_color_get_next()
 		}
 	return _col;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

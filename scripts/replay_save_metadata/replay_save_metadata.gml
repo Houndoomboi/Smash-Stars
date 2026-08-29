@@ -12,4 +12,4 @@ function replay_save_metadata()
 	var _meta = replay_metadata_struct();
 	buffer_write(_b, buffer_string, json_stringify(_meta));
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

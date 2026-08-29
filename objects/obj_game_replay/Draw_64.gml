@@ -56,7 +56,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 							key_to_string(menu_start_key, true),
 							")",
 							],
-						0,
+						0
 						);
 					break;
 				case "Rewind":
@@ -70,7 +70,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 							key_to_string(menu_select_key, true),
 							")",
 							],
-						0,
+						0
 						);
 					break;
 				case "Take Control":
@@ -102,7 +102,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				"Arrow Keys",
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -115,7 +115,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_page_next_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -128,7 +128,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_page_last_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -141,9 +141,25 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_start_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
+		if (replay_rewind_enable)
+			{
+			draw_text_and_sprites
+				(
+				_x, _y,
+					[
+					"Rewind (",
+					[spr_icon_input_button_universal, gamepad_button_number(menu_select_button)],
+					" or ",
+					key_to_string(menu_select_key, true),
+					")",
+					],
+				0
+				);
+			_y += _pad;
+			}
 		draw_text_and_sprites
 			(
 			_x, _y,
@@ -154,7 +170,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_option_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -167,7 +183,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_back_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -180,7 +196,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_remove_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		}
@@ -204,7 +220,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_start_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		draw_text_and_sprites
@@ -217,7 +233,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 				key_to_string(menu_select_key, true),
 				")",
 				],
-			0,
+			0
 			);
 		_y += _pad;
 		}
@@ -225,15 +241,26 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 	if (!replay_camera_mode && !replay_took_control)
 		{
 		//Progress bar
-		var _x = 32;
-		var _y = screen_height - 40;
+		_x = 32;
+		_y = screen_height - 40;
 		var _w = screen_width - (_x * 2);
 		var _h = 8;
-		var _pad = 8;
+		_pad = 8;
 		draw_set_color(c_dkgray);
 		draw_rectangle(_x - 2, _y - 2, _x + _w + 2, _y + _h + 2, false);
 		draw_set_color(c_white);
 		draw_rectangle(_x, _y, _x + (_w * (current_frame / engine().replay_total_frames)), _y + _h, false);
+	
+		//Rewind points
+		draw_set_color(c_black);
+		var _points = array_length(replay_rewind_saves);
+		for (var i = 0; i < _points; i++)
+			{
+			var _frame = replay_rewind_saves[@ i].frame;
+			var _cx = _x + (_w * (_frame / engine().replay_total_frames));
+			var _cy = _y + (_h / 2);
+			draw_rectangle(_cx - 1, _cy - 1, _cx + 1, _cy + 1, false);
+			}
 	
 		//KOs
 		var _kos = array_length(engine().replay_player_ko_frames);
@@ -248,4 +275,4 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -39,7 +39,7 @@ function css_player_add()
 		_new[@ CSS_PLAYER.device] = _device;
 		_new[@ CSS_PLAYER.device_type] = _device_type;
 		_new[@ CSS_PLAYER.is_cpu] = _cpu;
-		_new[@ CSS_PLAYER.player_id] = _id;
+		_new[@ CSS_PLAYER.player_instance_id] = _id;
 		_new[@ CSS_PLAYER.profile] = _profile;
 		_new[@ CSS_PLAYER.team] = 0;
 		array_push(engine().css_player_data, _new);
@@ -55,4 +55,4 @@ function css_player_add()
 		return undefined;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

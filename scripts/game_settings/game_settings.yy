@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"game_settings",
   "parent":{
-    "name":"SmashStars",
-    "path":"SmashStars.yyp",
+    "name":"SmashStars1",
+    "path":"SmashStars1.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

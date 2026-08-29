@@ -17,4 +17,4 @@ _ids.hitbox = noone;
 image_xscale = item_sprite_scale_default * prng_choose(0, -1, 1);
 image_speed = 0;
 image_index = 4;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

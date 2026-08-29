@@ -17,4 +17,4 @@ function collision_flag_set()
 		collision_flags = _b ? collision_flags | (1 << _f) : collision_flags & ~(1 << _f);
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

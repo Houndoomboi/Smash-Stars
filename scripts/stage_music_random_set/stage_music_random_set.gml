@@ -45,7 +45,7 @@ function stage_music_random_set()
 	var _random_number = random(_sum);
 
 	//Choose the value based on the random number and the weights
-	var _sum = 0;
+	_sum = 0;
 	var _song = 0;
 	var _intro = 0;
 	var _loop = 0;
@@ -72,4 +72,4 @@ function stage_music_random_set()
 		music_loop_pos = _loop;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -12,4 +12,4 @@ function css_ui_clock_label_step()
 		}
 	text = (string(current_hour) + ":" + _minute);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

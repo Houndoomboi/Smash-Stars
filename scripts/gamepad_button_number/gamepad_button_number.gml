@@ -41,4 +41,4 @@ function gamepad_button_number()
 	if (_b == gp_stickr) then return 15;
 	crash("[gamepad_button_number] The argument passed was not a gp_* constant");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

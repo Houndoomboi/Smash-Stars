@@ -5,16 +5,12 @@ If the player is currently standing on a solid block or a platform, this functio
 function check_landing()
 	{
 	var _landed = false;
-	if (vsp == 0 && landed_on_ground){
-		_landed = true;
-				global.AirSpecialUsed = 0;
-				}
+	if (vsp == 0 && landed_on_ground) then _landed = true;
 	else if (vsp >= 0 && on_solid()) then _landed = true;
 	else if (vsp >= 0 && !stick_tilted(Lstick, DIR.down) && on_ground()) then _landed = true;
 	
 	if (_landed)
 		{
-
 		//Stop speed and change state
 		speed_set(0, 0, true, false);
 		state_set(PLAYER_STATE.landing_lag);
@@ -26,4 +22,4 @@ function check_landing()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

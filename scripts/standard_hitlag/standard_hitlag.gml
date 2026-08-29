@@ -32,10 +32,10 @@ function standard_hitlag()
 				//Turn around based on the knockback
 				if (hit_turnaround)
 					{
-					var _diff = abs(angle_difference(knockback_dir, 0));
+					var _diff = sign(lengthdir_x(1, knockback_dir));
 					if (_diff != 0)
 						{
-						facing = _diff < 90 ? -1 : 1;
+						facing = -_diff;
 						}
 					}
 				}
@@ -58,4 +58,4 @@ function standard_hitlag()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

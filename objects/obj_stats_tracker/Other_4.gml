@@ -16,4 +16,4 @@ if (room == rm_main_menu)
 	
 	starting_time = date_current_datetime();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -34,4 +34,4 @@ function spread_positions_get()
 		y : _ay + ((_by - _ay) * _u) + ((_dy - _ay) * _v) + ((_ay - _by + _cy - _dy) * _u * _v),
 		};
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -37,7 +37,7 @@ function player_draw_self()
 				anim_scale,
 				0,
 				c_white,
-				1,
+				1
 				);
 				
 			surface_reset_target();
@@ -70,7 +70,7 @@ function player_draw_self()
 				sprite_scale * _s,
 				anim_angle,
 				_blend,
-				1,
+				1
 				);
 					
 			shader_reset();
@@ -81,4 +81,4 @@ function player_draw_self()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

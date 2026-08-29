@@ -8,4 +8,4 @@ function screen_y()
 	var _v = argument[0];
 	return (_v - obj_game.cam_y) * (screen_height / obj_game.cam_h);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

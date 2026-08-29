@@ -13,7 +13,7 @@ function options_save()
 		var _o = _array[@ i];
 		_struct[$ _o] = setting()[$ _o];
 		}
-	var _array = _options[$ "engine"];
+	_array = _options[$ "engine"];
 	for (var i = 0; i < array_length(_array); i++)
 		{
 		var _o = _array[@ i];
@@ -23,4 +23,4 @@ function options_save()
 	string_file_save(savefile_options, _json);
 	log("Saved the game options!");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

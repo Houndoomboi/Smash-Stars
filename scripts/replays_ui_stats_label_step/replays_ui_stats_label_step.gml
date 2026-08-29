@@ -5,4 +5,4 @@ function replays_ui_stats_label_step()
 	text += "Clips: " + string(obj_replays_ui.replay_clip_number) + "\n";
 	text += "Unknown Files: " + string(obj_replays_ui.replay_unknown_number) + "\n";
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

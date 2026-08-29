@@ -13,4 +13,4 @@ function on_solid()
 
 	return collision(_x, _y + 1, [FLAG.solid]);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

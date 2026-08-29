@@ -20,4 +20,4 @@ function input_name_get()
 		default: crash("[input_name_get] Invalid input (", argument[0], "). Did you add a value to INPUT without adding it to this script?"); break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

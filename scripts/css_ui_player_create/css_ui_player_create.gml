@@ -1,6 +1,6 @@
 ///@category Character Select Screen
 ///@param {int} slot			The player slot, with 0 being the leftmost spot on the screen
-///@param {int} player_id		The player number
+///@param {int} player_instance_id		The player number
 ///@param {int} group			The UI group
 ///@param {int} index			The index for UI buttons, which should match up with the UI cursor
 ///@param {int} size_number		Either 0 if there are 4 or fewer players, or 1 if there are more than 4 players
@@ -40,7 +40,7 @@ function css_ui_player_create()
 				ui_script_step = css_ui_player_name_label_step;
 				text = "PLAYER " + string(_num + 1);
 				halign = -1;
-				player_id = _id;
+				player_instance_id = _id;
 				ui_set_group(id, _group);
 				image_blend = c_dkgray;
 				ui_script_step();
@@ -52,7 +52,7 @@ function css_ui_player_create()
 				image_xscale = 5;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = false;
 				ui_button_colors_set(id, _color, _color_hover, _color_clicked);
@@ -71,7 +71,7 @@ function css_ui_player_create()
 				image_xscale = 1.5;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = false;
 				ui_script_step();
@@ -93,7 +93,7 @@ function css_ui_player_create()
 				image_xscale = 1.5;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = true;
 				ui_script_step();
@@ -104,7 +104,7 @@ function css_ui_player_create()
 			{
 			sprite_index = spr_css_random;
 			ui_set_group(id, _group);
-			player_id = _id;
+			player_instance_id = _id;
 			size = _size;
 			number = _num;
 			//Get the custom controls struct
@@ -114,7 +114,7 @@ function css_ui_player_create()
 			//Make sure to activate the cursor
 			if (!_cpu)
 				{
-				var _custom = css_player_get(player_id, CSS_PLAYER.custom);
+				var _custom = css_player_get(player_instance_id, CSS_PLAYER.custom);
 				_custom.cursor_active = true;
 				}
 			}
@@ -128,9 +128,9 @@ function css_ui_player_create()
 				image_xscale = 5.75;
 				image_yscale = 0.75;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
-				text = "Team " + string(css_player_get(player_id, CSS_PLAYER.team));
+				text = "Team " + string(css_player_get(player_instance_id, CSS_PLAYER.team));
 				anyone_can_interact = true;
 				ui_script_step();
 				}
@@ -149,7 +149,7 @@ function css_ui_player_create()
 			image_xscale = 0.75;
 			image_yscale = 0.75;
 			ui_set_group(id, _group);
-			player_id = _id;
+			player_instance_id = _id;
 			index = _index;
 			anyone_can_interact = _cpu;
 			ui_script_step();
@@ -183,7 +183,7 @@ function css_ui_player_create()
 				ui_script_step = css_ui_player_name_label_step;
 				text = "PLAYER " + string(_num + 1);
 				halign = -1;
-				player_id = _id;
+				player_instance_id = _id;
 				ui_set_group(id, _group);
 				image_blend = c_dkgray;
 				ui_script_step();
@@ -195,7 +195,7 @@ function css_ui_player_create()
 				image_xscale = 2.5;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = false;
 				ui_button_colors_set(id, _color, _color_hover, _color_clicked);
@@ -214,7 +214,7 @@ function css_ui_player_create()
 				image_xscale = 1;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = false;
 				ui_script_step();
@@ -236,7 +236,7 @@ function css_ui_player_create()
 				image_xscale = 1;
 				image_yscale = 1;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
 				anyone_can_interact = true;
 				ui_script_step();
@@ -247,7 +247,7 @@ function css_ui_player_create()
 			{
 			sprite_index = spr_css_random;
 			ui_set_group(id, _group);
-			player_id = _id;
+			player_instance_id = _id;
 			size = _size;
 			number = _num;
 			//Get the custom controls struct
@@ -257,7 +257,7 @@ function css_ui_player_create()
 			//Make sure to activate the cursor
 			if (!_cpu)
 				{
-				var _custom = css_player_get(player_id, CSS_PLAYER.custom);
+				var _custom = css_player_get(player_instance_id, CSS_PLAYER.custom);
 				_custom.cursor_active = true;
 				}
 			}
@@ -271,9 +271,9 @@ function css_ui_player_create()
 				image_xscale = 2.75;
 				image_yscale = 0.75;
 				ui_set_group(id, _group);
-				player_id = _id;
+				player_instance_id = _id;
 				index = _index;
-				text = "Team " + string(css_player_get(player_id, CSS_PLAYER.team));
+				text = "Team " + string(css_player_get(player_instance_id, CSS_PLAYER.team));
 				anyone_can_interact = true;
 				ui_script_step();
 				}
@@ -292,7 +292,7 @@ function css_ui_player_create()
 			image_xscale = 0.75;
 			image_yscale = 0.75;
 			ui_set_group(id, _group);
-			player_id = _id;
+			player_instance_id = _id;
 			index = _index;
 			anyone_can_interact = _cpu;
 			ui_script_step();
@@ -312,4 +312,4 @@ function css_ui_player_create()
 		crash("[css_ui_player_create] Invalid size (", _size, "), must be either 0 or 1!");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

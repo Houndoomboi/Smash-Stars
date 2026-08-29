@@ -11,8 +11,6 @@ mis_init();
 mis_device_disconnect_all();
 mis_auto_connect_enable(true);
 
-//Background animation
-menu_background_color_set($FFAC30);
 
 active = true;
 

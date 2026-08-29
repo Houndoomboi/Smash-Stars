@@ -25,7 +25,7 @@ function verlet_system_point_destroy()
 			}
 		
 		//Check all sticks
-		var _num = array_length(verlet_sticks);
+		_num = array_length(verlet_sticks);
 		for (var i = _num - 1; i >= 0; i--)
 			{
 			var _stick = verlet_sticks[@ i];
@@ -41,4 +41,4 @@ function verlet_system_point_destroy()
 		}
 	}
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

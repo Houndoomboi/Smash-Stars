@@ -11,4 +11,4 @@ function hurtbox_sprite_angle_set()
 		image_angle = owner.facing == 1 ? argument[1] : -argument[1];
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

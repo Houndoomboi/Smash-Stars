@@ -7,8 +7,8 @@ function css_players_get_array()
 	var _array = [];
 	for (var i = 0; i < array_length(engine().css_player_data); i++)
 		{
-		array_push(_array, engine().css_player_data[@ i][@ CSS_PLAYER.player_id]);
+		array_push(_array, engine().css_player_data[@ i][@ CSS_PLAYER.player_instance_id]);
 		}
 	return _array;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

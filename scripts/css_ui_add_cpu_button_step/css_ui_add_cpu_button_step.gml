@@ -25,8 +25,8 @@ function css_ui_add_cpu_button_step()
 						noone,
 						862 + irandom_range(-20, 20), //Coordinates of the center of the Random character zone on the CSS
 						164 + irandom_range(-20, 20),
-						false,
-						),
+						false
+						)
 					);
 				//Profile
 				//Turn off all SCS for CPUs specifically
@@ -36,13 +36,13 @@ function css_ui_add_cpu_button_step()
 					(
 					"CPU " + string(css_players_count()), 
 					_cc, 
-					true,
+					true
 					);
 				css_player_set
 					(
 					_player_id, 
 					CSS_PLAYER.profile,
-					_profile,
+					_profile
 					);
 				
 				//Refresh UI
@@ -51,4 +51,4 @@ function css_ui_add_cpu_button_step()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

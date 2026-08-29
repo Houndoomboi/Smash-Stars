@@ -21,4 +21,4 @@ function anim_define()
 	_new[@ ANIMATION.finish] =	argument_count > 1 ? argument[1] : anim_finish_normal;
 	return _new;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -6,4 +6,4 @@ It uses inputs from the file previous loaded by <replay_load> to run the game.
 ///@description Inherit
 
 event_inherited();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -9,4 +9,4 @@ function mis_controller_deadzone_set()
 	mis_data().controller_deadzone = argument[0];
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

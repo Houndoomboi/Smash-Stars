@@ -21,4 +21,4 @@ verlet_bounce_multiplier = 0.6;
 verlet_sticks_iterations = 3;
 verlet_sticks_strength_multiplier = 0.9; //Only applies to default sticks, not rigid sticks
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

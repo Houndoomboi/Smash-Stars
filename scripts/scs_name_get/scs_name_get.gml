@@ -19,4 +19,4 @@ function scs_name_get()
 		default: crash("[scs_name_get] Invalid SCS number (", argument[0], "). Did you add a value to SCS without adding it to this script?");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

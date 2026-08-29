@@ -20,4 +20,4 @@ if ((setting().show_hitboxes || overlay_sprite != -1) && surface_exists(obj_game
 		
 	if (game_surface_enable) surface_reset_target();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

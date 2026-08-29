@@ -204,4 +204,4 @@ function camera_update()
 	cam_shake_h = approach(cam_shake_h, 0, 1);
 	cam_shake_v = approach(cam_shake_v, 0, 1);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

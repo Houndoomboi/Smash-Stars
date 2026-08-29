@@ -16,4 +16,4 @@ function is_knocked_out()
 		_p.state == PLAYER_STATE.screen_ko		||
 		_p.state == PLAYER_STATE.lost;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

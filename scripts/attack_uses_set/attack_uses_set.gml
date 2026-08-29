@@ -16,4 +16,4 @@ function attack_uses_set()
 		attack_uses[$ string(_script)] = _uses;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

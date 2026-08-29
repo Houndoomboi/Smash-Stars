@@ -95,4 +95,4 @@ function cc_input_name_get()
 		crash("[cc_input_name_get] Invalid device type (", _device, ")");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

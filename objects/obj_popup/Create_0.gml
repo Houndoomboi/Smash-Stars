@@ -13,4 +13,4 @@ popup_color = c_white;
 
 //Menu input system
 mis_init();
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

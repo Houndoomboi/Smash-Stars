@@ -39,7 +39,7 @@ function check_waveland()
 			}
 			
 		//Snap landing DOWN onto platforms
-		var _plat = collision(x, y + platform_snap_down_threshold, [FLAG.plat]);
+		_plat = collision(x, y + platform_snap_down_threshold, [FLAG.plat]);
 		if (_plat != noone && (bbox_bottom - 1) < _plat.bbox_top)
 			{
 			var _diff = _plat.bbox_top - (bbox_bottom - 1);
@@ -82,4 +82,4 @@ function check_waveland()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

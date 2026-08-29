@@ -41,7 +41,7 @@ _y += _pad;
 //Choices
 for (var i = 0; i < _choice_count; i++)
 	{
-	var _choice_h = string_height_ext(popup_choices[@ i], _pad, _text_w);
+	_choice_h = string_height_ext(popup_choices[@ i], _pad, _text_w);
 	if (popup_current == i)
 		{
 		draw_set_color(c_ltgray);
@@ -55,4 +55,4 @@ for (var i = 0; i < _choice_count; i++)
 	draw_text_ext(_x, _y + (_choice_h div 2), popup_choices[@ i], _pad, _text_w);
 	_y += _choice_h;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

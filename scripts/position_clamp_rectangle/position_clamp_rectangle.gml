@@ -24,4 +24,4 @@ function position_clamp_rectangle()
 
 	return { x : _new_x, y : _new_y };
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

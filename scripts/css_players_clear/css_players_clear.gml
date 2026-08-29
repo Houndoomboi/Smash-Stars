@@ -7,4 +7,4 @@ function css_players_clear()
 	engine().css_player_data = [];
 	log("Reset all of the CSS player data!");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

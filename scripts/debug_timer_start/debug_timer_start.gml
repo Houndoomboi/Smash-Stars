@@ -13,4 +13,4 @@ function Debug_Timerstack()
 	static _stack = ds_stack_create();
 	return _stack;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

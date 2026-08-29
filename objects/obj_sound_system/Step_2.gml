@@ -9,4 +9,4 @@ for (var i = 0; i < _length; i++)
 		sound_system_all_sounds[$ _array[@ i]] = _val + 1;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

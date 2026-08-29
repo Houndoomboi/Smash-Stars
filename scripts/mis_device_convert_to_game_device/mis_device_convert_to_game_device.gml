@@ -24,4 +24,4 @@ function mis_device_convert_to_game_device()
 		if (_device_type == MIS_DEVICE_TYPE.custom) then return DEVICE.touch;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -26,7 +26,7 @@ function standard_crouching()
 		case PLAYER_STATE_PHASE.normal:
 			{
 			//Contains the standard actions for the crouching state.
-			var run = true;
+			run = true;
 	
 			//Hurtbox
 			hurtbox_anim_set(hurtbox_crouch_sprite, round(anim_frame), facing, 1, 0);
@@ -97,4 +97,4 @@ function standard_crouching()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

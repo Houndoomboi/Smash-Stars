@@ -11,4 +11,4 @@ function mis_keyboard_stick_set()
 	mis_data().keyboard_stick = [argument[0], argument[1], argument[2], argument[3]];
 	return;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

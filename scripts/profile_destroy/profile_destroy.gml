@@ -7,4 +7,4 @@ function profile_destroy()
 	{
 	array_delete(engine().profiles, argument[0], 1);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

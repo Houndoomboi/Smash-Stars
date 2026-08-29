@@ -41,4 +41,4 @@ function standard_ledge_trump()
 			}
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

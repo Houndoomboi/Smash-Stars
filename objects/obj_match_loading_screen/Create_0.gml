@@ -60,4 +60,4 @@ if (setting().match_items_enable)
 	
 //Stop music
 audio_stop_sound(song_menu);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -22,4 +22,4 @@ function acs_name_get()
 		default: crash("[acs_name_get] Invalid ACS number (", argument[0], "). Did you add a value to ACS without adding it to this script?");
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

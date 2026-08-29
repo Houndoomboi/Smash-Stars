@@ -9,4 +9,4 @@ function calculate_shield_pushback()
 	{
 	return (lengthdir_x(argument[0], argument[1]) * shield_pushback_multiplier * argument[2]);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

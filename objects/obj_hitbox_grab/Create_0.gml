@@ -17,4 +17,4 @@ owner_xstart = 0;
 owner_ystart = 0;
 grab_destination_x = x;
 grab_destination_y = y;
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

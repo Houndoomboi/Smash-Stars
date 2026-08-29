@@ -24,7 +24,7 @@ function game_state_hash()
 			{
 			array_push(_array, "(" + object_get_name(object_index) + "," + string(x) + "," + string(y) + ")");
 			},
-		_values,
+		_values
 		);
 	for (var i = 0; i < array_length(_values); i++)
 		{
@@ -32,4 +32,4 @@ function game_state_hash()
 		}
 	return _hash;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

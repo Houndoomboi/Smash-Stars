@@ -22,4 +22,4 @@ function item_bat_attack_default_draw_script()
 	draw_surface_ext(object_surface_get(), x - _cx, y - _cy, abs(sprite_scale), sprite_scale, 0, c_white, 1);
 	shader_reset();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

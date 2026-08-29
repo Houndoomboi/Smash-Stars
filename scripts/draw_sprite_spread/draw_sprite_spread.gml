@@ -33,4 +33,4 @@ function draw_sprite_spread()
 	draw_sprite_pos(_sprite, _frame, _x0, _y0, _x1, _y1, _x2, _y2, _x3, _y3, 1.0);
 	shader_reset();
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

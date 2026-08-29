@@ -23,7 +23,7 @@ function hitbox_create_grab()
 		lifetime = argument[6];
 		hitbox_shape_set(id, argument[7]);
 		owner = other.id;
-		player_id = other.player_id;
+		player_instance_id = other.player_instance_id;
 		owner_xstart = other.x;
 		owner_ystart = other.y;
 		facing = other.facing;
@@ -32,4 +32,4 @@ function hitbox_create_grab()
 	array_push(my_hitboxes, _newhitbox);
 	return _newhitbox;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

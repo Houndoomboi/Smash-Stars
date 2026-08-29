@@ -22,7 +22,7 @@ function options_load()
 					setting()[$ _o] = _struct[$ _o];
 					}
 				}
-			var _array = _options[$ "engine"];
+			_array = _options[$ "engine"];
 			for (var i = 0; i < array_length(_array); i++)
 				{
 				var _o = _array[@ i];
@@ -43,4 +43,4 @@ function options_load()
 		}
 	return false;
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

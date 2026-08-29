@@ -9,6 +9,9 @@ function hurtbox_projectile_hit_player()
 	{
 	var _hitbox = argument[0];
 	var _hurtbox = argument[1];
+	var _total_hl;
+	var _total_kb;
+	var _calc_angle;
 
 	//Check restrictions
 	if (!calculate_hit_restriction(_hitbox, _hurtbox)) then return;
@@ -38,10 +41,10 @@ function hurtbox_projectile_hit_player()
 			//Techable
 			can_tech = _hitbox.techable;
 			//Knockback and hitlag
-			var _total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback, _hitbox.knockback_formula);
-			var _total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
+			_total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback, _hitbox.knockback_formula);
+			_total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
 			//Calculate angle based on flipper
-			var _calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
+			_calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
 			apply_sakurai_angle(_hitbox.angle_flipper, _total_kb);
 			//Heavyarmor
 			if (_hurtbox.inv_type == INV.heavyarmor && _total_kb <= heavyarmor_amount)
@@ -88,17 +91,17 @@ function hurtbox_projectile_hit_player()
 					//Turn around based on the knockback
 					if (hit_turnaround && !hitlag_delay_animation)
 						{
-						var _diff = abs(angle_difference(_calc_angle, 0));
+						var _diff = sign(lengthdir_x(1, _calc_angle));
 						if (_diff != 0)
 							{
-							facing = _diff < 90 ? -1 : 1;
+							facing = -_diff;
 							}
 						}
 					//Projectiles do not give any hitlag to the owner, but they have hitlag themselves
 					_hitbox.self_hitlag_frame = _total_hl;
 					}
 				//Frame Advantage
-				frame_advantage_start(_hitbox.player_id, self_hitlag_frame + stored_hitstun);
+				frame_advantage_start(_hitbox.player_instance_id, self_hitlag_frame + stored_hitstun);
 				}
 			//Effects
 			hit_vfx_style_create(_hitbox.hit_vfx_style, _calc_angle, _hitbox, _total_kb);
@@ -127,12 +130,12 @@ function hurtbox_projectile_hit_player()
 			apply_damage(id, _hitbox.damage * _hurtbox.owner.damage_taken_multiplier);
 			if (is_knocked_out()) then return;
 			//Hitlag
-			var _total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
+			_total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
 			self_hitlag_frame = _total_hl;
 			_hitbox.self_hitlag_frame = _total_hl;
 			//Calculations
-			var _total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
-			var _calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
+			_total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
+			_calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
 			//Effects
 			hit_vfx_style_create(_hitbox.hit_vfx_style, _calc_angle, _hitbox, _total_kb);
 			hit_sfx_play(_hitbox.hit_sfx);
@@ -223,7 +226,7 @@ function hurtbox_projectile_hit_player()
 			//Register hit
 			hitbox_register_hit(_hitbox, false, false);
 			//Hitlag
-			var _total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
+			_total_hl = calculate_hitlag(_hitbox.base_hitlag, damage, _hitbox.hitlag_scaling);
 			self_hitlag_frame = _total_hl;
 			_hitbox.self_hitlag_frame = _total_hl;
 			//Projectiles destroy on contact
@@ -251,4 +254,4 @@ function hurtbox_projectile_hit_player()
 			break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -25,7 +25,7 @@ function game_begin()
 		}
 	if (argument_count > 2)
 		{
-		//Set online
+		engine().is_online = argument[2];
 		}
 	
 	//Clear the replay buffer if NOT in replay mode
@@ -44,4 +44,4 @@ function game_begin()
 	//Stage
 	room_goto(rm_match_loading);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

@@ -24,4 +24,4 @@ function string_file_save()
 	buffer_save(_buffer, _filename);
 	buffer_delete(_buffer);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

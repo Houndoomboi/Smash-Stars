@@ -9,4 +9,4 @@ GAME_STATE_OBJECT
 
 event_inherited();
 
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

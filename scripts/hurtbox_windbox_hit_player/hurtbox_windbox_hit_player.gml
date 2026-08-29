@@ -9,6 +9,8 @@ function hurtbox_windbox_hit_player()
 	{
 	var _hitbox = argument[0];
 	var _hurtbox = argument[1];
+	var _total_kb;
+	var _calc_angle;
 
 	//Check restrictions
 	if (!calculate_hit_restriction(_hitbox, _hurtbox)) then return;
@@ -35,9 +37,8 @@ function hurtbox_windbox_hit_player()
 			apply_damage(id, _hitbox.damage * _hurtbox.owner.damage_taken_multiplier);
 			if (is_knocked_out()) then return;
 			//Knockback
-			var _total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
+			_total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
 			//Calculate angle based on flipper
-			var _calc_angle = 90;
 			_calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
 			//Knockback is applied, unless there is zero knockback
 			if (_hitbox.base_knockback != 0)
@@ -113,9 +114,9 @@ function hurtbox_windbox_hit_player()
 				hitbox_register_hit(_hitbox, true, true);
 				}
 			//Knockback
-			var _total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
+			_total_kb = calculate_knockback(damage, _hitbox.damage, weight_multiplier, _hitbox.knockback_scaling, _hitbox.base_knockback);
 			//Calculate angle based on flipper
-			var _calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
+			_calc_angle = apply_angle_flipper(_hitbox.angle, _hitbox.angle_flipper, _hitbox.owner, id, _total_kb, _hitbox.facing);
 			//Knockback is applied, unless there is zero knockback
 			if (_hitbox.base_knockback != 0)
 				{
@@ -164,4 +165,4 @@ function hurtbox_windbox_hit_player()
 			break;
 		}
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

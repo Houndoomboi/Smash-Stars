@@ -10,4 +10,4 @@ function stats_save()
 	string_file_save(savefile_stats, _json);
 	log("Saved the game stats!");
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

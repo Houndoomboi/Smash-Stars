@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":109.139595,
+  "duration":72.0457,
   "exportDir":"",
   "name":"song_menu",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"song_menu.mp3",
-  "volume":0.59,
+  "volume":0.9,
 }

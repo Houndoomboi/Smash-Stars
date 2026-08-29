@@ -55,4 +55,4 @@ function stick_cache_values()
 	var _yp = _array[@ CONTROL_STICK.yval + _index];
 	_array[@ CONTROL_STICK.spd] = (point_distance(_xp, _yp, _x, _y) * _spd_mult);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

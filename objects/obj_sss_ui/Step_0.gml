@@ -42,7 +42,7 @@ ui_cursor_update
 	clamp(_y + _gy, 0, room_height - 1),
 	false,
 	_confirm,
-	_confirm_hold,
+	_confirm_hold
 	);
 	
 //Hovering over stages
@@ -88,4 +88,4 @@ if (_back)
 	menu_sound_play(snd_menu_back);
 	room_goto(rm_css);
 	}
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */

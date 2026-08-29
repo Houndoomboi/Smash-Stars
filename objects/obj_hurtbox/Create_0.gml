@@ -37,6 +37,6 @@ hurtbox_setup
 	hurtbox_targetbox_hit_player,
 	hurtbox_detectbox_hit_player,
 	hurtbox_windbox_hit_player,
-	hurtbox_projectile_hit_player,
+	hurtbox_projectile_hit_player
 	);
-/* Copyright 2025 Springroll Games / Yosi */
+/* Copyright 2026 Springroll Games / Yosi */
