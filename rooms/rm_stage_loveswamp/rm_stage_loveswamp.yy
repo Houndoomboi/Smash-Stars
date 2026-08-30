@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_19DA7225_5","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
     {"name":"inst_11AD6AE6_5","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
     {"name":"inst_6C2AE529_5","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
     {"name":"inst_33516378_5","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
@@ -34,11 +33,12 @@
     {"name":"inst_5E91D524_3","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
     {"name":"inst_3DE09575_2","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
     {"name":"inst_6668632D2","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
+    {"name":"inst_21D78FC3","path":"rooms/rm_stage_loveswamp/rm_stage_loveswamp.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Top_Layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_19DA7225_5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19DA7225_5","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_21D78FC3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21D78FC3","objectId":{"name":"obj_game_selector","path":"objects/obj_game_selector/obj_game_selector.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Top_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player_Front","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2ECA5E16_5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ECA5E16_5","objectId":{"name":"obj_player_renderer_foreground","path":"objects/obj_player_renderer_foreground/obj_player_renderer_foreground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":0.0,},
