@@ -36,6 +36,7 @@ function player_states_init()
 	my_states[@ PLAYER_STATE.balloon		] = standard_balloon;
 	my_states[@ PLAYER_STATE.knockdown		] =	standard_knockdown;
 	my_states[@ PLAYER_STATE.getup			] =	standard_getup;
+	my_states[@ PLAYER_STATE.bury           ] = standard_bury
 	
 	my_states[@ PLAYER_STATE.tech_rolling	] = standard_tech_rolling;
 	my_states[@ PLAYER_STATE.teching		] =	standard_teching;
