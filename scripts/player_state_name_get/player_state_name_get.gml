@@ -39,6 +39,7 @@ function player_state_name_get()
 		case PLAYER_STATE.landing_lag:		return "Landing Lag";
 		case PLAYER_STATE.knockdown:		return "Knockdown";
 		case PLAYER_STATE.getup:			return "Getup";
+		case PLAYER_STATE.bury:             return "Bury";
 		
 		case PLAYER_STATE.tech_rolling:		return "Tech Roll";
 		case PLAYER_STATE.teching:			return "Tech";
