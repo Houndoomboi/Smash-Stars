@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_leon_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_leon_init",
+  "parent":{
+    "name":"Leon",
+    "path":"folders/Characters/Leon.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

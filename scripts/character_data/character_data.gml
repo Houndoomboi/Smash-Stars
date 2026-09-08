@@ -104,6 +104,48 @@ function character_data_get_all()
 			["texture_character_shelly", "texture_character_basic"],
 			//shelly_cpu_script,
 			),
+			character_define
+			( 
+			"Poco",
+			character_poco_capo_init,
+			spr_colt_palette,
+			spr_colt_portraitplaceholder,
+			spr_colt_portraitplaceholder,
+			spr_colt_HUD,
+			spr_colt_stockicon,
+			spr_colt_portraitplaceholder,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
+			character_define
+			(
+			"Darryl",
+			character_darryl_init,
+			spr_colt_palette,
+			spr_colt_portraitplaceholder,
+			spr_colt_portraitplaceholder,
+			spr_colt_HUD,
+			spr_colt_stockicon,
+			spr_colt_portraitplaceholder,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
+			character_define
+			(
+			"Leon",
+			character_leon_init,
+			spr_nita_palette,
+			spr_nita_portrait,
+			spr_nita_portrait,
+			spr_crow_hud,
+			spr_crow_stockicon,
+			spr_nita_portrait,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
 		character_define
 			(
 			"Random",
