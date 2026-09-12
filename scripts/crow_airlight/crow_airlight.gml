@@ -84,7 +84,7 @@ function crow_airlight()
 					anim_frame = 7;
 			
 					attack_phase++;
-					attack_frame = attack_connected() ? 4 : 20;
+					attack_frame = attack_connected() ? 8 : 24;
 					}
 				break;
 				}

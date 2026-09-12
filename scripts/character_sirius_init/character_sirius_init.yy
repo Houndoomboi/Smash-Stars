@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_sirius_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_sirius_init",
+  "parent":{
+    "name":"Sirius",
+    "path":"folders/Characters/Sirius.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

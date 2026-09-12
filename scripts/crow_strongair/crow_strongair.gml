@@ -381,8 +381,8 @@ function crow_strongair()
 				if (attack_frame == 0)
 					{
 					anim_frame = 13;
-					attack_cooldown_set(45);
-					attack_frame = 11;
+					attack_cooldown_set(75);
+					attack_frame = 15;
 					attack_phase++
 					}
 				break;

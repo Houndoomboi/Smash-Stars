@@ -232,8 +232,8 @@ function character_mortis_init()
 				 
 		my_attacks[$ "Fsmash"		] = mortis_groundstrong;
 				 
-		my_attacks[$ "Nair"			] = colt_airlight;
-		my_attacks[$ "Dair"			] = colt_airstrong;
+		my_attacks[$ "Nair"			] = mortis_weakair;
+		my_attacks[$ "Dair"			] = mortis_strongair;
 				 
 		my_attacks[$ "Nspec"		] = mortis_groundspecial;
 		my_attacks[$ "Uspec"		] = mortis_airspec;

@@ -261,8 +261,8 @@ function character_poco_presto_init()
 		{
 		sprite_scale = 1;
 	
-		my_sprites[$ "Entrance"			] = anim_define(spr_colt_Idle, anim_define(spr_colt_Idle));
-		my_sprites[$ "Idle"				] = spr_colt_Idle;
+		my_sprites[$ "Entrance"			] = anim_define(spr_poco_idle, anim_define(spr_poco_idle));
+		my_sprites[$ "Idle"				] = spr_poco_idle;
 		my_sprites[$ "Crouch"			] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
 		my_sprites[$ "Walk"				] = spr_colt_run;
 		my_sprites[$ "Walk_Turn"		] = spr_colt_run;
