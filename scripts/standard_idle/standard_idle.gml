@@ -16,6 +16,7 @@ function standard_idle()
 			{
 			//Animation
 			anim_set(my_sprites[$ "Idle"]);
+			anim_speed = 0.2;
 			break;
 			}
 		case PLAYER_STATE_PHASE.normal:

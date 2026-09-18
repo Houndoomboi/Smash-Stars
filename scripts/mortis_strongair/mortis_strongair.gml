@@ -86,13 +86,13 @@ function mortis_strongair()
 					attack_phase++;
 					attack_frame = attack_connected() ? 12 : 22;
 					}
-				break;
-				}
-				
-				if (attack_connected())
+					if attack_connected()
 					{
+					speed_set = -7
 					landing_lag = 6;
 					}
+				break;
+				}
 					
 			//Finish
 			case 2:

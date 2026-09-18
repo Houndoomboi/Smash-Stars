@@ -6,6 +6,7 @@ function mortis_groundstrong(){
 	//Timer
 	attack_frame = max(--attack_frame, 0);
 	friction_gravity(ground_friction, grav, max_fall_speed);
+	move();
 
 	//Canceling
 	if (run && cancel_air_check()) then run = false;
@@ -43,35 +44,26 @@ function mortis_groundstrong(){
 				
 				if (attack_frame == 0) 
 					{
-					if ((!input_held(INPUT.smash) && !input_held(INPUT.attack) && !input_held(INPUT.special)) && (stick_direction(Lstick, DIR.right) || stick_direction(Lstick, DIR.none)) || ( stick_direction(Lstick, DIR.right) && charge >= smash_attack_charge_max)) 
+					if (charge >= smash_attack_charge_max || (!input_held(INPUT.smash) && !input_held(INPUT.attack) && !input_held(INPUT.special)))
 						{
 						anim_frame = 6;
-						if facing == 1 
-						{
 						attack_phase++;
 						}
-						else if facing == -1
-						{
-							attack_phase = 2;
-						}
-						attack_frame = 7;
-						show_debug_message("phase_1")
-						}
-						else if ((!input_held(INPUT.smash) && !input_held(INPUT.attack) && !input_held(INPUT.special)) && (stick_direction(Lstick, DIR.left))|| (stick_direction( Lstick, DIR.left) && charge >= smash_attack_charge_max))
-					{
-						anim_frame = 6;
-						if facing == 1 
-					{
-						attack_phase = 2;
-					}
-				else if facing == -1
-				{ 
-					attack_phase = 2;
-					facing = 1;
-				}
-						attack_frame = 7;
-						show_debug_message("phase_2")
-						}
+						//else if ((!input_held(INPUT.smash) && !input_held(INPUT.attack) && !input_held(INPUT.special)) && (stick_direction(Lstick, DIR.left))|| (stick_direction( Lstick, DIR.left) && charge >= smash_attack_charge_max))
+					//{
+						//anim_frame = 6;
+						//if facing == 1 
+					//{
+						//attack_phase = 2;
+					//}
+				//else if facing == -1
+				//{ 
+					//attack_phase = 2;
+					//facing = 1;
+				//}
+						//attack_frame = 7;
+						//show_debug_message("phase_2")
+						//}
 					else
 						{
 						charge++;
@@ -96,8 +88,9 @@ function mortis_groundstrong(){
 				{
 				//Animation
 				
+				
 				 if (attack_frame == 5)
-				speed_set(lerp(8, 12, (charge / smash_attack_charge_max)) * facing, 0, false, false);
+				speed_set(6, 0, false, false);
 				if (attack_frame == 4)
 					anim_frame = 7;
 				if (attack_frame == 2)
