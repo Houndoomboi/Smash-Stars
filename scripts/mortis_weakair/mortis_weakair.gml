@@ -32,18 +32,25 @@ function mortis_weakair()
 			case 0:
 				{
 				//Animation
-				if (attack_frame == 4)
+				if (attack_frame == 5)
 					anim_frame = 1;
-				if (attack_frame == 2)
+				if (attack_frame == 4)
 					anim_frame = 2;
+				if (attack_frame == 3)
+					anim_frame = 3;
+				if (attack_frame == 2)
+					anim_frame = 4;
+				if (attack_frame == 1)
+					anim_frame = 5;
 				
 				if (attack_frame == 0)
 					{
-					anim_frame = 3;
+					anim_frame = 6;
 			
 					attack_phase++;
 					attack_frame = 7;
 					var _hitbox = hitbox_create_melee(32, 2, 1, 0.4, 7, 6, 0.4, 6, 45, 2, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(-32, 2, 1, 0.4, 7, 6, 0.4, 6, 45, 2, SHAPE.circle, 0);
 					hitbox_sprite_angle_set(_hitbox, 340);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					}
@@ -54,9 +61,9 @@ function mortis_weakair()
 				{
 				//Animation
 				if (attack_frame == 5)
-					anim_frame = 4;
+					anim_frame = 7;
 				if (attack_frame == 3)
-					anim_frame = 5;
+					anim_frame = 8;
 				
 				//Reduce landing lag on hit
 				if (attack_connected())
@@ -66,11 +73,11 @@ function mortis_weakair()
 				
 				if (run && attack_frame == 0)
 					{
-					anim_frame = 6;
+					anim_frame = 9;
 				
 					attack_phase++;
 					attack_frame = 22;
-					var _hitbox = hitbox_create_melee(32, -2, 1, 0.4, 7, 6, 0.4, 6, 45, 5, SHAPE.rotation, 1, FLIPPER.sakurai_reverse);
+					var _hitbox = hitbox_create_melee(32, -2, 1, 0.4, 7, 6, 0.4, 6, 45, 7, SHAPE.rotation, 1, FLIPPER.sakurai_reverse);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_sfx = snd_hit_weak1;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
@@ -82,11 +89,11 @@ function mortis_weakair()
 				{
 				//Animation
 				if (attack_frame == 17)
-					anim_frame = 7;
+					anim_frame = 10;
 				if (attack_frame == 11)
-					anim_frame = 8;
+					anim_frame = 11;
 				if (attack_frame == 5)
-					anim_frame = 9;
+					anim_frame = 12;
 				
 				//Reduce landing lag on hit
 				if (attack_connected())

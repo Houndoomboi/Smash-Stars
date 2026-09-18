@@ -240,7 +240,7 @@ function character_elprimo_init()
 				 
 		my_attacks[$ "Grab"			] = El_Primo_Grab;
 		my_attacks[$ "Dash_Grab"	] = El_Primo_Grab;
-		my_attacks[$ "Pummel"		] = basic_pummel;
+		my_attacks[$ "Pummel"		] = -1;
 		my_attacks[$ "Zair"			] = -1;
 				 
 		my_attacks[$ "Fthrow"		] = Primo_FThrow;
