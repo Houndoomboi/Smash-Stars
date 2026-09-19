@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"leon_groundstrong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"leon_groundstrong",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Characters/Leon/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

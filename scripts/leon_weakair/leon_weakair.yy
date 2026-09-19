@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"leon_weakair",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"leon_weakair",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Characters/Leon/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

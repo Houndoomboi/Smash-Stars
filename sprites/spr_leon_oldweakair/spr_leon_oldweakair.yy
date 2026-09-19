@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Leon",
-    "path":"folders/Characters/Leon.yy",
+    "name":"Attacks",
+    "path":"folders/Characters/Leon/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
