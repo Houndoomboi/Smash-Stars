@@ -263,7 +263,7 @@ function character_colt_init()
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_colt_Idle, anim_define(spr_colt_Idle));
 		my_sprites[$ "Idle"				] = spr_colt_Idle;
-		my_sprites[$ "Crouch"			] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
+		my_sprites[$ "Crouch"			] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop_1));
 		my_sprites[$ "Walk"				] = spr_colt_run;
 		my_sprites[$ "Walk_Turn"		] = spr_colt_run;
 		my_sprites[$ "Dash"				] = spr_colt_run;
@@ -297,7 +297,7 @@ function character_colt_init()
 		my_sprites[$ "Helpless"			] = spr_colt_jump;
 		my_sprites[$ "Magnet"			] = spr_colt_hit;
 		my_sprites[$ "Flinch"			] = spr_colt_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop_1));
 		my_sprites[$ "Balloon"			] = spr_colt_hit;
 		my_sprites[$ "Reeling"			] = spr_colt_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
@@ -305,14 +305,14 @@ function character_colt_init()
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_colt_airdodge; 
-		my_sprites[$ "Teching"			] = spr_colt_HUD;
+		my_sprites[$ "Teching"			] = spr_colt_crouch_loop_1
 		my_sprites[$ "Teching_Wall"		] = spr_colt_jump;
 		my_sprites[$ "Teching_Ceiling"	] = spr_colt_jump;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_colt_jump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_colt_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_colt_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_colt_HUD;
+		my_sprites[$ "Ledge_Getup"		] = spr_colt_crouch_loop_1;
 		my_sprites[$ "Ledge_Jump"		] = spr_colt_jump;
 		my_sprites[$ "Ledge_Roll"		] = spr_colt_airdodge;
 		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;
@@ -326,7 +326,7 @@ function character_colt_init()
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_colt_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_crouch_loop_1));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */
