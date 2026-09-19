@@ -2112,6 +2112,8 @@
     {"id":{"name":"spr_crow_taunt","path":"sprites/spr_crow_taunt/spr_crow_taunt.yy",},},
     {"id":{"name":"spr_crow_weakair","path":"sprites/spr_crow_weakair/spr_crow_weakair.yy",},},
     {"id":{"name":"spr_crow_weakground","path":"sprites/spr_crow_weakground/spr_crow_weakground.yy",},},
+    {"id":{"name":"spr_css_border_2","path":"sprites/spr_css_border_2/spr_css_border_2.yy",},},
+    {"id":{"name":"spr_css_border","path":"sprites/spr_css_border/spr_css_border.yy",},},
     {"id":{"name":"spr_css_random","path":"sprites/spr_css_random/spr_css_random.yy",},},
     {"id":{"name":"spr_css_ready_alt","path":"sprites/spr_css_ready_alt/spr_css_ready_alt.yy",},},
     {"id":{"name":"spr_css_ready_label","path":"sprites/spr_css_ready_label/spr_css_ready_label.yy",},},
