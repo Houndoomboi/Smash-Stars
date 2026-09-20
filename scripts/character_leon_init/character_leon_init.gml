@@ -25,22 +25,22 @@ function character_leon_init()
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
-		weight_multiplier = 1;
+		weight_multiplier = 0.9;
 	
 		//Gravity
 		grav = 0.5;
 		hitstun_grav = 0.5;
 	
 		//Falling
-		max_fall_speed = 12;
-		fastfall_speed = 16;
+		max_fall_speed = 15;
+		fastfall_speed = 18;
 	
 		//Jumping
 		jumpsquat_time = 3;
-		jump_speed = 8;
+		jump_speed = 12;
 		jump_horizontal_accel = 3;
 		shorthop_speed = 6.5;
-		double_jump_speed = 10.5;
+		double_jump_speed = 14.5;
 		double_jump_horizontal_accel = 2;
 		max_double_jumps = 1;
 		land_time = 4;
@@ -236,7 +236,7 @@ function character_leon_init()
 		my_attacks[$ "Dair"			] = leon_strongair;
 				 
 		my_attacks[$ "Nspec"		] = colt_special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Uspec"		] = leon_airspecial;
 				 
 		my_attacks[$ "Grab"			] = colt_grab;
 		my_attacks[$ "Dash_Grab"	] = colt_grab;
@@ -271,8 +271,8 @@ function character_leon_init()
 		my_sprites[$ "Run_Turn"			] = spr_leon_run;
 		my_sprites[$ "Run_Stop"			] = spr_leon_run;
 				 
-		my_sprites[$ "Jumpsquat"		] = spr_leon_crouch;
-		my_sprites[$ "Jump_Rise"		] = spr_leon_jump;
+		my_sprites[$ "Jumpsquat"		] = spr_leon_jump;
+		my_sprites[$ "Jump_Rise"		] = spr_leon_midjump;
 		my_sprites[$ "Jump_Mid"			] = spr_leon_midjump;
 		my_sprites[$ "Jump_Fall"		] = spr_leon_fall;
 		my_sprites[$ "Fastfall"			] = spr_leon_fall;
