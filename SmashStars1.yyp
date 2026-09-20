@@ -287,7 +287,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStars1",
   "resources":[
@@ -2455,6 +2455,7 @@
     {"id":{"name":"spr_player_hud","path":"sprites/spr_player_hud/spr_player_hud.yy",},},
     {"id":{"name":"spr_player_spawner","path":"sprites/spr_player_spawner/spr_player_spawner.yy",},},
     {"id":{"name":"spr_poco_idle","path":"sprites/spr_poco_idle/spr_poco_idle.yy",},},
+    {"id":{"name":"spr_poco_portrait","path":"sprites/spr_poco_portrait/spr_poco_portrait.yy",},},
     {"id":{"name":"spr_poly_bthrow","path":"sprites/spr_poly_bthrow/spr_poly_bthrow.yy",},},
     {"id":{"name":"spr_poly_css","path":"sprites/spr_poly_css/spr_poly_css.yy",},},
     {"id":{"name":"spr_poly_djump_rise","path":"sprites/spr_poly_djump_rise/spr_poly_djump_rise.yy",},},
