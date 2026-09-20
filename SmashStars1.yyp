@@ -287,7 +287,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -2307,7 +2307,6 @@
     {"id":{"name":"spr_leon_jump","path":"sprites/spr_leon_jump/spr_leon_jump.yy",},},
     {"id":{"name":"spr_leon_ledge","path":"sprites/spr_leon_ledge/spr_leon_ledge.yy",},},
     {"id":{"name":"spr_leon_midjump","path":"sprites/spr_leon_midjump/spr_leon_midjump.yy",},},
-    {"id":{"name":"spr_leon_oldweakair","path":"sprites/spr_leon_oldweakair/spr_leon_oldweakair.yy",},},
     {"id":{"name":"spr_leon_palette","path":"sprites/spr_leon_palette/spr_leon_palette.yy",},},
     {"id":{"name":"spr_leon_portrait","path":"sprites/spr_leon_portrait/spr_leon_portrait.yy",},},
     {"id":{"name":"spr_leon_run","path":"sprites/spr_leon_run/spr_leon_run.yy",},},
@@ -2316,6 +2315,7 @@
     {"id":{"name":"spr_leon_taunt","path":"sprites/spr_leon_taunt/spr_leon_taunt.yy",},},
     {"id":{"name":"spr_leon_teleport","path":"sprites/spr_leon_teleport/spr_leon_teleport.yy",},},
     {"id":{"name":"spr_leon_walljump","path":"sprites/spr_leon_walljump/spr_leon_walljump.yy",},},
+    {"id":{"name":"spr_leon_weakair","path":"sprites/spr_leon_weakair/spr_leon_weakair.yy",},},
     {"id":{"name":"spr_link_fsmash_beam","path":"sprites/spr_link_fsmash_beam/spr_link_fsmash_beam.yy",},},
     {"id":{"name":"spr_link_fsmash","path":"sprites/spr_link_fsmash/spr_link_fsmash.yy",},},
     {"id":{"name":"spr_link_nspec_bow_arrow","path":"sprites/spr_link_nspec_bow_arrow/spr_link_nspec_bow_arrow.yy",},},
