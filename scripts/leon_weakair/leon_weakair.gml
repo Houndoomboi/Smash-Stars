@@ -33,21 +33,15 @@ function leon_weakair(){
 				//Animation
 				if (attack_frame == 5)
 					anim_frame = 1;
-				if (attack_frame == 4)
-					anim_frame = 2;
 				if (attack_frame == 3)
-					anim_frame = 3;
-				if (attack_frame == 2)
-					anim_frame = 4;
-				if (attack_frame == 1)
-					anim_frame = 5;
+					anim_frame = 2;
 				
 				if (attack_frame == 0)
 					{
-					anim_frame = 6;
+					anim_frame = 3;
 			
 					attack_phase++;
-					attack_frame = 7;
+					attack_frame = 10;
 					var _hitbox = hitbox_create_melee(32, 2, 1, 0.4, 7, 6, 0.4, 6, 45, 2, SHAPE.rotation, 0);
 				
 					hitbox_sprite_angle_set(_hitbox, 340);
@@ -60,10 +54,14 @@ function leon_weakair(){
 			case 1:
 				{
 				//Animation
-				if (attack_frame == 5)
+				if (attack_frame == 8)
+					anim_frame = 4;
+				if (attack_frame == 6)
+					anim_frame = 5;
+				if (attack_frame == 4)
+					anim_frame = 6;
+				if (attack_frame == 2)
 					anim_frame = 7;
-				if (attack_frame == 3)
-					anim_frame = 8;
 				
 				//Reduce landing lag on hit
 				if (attack_connected())
@@ -73,7 +71,7 @@ function leon_weakair(){
 				
 				if (run && attack_frame == 0)
 					{
-					anim_frame = 9;
+					anim_frame = 8;
 				
 					attack_phase++;
 					attack_frame = 22;
@@ -89,11 +87,11 @@ function leon_weakair(){
 				{
 				//Animation
 				if (attack_frame == 17)
-					anim_frame = 10;
+					anim_frame = 9;
 				if (attack_frame == 11)
-					anim_frame = 11;
+					anim_frame = 10;
 				if (attack_frame == 5)
-					anim_frame = 12;
+					anim_frame = 11;
 				
 				//Reduce landing lag on hit
 				if (attack_connected())
