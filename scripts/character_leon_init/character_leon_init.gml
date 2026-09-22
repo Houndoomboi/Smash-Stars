@@ -213,7 +213,7 @@ function character_leon_init()
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		
 		draw_script = -1;
-		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		callback_add(callback_hurt, LeonVoicelines_Hurt, CALLBACK_TYPE.permanent);
 		
 		knockout_voice1 = Leon_NITA
 		
