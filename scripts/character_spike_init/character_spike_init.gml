@@ -212,6 +212,10 @@ function character_spike_init()
 		draw_script = -1;
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		
+		knockout_voice1 = snd_hit_explosion1
+		
+		knockout_voice2 = snd_hit_explosion0
+		
 		}
 
 	//States

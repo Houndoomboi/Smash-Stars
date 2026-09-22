@@ -125,7 +125,7 @@ function setting()
 */
 //Game
 #macro show_debug_logs						false //{bool} Whether messages from the <log> function are displayed in the console. Debug mode must also be enabled.
-#macro max_players							8 //{int} The maximum number of players.
+#macro max_players							6 //{int} The maximum number of players.
 #macro max_teams							4 //{int} The maximum number of teams.
 #macro airdodge_type						AIRDODGE_TYPE.momentum_stop //{int} The type of airdodge to use, from the enum AIRDODGE_TYPE.
 #macro shield_type							SHIELD_TYPE.parry_shield //{int} The type of shield to use, from the enum SHIELD_TYPE.
