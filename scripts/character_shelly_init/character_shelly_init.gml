@@ -214,6 +214,10 @@ function character_shelly_init()
         draw_script = -1;
 		callback_add(callback_hurt, Voicelines_Hurt, CALLBACK_TYPE.permanent);
 		
+		knockout_voice1 = ShellyDie_1
+		
+		knockout_voice2 = ShellyDie_2
+		
 		}
 		
 	//States

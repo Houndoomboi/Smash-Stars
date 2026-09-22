@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Serenade",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.6687303,
+  "exportDir":"",
+  "name":"Serenade",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/Poco (Da Capo)/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Serenade.ogg",
+  "volume":1.0,
+}

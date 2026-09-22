@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LeonVoicelines_Hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LeonVoicelines_Hurt",
+  "parent":{
+    "name":"Leon",
+    "path":"folders/Characters/Leon.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

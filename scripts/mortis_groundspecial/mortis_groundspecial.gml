@@ -79,7 +79,7 @@ function mortis_groundspecial()
 					_proj.overlay_facing = facing;
 					_proj.overlay_sprite = spr_mortis_batcloud
 					_proj.base_hitlag = 5;
-					game_sound_play(Nita_bear);
+					game_sound_play(Batflock);
 					_proj.hit_vfx_style = HIT_VFX.normal_weak;
 					
 					//Cooldown

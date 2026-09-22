@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Leon_Invisibility",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2708616,
+  "exportDir":"",
+  "name":"Leon_Invisibility",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/Leon/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Leon_Invisibility.ogg",
+  "volume":1.0,
+}

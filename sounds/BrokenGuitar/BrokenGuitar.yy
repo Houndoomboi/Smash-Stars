@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"BrokenGuitar",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8450794,
+  "exportDir":"",
+  "name":"BrokenGuitar",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/Poco (Da Capo)/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"BrokenGuitar.ogg",
+  "volume":1.0,
+}

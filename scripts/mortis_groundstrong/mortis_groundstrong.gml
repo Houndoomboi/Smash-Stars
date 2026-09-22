@@ -90,7 +90,7 @@ function mortis_groundstrong(){
 				
 				
 				 if (attack_frame == 5)
-				speed_set(6, 0, false, false);
+				speed_set(8, 0, false, false);
 				if (attack_frame == 4)
 					anim_frame = 7;
 				if (attack_frame == 2)
@@ -105,14 +105,16 @@ function mortis_groundstrong(){
 					//*Chrom
 					var _damage = calculate_smash_damage(14);
 					speed_set(_damage * facing, 0, false, false);
-					var _hitbox = hitbox_create_melee(43, -29, 1.4, 1, _damage, 5.5, 1, 23, 40, 1, SHAPE.circle, 0);
+					game_sound_play(ShovelSlash)
+					game_sound_play(DashandDestroy)
+					var _hitbox = hitbox_create_melee(43, -29, 1.4, 1, _damage, 5.5, 1, 23, 40, 6, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
-					var _hitbox = hitbox_create_melee(73, -21, 1.2, 0.9, _damage, 5.5, 1, 23, 40, 1, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(73, -21, 1.2, 0.9, _damage, 5.5, 1, 23, 40, 6, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.shieldstun_scaling = 0.1;

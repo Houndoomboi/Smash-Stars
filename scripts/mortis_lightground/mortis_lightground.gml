@@ -43,7 +43,7 @@ function mortis_lightground()
 				if (attack_frame == 0)
 					{
 					anim_frame = 4;
-					game_sound_play(snd_swing1);
+					game_sound_play(ShovelSlash);
 					var _hitbox = hitbox_create_melee(10, 0, 2, 2, 2, 4, 0.3, 2, -20, 6, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					attack_frame = 24;

@@ -214,6 +214,11 @@ function character_poco_capo_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Bone2Pick
+		
+		knockout_voice2 = BrokenGuitar
+		
 		}
 
 	//States

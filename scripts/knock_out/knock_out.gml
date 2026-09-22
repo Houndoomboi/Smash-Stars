@@ -50,6 +50,17 @@ function knock_out()
 			}
 		}
 
+	//Sound
+        if (knockout_voice2 != -1) 
+            {
+                game_sound_play(choose(knockout_voice1, knockout_voice2));
+            }
+            
+        else if (knockout_voice1 != -1) 
+            {
+                game_sound_play(knockout_voice1);
+            }
+			
 	//Default KO
 	if (_ko)
 		{

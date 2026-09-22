@@ -214,6 +214,11 @@ function character_leon_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Leon_NITA
+		
+		knockout_voice2 = Leon_Notfair
+		
 		}
 
 	//States
@@ -232,14 +237,14 @@ function character_leon_init()
 				 
 		my_attacks[$ "Fsmash"		] = leon_groundstrong;
 				 
-		my_attacks[$ "Nair"			] = colt_airlight;
+		my_attacks[$ "Nair"			] = leon_weakair;
 		my_attacks[$ "Dair"			] = leon_strongair;
 				 
 		my_attacks[$ "Nspec"		] = colt_special;
 		my_attacks[$ "Uspec"		] = leon_airspecial;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = leon_grab;
+		my_attacks[$ "Dash_Grab"	] = leon_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
@@ -252,7 +257,7 @@ function character_leon_init()
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = colt_taunt;
+		my_attacks[$ "Taunt"		] = leon_taunt;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

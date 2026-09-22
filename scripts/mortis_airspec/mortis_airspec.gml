@@ -22,7 +22,6 @@ function mortis_airspec()
 				reverse_b();
 				attack_frame = 12;
 				return;
-				
 				}
 				
 			//Startup
@@ -39,6 +38,7 @@ function mortis_airspec()
 					{
 					attack_frame = 45;
 					anim_frame = 4;
+					game_sound_play(Batflock)
 					attack_phase++;
 					global.AirSpecialUsed++
 					if (!hsp * facing == 0){ speed_set(4 * facing, -22.5, false, false);}
@@ -74,6 +74,7 @@ function mortis_airspec()
 				if (attack_frame ==  21){
 					attack_frame = 3;
 					attack_phase++
+					
 				}
 				break;
 			}

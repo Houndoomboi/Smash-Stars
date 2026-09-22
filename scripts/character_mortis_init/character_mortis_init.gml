@@ -213,7 +213,12 @@ function character_mortis_init()
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		
 		draw_script = -1;
-		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		callback_add(callback_hurt, MortisVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = GloomandDoom
+		
+		knockout_voice2 = HowDareYou
+		
 		}
 
 	//States
@@ -322,7 +327,7 @@ function character_mortis_init()
 		my_sprites[$ "Wall_Jump"		] = spr_mortis_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_mortis_hurt;
-		my_sprites[$ "Screen_KO"		] = spr_colt_screenko;
+		my_sprites[$ "Screen_KO"		] = spr_mortis_starko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_mortis_hurt;

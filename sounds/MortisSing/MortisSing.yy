@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MortisSing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2997279,
+  "exportDir":"",
+  "name":"MortisSing",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Characters/Mortis/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MortisSing.ogg",
+  "volume":1.0,
+}

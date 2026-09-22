@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MortisVoicelines_Hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MortisVoicelines_Hurt",
+  "parent":{
+    "name":"Mortis",
+    "path":"folders/Characters/Mortis.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

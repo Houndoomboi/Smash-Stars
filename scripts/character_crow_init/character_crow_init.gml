@@ -214,6 +214,11 @@ function character_crow_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, CrowVoicelines, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Crow_Clipped
+		
+		knockout_voice2 = Crow_Clipped
+		
 		}
 
 	//States

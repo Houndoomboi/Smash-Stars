@@ -214,6 +214,11 @@ function character_nita_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, NitaVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Nita_Perish
+		
+		knockout_voice2 = Nita_Perish
+		
 		}
 
 	//States
@@ -322,7 +327,7 @@ function character_nita_init()
 		my_sprites[$ "Wall_Jump"		] = spr_nita_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_nita_hurt;
-		my_sprites[$ "Screen_KO"		] = spr_colt_screenko;
+		my_sprites[$ "Screen_KO"		] = spr_nita_starko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_nita_hurt;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"leon_taunt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"leon_taunt",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Characters/Leon/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

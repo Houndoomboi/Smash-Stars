@@ -66,6 +66,7 @@ function leon_airspecial()
 				if (attack_frame == 0)
 					{
 					anim_frame = 11;
+					game_sound_play(prng_choose(1, Leon_sneakytime, Leon_Invisibility));
 					attack_phase++;
 					var _hitbox = hitbox_create_melee(0, 0, 1.2, 1.1, 12, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;

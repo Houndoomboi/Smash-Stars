@@ -214,6 +214,11 @@ function character_elprimo_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, PrimoVoicelines, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Primo_Adios
+		
+		knockout_voice2 = Primo_Adios_2
+		
 		}
 
 	//States
