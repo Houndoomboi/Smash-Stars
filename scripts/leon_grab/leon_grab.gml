@@ -163,13 +163,13 @@ var run = true
 				if (attack_frame == 31 ||
 					attack_frame == 28 ||
 					attack_frame == 22 ||
-					attack_frame == 19)
+					attack_frame == 28)
 					{
 					anim_frame++;
 					}
 					
 				//Projectiles
-				if (attack_frame == 34 || attack_frame == 25)
+				if (attack_frame == 26 || attack_frame == 17)
 					{
 					anim_frame++;
 					game_sound_play(snd_hit_shot);
@@ -188,14 +188,14 @@ var run = true
 					_projectile.hit_sfx = snd_hit_wind;
 					_projectile.background_clear_allow = false;
 					}
-				if (attack_frame == 16)
+				if (attack_frame == 12)
 					{
 					anim_frame++;
 					game_sound_play(snd_hit_shot);
 					var _dir = 30;
 					var _hsp = lengthdir_x(-18, _dir);
 					var _vsp = lengthdir_y(18, _dir);
-					var _projectile = hitbox_create_projectile(32, -4, 0.4, 0.4, 4, 7, 0.85, 50, 60, SHAPE.circle, _hsp, _vsp);
+					var _projectile = hitbox_create_projectile(32, -4, 0.4, 0.4, 4, 14, 1, 110, 60, SHAPE.circle, _hsp, _vsp);
 					if (facing == -1) then _dir = -180 - _dir;
 					hitbox_overlay_sprite_set(_projectile, spr_mewtwo_fthrow_projectile, 0, 1, 2, _dir, c_white, 1, 1);
 					_projectile.destroy_on_blocks = false;

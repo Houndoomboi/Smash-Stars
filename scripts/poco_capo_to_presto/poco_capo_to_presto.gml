@@ -25,8 +25,8 @@ function poco_capo_to_presto()
 			case PHASE.start:
 				{
 				//Animation
-				anim_set(spr_poco_dacapo_to_presto, 0, 0.5);
-				attack_frame = anim_calculate_length(spr_poco_dacapo_to_presto, 0.5);
+				anim_set(spr_poco_dacapo_to_presto, 0, 0.2);
+				attack_frame = anim_calculate_length(spr_poco_dacapo_to_presto, 0.2);
 				return;
 				}
 			case 0:
@@ -34,7 +34,7 @@ function poco_capo_to_presto()
 			//Sound
 				if (attack_frame == 30)
 					{
-					game_sound_play(ColtTaunt)
+					game_sound_play(Serenade)
 					}
 					
 				//Taunt canceling

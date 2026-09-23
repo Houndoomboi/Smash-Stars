@@ -34,7 +34,7 @@ function poco_presto_to_capo()
 			//Sound
 				if (attack_frame == 30)
 					{
-					game_sound_play(ColtTaunt)
+					game_sound_play(Serenade)
 					}
 					
 				//Taunt canceling
