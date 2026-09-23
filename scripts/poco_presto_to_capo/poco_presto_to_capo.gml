@@ -32,13 +32,13 @@ function poco_presto_to_capo()
 			case 0:
 				{
 			//Sound
-				if (attack_frame == 52)
+				if (attack_frame == 30)
 					{
 					game_sound_play(ColtTaunt)
 					}
 					
 				//Taunt canceling
-				if (attack_frame < 42)
+				if (attack_frame > 42)
 					{
 					if (run && check_walk()) run = false;
 					if (run && check_dash()) run = false;
