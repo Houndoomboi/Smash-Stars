@@ -252,7 +252,7 @@ function character_poco_presto_init()
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = colt_taunt;
+		my_attacks[$ "Taunt"		] = poco_presto_to_capo;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

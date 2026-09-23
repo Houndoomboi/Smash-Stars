@@ -25,11 +25,11 @@ function character_poco_capo_init()
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
-		weight_multiplier = 1;
+		weight_multiplier = 1.1;
 	
 		//Gravity
-		grav = 0.5;
-		hitstun_grav = 0.5;
+		grav = 0.4;
+		hitstun_grav = 0.4;
 	
 		//Falling
 		max_fall_speed = 12;
@@ -257,7 +257,7 @@ function character_poco_capo_init()
 		my_attacks[$ "Ledge_Attack"	] = colt_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
-		my_attacks[$ "Taunt"		] = colt_taunt;
+		my_attacks[$ "Taunt"		] = poco_capo_to_presto;
 		my_attacks[$ "Final_Smash"	] = blocky_final_smash;
 		}
 		

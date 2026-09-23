@@ -148,9 +148,9 @@ var run = true
 					{
 					anim_frame = 1;
 					//Move the player to the correct position
-					grabbed_id.x = x + (45 * facing);
+					grabbed_id.x = x + (-45 * facing);
 					grabbed_id.y = y;
-					var _hitbox = hitbox_create_targetbox(45, 0, 1, 1, 3, 13, 0, 4, 45, 1, SHAPE.square, 0, grabbed_id);
+					var _hitbox = hitbox_create_targetbox(45, 0, 1, 1, 3, 13, 1, 4, 125, 1, SHAPE.square, 0, grabbed_id);
 					_hitbox.drift_di_multiplier = 0;
 					_hitbox.di_angle = 0;
 					_hitbox.asdi_multiplier = 0;
@@ -174,10 +174,10 @@ var run = true
 					anim_frame++;
 					game_sound_play(snd_hit_shot);
 					var _dir = 30;
-					var _hsp = lengthdir_x(18, _dir);
+					var _hsp = lengthdir_x(-18, _dir);
 					var _vsp = lengthdir_y(18, _dir);
-					var _projectile = hitbox_create_projectile(32, -4, 0.4, 0.4, 1, 3, 0, 50, 60, SHAPE.circle, _hsp, _vsp);
-					if (facing == -1) then _dir = 180 - _dir;
+					var _projectile = hitbox_create_projectile(32, -4, 0.4, 0.4, 1, 3, 0, 110, 60, SHAPE.circle, _hsp, _vsp);
+					if (facing == -1) then _dir = -180 - _dir;
 					hitbox_overlay_sprite_set(_projectile, spr_mewtwo_fthrow_projectile, 0, 1, 2, _dir, c_white, 1, 1);
 					_projectile.destroy_on_blocks = false;
 					_projectile.base_hitlag = 15;
@@ -193,10 +193,10 @@ var run = true
 					anim_frame++;
 					game_sound_play(snd_hit_shot);
 					var _dir = 30;
-					var _hsp = lengthdir_x(18, _dir);
+					var _hsp = lengthdir_x(-18, _dir);
 					var _vsp = lengthdir_y(18, _dir);
 					var _projectile = hitbox_create_projectile(32, -4, 0.4, 0.4, 4, 7, 0.85, 50, 60, SHAPE.circle, _hsp, _vsp);
-					if (facing == -1) then _dir = 180 - _dir;
+					if (facing == -1) then _dir = -180 - _dir;
 					hitbox_overlay_sprite_set(_projectile, spr_mewtwo_fthrow_projectile, 0, 1, 2, _dir, c_white, 1, 1);
 					_projectile.destroy_on_blocks = false;
 					_projectile.base_hitlag = 2;

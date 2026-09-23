@@ -146,6 +146,20 @@ function character_data_get_all()
 			["texture_character_shelly", "texture_character_basic"],
 			//shelly_cpu_script,
 			),
+			character_define
+			( 
+			"Poco_P",
+			character_poco_presto_init,
+			spr_poco_palette,
+			spr_poco_portrait,
+			spr_poco_portrait,
+			spr_poco_HUD,
+			spr_poco_stockicon,
+			spr_poco_portrait,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
 		character_define
 			(
 			"Random",
