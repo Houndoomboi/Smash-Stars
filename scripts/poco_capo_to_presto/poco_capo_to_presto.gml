@@ -35,7 +35,6 @@ function poco_capo_to_presto()
 				if (attack_frame == 52)
 					{
 					game_sound_play(ColtTaunt)
-					switch_character("Poco_P", false)
 					}
 					
 				//Taunt canceling
@@ -61,6 +60,7 @@ function poco_capo_to_presto()
 					{
 					if (!_respawn_platform)
 						{
+						switch_character("Poco_P", false)
 						attack_stop(PLAYER_STATE.idle);
 						}
 					else
