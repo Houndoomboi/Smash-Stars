@@ -294,7 +294,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -392,6 +392,7 @@
     {"id":{"name":"obj_player_renderer","path":"objects/obj_player_renderer/obj_player_renderer.yy",},},
     {"id":{"name":"obj_player_spawner","path":"objects/obj_player_spawner/obj_player_spawner.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_poco_charge_shot_obj","path":"objects/obj_poco_charge_shot_obj/obj_poco_charge_shot_obj.yy",},},
     {"id":{"name":"obj_poly_final_smash_missile","path":"objects/obj_poly_final_smash_missile/obj_poly_final_smash_missile.yy",},},
     {"id":{"name":"obj_poly_fspec_turret","path":"objects/obj_poly_fspec_turret/obj_poly_fspec_turret.yy",},},
     {"id":{"name":"obj_popup","path":"objects/obj_popup/obj_popup.yy",},},
@@ -2512,6 +2513,9 @@
     {"id":{"name":"spr_poco_palette","path":"sprites/spr_poco_palette/spr_poco_palette.yy",},},
     {"id":{"name":"spr_poco_portrait","path":"sprites/spr_poco_portrait/spr_poco_portrait.yy",},},
     {"id":{"name":"spr_poco_presto_to_dacapo","path":"sprites/spr_poco_presto_to_dacapo/spr_poco_presto_to_dacapo.yy",},},
+    {"id":{"name":"spr_poco_projectile_1","path":"sprites/spr_poco_projectile_1/spr_poco_projectile_1.yy",},},
+    {"id":{"name":"spr_poco_projectile_2","path":"sprites/spr_poco_projectile_2/spr_poco_projectile_2.yy",},},
+    {"id":{"name":"spr_poco_projectile_3","path":"sprites/spr_poco_projectile_3/spr_poco_projectile_3.yy",},},
     {"id":{"name":"spr_poco_projectile","path":"sprites/spr_poco_projectile/spr_poco_projectile.yy",},},
     {"id":{"name":"spr_poco_stockicon","path":"sprites/spr_poco_stockicon/spr_poco_stockicon.yy",},},
     {"id":{"name":"spr_poly_bthrow","path":"sprites/spr_poly_bthrow/spr_poly_bthrow.yy",},},

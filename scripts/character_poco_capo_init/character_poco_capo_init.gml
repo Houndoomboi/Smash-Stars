@@ -240,7 +240,7 @@ function character_poco_capo_init()
 		my_attacks[$ "Nair"			] = colt_airlight;
 		my_attacks[$ "Dair"			] = colt_airstrong;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
+		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
 		my_attacks[$ "Uspec"		] = colt_airspecial;
 				 
 		my_attacks[$ "Grab"			] = colt_grab;

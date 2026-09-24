@@ -166,7 +166,7 @@ function Poco_Ground_Special(){
 						var _speed = 5 + (5 * _scale);
 						var _proj = hitbox_create_projectile_custom
 							(
-							obj_samus_nspec_charge_shot, 
+							obj_poco_charge_shot_obj, 
 							45, 
 							0, 
 							0.4 * _size, 
