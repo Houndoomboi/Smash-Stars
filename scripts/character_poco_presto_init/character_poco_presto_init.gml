@@ -232,7 +232,7 @@ function character_poco_presto_init()
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 
-		my_attacks[$ "Nair"			] = colt_airlight;
+		my_attacks[$ "Nair"			] = poco_weakair;
 		my_attacks[$ "Dair"			] = colt_airstrong;
 				 
 		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
