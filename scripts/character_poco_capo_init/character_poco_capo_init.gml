@@ -238,7 +238,7 @@ function character_poco_capo_init()
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 
 		my_attacks[$ "Nair"			] = poco_weakair;
-		my_attacks[$ "Dair"			] = colt_airstrong;
+		my_attacks[$ "Dair"			] = poco_strongair_capo;
 				 
 		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
 		my_attacks[$ "Uspec"		] = colt_airspecial;
