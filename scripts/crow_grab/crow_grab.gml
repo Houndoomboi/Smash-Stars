@@ -220,7 +220,7 @@ var run = true
 				if (attack_frame == 8)
 					{
 						{
-						var _hitbox = hitbox_create_targetbox(0, 0, 2, 2, 7, 10, 0.5, 8, 160, 3, SHAPE.circle, 2, grabbed_id);
+						var _hitbox = hitbox_create_targetbox(0, 0, 2, 2, 7, 10, 0.5, 8, 90, 3, SHAPE.circle, 2, grabbed_id);
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.hit_sfx = snd_hit_strong0;
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_medium, HIT_VFX.lines];

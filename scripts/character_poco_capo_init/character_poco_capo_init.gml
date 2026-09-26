@@ -235,16 +235,16 @@ function character_poco_capo_init()
 		{
 		my_attacks[$ "Jab"			] = poco_capo_jab;
 				 
-		my_attacks[$ "Fsmash"		] = colt_groundstrong;
+		my_attacks[$ "Fsmash"		] = poco_capo_strong;
 				 
 		my_attacks[$ "Nair"			] = poco_weakair;
 		my_attacks[$ "Dair"			] = poco_strongair_capo;
 				 
 		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Uspec"		] = poco_capo_airspec;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
-		my_attacks[$ "Dash_Grab"	] = colt_grab;
+		my_attacks[$ "Grab"			] = poco_grab;
+		my_attacks[$ "Dash_Grab"	] = poco_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 

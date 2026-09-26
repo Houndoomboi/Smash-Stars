@@ -214,6 +214,10 @@ function character_poco_presto_init()
 		
 		draw_script = -1;
 		callback_add(callback_hurt, ColtVoicelines_Hurt, CALLBACK_TYPE.permanent);
+		
+		knockout_voice1 = Bone2Pick
+		
+		knockout_voice2 = BrokenGuitar
 		}
 
 	//States
@@ -230,13 +234,13 @@ function character_poco_presto_init()
 		{
 		my_attacks[$ "Jab"			] = poco_presto_jab;
 				 
-		my_attacks[$ "Fsmash"		] = colt_groundstrong;
+		my_attacks[$ "Fsmash"		] = poco_presto_strong;
 				 
 		my_attacks[$ "Nair"			] = poco_weakair;
 		my_attacks[$ "Dair"			] = poco_strongair_presto;
 				 
 		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
-		my_attacks[$ "Uspec"		] = colt_airspecial;
+		my_attacks[$ "Uspec"		] = poco_presto_airspecial;
 				 
 		my_attacks[$ "Grab"			] = colt_grab;
 		my_attacks[$ "Dash_Grab"	] = colt_grab;

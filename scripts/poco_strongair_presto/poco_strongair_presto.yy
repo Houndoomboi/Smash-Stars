@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"poco_strongair_presto",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Characters/Poco (Presto)/Attacks.yy",
+    "name":"Scripts",
+    "path":"folders/Characters/Poco (Presto)/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
