@@ -228,7 +228,7 @@ function character_poco_presto_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = poco_presto_jab;
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 

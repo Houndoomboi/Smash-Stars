@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Poco (Da Capo)",
-    "path":"folders/Characters/Poco (Da Capo).yy",
+    "name":"Attacks",
+    "path":"folders/Characters/Poco (Da Capo)/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

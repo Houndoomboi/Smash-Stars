@@ -233,7 +233,7 @@ function character_poco_capo_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = poco_capo_jab;
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 
