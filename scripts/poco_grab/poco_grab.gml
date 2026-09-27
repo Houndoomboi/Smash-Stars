@@ -22,7 +22,6 @@ var run = true
 				anim_sprite = spr_poco_grab;
 				anim_speed = 0;
 				anim_frame = 0;
-				sprite_scale = 0.8
 			
 				attack_frame = 8;
 				

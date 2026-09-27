@@ -268,70 +268,70 @@ function character_darryl_init()
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_darryl_idle, anim_define(spr_darryl_idle));
 		my_sprites[$ "Idle"				] = spr_darryl_idle;
-		my_sprites[$ "Crouch"			] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
-		my_sprites[$ "Walk"				] = spr_colt_run;
-		my_sprites[$ "Walk_Turn"		] = spr_colt_run;
-		my_sprites[$ "Dash"				] = spr_colt_run;
-		my_sprites[$ "Run"				] = spr_colt_run;
-		my_sprites[$ "Run_Turn"			] = spr_colt_run;
-		my_sprites[$ "Run_Stop"			] = spr_colt_run;
+		my_sprites[$ "Crouch"			] = anim_define(spr_darryl_crouch, anim_define(spr_darryl_crouch_loop));
+		my_sprites[$ "Walk"				] = spr_darryl_run;
+		my_sprites[$ "Walk_Turn"		] = spr_darryl_run;
+		my_sprites[$ "Dash"				] = spr_darryl_run;
+		my_sprites[$ "Run"				] = spr_darryl_run;
+		my_sprites[$ "Run_Turn"			] = spr_darryl_run;
+		my_sprites[$ "Run_Stop"			] = spr_darryl_run;
 				 
-		my_sprites[$ "Jumpsquat"		] = spr_colt_crouch;
-		my_sprites[$ "Jump_Rise"		] = spr_colt_jump;
-		my_sprites[$ "Jump_Mid"			] = spr_colt_jump;
-		my_sprites[$ "Jump_Fall"		] = spr_colt_fall;
-		my_sprites[$ "Fastfall"			] = spr_colt_fall;
-		my_sprites[$ "DJump_Rise"		] = anim_define(spr_colt_jump, anim_define(spr_colt_jump));
+		my_sprites[$ "Jumpsquat"		] = spr_darryl_crouch;
+		my_sprites[$ "Jump_Rise"		] = spr_darryl_jump;
+		my_sprites[$ "Jump_Mid"			] = spr_darryl_jump;
+		my_sprites[$ "Jump_Fall"		] = spr_darryl_fall;
+		my_sprites[$ "Fastfall"			] = spr_darryl_fall;
+		my_sprites[$ "DJump_Rise"		] = anim_define(spr_darryl_jump, anim_define(spr_darryl_fall));
 		my_sprites[$ "DJump_Mid"		] = -1;
 		my_sprites[$ "DJump_Fall"		] = -1;
 		my_sprites[$ "DFastfall"		] = -1;
 				 
-		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_colt_airdodge, 0, anim_calculate_speed(spr_colt_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_colt_crouch;
-		my_sprites[$ "Rolling"			] = spr_basic_rolling;
-		my_sprites[$ "Shield"			] = anim_define(spr_colt_shield_begin, anim_define(spr_colt_shield));
-		my_sprites[$ "Shield_Release"	] = spr_colt_Idle;
+		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_darryl_dodge, 0, anim_calculate_speed(spr_darryl_dodge, airdodge_startup + airdodge_active + airdodge_endlag));
+		my_sprites[$ "Waveland"			] = spr_darryl_crouch;
+		my_sprites[$ "Rolling"			] = spr_darryl_dodge;
+		my_sprites[$ "Shield"			] = anim_define(spr_darryl_shield, anim_define(spr_darryl_shield_loop));
+		my_sprites[$ "Shield_Release"	] = spr_darryl_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_colt_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_colt_shieldbreak;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Spot_Dodge"		] = spr_darryl_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
-		my_sprites[$ "Hitlag"			] = spr_colt_hit;
-		my_sprites[$ "Hitstun"			] = spr_colt_hit;
-		my_sprites[$ "Tumble"			] = spr_colt_hit;
-		my_sprites[$ "Helpless"			] = spr_colt_jump;
-		my_sprites[$ "Magnet"			] = spr_colt_hit;
-		my_sprites[$ "Flinch"			] = spr_colt_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
-		my_sprites[$ "Balloon"			] = spr_colt_hit;
-		my_sprites[$ "Reeling"			] = spr_colt_hit;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Hitlag"			] = spr_darryl_hurt;
+		my_sprites[$ "Hitstun"			] = spr_darryl_hurt;
+		my_sprites[$ "Tumble"			] = spr_darryl_hurt;
+		my_sprites[$ "Helpless"			] = spr_darryl_fall;
+		my_sprites[$ "Magnet"			] = spr_darryl_hurt;
+		my_sprites[$ "Flinch"			] = spr_darryl_hurt;
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_darryl_crouch, anim_define(spr_darryl_crouch_loop));
+		my_sprites[$ "Balloon"			] = spr_darryl_hurt;
+		my_sprites[$ "Reeling"			] = spr_darryl_hurt;
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_darryl_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_darryl_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_darryl_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_darryl_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_darryl_crouch_loop, 0, anim_calculate_speed(spr_darryl_crouch_loop, getup_active + getup_endlag));
 	
-		my_sprites[$ "Tech_Rolling"		] = spr_colt_airdodge; 
-		my_sprites[$ "Teching"			] = spr_colt_HUD;
-		my_sprites[$ "Teching_Wall"		] = spr_colt_jump;
-		my_sprites[$ "Teching_Ceiling"	] = spr_colt_jump;
-		my_sprites[$ "Tech_Wall_Jump"	] = spr_colt_jump;
+		my_sprites[$ "Tech_Rolling"		] = spr_darryl_dodge; 
+		my_sprites[$ "Teching"			] = spr_darryl_crouch;
+		my_sprites[$ "Teching_Wall"		] = spr_darryl_jump;
+		my_sprites[$ "Teching_Ceiling"	] = spr_darryl_jump;
+		my_sprites[$ "Tech_Wall_Jump"	] = spr_darryl_jump;
 				 
-		my_sprites[$ "Ledge_Snap"		] = spr_colt_ledge;
-		my_sprites[$ "Ledge_Hang"		] = spr_colt_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_colt_HUD;
-		my_sprites[$ "Ledge_Jump"		] = spr_colt_jump;
-		my_sprites[$ "Ledge_Roll"		] = spr_colt_airdodge;
+		my_sprites[$ "Ledge_Snap"		] = spr_darryl_ledge;
+		my_sprites[$ "Ledge_Hang"		] = spr_darryl_ledge;
+		my_sprites[$ "Ledge_Getup"		] = spr_darryl_crouch;
+		my_sprites[$ "Ledge_Jump"		] = spr_darryl_jump;
+		my_sprites[$ "Ledge_Roll"		] = spr_darryl_dodge;
 		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
 		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
 		my_sprites[$ "Wall_Cling"		] = -1;
-		my_sprites[$ "Wall_Jump"		] = spr_colt_jump;
+		my_sprites[$ "Wall_Jump"		] = spr_darryl_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_colt_hit;
+		my_sprites[$ "Star_KO"			] = spr_darryl_hurt;
 		my_sprites[$ "Screen_KO"		] = spr_colt_screenko;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
-		my_sprites[$ "Grabbed"			] = spr_colt_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_colt_crouch, anim_define(spr_colt_HUD));
+		my_sprites[$ "Grabbed"			] = spr_darryl_hurt;
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_darryl_crouch, anim_define(spr_darryl_crouch_loop));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

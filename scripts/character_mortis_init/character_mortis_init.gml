@@ -305,9 +305,9 @@ function character_mortis_init()
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_mortis_crouch, anim_define(spr_mortis_crouchloop));
 		my_sprites[$ "Balloon"			] = spr_mortis_hurt;
 		my_sprites[$ "Reeling"			] = spr_mortis_hurt;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_mortis_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_mortis_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_mortis_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_mortis_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_mortis_crouchloop, 0, anim_calculate_speed(spr_mortis_crouch, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_mortis_airdodge; 
 		my_sprites[$ "Teching"			] = spr_mortis_crouchloop;

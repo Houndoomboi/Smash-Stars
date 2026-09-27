@@ -242,7 +242,7 @@ function character_poco_presto_init()
 		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
 		my_attacks[$ "Uspec"		] = poco_presto_airspecial;
 				 
-		my_attacks[$ "Grab"			] = colt_grab;
+		my_attacks[$ "Grab"			] = poco_grab;
 		my_attacks[$ "Dash_Grab"	] = colt_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
@@ -304,9 +304,9 @@ function character_poco_presto_init()
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_poco_crouch, anim_define(spr_poco_crouch_loop));
 		my_sprites[$ "Balloon"			] = spr_poco_hurt;
 		my_sprites[$ "Reeling"			] = spr_poco_hurt;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_poco_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_poco_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_poco_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_poco_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_poco_crouch_loop, 0, anim_calculate_speed(spr_poco_crouch, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_colt_airdodge; 
 		my_sprites[$ "Teching"			] = spr_poco_crouch_loop;

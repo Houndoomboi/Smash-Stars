@@ -14,6 +14,6 @@ if (stage != noone)
 	}
 else
 	{
-	draw_sprite(spr_stage_random_button, 0, x + (sprite_width / 2), y + (sprite_height / 2));
+	draw_sprite(spr_random_stage, 0, x + (sprite_width / 2), y + (sprite_height / 2));
 	}
 /* Copyright 2026 Springroll Games / Yosi */

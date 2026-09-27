@@ -682,17 +682,20 @@ if ((state == GAME_STATE.startup || state == GAME_STATE.normal) && countdown > 0
 	var _frame = countdown div countdown_start_time;
 	var _scale = lerp(2.2, 2, (countdown % countdown_start_time) / countdown_start_time);
 	var _alpha = lerp(0, 2, (countdown % countdown_start_time) / countdown_start_time);
-	var _string = "";
-	if (_frame == 0) then _string = "GO!";
-	else if (_frame == 1) then _string = "1";
-	else if (_frame == 2) then _string = "2";
-	else if (_frame == 3) then _string = "3";
-	draw_set_font(fnt_eras);
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
-	draw_set_alpha(_alpha);
-	draw_text_outline(center_x, center_y, _string, c_white, c_black, 2);
-	draw_set_alpha(1.0);
+	                draw_sprite_ext
+	                    (
+						spr_match_countdown,
+						_frame,
+						center_x,
+						center_y,
+						1,
+						1,
+						0,
+						c_white,
+						_alpha,
+						);
+
+					
 	}
 #endregion
 
@@ -712,12 +715,18 @@ if (state == GAME_STATE.ending)
 			draw_set_alpha(1);
 			var _scale = 2;
 			var _alpha = lerp(0, 1, _diff / 14);
-			draw_set_font(fnt_eras);
-			draw_set_halign(fa_center);
-			draw_set_valign(fa_center);
-			draw_set_alpha(_alpha);
-			draw_text_outline(center_x, center_y, "GAME!", c_white, c_black, 2);
-			draw_set_alpha(1.0);
+			draw_sprite_ext
+	                    (
+						spr_match_end,
+						0,
+						center_x,
+						center_y,
+						1,
+						1,
+						0,
+						c_white,
+						_alpha,
+						);
 			}
 		else
 			{
@@ -726,12 +735,18 @@ if (state == GAME_STATE.ending)
 			draw_set_alpha(1);
 			var _scale = 2;
 			var _alpha = lerp(0, 2, game_end_frame / game_end_time);
-			draw_set_font(fnt_eras);
-			draw_set_halign(fa_center);
-			draw_set_valign(fa_center);
-			draw_set_alpha(_alpha);
-			draw_text_outline(center_x, center_y, "GAME!", c_white, c_black, 2);
-			draw_set_alpha(1.0);
+			draw_sprite_ext
+	                    (
+						spr_match_end,
+						0,
+						center_x,
+						center_y,
+						1,
+						1,
+						0,
+						c_white,
+						_alpha,
+						);
 			}
 		}
 	}

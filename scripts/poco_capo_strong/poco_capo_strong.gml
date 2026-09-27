@@ -25,7 +25,7 @@ function poco_capo_strong(){
 		
 				charge = 0;
 		
-				attack_frame = 14;
+				attack_frame = 7;
 				return;
 				}
 				//Charging

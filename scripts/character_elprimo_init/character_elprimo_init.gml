@@ -268,7 +268,7 @@ function character_elprimo_init()
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_elprimo_idle, anim_define(spr_elprimo_idle));
 		my_sprites[$ "Idle"				] = spr_elprimo_idle;
-		my_sprites[$ "Crouch"			] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch));
+		my_sprites[$ "Crouch"			] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch_loop));
 		my_sprites[$ "Walk"				] = spr_primo_run;
 		my_sprites[$ "Walk_Turn"		] = spr_primo_run;
 		my_sprites[$ "Dash"				] = spr_primo_run;
@@ -302,12 +302,12 @@ function character_elprimo_init()
 		my_sprites[$ "Helpless"			] = spr_primo_jump;
 		my_sprites[$ "Magnet"			] = spr_primo_hit;
 		my_sprites[$ "Flinch"			] = spr_primo_hit;
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch));
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch_loop));
 		my_sprites[$ "Balloon"			] = spr_primo_hit
 		my_sprites[$ "Reeling"			] = spr_primo_hit;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_primo_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_primo_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_primo_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_primo_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_primo_crouch, 0, anim_calculate_speed(spr_primo_crouch_loop, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_primo_airdodge; 
 		my_sprites[$ "Teching"			] = spr_primo_airdodge;
@@ -331,7 +331,7 @@ function character_elprimo_init()
 				 
 		my_sprites[$ "Grabbing"			] = spr_primo_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_primo_hit;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_run));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_primo_crouch, anim_define(spr_primo_crouch_loop));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */
