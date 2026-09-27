@@ -104,7 +104,7 @@ function poco_capo_airspec()
 						else
 							{
 							//Aerial version
-							var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+							var _hitbox = hitbox_create_magnetbox(0, 5, 0, 0, 0, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 							_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 							_hitbox.shieldstun_scaling = 0;
 							attack_phase = 1;
@@ -116,7 +116,7 @@ function poco_capo_airspec()
 					//Grounded
 					else
 						{
-						var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+						var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 0, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 						_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 						_hitbox.shieldstun_scaling = 0;
 						attack_phase = 3;
@@ -152,7 +152,7 @@ function poco_capo_airspec()
 					{	
 					hitbox_group_reset(1);
 				
-					var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_magnetbox(0, 5, 0, 0, 0, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.shieldstun_scaling = 0;
 					}
@@ -172,7 +172,7 @@ function poco_capo_airspec()
 					anim_frame = 8;
 					
 					//Final hit
-					var _hitbox = hitbox_create_melee(0, 5, 0.8, 0.6, 4, 10, 0.4, 8, 50, 3, SHAPE.circle, 2);
+					var _hitbox = hitbox_create_melee(0, 5, 0, 0, 0, 10, 0.4, 8, 50, 3, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.hitstun_scaling = 0.5;
@@ -234,7 +234,7 @@ function poco_capo_airspec()
 					{	
 					hitbox_group_reset(1);
 				
-					var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.6, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_magnetbox(0, 5, 0, 0, 0, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.shieldstun_scaling = 0;
 					}
@@ -255,7 +255,7 @@ function poco_capo_airspec()
 					anim_frame = 8;
 					
 					//Final hit
-					var _hitbox = hitbox_create_melee(0, 5, 0.8, 0.6, 6, 8, 0.5, 12, 55, 3, SHAPE.circle, 2);
+					var _hitbox = hitbox_create_melee(0, 5, 0, 0, 0, 8, 0.5, 12, 55, 3, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;

@@ -295,7 +295,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -3098,6 +3098,8 @@
     {"id":{"name":"spr_zss_uspec","path":"sprites/spr_zss_uspec/spr_zss_uspec.yy",},},
     {"id":{"name":"Sprite912","path":"sprites/Sprite912/Sprite912.yy",},},
     {"id":{"name":"Sprite913","path":"sprites/Sprite913/Sprite913.yy",},},
+    {"id":{"name":"SS_Quit","path":"sprites/SS_Quit/SS_Quit.yy",},},
+    {"id":{"name":"SS_Ready","path":"sprites/SS_Ready/SS_Ready.yy",},},
     {"id":{"name":"Tick","path":"sprites/Tick/Tick.yy",},},
     {"id":{"name":"Willow","path":"sprites/Willow/Willow.yy",},},
   ],
