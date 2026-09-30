@@ -297,7 +297,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -374,6 +374,7 @@
     {"id":{"name":"obj_launch_trajectory_point","path":"objects/obj_launch_trajectory_point/obj_launch_trajectory_point.yy",},},
     {"id":{"name":"obj_ledge","path":"objects/obj_ledge/obj_ledge.yy",},},
     {"id":{"name":"obj_link_nspec_bow_arrow","path":"objects/obj_link_nspec_bow_arrow/obj_link_nspec_bow_arrow.yy",},},
+    {"id":{"name":"obj_main_menu_display_image","path":"objects/obj_main_menu_display_image/obj_main_menu_display_image.yy",},},
     {"id":{"name":"obj_main_menu_sidebar_ui","path":"objects/obj_main_menu_sidebar_ui/obj_main_menu_sidebar_ui.yy",},},
     {"id":{"name":"obj_main_menu_ui","path":"objects/obj_main_menu_ui/obj_main_menu_ui.yy",},},
     {"id":{"name":"obj_match_loading_screen","path":"objects/obj_match_loading_screen/obj_match_loading_screen.yy",},},
