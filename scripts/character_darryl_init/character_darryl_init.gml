@@ -233,7 +233,7 @@ function character_darryl_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = colt_jab;
+		my_attacks[$ "Jab"			] = Darryl_Jab;
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 

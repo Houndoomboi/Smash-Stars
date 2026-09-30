@@ -297,7 +297,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -853,6 +853,7 @@
     {"id":{"name":"custom_controls_create","path":"scripts/custom_controls_create/custom_controls_create.yy",},},
     {"id":{"name":"custom_controls_default","path":"scripts/custom_controls_default/custom_controls_default.yy",},},
     {"id":{"name":"custom_controls_unpack","path":"scripts/custom_controls_unpack/custom_controls_unpack.yy",},},
+    {"id":{"name":"Darryl_Jab","path":"scripts/Darryl_Jab/Darryl_Jab.yy",},},
     {"id":{"name":"daynight_set","path":"scripts/daynight_set/daynight_set.yy",},},
     {"id":{"name":"debug_timer_end_function","path":"scripts/debug_timer_end_function/debug_timer_end_function.yy",},},
     {"id":{"name":"debug_timer_end","path":"scripts/debug_timer_end/debug_timer_end.yy",},},
