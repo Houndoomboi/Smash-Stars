@@ -35,9 +35,9 @@ function main_menu_sidebar_choose()
 			break;
 		case 3:
 			//Replays
-			if (room != rm_replays)
+			if (room != rm_main_menu_extras_submenu)
 				{
-				room_goto(rm_replays);
+				room_goto(rm_main_menu_extras_submenu);
 				}
 			break;
 		case 4:
@@ -58,8 +58,19 @@ function main_menu_sidebar_choose()
 			//Quit
 			game_end();
 			break;
+		case 7:
+			//Main Menu
+			if (room != rm_replays)
+				{
+				room_goto(rm_replays);
+				}
+			break;
+		case 8: 
+			url_open("https://discord.gg/qE6QSrqqaF");
+			break;
 		default: crash("[main_menu_sidebar_choose] Invalid choice (", _choice, ")");
 		}
+		
 	return;
 	}
 /* Copyright 2026 Springroll Games / Yosi */

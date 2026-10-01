@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_main_menu_display_image",
+  "%Name":"obj_main_menu_online_display_image",
   "eventList":[],
   "managed":true,
-  "name":"obj_main_menu_display_image",
+  "name":"obj_main_menu_online_display_image",
   "overriddenProperties":[],
   "parent":{
     "name":"Main Menu Screen",
