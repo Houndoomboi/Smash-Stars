@@ -854,6 +854,7 @@
     {"id":{"name":"custom_controls_default","path":"scripts/custom_controls_default/custom_controls_default.yy",},},
     {"id":{"name":"custom_controls_unpack","path":"scripts/custom_controls_unpack/custom_controls_unpack.yy",},},
     {"id":{"name":"Darryl_Jab","path":"scripts/Darryl_Jab/Darryl_Jab.yy",},},
+    {"id":{"name":"darryl_weakair","path":"scripts/darryl_weakair/darryl_weakair.yy",},},
     {"id":{"name":"daynight_set","path":"scripts/daynight_set/daynight_set.yy",},},
     {"id":{"name":"debug_timer_end_function","path":"scripts/debug_timer_end_function/debug_timer_end_function.yy",},},
     {"id":{"name":"debug_timer_end","path":"scripts/debug_timer_end/debug_timer_end.yy",},},

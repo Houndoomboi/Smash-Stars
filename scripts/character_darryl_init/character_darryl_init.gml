@@ -237,7 +237,7 @@ function character_darryl_init()
 				 
 		my_attacks[$ "Fsmash"		] = colt_groundstrong;
 				 
-		my_attacks[$ "Nair"			] = colt_airlight;
+		my_attacks[$ "Nair"			] = darryl_weakair;
 		my_attacks[$ "Dair"			] = colt_airstrong;
 				 
 		my_attacks[$ "Nspec"		] = colt_special;
