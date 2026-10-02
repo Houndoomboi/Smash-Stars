@@ -48,7 +48,7 @@ if (engine().online_show_ping)
 	draw_set_alpha(1);
 	draw_sprite(spr_ping, _subimage, 16, screen_height - 16); 
 	draw_set_color(_color);
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
 	draw_text(32, screen_height - 16, string(_ping));

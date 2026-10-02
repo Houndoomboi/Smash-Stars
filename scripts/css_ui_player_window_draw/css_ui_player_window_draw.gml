@@ -46,7 +46,7 @@ function css_ui_player_window_draw()
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			_pad = half_height div 2;
 			_half = _pad div 2;
 			_c = c_dkgray;
@@ -70,7 +70,7 @@ function css_ui_player_window_draw()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			draw_text(x, y - 32, "Profile Name:");
 			draw_set_alpha(0.25);
 			draw_text(x - 32, y, profile_valid_letters[modulo(profile_new_letter - 2, array_length(profile_valid_letters))]);
@@ -92,7 +92,7 @@ function css_ui_player_window_draw()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			var _type = css_player_get(player_instance_id, CSS_PLAYER.device_type);
 			var _cc = custom_controls_struct;
 			_pad = half_height div 2;
@@ -288,7 +288,7 @@ function css_ui_player_window_draw()
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			_type = css_player_get(player_instance_id, CSS_PLAYER.device_type);
 			draw_text(x, y - 16, cc_input_name_get(_type, custom_controls_current) + ":");
 			var _length = array_length(custom_controls_array);

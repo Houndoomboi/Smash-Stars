@@ -32,7 +32,7 @@ if (display_chat)
 		var _length = array_length(_history);
 		var _x = round((room_width div 2) + _h);
 		var _y = round((room_height div 2) + (((online_chat_messages_stored / 2) * _v) - (_v / 2)));
-		draw_set_font(fnt_consolas_larger);
+		draw_set_font(fnt_showcard_gothic_larger);
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_middle);
 		draw_set_color(c_white);

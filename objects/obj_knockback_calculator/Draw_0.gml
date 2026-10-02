@@ -6,7 +6,7 @@ var _y = room_height - ((room_height - _h) div 2);
 
 draw_set_color(c_white);
 draw_set_alpha(1);
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 
 draw_line(_x, _y, _x + _w, _y);
 draw_line(_x, _y, _x, _y - _h);

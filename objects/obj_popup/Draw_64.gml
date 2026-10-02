@@ -4,7 +4,7 @@ draw_set_alpha(0.7);
 draw_rectangle(0, 0, screen_width, screen_height, false);
 draw_set_alpha(1);
 
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);

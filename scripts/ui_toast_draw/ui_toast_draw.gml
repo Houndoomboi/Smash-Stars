@@ -5,7 +5,7 @@ function ui_toast_draw()
 		draw_set_alpha(image_alpha);
 		draw_set_valign(fa_middle);
 		if (font != -1) then draw_set_font(font);
-		else draw_set_font(fnt_consolas);
+		else draw_set_font(fnt_showcard_gothic);
 		var _col = draw_get_color();
 		var _width = string_width(text);
 		switch (halign)
@@ -36,7 +36,7 @@ function ui_toast_draw()
 		draw_set_halign(fa_center);
 		draw_set_alpha(1);
 		draw_set_color(_col);
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		}
 	}
 /* Copyright 2026 Springroll Games / Yosi */

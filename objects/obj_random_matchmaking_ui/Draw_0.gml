@@ -29,7 +29,7 @@ if (engine().online_show_matchmaking)
 		}
 	
 	//Message
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white);
@@ -48,7 +48,7 @@ else
 		{
 		_msg = "Matchmaking progress is hidden (Go to Options to change)"
 		}
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white);

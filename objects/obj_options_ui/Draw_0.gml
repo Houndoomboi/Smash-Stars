@@ -6,7 +6,7 @@ var _pad = 24;
 var _half = _pad / 2;
 var _c = $bbaaaa;
 var _num = min(options_per_page, options_count);
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 draw_set_valign(fa_middle);
 
 for (var i = 0; i < _num; i++)

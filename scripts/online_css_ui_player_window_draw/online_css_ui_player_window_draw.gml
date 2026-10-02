@@ -45,7 +45,7 @@ function online_css_ui_player_window_draw()
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_middle);
 			draw_set_color(c_white);
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			var _pad = half_height div 2;
 			var _half = _pad div 2;
 			_c = c_dkgray;

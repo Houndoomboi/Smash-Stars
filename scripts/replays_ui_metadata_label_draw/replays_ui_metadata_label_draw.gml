@@ -23,7 +23,7 @@ function replays_ui_metadata_label_draw()
 	
 		//Replay Length
 		_y += 32;
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		draw_set_halign(fa_left);
 		draw_text(_left, _y, "Length");
 		draw_set_halign(fa_right);

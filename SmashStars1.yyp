@@ -297,13 +297,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStars1",
   "resources":[
     {"id":{"name":"fnt_bahnschrift","path":"fonts/fnt_bahnschrift/fnt_bahnschrift.yy",},},
-    {"id":{"name":"fnt_consolas_larger","path":"fonts/fnt_consolas_larger/fnt_consolas_larger.yy",},},
-    {"id":{"name":"fnt_consolas","path":"fonts/fnt_consolas/fnt_consolas.yy",},},
     {"id":{"name":"fnt_credits_bold","path":"fonts/fnt_credits_bold/fnt_credits_bold.yy",},},
     {"id":{"name":"fnt_credits","path":"fonts/fnt_credits/fnt_credits.yy",},},
     {"id":{"name":"fnt_eras","path":"fonts/fnt_eras/fnt_eras.yy",},},
@@ -311,6 +309,8 @@
     {"id":{"name":"fnt_notice_text","path":"fonts/fnt_notice_text/fnt_notice_text.yy",},},
     {"id":{"name":"fnt_notice","path":"fonts/fnt_notice/fnt_notice.yy",},},
     {"id":{"name":"fnt_podium","path":"fonts/fnt_podium/fnt_podium.yy",},},
+    {"id":{"name":"fnt_showcard_gothic_larger","path":"fonts/fnt_showcard_gothic_larger/fnt_showcard_gothic_larger.yy",},},
+    {"id":{"name":"fnt_showcard_gothic","path":"fonts/fnt_showcard_gothic/fnt_showcard_gothic.yy",},},
     {"id":{"name":"fnt_win_subtitle","path":"fonts/fnt_win_subtitle/fnt_win_subtitle.yy",},},
     {"id":{"name":"fnt_win","path":"fonts/fnt_win/fnt_win.yy",},},
     {"id":{"name":"fnt_window","path":"fonts/fnt_window/fnt_window.yy",},},

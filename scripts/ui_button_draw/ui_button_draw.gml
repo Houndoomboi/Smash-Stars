@@ -17,9 +17,9 @@ function ui_button_draw()
 		{
 		draw_set_halign(fa_center);
 		if (font != -1) then draw_set_font(font);
-		else draw_set_font(fnt_consolas);
+		else draw_set_font(fnt_showcard_gothic);
 		draw_text(x + (sprite_width / 2), y + (sprite_height / 2), text);
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		}
 	}
 /* Copyright 2026 Springroll Games / Yosi */

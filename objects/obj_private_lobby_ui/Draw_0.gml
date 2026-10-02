@@ -13,7 +13,7 @@ var _list = obj_ggmr_lobby.lobby_join_requests;
 var _length = ds_list_size(_list);
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 draw_set_color(c_white);
 draw_set_alpha(1);
 for (var i = 0; i < min(join_request_list_display_size, _length); i++)

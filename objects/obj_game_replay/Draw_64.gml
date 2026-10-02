@@ -8,7 +8,7 @@ if (meta_state == GAME_META_STATE.paused_replay && replay_draw_hud)
 	var _x = 32;
 	var _y = 32;
 	var _pad = 24;
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
 	

@@ -100,7 +100,7 @@ if (state_phase >= 2)
 	draw_set_valign(fa_top);
 	
 	//Replay Length
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_left);
 	draw_text(_left, _y, "Length");
 	draw_set_halign(fa_right);
@@ -173,7 +173,7 @@ if (state_phase >= 2)
 	draw_set_valign(fa_middle);
 	draw_text(_x, _y, replay_name);
 	
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 		
 	//Replay renaming prompt
 	var _text = [];

@@ -8,7 +8,7 @@ var _half = _pad / 2;
 var _c = $E24AB5;
 var _del = $4E4EE5;
 var _num = min(replays_per_page, replays_count);
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 draw_set_valign(fa_middle);
 
 for (var i = 0; i < _num; i++)

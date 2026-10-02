@@ -6,7 +6,7 @@ draw_line_width_color(x, y, x + lengthdir_x(100, kb_angle), y + lengthdir_y(100,
 draw_line_width_color(x, y, x + lengthdir_x(100, stick_angle), y + lengthdir_y(100, stick_angle), 4, c_blue, c_blue);
 draw_line_width_color(x, y, x + lengthdir_x(200, di_angle), y + lengthdir_y(200, di_angle), 4, c_lime, c_lime);
 
-draw_set_font(fnt_consolas);
+draw_set_font(fnt_showcard_gothic);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_rectangle_color(16, 16, 180, 128, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);

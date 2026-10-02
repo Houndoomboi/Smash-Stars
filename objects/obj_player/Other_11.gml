@@ -123,7 +123,7 @@ if (surface_exists(obj_game.game_surface))
 		{
 		if (obj_game.debug_menus.overhead)
 			{
-			draw_set_font(fnt_consolas);
+			draw_set_font(fnt_showcard_gothic);
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
 			draw_set_color(c_white);

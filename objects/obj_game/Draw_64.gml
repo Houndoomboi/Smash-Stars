@@ -28,7 +28,7 @@ if (state != GAME_STATE.cutscene)
 			//Overhead options
 			if (setting().show_overhead_name)
 				{
-				draw_set_font(fnt_consolas);
+				draw_set_font(fnt_showcard_gothic);
 				var _name = player_name;
 				var _size = (string_width(_name) / 2) + 1;
 				draw_set_halign(fa_center);
@@ -99,7 +99,7 @@ if (state != GAME_STATE.cutscene)
 	if (setting().show_hud)
 		{
 		//Font settings
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_middle);
 		draw_set_color(c_white);
@@ -781,7 +781,7 @@ if (meta_state == GAME_META_STATE.paused)
 		draw_set_alpha(0.7);
 		draw_rectangle(8, 8, 328, 86, false);
 		draw_set_alpha(1);
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_top);
 		draw_set_color(c_white);
@@ -797,7 +797,7 @@ if (meta_state == GAME_META_STATE.paused)
 		var _pad = 48;
 		var _c = $333333;
 		draw_rectangle_color(screen_width - _size, 0, screen_width, screen_height, _c, _c, _c, _c, false);
-		draw_set_font(fnt_consolas);
+		draw_set_font(fnt_showcard_gothic);
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_middle);
 		draw_set_color(c_white);
@@ -884,7 +884,7 @@ if (state == GAME_STATE.startup)
 #region Debugging
 if (setting().debug_mode_enable)
 	{
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	
@@ -949,7 +949,7 @@ if (setting().debug_mode_enable)
 #region FPS
 if (setting().debug_fps)
 	{
-	draw_set_font(fnt_consolas);
+	draw_set_font(fnt_showcard_gothic);
 	draw_set_color(c_black);
 	draw_set_halign(fa_right);
 	draw_set_valign(fa_top);
