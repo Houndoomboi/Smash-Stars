@@ -13,7 +13,7 @@ menu_choices =
 	{ sprite : spr_sidebar_local, text : "LOCAL", web : true },
 	{ sprite : spr_sidebar_quickplay, text : "QUICKPLAY", web : false },
 	{ sprite : spr_sidebar_private_lobby, text : "LOBBY", web : false },
-	{ sprite : spr_sidebar_replays, text : "REPLAYS", web : true },
+	{ sprite : spr_sidebar_replays, text : "EXTRAS", web : true },
 	{ sprite : spr_sidebar_options, text : "OPTIONS", web: true },
 	{ sprite : spr_sidebar_main_menu, text : "MAIN MENU", web : true },
 	{ sprite : spr_sidebar_exit, text : "EXIT", web : true },
