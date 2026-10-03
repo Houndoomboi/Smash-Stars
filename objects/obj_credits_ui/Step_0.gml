@@ -71,7 +71,7 @@ if (mouse_check_button(mb_left))
 //Back to main menu
 if (_back || _remove || _select)
 	{
-	room_goto(rm_main_menu);
+	room_goto(rm_main_menu_extras_submenu);
 	exit;
 	}
 
