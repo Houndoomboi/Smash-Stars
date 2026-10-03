@@ -78,6 +78,16 @@ function stage_data_get_all()
 			["texture_stage_factory"],
 			0
 			),
+		stage_define
+			(
+			"Bull's Diner",
+			stage_diner_init,
+			rm_stage_diner,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		
 	    ];
 	return _data;
 	}
