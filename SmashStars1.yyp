@@ -242,6 +242,7 @@
     {"$GMFolder":"","%Name":"[Stage Elements]","folderPath":"folders/Stages/[Stage Elements].yy","name":"[Stage Elements]","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Stages/[Stage Elements]/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Archive","folderPath":"folders/Stages/Archive.yy","name":"Archive","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Bull's Diner","folderPath":"folders/Stages/Bull's Diner.yy","name":"Bull's Diner","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Darryl's ship","folderPath":"folders/Stages/Darryl's ship.yy","name":"Darryl's ship","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"El Primo's Ring","folderPath":"folders/Stages/El Primo's Ring.yy","name":"El Primo's Ring","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Factory","folderPath":"folders/Stages/Factory.yy","name":"Factory","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -252,7 +253,6 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Stages/Factory/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gem Mine","folderPath":"folders/Stages/Gem Mine.yy","name":"Gem Mine","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gift Shop","folderPath":"folders/Stages/Gift Shop.yy","name":"Gift Shop","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Bull's Diner","folderPath":"folders/Stages/Bull's Diner.yy","name":"Bull's Diner","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mortis Mortuary","folderPath":"folders/Stages/Mortis Mortuary.yy","name":"Mortis Mortuary","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Practice Room","folderPath":"folders/Stages/Practice Room.yy","name":"Practice Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ranger Ranch","folderPath":"folders/Stages/Ranger Ranch.yy","name":"Ranger Ranch","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -298,7 +298,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SmashStars1",
   "resources":[
