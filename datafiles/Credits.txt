@@ -1,6 +1,74 @@
 {Platform Fighter Engine - Credits}
 {Last Modified: 1/23/2025}
 
+[JAYPSPARKS (Jay)] - Team Lead, Code, Sprites, Moveset Design, Stage Art
+<https://www.reddit.com/user/JayPsparks/> 
+<https://bsky.app/profile/jaypsparks.bsky.social>
+
+[HOUNDOOMBOI (Adrian)] - Code, Moveset Design, Playtesting
+<https://youtube.com/@houndoomboi?si=REOgTxV4aSCfatEQ> 
+<https://x.com/DaHoundoomBoss> 
+<https://www.reddit.com/user/Quaxlyboi/>
+
+[STEALTHILY (Toby)] - Sprites, Moveset Design, PR, Concepts
+
+[JACK THE HACK] - Music, Playtesting
+
+[AIDAIN21] - Code, Playtesting
+
+[FLEGENGITTERS (Flieg)] - PR & Socials, Playtesting
+
+[NEKANOV1] - Music
+
+[ALK] - Sprites
+
+[TACOTITANIUM] - Music
+
+[PAPILLION PANDO] - Menu Art, Concept Art, Moveset Design
+
+-----------------------------------------------------------------------------------
+[SPECIAL THANKS]:
+- The Jaymee (Support, Playtesting)
+- Calcobeater (Calco) (Support)
+- Circuit (Support, Programming Issues, Feedback)
+- LifLaughLove (Support, Playtesting)
+- Medievalwing (Support)
+- Pheonix Down Music (Music)
+- CrystalCat (Sprite Touch Ups, Programming)
+- Shuyi (Sprites (Shelly))
+- MustyYoghurt (Artwork, Support)
+- Forgborg (Menu UI)
+- ReekSSS (Support, Programming Issues, Feedback)
+- Kylihim (Support, Programming Issues, Feedback)
+- Laurenslair (Support)
+- withartism1620 (Support)
+- Noirinth Gray (Support, Programming Issues, Feedback)
+- Pepper (Support)
+- Royalty Free For All Dev Team (Colin, Kyrith, Alt, Ivan B. And more!)
+(We cannot thank them enough for making a spectacular game as a basis for this project)
+- Our families, friends, and relatives!
+- [ AND YOU! ]
+
+All character voices were done via clips and rips from the original mobile game! 
+We will never use AI to replicate and steal their voice talents. 
+Support the voice actors and their works!
+
+Smash Stars is a free non-profit project made for fans, 
+by fans with the love of Brawl Stars! 
+All characters belong to their respective owners! 
+Support the people behind the video games you love, 
+or else this game wouldn't be real! lmao
+
+Sincerely, The Smash Stars Dev Team...
+
+------------------------------------------------------------------------------------
+
+[ Extra Information ]:
+- Join the Smash Stars Discord: <https://discord.gg/3JhxVrgTTW>
+- Youtube: <https://www.youtube.com/@SmashStarss>
+
+[ PLATFORM FIGHTER ENGINE CREDITS ]
+------------------------------------------------------------------------------------
 
 [Yosi Spring (Josiah Chen)] - Code, Sprites, Sound Effects
 	<https://yosispring.github.io>
@@ -31,5 +99,3 @@
 - Join Our Discord: <https://discordapp.com/invite/kTX3pug>
 - Official Website: <https://platformfighterengine.github.io>
 - YouTube: <https://www.youtube.com/@PlatformFighterEngine>
-
-Testy test test AidAin21 was here
