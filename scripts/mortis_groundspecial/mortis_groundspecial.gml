@@ -83,7 +83,7 @@ function mortis_groundspecial()
 					_proj.hit_vfx_style = HIT_VFX.normal_weak;
 					
 					//Cooldown
-					attack_cooldown_set(150);
+					attack_cooldown_set(300);
 					
 				}
 				//Animation

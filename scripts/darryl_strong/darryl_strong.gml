@@ -57,11 +57,11 @@ function darryl_strong()
 					
 				if (attack_frame == 0)
 					{
-						speed_set(5 * facing, 0, false, false);
-					anim_frame = 2;
+						speed_set(-5 * facing, 0, false, false);
+					anim_frame = 6;
 					attack_phase++;
-					attack_frame = 6;
-					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
+					attack_frame = 12;
+					var _hitbox = hitbox_create_melee(30, 10.5, 0.5, 0.6, 11, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;
@@ -74,14 +74,14 @@ function darryl_strong()
 				{
 				
 				//Animation
-				if (attack_frame == 3)
-					anim_frame = 3;
+				if (attack_frame == 6)
+					anim_frame = 7;
 		
 				if (attack_frame == 0)
 					{
-					anim_frame = 4;
+					anim_frame = 8;
 					attack_phase++;
-					attack_frame = attack_connected() ? 20 : 30;
+					attack_frame = 14
 					}
 				break;
 				}
@@ -89,10 +89,10 @@ function darryl_strong()
 			case 3:
 				{
 				//Animation
-				if (attack_frame <= 20)
-					anim_frame = 5;
-				if (attack_frame <= 10)
-					anim_frame = 6;
+				if (attack_frame = 12)
+					anim_frame = 9;
+				if (attack_frame = 10)
+					anim_frame = 10;
 		
 				if (attack_frame == 0)
 					{

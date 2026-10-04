@@ -304,7 +304,7 @@ function character_shelly_init()
 		my_sprites[$ "Landing_Lag"		] = spr_shelly_idle;
 		my_sprites[$ "Balloon"			] = spr_shelly_hit;
 		my_sprites[$ "Reeling"			] = spr_shelly_hit;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_shelly_hit, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_shelly_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_shelly_knockdown, 6, 0));
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_shelly_hit, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_shelly_crouchloop, 0, anim_calculate_speed(spr_shelly_idle, getup_active + getup_endlag));
 	
