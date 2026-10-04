@@ -6,6 +6,7 @@ function css_can_start_match()
 	{
 	//There must be 2 or more players
 	var _num = array_length(engine().css_player_data);
+	if (_num >= 1 && global.targetMode) {return true;}
 	if (_num >= 2)
 		{
 		//Players cannot be holding tokens

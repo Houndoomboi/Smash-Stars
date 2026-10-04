@@ -87,6 +87,15 @@ function stage_data_get_all()
 			["texture_stage_factory"],
 			0
 			),
+		stage_define
+			(
+			"Target Practice!",
+			stage_target_init,
+			rm_stage_target,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
 		
 	    ];
 	return _data;

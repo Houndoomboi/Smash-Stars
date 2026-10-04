@@ -5,6 +5,7 @@ Chooses an option from the main menu sidebar.
 */
 function main_menu_sidebar_choose()
 	{
+    global.targetMode = false;
 	var _choice = argument[0];
 	switch (_choice)
 		{
@@ -68,7 +69,15 @@ function main_menu_sidebar_choose()
 		case 8: 
 			url_open("https://discord.gg/qE6QSrqqaF");
 			break;
+		case 9:
+			if (room != rm_target_css)
+				{
+				global.targetMode = true;
+				room_goto(rm_target_css);
+				}
+			break;
 		default: crash("[main_menu_sidebar_choose] Invalid choice (", _choice, ")");
+		
 		}
 		
 	return;

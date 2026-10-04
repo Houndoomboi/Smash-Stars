@@ -6,6 +6,8 @@ If no room is specified, it switches to <rm_win_screen>.
 */
 function game_finish()
 	{
+		
+	engine().singleplayer_mode = false;
 	var _online = game_is_online();
 	
 	part_particles_clear(Particle_System());
@@ -74,6 +76,8 @@ function game_finish()
 		}
 	
 	//Next room
-	room_goto(argument_count > 0 ? argument[0] : rm_win_screen);
+	if (global.targetMode) {room_goto(rm_target_css);}
+	else {
+	room_goto(argument_count > 0 ? argument[0] : rm_win_screen); }
 	}
 /* Copyright 2026 Springroll Games / Yosi */
