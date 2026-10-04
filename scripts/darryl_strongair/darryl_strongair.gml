@@ -75,7 +75,7 @@ function darryl_strongair()
 						speed_set(27 * facing, 16, false, false);
 				
 						//Hitbox
-						var _hitbox = hitbox_create_melee(24, -8, 1.1, 0.7, 10, 6, 1.2, 20, 30, 1, SHAPE.rotation, 0);
+						var _hitbox = hitbox_create_melee(24, -8, 1.1, 0.7, 10, 6, 1.2, 20, 270, 1, SHAPE.rotation, 0);
 						hitbox_sprite_angle_set(_hitbox, 20);
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.lines];
 						_hitbox.hit_sfx = snd_hit_strong2;
@@ -94,7 +94,7 @@ function darryl_strongair()
 						landing_lag = 12;
 				
 						//Hitbox
-						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 80, 13, SHAPE.rotation, 0);
+						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 240, 13, SHAPE.rotation, 0);
 						hitbox_sprite_angle_set(_hitbox, -45);
 						_hitbox.custom_hitstun = 35;
 						_hitbox.di_angle = 3;

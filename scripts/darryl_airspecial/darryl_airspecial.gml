@@ -1,4 +1,4 @@
-function darryl_airspecial()
+function bowser_uspec()
 	{
 	//Neutral Special
 	/*
@@ -18,7 +18,7 @@ function darryl_airspecial()
 			case PHASE.start:
 				{
 				//Animation
-				anim_sprite = spr_darryl_air_special;
+				anim_sprite = spr_bowser_uspec;
 				anim_frame = 0;
 				anim_speed = 0;
 			
