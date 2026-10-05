@@ -15,6 +15,7 @@ Creates an instance of <obj_vfx_color> with the given properties, and returns th
 function vfx_create_color()
 	{
 	var _vfx = instance_create_layer(argument[4], argument[5], (argument_count > 8 ? argument[8] : "VFX_Layer"), obj_vfx_color);
+	show_debug_message(_vfx);
 	with (_vfx)
 		{
 		vfx_sprite = argument[0];

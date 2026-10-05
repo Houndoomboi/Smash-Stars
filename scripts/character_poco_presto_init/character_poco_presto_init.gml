@@ -285,14 +285,14 @@ function character_poco_presto_init()
 		my_sprites[$ "DJump_Fall"		] = -1;
 		my_sprites[$ "DFastfall"		] = -1;
 				 
-		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_colt_airdodge, 0, anim_calculate_speed(spr_colt_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
+		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_poco_dodge, 0, anim_calculate_speed(spr_poco_dodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_poco_crouch;
-		my_sprites[$ "Rolling"			] = spr_basic_rolling;
+		my_sprites[$ "Rolling"			] = spr_poco_dodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_poco_shield, anim_define(spr_poco_shield_loop));
 		my_sprites[$ "Shield_Release"	] = spr_poco_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_colt_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_colt_shieldbreak;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Spot_Dodge"		] = spr_poco_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_poco_hurt;
@@ -308,7 +308,7 @@ function character_poco_presto_init()
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_poco_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_poco_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_poco_crouch_loop, 0, anim_calculate_speed(spr_poco_crouch, getup_active + getup_endlag));
 	
-		my_sprites[$ "Tech_Rolling"		] = spr_colt_airdodge; 
+		my_sprites[$ "Tech_Rolling"		] = spr_poco_dodge; 
 		my_sprites[$ "Teching"			] = spr_poco_crouch_loop;
 		my_sprites[$ "Teching_Wall"		] = spr_poco_jump;
 		my_sprites[$ "Teching_Ceiling"	] = spr_poco_jump;
@@ -318,8 +318,8 @@ function character_poco_presto_init()
 		my_sprites[$ "Ledge_Hang"		] = spr_colt_ledge;
 		my_sprites[$ "Ledge_Getup"		] = spr_poco_crouch_loop;
 		my_sprites[$ "Ledge_Jump"		] = spr_colt_jump;
-		my_sprites[$ "Ledge_Roll"		] = spr_colt_airdodge;
-		my_sprites[$ "Ledge_Attack"		] = spr_colt_lightground;
+		my_sprites[$ "Ledge_Roll"		] = spr_poco_dodge;
+		my_sprites[$ "Ledge_Attack"		] = spr_poco_weak_presto;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
 		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
 		my_sprites[$ "Wall_Cling"		] = -1;

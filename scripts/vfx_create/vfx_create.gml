@@ -14,6 +14,7 @@ Creates an instance of <obj_vfx> with the given properties, and returns the id.
 function vfx_create()
 	{
 	var _vfx = instance_create_layer(argument[4], argument[5], (argument_count > 8 ? argument[8] : "VFX_Layer"), obj_vfx);
+	show_debug_message(_vfx);
 	with (_vfx)
 		{
 		vfx_sprite = argument[0];
