@@ -299,7 +299,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -2387,6 +2387,7 @@
     {"id":{"name":"spr_item_toon_link_dspec_bomb_smoke","path":"sprites/spr_item_toon_link_dspec_bomb_smoke/spr_item_toon_link_dspec_bomb_smoke.yy",},},
     {"id":{"name":"spr_item_toon_link_dspec_bomb","path":"sprites/spr_item_toon_link_dspec_bomb/spr_item_toon_link_dspec_bomb.yy",},},
     {"id":{"name":"spr_ivysaur_uair","path":"sprites/spr_ivysaur_uair/spr_ivysaur_uair.yy",},},
+    {"id":{"name":"spr_jessie","path":"sprites/spr_jessie/spr_jessie.yy",},},
     {"id":{"name":"spr_jigglypuff_dspec_rest","path":"sprites/spr_jigglypuff_dspec_rest/spr_jigglypuff_dspec_rest.yy",},},
     {"id":{"name":"spr_joker_bair","path":"sprites/spr_joker_bair/spr_joker_bair.yy",},},
     {"id":{"name":"spr_joker_fspec_eiha_projectile","path":"sprites/spr_joker_fspec_eiha_projectile/spr_joker_fspec_eiha_projectile.yy",},},
