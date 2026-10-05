@@ -128,7 +128,7 @@ function Darryl_Jab()
 				if (input_pressed(INPUT.attack, 12)) || (attack_connected() && input_held(INPUT.attack))
 					{
 					attack_phase++;
-					attack_frame = 4;
+					attack_frame = 8;
 					anim_frame = 9;
 					}
 				//Auto end
@@ -141,9 +141,15 @@ function Darryl_Jab()
 			//Third Jab Startup
 			case 6:
 				{
+				if (attack_frame == 6)
+					anim_frame = 10;
+				if (attack_frame == 4)
+					anim_frame = 11;
+				if (attack_frame == 2)
+					anim_frame = 12;
 				if (attack_frame == 0)
 					{
-					anim_frame = 11;
+					anim_frame = 13;
 					attack_phase++;
 					attack_frame = 15;
 					game_sound_play(snd_punch0);
@@ -159,7 +165,7 @@ function Darryl_Jab()
 				{
 				if (attack_frame == 0)
 					{
-					anim_frame = 8;
+					anim_frame = 14;
 					attack_phase++;
 					attack_frame = 10;
 					}
@@ -168,6 +174,14 @@ function Darryl_Jab()
 			//Third Jab Endlag
 			case 8:
 				{
+				if (attack_frame == 10)
+					anim_frame = 28;
+				if (attack_frame == 8)
+					anim_frame = 29;
+				if (attack_frame == 6)
+					anim_frame = 30;
+				if (attack_frame = 4)
+					anim_frame = 31;
 				if (attack_frame == 0)
 					{
 					attack_stop(PLAYER_STATE.idle);

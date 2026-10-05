@@ -252,8 +252,8 @@ function character_poco_presto_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = poco_presto_jab;
+		my_attacks[$ "Ledge_Attack"	] = poco_presto_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = poco_presto_to_capo;

@@ -240,7 +240,7 @@ function character_poco_capo_init()
 		my_attacks[$ "Nair"			] = poco_weakair;
 		my_attacks[$ "Dair"			] = poco_strongair_capo;
 				 
-		my_attacks[$ "Nspec"		] = Poco_Ground_Special;
+		my_attacks[$ "Nspec"		] = poco_capo_counter;
 		my_attacks[$ "Uspec"		] = poco_capo_airspec;
 				 
 		my_attacks[$ "Grab"			] = poco_grab;
@@ -253,8 +253,8 @@ function character_poco_capo_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = poco_capo_jab;
+		my_attacks[$ "Ledge_Attack"	] = poco_capo_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = poco_capo_to_presto;

@@ -240,7 +240,7 @@ function character_leon_init()
 		my_attacks[$ "Nair"			] = leon_weakair;
 		my_attacks[$ "Dair"			] = leon_strongair;
 				 
-		my_attacks[$ "Nspec"		] = colt_special;
+		my_attacks[$ "Nspec"		] = leon_special;
 		my_attacks[$ "Uspec"		] = leon_airspecial;
 				 
 		my_attacks[$ "Grab"			] = leon_grab;
@@ -253,8 +253,8 @@ function character_leon_init()
 		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
 		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
-		my_attacks[$ "Getup_Attack"	] = colt_jab;
-		my_attacks[$ "Ledge_Attack"	] = colt_jab;
+		my_attacks[$ "Getup_Attack"	] = leon_jab;
+		my_attacks[$ "Ledge_Attack"	] = leon_jab;
 		my_attacks[$ "Item_Throw"	] = basic_item_throw;
 		my_attacks[$ "Item_Attack"	] = basic_item_attack;
 		my_attacks[$ "Taunt"		] = leon_taunt;
@@ -293,7 +293,7 @@ function character_leon_init()
 		my_sprites[$ "Shield_Release"	] = spr_leon_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_leon_hit, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_colt_shieldbreak;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Spot_Dodge"		] = spr_leon_invis;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_leon_hit;

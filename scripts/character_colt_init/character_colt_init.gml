@@ -288,12 +288,12 @@ function character_colt_init()
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_colt_airdodge, 0, anim_calculate_speed(spr_colt_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_colt_crouch;
-		my_sprites[$ "Rolling"			] = spr_basic_rolling;
+		my_sprites[$ "Rolling"			] = spr_colt_dodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_colt_shield_begin, anim_define(spr_colt_shield));
 		my_sprites[$ "Shield_Release"	] = spr_colt_Idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_colt_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_colt_shieldbreak;
-		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
+		my_sprites[$ "Spot_Dodge"		] = spr_colt_dodge;
 		my_sprites[$ "Bury"				] = spr_colt_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_colt_hit;

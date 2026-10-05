@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ryu_nspec_hadoken",
+  "%Name":"leon_groundspecial",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ryu_nspec_hadoken",
+  "name":"leon_groundspecial",
   "parent":{
     "name":"Scripts",
     "path":"folders/Characters/[Shared]/Attacks/Scripts.yy",
