@@ -27,7 +27,7 @@ function leon_special()
 			case PHASE.start:
 				{
 				//Animation
-				anim_sprite = spr_leon_clonesummon;
+				anim_sprite = spr_leon_invis;
 				anim_frame = 0;
 				anim_speed = 0;
 		
