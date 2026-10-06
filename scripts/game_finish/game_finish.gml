@@ -76,7 +76,9 @@ function game_finish()
 		}
 	
 	//Next room
-	if (global.targetMode) {room_goto(rm_target_css);}
+	if (global.targetMode) {
+		room_goto(rm_target_css);
+	}
 	else {
 	room_goto(argument_count > 0 ? argument[0] : rm_win_screen); }
 	}

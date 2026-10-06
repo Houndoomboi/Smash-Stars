@@ -30,6 +30,16 @@ if (state != GAME_STATE.cutscene)
 				{
 				draw_set_font(fnt_showcard_gothic);
 				var _name = player_name;
+				
+				//Added target counter here.
+			    if (global.targetMode) { 
+					text = to_string
+					(
+					"\nTargets Left: ",
+					instance_number(obj_target)
+					);
+					_name += text;
+				}
 				var _size = (string_width(_name) / 2) + 1;
 				draw_set_halign(fa_center);
 				draw_set_valign(fa_middle);

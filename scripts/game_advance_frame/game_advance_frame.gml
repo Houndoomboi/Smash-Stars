@@ -8,6 +8,14 @@ function game_advance_frame()
 	{
 	with (obj_game)
 		{
+		
+		if (global.targetMode && instance_number(obj_target) <= 0) {
+			
+			//end_anim_target();
+			game_finish();
+			exit;
+		}
+		
 		player_inputs = argument[0];
 		var _relative_frame = argument_count > 1 ? argument[1] : undefined;
 		
@@ -152,6 +160,8 @@ function game_advance_frame()
 						//Normal KO
 						if (!setting().match_screen_wrap)
 							{
+							if (global.targetMode) {game_finish(); exit;}
+							
 							knock_out();
 							}
 						//Screen wrapping
