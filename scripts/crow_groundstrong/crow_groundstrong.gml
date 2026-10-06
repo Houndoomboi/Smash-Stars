@@ -55,7 +55,7 @@ function crow_groundstrong()
 					attack_phase++;
 					attack_frame = 8;
 					game_sound_play(Crow_GroundStrongSFX)
-					var _hitbox = hitbox_create_melee(0, -5, 0.5, 0.6, 7, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(0, 5, 0.5, 1, 5, 5.5, 1, 23, 80, 12, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;
@@ -76,7 +76,7 @@ function crow_groundstrong()
 					{
 					anim_frame = 9;
 					attack_phase++;
-					attack_frame = attack_connected() ? 20 : 30;
+					attack_frame = 34;
 					}
 				break;
 				}
@@ -84,9 +84,9 @@ function crow_groundstrong()
 			case 3:
 				{
 				//Animation
-				if (attack_frame <= 20)
+				if (attack_frame = 20)
 					anim_frame = 10;
-				if (attack_frame <= 10)
+				if (attack_frame = 10)
 					anim_frame = 11;
 		
 				if (attack_frame == 0)

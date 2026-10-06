@@ -69,7 +69,7 @@ function mortis_strongair()
 					anim_frame = 5;
 					
 					//Spike
-					var _hitbox = hitbox_create_melee(0, 58, 0.4, 0.9, 8, 6, 0.8, 8, 90, 7, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_melee(0, 58, 0.4, 0.9, 8, 6, 0.8, 8, 220, 7, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;

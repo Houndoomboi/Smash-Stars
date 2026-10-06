@@ -41,7 +41,7 @@ function El_Primo_Weak_Air()
 					{
 					anim_frame = 2;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(0, -8, 3, 2, 5, 7, 0.35, 3, 0, 5, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(0, -8, 3, 2, 5, 7, 0.35, 3, 0, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					attack_frame = 19;
 					attack_phase++;
