@@ -57,7 +57,7 @@ function El_Primo_Ground_Strong()
 					
 				if (attack_frame == 0)
 					{
-						speed_set(5 * facing, 0, false, false);
+						speed_set(7 * facing, 0, false, false);
 					anim_frame = 6;
 					attack_phase++;
 					attack_frame = 8;
@@ -108,6 +108,7 @@ function El_Primo_Ground_Strong()
 		
 				if (attack_frame == 0)
 					{
+					speed_set(7 * facing, 0, false, false);
 					attack_stop(PLAYER_STATE.idle);
 					run = false;
 					}

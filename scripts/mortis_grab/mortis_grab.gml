@@ -106,7 +106,7 @@ var run = true
 					case INV.heavyarmor:
 					case INV.superarmor:
 						//Grab
-						command_grab(_target, 20, -3);
+						command_grab(_target, 60, -3);
 						anim_frame = 3;
 						attack_phase = 3;
 						attack_frame = 40;
@@ -176,41 +176,10 @@ var run = true
 					self_hitlag_frame = 5;
 					grabbed_id.self_hitlag_frame = 5;
 					}
-				if (anim_frame <= 1)
+			if (anim_frame <= 1)
 					{
 					grab_snap_move();
 					}
-				if (anim_frame == 5 || anim_frame == 11)
-					{
-					grabbed_id.x = x + (facing * 5);
-					grabbed_id.y = y;
-					}
-				if (anim_frame == 6 || anim_frame == 12)
-					{
-					grabbed_id.x = x + (facing * -10);
-					grabbed_id.y = y + -5;
-					}
-				if (anim_frame == 7 || anim_frame == 13)
-					{
-					grabbed_id.x = x + (facing * -15);
-					grabbed_id.y = y + -9;
-					}
-				if (anim_frame == 8)
-					{
-					grabbed_id.x = x + (facing * 10);
-					grabbed_id.y = y + -4;
-					}
-				if (anim_frame == 9)
-					{
-					grabbed_id.x = x + (facing * 29);
-					grabbed_id.y = y + -4;
-					}
-				if (anim_frame == 10)
-					{
-					grabbed_id.x = x + (facing * 30);
-					grabbed_id.y = y + -4;
-					}
-			
 				//Throw hitbox
 		
 					
@@ -220,7 +189,7 @@ var run = true
 				if (attack_frame == 8)
 					{
 						{
-						var _hitbox = hitbox_create_targetbox(0, 0, 2, 2, 10, 10, 0.5, 8, 110, 3, SHAPE.circle, 2, grabbed_id);
+						var _hitbox = hitbox_create_targetbox(40, 0, 2, 2, 10, 10, 0.5, 8, 110, 3, SHAPE.circle, 2, grabbed_id);
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.hit_sfx = snd_hit_strong0;
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_medium, HIT_VFX.lines];

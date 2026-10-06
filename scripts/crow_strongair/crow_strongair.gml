@@ -116,7 +116,7 @@ function crow_strongair()
 						landing_lag = 12;
 				
 						//Hitbox
-						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 80, 13, SHAPE.rotation, 0);
+						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 300, 13, SHAPE.rotation, 0);
 						hitbox_sprite_angle_set(_hitbox, -45);
 						_hitbox.custom_hitstun = 35;
 						_hitbox.di_angle = 3;

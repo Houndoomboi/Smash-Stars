@@ -150,7 +150,7 @@ function leon_special()
 						}
 						
 					//Cooldown
-					attack_cooldown_set(300);
+					attack_cooldown_set(180);
 					}
 					
 				//Animation

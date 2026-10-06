@@ -35,7 +35,7 @@ function crow_jab()
 					attack_phase++;
 					attack_frame = 0;
 					game_sound_play(snd_swing0);
-					var _hitbox = hitbox_create_melee(16, 20, 1, 0.4, 5, 2, 0.15, 4, 55, 1, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(16, 20, 1, 0.4, 2, 2, 0.15, 4, 55, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.di_angle = 7;
 					_hitbox.hitstun_scaling = 3.5;
@@ -49,7 +49,7 @@ function crow_jab()
 				if (attack_frame == 0)
 					{
 					anim_frame = 1;
-					var _hitbox = hitbox_create_melee(34, -12, 1, 0.4, 5, 2, 0.15, 4, 55, 2, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(34, -12, 1, 0.4, 2, 2, 0.15, 4, 55, 2, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 25);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.di_angle = 7;

@@ -71,7 +71,7 @@ function crow_airspecial()
 				if (attack_frame == 32){
 					
 	
-					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 8, 6, 1, 0, 30, SHAPE.circle, 8, 8);
+					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 4, 6, 1, 0, 30, SHAPE.circle, 8, 8);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;

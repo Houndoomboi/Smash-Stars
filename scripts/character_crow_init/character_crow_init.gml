@@ -25,7 +25,7 @@ function character_crow_init()
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
-		weight_multiplier = 1;
+		weight_multiplier = 0.65;
 	
 		//Gravity
 		grav = 0.4;
@@ -42,7 +42,7 @@ function character_crow_init()
 		shorthop_speed = 6.5;
 		double_jump_speed = 10.5;
 		double_jump_horizontal_accel = 2;
-		max_double_jumps = 5;
+		max_double_jumps = 3;
 		land_time = 4;
 	
 		//Aerial Movment

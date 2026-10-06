@@ -48,7 +48,7 @@ function Primo_BThrow()
 					attack_phase++;
 					attack_frame = 15;
 					game_sound_play(snd_hit_light);
-					var _hitbox = hitbox_create_melee(0, 10, 0.8, 2, 5, 4, 0.8, 1, 180, 3, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(0, 10, 0.8, 2, 5, 8, 2, 1, 180, 3, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.electric;
 					_hitbox.hit_sfx = snd_hit_weak1;
 					_hitbox.extra_hitlag = 22;

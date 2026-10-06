@@ -74,16 +74,13 @@ function shelly_special()
 				//Projectile
 				if (attack_frame == 32)
 					{
-						for (var i = 0; i < 15; ++i)
-						{
-					var _proj = hitbox_create_projectile(32, 8, 0.1, 0.1, 1, 1, 1, 10, 30, SHAPE.circle, prng_choose(i, 14, 13, 12, 11, 10, 13, 12, 11, 10), prng_choose(i, 0, 1, 2, 3, 4, -1, -2, -3, -4));
+					var _proj = hitbox_create_projectile(32, 0, 0.1, 0.1, 8, 7, 1, 10, 30, SHAPE.circle, 20, 0);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;
 					_proj.overlay_sprite = spr_shelly_bullet;
 					_proj.base_hitlag = 5;
 					_proj.hit_vfx_style = HIT_VFX.normal_weak;
-						}
 						
 					//Cooldown
 					attack_cooldown_set(50);

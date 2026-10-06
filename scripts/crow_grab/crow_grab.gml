@@ -180,36 +180,6 @@ var run = true
 					{
 					grab_snap_move();
 					}
-				if (anim_frame == 5 || anim_frame == 11)
-					{
-					grabbed_id.x = x + (facing * 5);
-					grabbed_id.y = y;
-					}
-				if (anim_frame == 6 || anim_frame == 12)
-					{
-					grabbed_id.x = x + (facing * -10);
-					grabbed_id.y = y + -5;
-					}
-				if (anim_frame == 7 || anim_frame == 13)
-					{
-					grabbed_id.x = x + (facing * -15);
-					grabbed_id.y = y + -9;
-					}
-				if (anim_frame == 8)
-					{
-					grabbed_id.x = x + (facing * 10);
-					grabbed_id.y = y + -4;
-					}
-				if (anim_frame == 9)
-					{
-					grabbed_id.x = x + (facing * 29);
-					grabbed_id.y = y + -4;
-					}
-				if (anim_frame == 10)
-					{
-					grabbed_id.x = x + (facing * 30);
-					grabbed_id.y = y + -4;
-					}
 			
 				//Throw hitbox
 		
