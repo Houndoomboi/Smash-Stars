@@ -58,17 +58,17 @@ function character_shelly_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 7.4;
+		walk_speed = 10;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 8;
+		dash_speed = 12;
 		dash_time = 9;
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 7.4;
+		run_speed = 10;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;

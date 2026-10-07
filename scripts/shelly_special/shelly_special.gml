@@ -74,7 +74,7 @@ function shelly_special()
 				//Projectile
 				if (attack_frame == 32)
 					{
-					var _proj = hitbox_create_projectile(32, 0, 0.1, 0.1, 8, 7, 1, 10, 30, SHAPE.circle, 20, 0);
+					var _proj = hitbox_create_projectile(32, 0, 0.1, 0.1, 8, 5, 0.5, 10, 30, SHAPE.circle, 20, 0);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;

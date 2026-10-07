@@ -73,7 +73,7 @@ function crow_airlight()
 					{
 					anim_frame = 6;
 				
-					var _hitbox = hitbox_create_melee(0, 28, 0.6, 1.1, 2, 4, 1, 12, 45, 3, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(0, 28, 0.6, 1.1, 2, 6, 0.8, 12, 45, 3, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong0;
 					}

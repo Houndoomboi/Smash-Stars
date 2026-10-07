@@ -110,7 +110,7 @@ function spike_airstrong()
 				if (attack_frame == 8)
 					{
 						{
-						var _hitbox = hitbox_create_melee(1, 14, 0.2, 0.5, 6, 7, 0.5, 10, 270, 3, SHAPE.circle, 2);
+						var _hitbox = hitbox_create_melee(1, 14, 0.2, 0.5, 6, 7, 0.58, 10, 270, 3, SHAPE.circle, 2);
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.hit_sfx = snd_hit_strong0;
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_medium, HIT_VFX.lines];

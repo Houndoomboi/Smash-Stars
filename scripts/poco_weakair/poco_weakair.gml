@@ -69,7 +69,7 @@ function poco_weakair(){
 				
 					attack_phase++;
 					attack_frame = 22;
-					var _hitbox = hitbox_create_melee(32, 0, 0.5, 1, 7, 7, 0.4, 6, 65, 7, SHAPE.circle, 1, 0);
+					var _hitbox = hitbox_create_melee(32, 0, 0.5, 1, 7, 7, 0.6, 6, 65, 7, SHAPE.circle, 1, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_sfx = snd_hit_weak0;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;

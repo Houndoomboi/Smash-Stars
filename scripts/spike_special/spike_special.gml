@@ -71,7 +71,7 @@ function spike_special()
 				if (attack_frame == 32){
 					
 	
-					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 8, 6, 1, 0, 30, SHAPE.circle, 16, 0);
+					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 8, 8, 0.8, 0, 30, SHAPE.circle, 16, 0);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;

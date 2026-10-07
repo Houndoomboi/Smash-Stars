@@ -367,7 +367,7 @@ function El_Primo_Air_Special()
 						//Held
 						else
 							{
-							var _hitbox = hitbox_create_targetbox(22, 26, 2, 2, 12, 8, 1, 7, 40, 1, SHAPE.square, 1, grabbed_id);
+							var _hitbox = hitbox_create_targetbox(22, 26, 2, 2, 12, 8, 0.9, 7, 40, 1, SHAPE.square, 1, grabbed_id);
 							_hitbox.hit_sfx = snd_hit_strong2;
 							_hitbox.hit_vfx_style = [HIT_VFX.electric, HIT_VFX.normal_strong, HIT_VFX.lines];
 							_hitbox.hitstun_scaling = 0.75;

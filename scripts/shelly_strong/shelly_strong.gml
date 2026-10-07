@@ -52,7 +52,7 @@ function shelly_strong()
 					anim_frame = 2;
 					attack_phase++;
 					attack_frame = 8;
-					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 5.5, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 7, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					game_sound_play(Shelly_BOOM);

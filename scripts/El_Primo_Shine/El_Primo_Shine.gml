@@ -65,7 +65,7 @@ function El_Primo_Shine()
 						}
 					else
 						{
-						var _hitbox = hitbox_create_melee(0, 0, 1, 1, 3, 5, 0.35, 2, 50, 3, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
+						var _hitbox = hitbox_create_melee(0, 0, 1, 1, 3, 5, 0.5, 2, 50, 3, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
 						_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 						_hitbox.hitlag_scaling = 0;
 						}

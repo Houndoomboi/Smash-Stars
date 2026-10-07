@@ -25,7 +25,7 @@ function character_darryl_init()
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
-		weight_multiplier = 1;
+		weight_multiplier = 1.2;
 	
 		//Gravity
 		grav = 0.5;
@@ -59,7 +59,7 @@ function character_darryl_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 7.25;
+		walk_speed = 9;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
@@ -69,7 +69,7 @@ function character_darryl_init()
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 7.25;
+		run_speed = 9;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;

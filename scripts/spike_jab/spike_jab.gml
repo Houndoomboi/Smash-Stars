@@ -101,7 +101,7 @@ function spike_jab()
 					speed_set(facing * 6, 0, false, false);
 					game_sound_play(snd_punch1);
 					//Finisher
-					var _hitbox = hitbox_create_melee(23, 4, 0.4, 0.2, 6, 8, 0.5, 6, 40, 2, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(23, 4, 0.4, 0.2, 6, 8, 0.55, 6, 40, 2, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong2;
 					_hitbox.hitstun_scaling = 0.5;

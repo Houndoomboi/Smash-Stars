@@ -103,7 +103,7 @@ function colt_jab()
 					speed_set(facing * 6, 0, false, false);
 					game_sound_play(snd_hit_strong0);
 					//Finisher
-					var _hitbox = hitbox_create_melee(22, 6.5, 0.8, 0.8, 3, 8, 0.6, 10, 50, 4, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(22, 6.5, 0.8, 0.8, 3, 8, 1.1, 10, 50, 4, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong2;
 					_hitbox.hitstun_scaling = 0.5;

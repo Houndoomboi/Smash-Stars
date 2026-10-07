@@ -14,10 +14,10 @@ match_settings_choices =
 	"Stamina",
 	"Teams",
 	"Team Attack",
-	"Items",
+	//"Items",
 	"Screen Wrap",
-	"EX Meter",
-	"Final Smash Meter",
+	//"EX Meter",
+	//"Final Smash Meter",
 	];
 match_settings_current = 0;
 match_settings_selector = noone;

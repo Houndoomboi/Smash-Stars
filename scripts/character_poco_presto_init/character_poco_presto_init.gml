@@ -25,7 +25,7 @@ function character_poco_presto_init()
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
-		weight_multiplier = 1;
+		weight_multiplier = 1.15;
 	
 		//Gravity
 		grav = 0.5;
@@ -59,17 +59,17 @@ function character_poco_presto_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 7.25;
+		walk_speed = 11;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 10;
+		dash_speed = 13;
 		dash_time = 9;
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 7.25;
+		run_speed = 117.25;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;

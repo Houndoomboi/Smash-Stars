@@ -168,7 +168,7 @@ function darryl_strongair()
 			
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 70, 3, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.5, 8, 70, 3, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 30;
@@ -177,7 +177,7 @@ function darryl_strongair()
 					
 				if (attack_frame == 7)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 85, 2, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.7, 8, 85, 2, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 27;
@@ -186,7 +186,7 @@ function darryl_strongair()
 					
 				if (attack_frame == 5)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.4, 5, 8, 0.2, 6, 100, 5, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.4, 5, 8, 0.9, 6, 100, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 25;
@@ -364,7 +364,7 @@ function darryl_strongair()
 				//Late hitbox
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 1.1, 20, 30, 10, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 0.9, 20, 30, 10, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong1;

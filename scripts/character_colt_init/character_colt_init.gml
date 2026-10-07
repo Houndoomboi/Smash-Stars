@@ -59,7 +59,7 @@ function character_colt_init()
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 7.25;
+		walk_speed = 9.5;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
@@ -69,7 +69,7 @@ function character_colt_init()
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 7.25;
+		run_speed = 9.5;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;

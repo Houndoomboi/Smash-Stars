@@ -51,7 +51,7 @@ function El_Primo_Strong_Air()
 				
 					//Hitboxes
 						//Grounded sweetspot
-					var _hitbox = hitbox_create_melee(0, 20, 0.1, 0.4, 8, 11, 0.3, 12, 270, 9, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(0, 20, 0.1, 0.4, 8, 11, 0.6, 12, 270, 9, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong2;
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;

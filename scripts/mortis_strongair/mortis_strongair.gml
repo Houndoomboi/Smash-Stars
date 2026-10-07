@@ -46,7 +46,7 @@ function mortis_strongair()
 					game_sound_play(snd_swing2);
 					
 					//Initial hit
-					var _hitbox = hitbox_create_melee(8, 36, 0.5, 1, 12, 3, 0.1, 8, 220, 2, SHAPE.circle, 0, FLIPPER.autolink_center);
+					var _hitbox = hitbox_create_melee(8, 36, 0.5, 1, 12, 7, 0.8, 8, 220, 2, SHAPE.circle, 0, FLIPPER.autolink_center);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.hit_sfx = snd_hit_weak1;
 					_hitbox.di_angle = 0;

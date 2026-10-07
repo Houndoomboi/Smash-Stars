@@ -37,7 +37,7 @@ function darryl_strong()
 					{
 						anim_frame = 1;
 						attack_phase++;
-						attack_frame = 8;
+						attack_frame = 14;
 						speed_set(3 * facing, 0, false, false);
 						}
 				break;
@@ -46,11 +46,11 @@ function darryl_strong()
 			case 1:
 				{
 					
-					if (attack_frame == 8)
+					if (attack_frame == 14)
 						anim_frame = 2;
-					if (attack_frame == 6)
+					if (attack_frame == 10)
 						anim_frame = 3;
-					if (attack_frame == 4)
+					if (attack_frame == 6)
 						anim_frame = 4;
 					if (attack_frame == 2)
 						anim_frame = 5;
@@ -61,7 +61,7 @@ function darryl_strong()
 					anim_frame = 6;
 					attack_phase++;
 					attack_frame = 12;
-					var _hitbox = hitbox_create_melee(30, 10.5, 0.5, 0.6, 11, 7, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(50, 10.5, 0.5, 0.6, 11, 15, 0.6, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;

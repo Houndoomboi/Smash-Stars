@@ -41,7 +41,7 @@ function spike_airlight()
 					{
 					anim_frame = 2;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(0, 0, 0.5, 0.6, 4, 7, 0.35, 3, 50, 9, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(0, 0, 0.5, 0.6, 4, 7, 0.5, 3, 50, 9, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					attack_frame = 16;
 					attack_phase++;

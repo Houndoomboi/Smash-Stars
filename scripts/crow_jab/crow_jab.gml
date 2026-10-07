@@ -49,7 +49,7 @@ function crow_jab()
 				if (attack_frame == 0)
 					{
 					anim_frame = 1;
-					var _hitbox = hitbox_create_melee(34, -12, 1, 0.4, 2, 2, 0.15, 4, 55, 2, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(34, -12, 1, 0.4, 2, 4, 0.15, 4, 55, 2, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 25);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.di_angle = 7;

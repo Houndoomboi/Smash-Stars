@@ -38,7 +38,7 @@ function shelly_airstrong()
 					attack_phase++;
 					attack_frame = 20;
 					game_sound_play(snd_punch1);
-					var _hitbox = hitbox_create_melee(16, 29, 0.5, 0.35, 11, 6, 1.3, 10, 25, 2, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(16, 29, 0.5, 0.35, 11, 6, 0.7, 10, 25, 2, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.hitstun_scaling = 1.1;

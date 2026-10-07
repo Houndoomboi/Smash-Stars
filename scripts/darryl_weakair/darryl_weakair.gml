@@ -75,7 +75,7 @@ function darryl_weakair(){
 				
 					attack_phase++;
 					attack_frame = 22;
-					var _hitbox = hitbox_create_melee(0, 16, 2, 0.65, 7, 6, 0.4, 6, 85, 7, SHAPE.circle, 1, FLIPPER.sakurai_reverse);
+					var _hitbox = hitbox_create_melee(0, 16, 2, 0.65, 7, 10, 0.2, 6, 85, 7, SHAPE.circle, 1, FLIPPER.sakurai_reverse);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_sfx = snd_hit_weak0;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
