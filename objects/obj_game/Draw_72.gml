@@ -24,4 +24,5 @@ if (surface_exists(cam_surface))
 surface_set_target(offscreen_view_surface);
 draw_clear_alpha(c_white, 0);
 surface_reset_target();
+
 /* Copyright 2025 Springroll Games / Yosi */

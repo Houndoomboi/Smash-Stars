@@ -905,7 +905,6 @@
     {"id":{"name":"El_Primo_Shine","path":"scripts/El_Primo_Shine/El_Primo_Shine.yy",},},
     {"id":{"name":"El_Primo_Strong_Air","path":"scripts/El_Primo_Strong_Air/El_Primo_Strong_Air.yy",},},
     {"id":{"name":"El_Primo_Weak_Air","path":"scripts/El_Primo_Weak_Air/El_Primo_Weak_Air.yy",},},
-    {"id":{"name":"end_anim_target","path":"scripts/end_anim_target/end_anim_target.yy",},},
     {"id":{"name":"engine_init","path":"scripts/engine_init/engine_init.yy",},},
     {"id":{"name":"engine_settings","path":"scripts/engine_settings/engine_settings.yy",},},
     {"id":{"name":"entity_create","path":"scripts/entity_create/entity_create.yy",},},

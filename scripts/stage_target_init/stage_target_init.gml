@@ -15,7 +15,7 @@ function stage_target_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(Ranch);
+	stage_music_set(GiftShop);
 	
 	//Stage passive
 	callback_stage_passive = [];
@@ -28,18 +28,22 @@ function stage_target_init()
 		{
 		left : -125, 
 		top : 0, 
-		right : 1275, 
-		bottom : 675,
+		right : room_width, 
+		bottom : room_height,
 		};
 	
 	//Stage settings
 	setting().daynight_cycle_enable = false;
-	setting().stage_background_color = c_black;
+	setting().stage_background_color = noone;
 	setting().slope_collisions_enable = false;
-	setting().background_is_static = true;
+	setting().background_is_static = false;
 	setting().screen_shader_script = -1;
 	
+	global.originalMatchTimer = setting().match_time;
+	setting().match_time = 0;
 	engine().singleplayer_mode = true;
+	
+	
 	
 	//CPU Data
 	cpu_up_b_distance = 500;

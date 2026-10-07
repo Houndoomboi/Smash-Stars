@@ -10,10 +10,7 @@ function game_advance_frame()
 		{
 		
 		if (global.targetMode && instance_number(obj_target) <= 0) {
-			
-			//end_anim_target();
-			game_finish();
-			exit;
+			engine().singleplayer_mode = false;
 		}
 		
 		player_inputs = argument[0];
@@ -160,7 +157,7 @@ function game_advance_frame()
 						//Normal KO
 						if (!setting().match_screen_wrap)
 							{
-							if (global.targetMode) {game_finish(); exit;}
+							if (global.targetMode) {engine().singleplayer_mode = false;}
 							
 							knock_out();
 							}

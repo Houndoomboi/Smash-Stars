@@ -77,6 +77,7 @@ function game_finish()
 	
 	//Next room
 	if (global.targetMode) {
+		setting().match_time = global.originalMatchTimer;
 		room_goto(rm_target_css);
 	}
 	else {

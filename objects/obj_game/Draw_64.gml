@@ -45,7 +45,8 @@ if (state != GAME_STATE.cutscene)
 				draw_set_valign(fa_middle);
 				draw_set_alpha(0.5);
 				draw_set_color(_teams ? player_color_get(player_team) : c_black);
-				draw_rectangle(_x - _size, _y - 8, _x + _size, _y + 8, false);
+				var rectHeight = global.targetMode ? 16 : 8;
+				draw_rectangle(_x - _size, _y - rectHeight, _x + _size, _y + rectHeight, false);
 				draw_set_alpha(1);
 				draw_set_color(_teams ? c_black : c_white);
 				draw_text(_x, _y, _name);
