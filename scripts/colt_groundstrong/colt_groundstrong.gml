@@ -77,7 +77,7 @@ function colt_groundstrong()
 					anim_frame = 7;
 				}
 				if (attack_frame == 2){
-					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 4, 11, 0.9, 2, 0, 3, SHAPE.square, 3);
+					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 4, 11, 0.4, 2, 0, 3, SHAPE.square, 3);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;

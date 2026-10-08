@@ -42,7 +42,7 @@ function nita_airlight()
 					{
 					anim_frame = 2;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(5.5, 0, 0.6, 0.6, 9, 9, 0.4, 8, 40, 12, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(5.5, 0, 0.6, 0.6, 9, 8, 0.4, 8, 40, 12, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					attack_frame = 20;
 					attack_phase++;

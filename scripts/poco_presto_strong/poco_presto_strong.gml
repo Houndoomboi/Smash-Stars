@@ -107,14 +107,14 @@ function poco_presto_strong(){
 					speed_set(8 * facing, 0, false, false);
 					game_sound_play(ShovelSlash)
 					game_sound_play(DashandDestroy)
-					var _hitbox = hitbox_create_melee(43, -29, 1.4, 1, _damage, 10, 1, 23, 40, 6, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(43, -29, 1.4, 1, _damage, 10, 0.9, 23, 40, 6, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
-					var _hitbox = hitbox_create_melee(73, -21, 1.2, 0.9, _damage, 10, 1, 23, 40, 6, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(73, -21, 1.2, 0.9, _damage, 10, 0.9, 23, 40, 6, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.shieldstun_scaling = 0.1;

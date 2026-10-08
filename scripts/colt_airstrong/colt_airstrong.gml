@@ -41,7 +41,7 @@ function colt_airstrong()
 					attack_phase++;
 					attack_frame = 20;
 					game_sound_play(snd_punch1);
-					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 5, 6, 1, 0, 20, SHAPE.circle, 12, 0);
+					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 5, 6, 0.8, 0, 20, SHAPE.circle, 12, 0);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;
 					_proj.grav = 0;

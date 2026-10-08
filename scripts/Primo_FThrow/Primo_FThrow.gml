@@ -62,7 +62,7 @@ function Primo_FThrow()
 					attack_phase++;
 					attack_frame = 18;
 					speed_set(2 * facing, 0, true, false);
-					var _hitbox = hitbox_create_targetbox(45, 0, 1, 1, 6, 10, 0.55, 5, 45, 1, SHAPE.square, 0, grabbed_id);
+					var _hitbox = hitbox_create_targetbox(45, 0, 1, 1, 6, 8, 0.55, 5, 45, 1, SHAPE.square, 0, grabbed_id);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;

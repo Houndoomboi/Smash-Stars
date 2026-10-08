@@ -136,7 +136,7 @@ function El_Primo_Jab()
 					attack_frame = 15;
 					game_sound_play(snd_punch0);
 					speed_set(facing * 6, 0, false, false);
-					var _hitbox = hitbox_create_melee(30, -5, 0.7, 0.3, 9, 11, 0.4, 5, 40, 4, SHAPE.circle, 2);
+					var _hitbox = hitbox_create_melee(30, -5, 0.7, 0.3, 9, 9, 0.4, 5, 40, 4, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong2;
 					}

@@ -71,7 +71,7 @@ function mortis_lightground()
 					
 					if(attack_frame == 6){
 						anim_frame = 10;
-				var _hitbox = hitbox_create_melee(20, 0, 2, 2, 3, 6, 0.8, 5, 800, 6, SHAPE.square,2);
+				var _hitbox = hitbox_create_melee(20, 0, 2, 2, 3, 6, 0.8, 5, 80, 6, SHAPE.square,2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					}
 					if(attack_frame == 3)

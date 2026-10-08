@@ -303,7 +303,7 @@ function mortis_airspec()
 				//Hitbox on the way down
 				if (attack_frame == 84)
 					{
-					var _hitbox = hitbox_create_melee(0, 0, 0.8, 0.8, 7, 9, 0.75, 18, 270, 84, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_melee(0, 0, 0.8, 0.8, 7, 7, 0.75, 18, 270, 84, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.lines];
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.techable = false;

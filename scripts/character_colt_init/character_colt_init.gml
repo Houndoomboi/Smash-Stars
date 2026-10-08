@@ -37,10 +37,10 @@ function character_colt_init()
 	
 		//Jumping
 		jumpsquat_time = 3;
-		jump_speed = 8;
+		jump_speed = 10;
 		jump_horizontal_accel = 3;
 		shorthop_speed = 6.5;
-		double_jump_speed = 10.5;
+		double_jump_speed = 12.5;
 		double_jump_horizontal_accel = 2;
 		max_double_jumps = 1;
 		land_time = 4;

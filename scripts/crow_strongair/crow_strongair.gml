@@ -364,7 +364,7 @@ function crow_strongair()
 				//Late hitbox
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 1.1, 20, 220, 10, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 0.8, 20, 220, 10, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong1;

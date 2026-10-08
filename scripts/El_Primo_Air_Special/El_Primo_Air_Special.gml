@@ -78,7 +78,7 @@ function El_Primo_Air_Special()
 					
 					game_sound_play(snd_hit_wind);
 					
-					speed_set(4 * facing, -15, false, false);
+					speed_set(4 * facing, -10, false, false);
 					
 					anim_frame = 3;
 				
@@ -100,7 +100,7 @@ function El_Primo_Air_Special()
 					
 					game_sound_play(snd_hit_wind);
 					
-					speed_set(4 * facing, -20, false, false);
+					speed_set(4 * facing, -15, false, false);
 					
 					anim_frame = 3;
 				
@@ -345,7 +345,7 @@ function El_Primo_Air_Special()
 					//EX
 					if (ex_move_is_activated())
 						{
-						var _hitbox = hitbox_create_targetbox(22, 26, 2, 2, 15, 10, 1, 7, 270, 1, SHAPE.square, 1, grabbed_id);
+						var _hitbox = hitbox_create_targetbox(22, 26, 2, 2, 15, 18, 1, 7, 270, 1, SHAPE.square, 1, grabbed_id);
 						_hitbox.hit_sfx = snd_hit_strong2;
 						_hitbox.hit_vfx_style = [HIT_VFX.electric, HIT_VFX.normal_strong, HIT_VFX.emphasis];
 						_hitbox.hitstun_scaling = 0.25;

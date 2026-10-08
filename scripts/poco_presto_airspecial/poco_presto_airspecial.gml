@@ -35,7 +35,7 @@ function poco_presto_airspecial()
 					attack_frame = 3;
 					game_sound_play(snd_swing0);
 					speed_set(0 * facing, -14, false, false)
-					var _hitbox = hitbox_create_melee(20, 0, 2, 2, 11, 7, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(20, 0, 2, 2, 11, 7, 0.8, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.shieldstun_scaling = 0.1;

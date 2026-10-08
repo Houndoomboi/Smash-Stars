@@ -69,7 +69,7 @@ function character_poco_presto_init()
 		dash_accel = 8;
 	
 		//Running
-		run_speed = 117.25;
+		run_speed = 11.25;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;

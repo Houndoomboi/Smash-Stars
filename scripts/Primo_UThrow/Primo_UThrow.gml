@@ -44,7 +44,7 @@ function Primo_UThrow()
 				if (attack_frame == 8)
 					{
 					anim_frame = 6;
-					var _hitbox = hitbox_create_melee(32, 4, 0.4, 0.8, 3, 15, 0.85, 4, 95, 9, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_melee(32, 4, 0.4, 0.8, 3, 15, 0.5, 4, 95, 9, SHAPE.circle, 1);
 					_hitbox.hit_sfx = snd_hit_explosion1;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.custom_hitstun = 36;

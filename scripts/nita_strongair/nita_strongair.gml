@@ -67,7 +67,7 @@ function nita_strongair()
 					
 					if(attack_frame == 6){
 						anim_frame = 8
-				var _hitbox = hitbox_create_melee(12, 0, 2, 2, 3, 9, 0.7, 4, 40, 6, SHAPE.square,2);
+				var _hitbox = hitbox_create_melee(12, 0, 2, 2, 3, 8, 0.7, 4, 40, 6, SHAPE.square,2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					}
 					if(attack_frame == 3)

@@ -47,7 +47,7 @@ function nita_strong()
 					anim_frame = 7;
 					attack_phase++;
 					attack_frame = 8;
-					var _hitbox = hitbox_create_melee(62, 0, 0.9, 0.4, 14, 9, 0.8, 10, 50, 8, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(62, 0, 0.9, 0.4, 14, 8.2, 0.8, 10, 50, 8, SHAPE.rotation, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					hitbox_sprite_angle_set(_hitbox, 50);
 					_hitbox.hit_sfx = Nita_Strong;
