@@ -514,6 +514,7 @@
     {"id":{"name":"rm_stage_small_campground","path":"rooms/rm_stage_small_campground/rm_stage_small_campground.yy",},},
     {"id":{"name":"rm_stage_smiley_floats","path":"rooms/rm_stage_smiley_floats/rm_stage_smiley_floats.yy",},},
     {"id":{"name":"rm_stage_target_shelly","path":"rooms/rm_stage_target_shelly/rm_stage_target_shelly.yy",},},
+    {"id":{"name":"rm_stage_target_spike","path":"rooms/rm_stage_target_spike/rm_stage_target_spike.yy",},},
     {"id":{"name":"rm_stage_target","path":"rooms/rm_stage_target/rm_stage_target.yy",},},
     {"id":{"name":"rm_stage_template","path":"rooms/rm_stage_template/rm_stage_template.yy",},},
     {"id":{"name":"rm_stage_walkoff","path":"rooms/rm_stage_walkoff/rm_stage_walkoff.yy",},},
@@ -3215,6 +3216,7 @@
     {"roomId":{"name":"rm_target_css","path":"rooms/rm_target_css/rm_target_css.yy",},},
     {"roomId":{"name":"rm_stage_target","path":"rooms/rm_stage_target/rm_stage_target.yy",},},
     {"roomId":{"name":"rm_stage_target_shelly","path":"rooms/rm_stage_target_shelly/rm_stage_target_shelly.yy",},},
+    {"roomId":{"name":"rm_stage_target_spike","path":"rooms/rm_stage_target_spike/rm_stage_target_spike.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
