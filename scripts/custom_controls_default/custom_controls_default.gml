@@ -13,10 +13,10 @@ function custom_controls_default()
 
 	_inputs[@ CC_INPUT_CONTROLLER.attack] =		[CONTROLLER.B];
 	_inputs[@ CC_INPUT_CONTROLLER.special] =	[CONTROLLER.A];
-	_inputs[@ CC_INPUT_CONTROLLER.jump] =		[CONTROLLER.X, CONTROLLER.Y];
+	_inputs[@ CC_INPUT_CONTROLLER.jump] =		[CONTROLLER.Y];
 	_inputs[@ CC_INPUT_CONTROLLER.shield] =		[CONTROLLER.RB, CONTROLLER.RT];
 	_inputs[@ CC_INPUT_CONTROLLER.grab] =		[CONTROLLER.LB, CONTROLLER.LT];
-	_inputs[@ CC_INPUT_CONTROLLER.smash] =		[];
+	_inputs[@ CC_INPUT_CONTROLLER.smash] =		[CONTROLLER.X];
 	_inputs[@ CC_INPUT_CONTROLLER.taunt] =		[CONTROLLER.DPAD_D];
 	_inputs[@ CC_INPUT_CONTROLLER.pause] =		[CONTROLLER.START];
 	_inputs[@ CC_INPUT_CONTROLLER.run] =		[];
