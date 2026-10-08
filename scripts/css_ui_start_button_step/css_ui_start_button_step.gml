@@ -18,7 +18,7 @@ function css_ui_start_button_step()
 				css_engine_player_data_save();
 				engine().mis_json = mis_devices_save();
 				engine().load_css_data = true;
-				if (global.targetMode) {room_goto(rm_stage_target);}
+				if (global.targetMode) {room_goto(rm_stage_target_shelly);}
 				else {room_goto(rm_sss);}
 				exit;
 				}

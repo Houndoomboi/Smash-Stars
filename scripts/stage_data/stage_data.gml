@@ -91,7 +91,7 @@ function stage_data_get_all()
 			(
 			"Target Practice!",
 			stage_target_init,
-			rm_stage_target,
+			rm_stage_target_shelly,
 			spr_stage_diner_icon,
 			["texture_stage_factory"],
 			0
