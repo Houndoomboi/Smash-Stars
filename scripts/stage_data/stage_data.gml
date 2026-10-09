@@ -87,11 +87,119 @@ function stage_data_get_all()
 			["texture_stage_factory"],
 			0
 			),
+			
+			
+			
+		//Target Practice Stages (They all need to be defined)
+		
+		
 		stage_define
 			(
 			"Target Practice!",
 			stage_target_init,
+			rm_stage_target,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+			
+		stage_define
+			(
+			"Shelly's Target Practice!",
+			stage_target_init,
 			rm_stage_target_shelly,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+			
+		stage_define
+			(
+			"Spikes's Target Practice!",
+			stage_target_init,
+			rm_stage_target_spike,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+			
+		stage_define
+			(
+			"Colt's Target Practice!",
+			stage_target_init,
+			rm_stage_target_colt,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"El Primo's Target Practice!",
+			stage_target_init,
+			rm_stage_target_primo,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Crow's Target Practice!",
+			stage_target_init,
+			rm_stage_target_crow,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Nita's Target Practice!",
+			stage_target_init,
+			rm_stage_target_nita,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Mortis' Target Practice!",
+			stage_target_init,
+			rm_stage_target_mortis,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Poco's Target Practice!",
+			stage_target_init,
+			rm_stage_target_poco,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Darryl's Target Practice!",
+			stage_target_init,
+			rm_stage_target_darryl,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Leon's Target Practice!",
+			stage_target_init,
+			rm_stage_target_leon,
+			spr_stage_diner_icon,
+			["texture_stage_factory"],
+			0
+			),
+		stage_define
+			(
+			"Sirius' Target Practice!",
+			stage_target_init,
+			rm_stage_target_sirius,
 			spr_stage_diner_icon,
 			["texture_stage_factory"],
 			0

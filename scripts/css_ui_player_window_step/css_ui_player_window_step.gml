@@ -60,6 +60,7 @@ function css_ui_player_window_step()
 							_option ? 1 : sign(_next - _last)
 							)
 						);
+					
 						
 					//Store the favorite color if you are changing your own color
 					if (_token_id == player_instance_id)
@@ -78,7 +79,7 @@ function css_ui_player_window_step()
 						css_engine_player_data_save();
 						engine().mis_json = mis_devices_save();
 						engine().load_css_data = true;
-						if (global.targetMode) {room_goto(rm_stage_target);}
+						if (global.targetMode) {targetStageChooser();}
 						else {room_goto(rm_sss);}
 						exit;
 						}
