@@ -293,7 +293,7 @@ function character_shelly_init()
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_shelly_shieldbreak, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_shelly_shieldbreak;
 		my_sprites[$ "Spot_Dodge"		] = spr_shelly_dodge;
-		my_sprites[$ "Bury"				] = spr_colt_bury;
+		my_sprites[$ "Bury"				] = spr_shelly_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_shelly_hit;
 		my_sprites[$ "Hitstun"			] = spr_shelly_hit;

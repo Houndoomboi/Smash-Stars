@@ -261,17 +261,17 @@ function character_spike_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1;
+		sprite_scale = 1.7;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_spike_idle, anim_define(spr_spike_idle));
 		my_sprites[$ "Idle"				] = spr_spike_idle;
 		my_sprites[$ "Crouch"			] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
-		my_sprites[$ "Walk"				] = spr_spike_walk;
-		my_sprites[$ "Walk_Turn"		] = spr_spike_walk;
-		my_sprites[$ "Dash"				] = spr_spike_walk;
-		my_sprites[$ "Run"				] = spr_spike_walk;
-		my_sprites[$ "Run_Turn"			] = spr_spike_walk;
-		my_sprites[$ "Run_Stop"			] = spr_spike_walk;
+		my_sprites[$ "Walk"				] = spr_spike_run;
+		my_sprites[$ "Walk_Turn"		] = spr_spike_run;
+		my_sprites[$ "Dash"				] = spr_spike_run;
+		my_sprites[$ "Run"				] = spr_spike_run;
+		my_sprites[$ "Run_Turn"			] = spr_spike_run;
+		my_sprites[$ "Run_Stop"			] = spr_spike_run;
 				 
 		my_sprites[$ "Jumpsquat"		] = spr_spike_jump;
 		my_sprites[$ "Jump_Rise"		] = anim_define(spr_spike_jump, anim_define(spr_spike_jump_mid));
@@ -291,7 +291,7 @@ function character_spike_init()
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_spike_hurt, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
 		my_sprites[$ "Spot_Dodge"		] = spr_spike_airdodge;
-		my_sprites[$ "Bury"				] = spr_colt_bury
+		my_sprites[$ "Bury"				] = spr_spike_bury
 				 
 		my_sprites[$ "Hitlag"			] = spr_spike_hurt;
 		my_sprites[$ "Hitstun"			] = spr_spike_hurt;
@@ -306,11 +306,11 @@ function character_spike_init()
 		my_sprites[$ "Lock"				] = anim_define_ext(spr_spike_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_spike_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_spike_crouch_loop, 0, anim_calculate_speed(spr_spike_crouch, getup_active + getup_endlag));
 	
-		my_sprites[$ "Tech_Rolling"		] = spr_basic_rolling; 
-		my_sprites[$ "Teching"			] = spr_basic_teching;
-		my_sprites[$ "Teching_Wall"		] = spr_basic_teching;
-		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
-		my_sprites[$ "Tech_Wall_Jump"	] = spr_basic_wall_jump;
+		my_sprites[$ "Tech_Rolling"		] = spr_spike_weakair; 
+		my_sprites[$ "Teching"			] = spr_spike_roseless;
+		my_sprites[$ "Teching_Wall"		] = spr_spike_roseless;
+		my_sprites[$ "Teching_Ceiling"	] = spr_spike_fall;
+		my_sprites[$ "Tech_Wall_Jump"	] = spr_spike_jump;
 				 
 		my_sprites[$ "Ledge_Snap"		] = spr_spike_ledge;
 		my_sprites[$ "Ledge_Hang"		] = spr_spike_ledge;

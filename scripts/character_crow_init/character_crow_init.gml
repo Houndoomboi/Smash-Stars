@@ -264,7 +264,7 @@ function character_crow_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1;
+		sprite_scale = 2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_crow_idle, anim_define(spr_crow_idle));
 		my_sprites[$ "Idle"				] = spr_crow_idle;
@@ -279,9 +279,9 @@ function character_crow_init()
 		my_sprites[$ "Jumpsquat"		] = spr_crow_crouch;
 		my_sprites[$ "Jump_Rise"		] = spr_crow_jump;
 		my_sprites[$ "Jump_Mid"			] = spr_crow_jump;
-		my_sprites[$ "Jump_Fall"		] = spr_crow_jump;
-		my_sprites[$ "Fastfall"			] = spr_crow_jump;
-		my_sprites[$ "DJump_Rise"		] = anim_define(spr_crow_jump, anim_define(spr_crow_jump));
+		my_sprites[$ "Jump_Fall"		] = spr_crow_fall;
+		my_sprites[$ "Fastfall"			] = spr_crow_fall;
+		my_sprites[$ "DJump_Rise"		] = anim_define(spr_crow_jump, anim_define(spr_crow_fall));
 		my_sprites[$ "DJump_Mid"		] = -1;
 		my_sprites[$ "DJump_Fall"		] = -1;
 		my_sprites[$ "DFastfall"		] = -1;
@@ -289,12 +289,12 @@ function character_crow_init()
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_crow_airdodge, 0, anim_calculate_speed(spr_crow_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_crow_crouch;
 		my_sprites[$ "Rolling"			] = spr_crow_airdodge;
-		my_sprites[$ "Shield"			] = anim_define(spr_crow_shield, anim_define(spr_crow_shield));
+		my_sprites[$ "Shield"			] = anim_define(spr_crow_shield, anim_define(spr_crow_shield_loop));
 		my_sprites[$ "Shield_Release"	] = spr_crow_idle;
 		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_crow_dizzy, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_crow_dizzy;
 		my_sprites[$ "Spot_Dodge"		] = spr_basic_spot_dodge;
-			my_sprites[$ "Bury"				] = spr_colt_bury;
+			my_sprites[$ "Bury"				] = spr_crow_bury;
 				 
 		my_sprites[$ "Hitlag"			] = spr_crow_hit;
 		my_sprites[$ "Hitstun"			] = spr_crow_hit;

@@ -19,7 +19,7 @@ function spike_strong()
 			case PHASE.start:
 				{
 				//Animation
-				anim_set(my_sprites[$ "Crouch"]);
+				anim_set(my_sprites[$ "Teching"]);
 				custom_attack_struct.draw_frame = 0;
 				attack_frame = 14;
 				callback_add(callback_draw_end, spike_strong_draw_end);

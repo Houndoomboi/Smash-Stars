@@ -264,7 +264,7 @@ function character_colt_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1;
+		sprite_scale = 1.8;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_colt_Idle, anim_define(spr_colt_Idle));
 		my_sprites[$ "Idle"				] = spr_colt_Idle;

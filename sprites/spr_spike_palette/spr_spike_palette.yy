@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_spike_palette",
   "bboxMode":0,
-  "bbox_bottom":9,
+  "bbox_bottom":10,
   "bbox_left":0,
   "bbox_right":10,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":10,
+  "height":11,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"8297779c-b462-4545-8404-66faf7f9d874","blendMode":0,"displayName":"default","isLocked":false,"name":"8297779c-b462-4545-8404-66faf7f9d874","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
