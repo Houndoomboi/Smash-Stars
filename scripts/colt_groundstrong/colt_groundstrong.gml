@@ -56,28 +56,28 @@ function colt_groundstrong()
 				
 				if (attack_frame == 12)
 				{
-					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,0);
+					var _hitbox = hitbox_create_melee(100, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 5;
 				}
 				if (attack_frame == 9){
-					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(100, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 6;
 				}
 				if (attack_frame == 6){
-					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 2);
+					var _hitbox = hitbox_create_melee(100, 57, 2, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 7;
 				}
 				if (attack_frame == 2){
-					var _hitbox = hitbox_create_melee(125, 57, 2, 1, 4, 11, 0.4, 2, 0, 3, SHAPE.square, 3);
+					var _hitbox = hitbox_create_melee(100, 57, 2, 1, 4, 11, 0.4, 2, 0, 3, SHAPE.square, 3);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;

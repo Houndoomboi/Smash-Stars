@@ -36,14 +36,18 @@ function shelly_airlight()
 			//Startup
 			case 0:
 				{
-				if (attack_frame == 5)
+				if (attack_frame == 8)
 					anim_frame = 1;
+				if (attack_frame == 6)
+					anim_frame = 2;
+				if (attack_frame == 4)
+					anim_frame = 3;
 
 				if (attack_frame == 0)
 					{
-					anim_frame = 2;
+					anim_frame = 4;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(30, 29, 0.3, 0.35, 5, 8, 0.6, 4, 80, 6, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(30, 0, 0.3, 0.35, 5, 8, 0.6, 4, 40, 6, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					attack_frame = 16;
 					attack_phase++;
@@ -53,10 +57,17 @@ function shelly_airlight()
 			//Active
 			case 1:
 				{
+					if (attack_frame == 14)
+					anim_frame = 5;
+					if (attack_frame == 12)
+					anim_frame = 6;
 					if (attack_frame == 10)
-					anim_frame = 3;
-					if (attack_frame == 4)
-					anim_frame = 4;
+					anim_frame = 7;
+					if (attack_frame == 8)
+					anim_frame = 8;
+					if (attack_frame == 6)
+					anim_frame = 9;
+					
 				if (attack_frame == 0)
 					{
 					attack_stop(PLAYER_STATE.aerial);
