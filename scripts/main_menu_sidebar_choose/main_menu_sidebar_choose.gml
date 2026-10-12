@@ -6,6 +6,8 @@ Chooses an option from the main menu sidebar.
 function main_menu_sidebar_choose()
 	{
     global.targetMode = false;
+	global.arcadeMode = false;
+	global.arcadePlayedStages = [];
 	var _choice = argument[0];
 	switch (_choice)
 		{
@@ -74,6 +76,14 @@ function main_menu_sidebar_choose()
 				{
 				global.targetMode = true;
 				room_goto(rm_target_css);
+				}
+			break;
+		case 10:
+			if (room != rm_arcade_css)
+				{
+				global.arcadeMode = true;
+				global.arcadePlayedStages = [];
+				room_goto(rm_arcade_css);
 				}
 			break;
 		default: crash("[main_menu_sidebar_choose] Invalid choice (", _choice, ")");

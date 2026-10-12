@@ -20,6 +20,7 @@ function css_ui_start_button_step()
 				engine().load_css_data = true;
 				
 				if (global.targetMode) {targetStageChooser();}
+				else if (global.arcadeMode) {ArcadeHandler();}
 				else {room_goto(rm_sss);}
 				exit;
 				}

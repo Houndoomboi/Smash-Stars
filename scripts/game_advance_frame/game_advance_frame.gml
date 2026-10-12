@@ -9,7 +9,7 @@ function game_advance_frame()
 	with (obj_game)
 		{
 		
-		if (global.targetMode && instance_number(obj_target) <= 0) {
+		if ((global.targetMode || global.arcadeMode) && instance_number(obj_target) <= 0) {
 			engine().singleplayer_mode = false;
 		}
 		

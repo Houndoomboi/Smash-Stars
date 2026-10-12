@@ -31,7 +31,6 @@
     {"name":"inst_4392A072_1","path":"rooms/rm_target_css/rm_target_css.yy",},
     {"name":"inst_314BEAC2_1","path":"rooms/rm_target_css/rm_target_css.yy",},
     {"name":"inst_2D2A58D5_1","path":"rooms/rm_target_css/rm_target_css.yy",},
-    {"name":"inst_6854ED10_1","path":"rooms/rm_target_css/rm_target_css.yy",},
     {"name":"inst_4222FE8C1","path":"rooms/rm_target_css/rm_target_css.yy",},
   ],
   "isDnd":false,
@@ -137,16 +136,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"font","path":"objects/obj_ui_button/obj_ui_button.yy",},"resource":{"name":"fnt_showcard_gothic","path":"fonts/fnt_showcard_gothic/fnt_showcard_gothic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_showcard_gothic",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button_image","path":"objects/obj_ui_button_image/obj_ui_button_image.yy",},"propertyId":{"name":"sprite","path":"objects/obj_ui_button_image/obj_ui_button_image.yy",},"resource":{"name":"SS_Ready","path":"sprites/SS_Ready/SS_Ready.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SS_Ready",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9,"scaleY":0.9,"x":848.0,"y":24.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6854ED10_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6854ED10_1","objectId":{"name":"obj_ui_button_image","path":"objects/obj_ui_button_image/obj_ui_button_image.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_step","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"css_ui_match_settings_button_step","path":"scripts/css_ui_match_settings_button_step/css_ui_match_settings_button_step.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"css_ui_match_settings_button_step",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"color_normal","path":"objects/obj_ui_button/obj_ui_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFFFF",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"color_hover","path":"objects/obj_ui_button/obj_ui_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFFFF",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"color_clicked","path":"objects/obj_ui_button/obj_ui_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFFFF",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"text","path":"objects/obj_ui_button/obj_ui_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button","path":"objects/obj_ui_button/obj_ui_button.yy",},"propertyId":{"name":"font","path":"objects/obj_ui_button/obj_ui_button.yy",},"resource":{"name":"fnt_showcard_gothic","path":"fonts/fnt_showcard_gothic/fnt_showcard_gothic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_showcard_gothic",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_button_image","path":"objects/obj_ui_button_image/obj_ui_button_image.yy",},"propertyId":{"name":"sprite","path":"objects/obj_ui_button_image/obj_ui_button_image.yy",},"resource":{"name":"Ruleset","path":"sprites/Ruleset/Ruleset.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Ruleset",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ui_parent","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"propertyId":{"name":"ui_script_create","path":"objects/obj_ui_parent/obj_ui_parent.yy",},"resource":{"name":"css_ui_match_settings_button_create","path":"scripts/css_ui_match_settings_button_create/css_ui_match_settings_button_create.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"css_ui_match_settings_button_create",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3,"scaleY":0.3,"x":484.0,"y":24.0,},
       ],"layers":[],"name":"UI_Base_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Borders_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5E873A1B","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5E873A1B","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25724137,"scaleY":0.25724137,"spriteId":{"name":"spr_target_icon","path":"sprites/spr_target_icon/spr_target_icon.yy",},"x":768.0,"y":341.0,},
@@ -158,8 +147,8 @@
   ],
   "name":"rm_target_css",
   "parent":{
-    "name":"Character Select Screen",
-    "path":"folders/Menus/Character Select Screen.yy",
+    "name":"Target",
+    "path":"folders/Stages/Target.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
