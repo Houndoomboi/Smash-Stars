@@ -440,6 +440,7 @@
     {"id":{"name":"obj_stage_factory_filter","path":"objects/obj_stage_factory_filter/obj_stage_factory_filter.yy",},},
     {"id":{"name":"obj_stage_factory_renderer","path":"objects/obj_stage_factory_renderer/obj_stage_factory_renderer.yy",},},
     {"id":{"name":"obj_stage_foreground","path":"objects/obj_stage_foreground/obj_stage_foreground.yy",},},
+    {"id":{"name":"obj_stage_gemmine_animator","path":"objects/obj_stage_gemmine_animator/obj_stage_gemmine_animator.yy",},},
     {"id":{"name":"obj_stage_haven_renderer","path":"objects/obj_stage_haven_renderer/obj_stage_haven_renderer.yy",},},
     {"id":{"name":"obj_stage_islands_plat","path":"objects/obj_stage_islands_plat/obj_stage_islands_plat.yy",},},
     {"id":{"name":"obj_stage_islands_wind","path":"objects/obj_stage_islands_wind/obj_stage_islands_wind.yy",},},
