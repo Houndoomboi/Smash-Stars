@@ -27,7 +27,7 @@
   ],
   "name":"spr_shelly_airheavy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Characters/Shelly/Attacks/Sprites.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":80,
-    "yorigin":80,
+    "yorigin":92,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

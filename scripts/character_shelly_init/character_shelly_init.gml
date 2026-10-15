@@ -263,7 +263,7 @@ function character_shelly_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 0.5;
+		sprite_scale = 0.6;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_shelly_idle, anim_define(spr_shelly_idle));
 		my_sprites[$ "Idle"				] = spr_shelly_idle;

@@ -2876,7 +2876,6 @@
     {"id":{"name":"spr_shelly_ledge","path":"sprites/spr_shelly_ledge/spr_shelly_ledge.yy",},},
     {"id":{"name":"spr_shelly_palette","path":"sprites/spr_shelly_palette/spr_shelly_palette.yy",},},
     {"id":{"name":"spr_shelly_portrait","path":"sprites/spr_shelly_portrait/spr_shelly_portrait.yy",},},
-    {"id":{"name":"spr_shelly_render","path":"sprites/spr_shelly_render/spr_shelly_render.yy",},},
     {"id":{"name":"spr_shelly_run","path":"sprites/spr_shelly_run/spr_shelly_run.yy",},},
     {"id":{"name":"spr_shelly_screenko","path":"sprites/spr_shelly_screenko/spr_shelly_screenko.yy",},},
     {"id":{"name":"spr_shelly_shield","path":"sprites/spr_shelly_shield/spr_shelly_shield.yy",},},

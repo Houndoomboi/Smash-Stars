@@ -261,7 +261,7 @@ function character_spike_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1.7;
+		sprite_scale = 2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_spike_idle, anim_define(spr_spike_idle));
 		my_sprites[$ "Idle"				] = spr_spike_idle;

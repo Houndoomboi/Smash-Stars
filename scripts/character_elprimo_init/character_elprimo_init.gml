@@ -264,7 +264,7 @@ function character_elprimo_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1.7;
+		sprite_scale = 2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_elprimo_idle, anim_define(spr_elprimo_idle));
 		my_sprites[$ "Idle"				] = spr_elprimo_idle;

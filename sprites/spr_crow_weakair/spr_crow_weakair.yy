@@ -31,7 +31,7 @@
   ],
   "name":"spr_crow_weakair",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Characters/Crow/Attacks/Sprites.yy",
@@ -108,7 +108,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":30,
-    "yorigin":30,
+    "yorigin":33,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -27,7 +27,7 @@
   ],
   "name":"spr_crow_shield",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Characters/Crow/Sprites.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":30,
-    "yorigin":30,
+    "yorigin":33,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -18,7 +18,6 @@
     {"$GMSpriteFrame":"v1","%Name":"342db490-52ad-4df1-b97f-12053ce2f42c","name":"342db490-52ad-4df1-b97f-12053ce2f42c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"38b6fef5-b185-44fd-a7a0-ba558d7c0b0a","name":"38b6fef5-b185-44fd-a7a0-ba558d7c0b0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"7f0b45cb-287a-4ddf-88b9-8d49116babf2","name":"7f0b45cb-287a-4ddf-88b9-8d49116babf2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ef03adfe-8ca0-48cb-a3fc-e5de8c1287c7","name":"ef03adfe-8ca0-48cb-a3fc-e5de8c1287c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -29,7 +28,7 @@
   ],
   "name":"spr_shelly_crouchstart",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Characters/Shelly/Sprites.yy",
@@ -55,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":7.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -92,15 +91,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f0b45cb-287a-4ddf-88b9-8d49116babf2","path":"sprites/spr_shelly_crouchstart/spr_shelly_crouchstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"272cb646-64ff-4122-89dd-9fabdf842669","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef03adfe-8ca0-48cb-a3fc-e5de8c1287c7","path":"sprites/spr_shelly_crouchstart/spr_shelly_crouchstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0ef95aeb-d21e-48d9-8132-0c03a005d681","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":80,
-    "yorigin":80,
+    "yorigin":92,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
