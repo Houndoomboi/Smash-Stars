@@ -9,13 +9,11 @@ function stage_ranch_init()
 	//Background sprites
 	background = 
 		[
-		background_define_script(spr_stage_ranch_background1, 0, 0, 2, 0, 0, 0, 0, false, 0, stage_campground_distant_draw),
 		background_define_script(spr_stage_ranch_background2, 0, 0, 2, 0.05, 0.05, 0, 0, false, 0, stage_campground_distant_draw),
 		background_define(spr_stage_ranch_background2, 0, 64, 2, 0.1, 0.1),
 		background_define(spr_stage_campground_trees1, 0, 118, 2, 0.2, 0.3),
 		background_define(spr_stage_campground_trees2, 0, 158, 2, 0.5, 0.5),
 		back_clear,
-		background_define(spr_stage_ranch_background1, 856, 704, 2, 0, 0, 0, 0, true, 0.1),
 		];
 	
 	//Foreground sprites
@@ -36,7 +34,7 @@ function stage_ranch_init()
 		left : 0, 
 		top : 0, 
 		right : room_width, 
-		bottom : room_height,
+		bottom : 1066,
 		};
 	
 	//Stage settings

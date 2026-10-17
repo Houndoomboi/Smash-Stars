@@ -46,7 +46,7 @@ function stage_data_get_all()
 			(
 			"Ranger Ranch",
 			stage_ranch_init,
-			rm_stage_ranch,
+			rm_stage_ranger_ranch,
 			spr_stage_ranch_icon,
 			["texture_stage_desert"],
 			0

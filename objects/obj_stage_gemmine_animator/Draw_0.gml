@@ -1,0 +1,17 @@
+///@description
+
+if (surface_exists(obj_game.game_surface))
+	{
+	if (game_surface_enable) surface_set_target(obj_game.game_surface);
+	
+	fade_shader_set();
+	
+	//Moving plat
+	with (obj_platform_moving)
+		{
+		draw_sprite_ext(other.sprite_index, other.image_index, x, y, 2, 2, 0, c_white, 1);
+		}
+	
+	if (game_surface_enable) surface_reset_target();
+	}
+/* Copyright 2025 Springroll Games / Yosi */

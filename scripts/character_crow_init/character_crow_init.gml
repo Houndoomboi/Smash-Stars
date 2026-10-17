@@ -264,7 +264,7 @@ function character_crow_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 2;
+		sprite_scale = 2.2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_crow_idle, anim_define(spr_crow_idle));
 		my_sprites[$ "Idle"				] = spr_crow_idle;

@@ -9,8 +9,11 @@ function stage_gemmine_init()
 	//Background sprites
 	background = 
 		[
-		background_define_script(spr_stage_gemmine_bg, -550, -275, 0.175, 0, 0, 0, 0, false, 0),
-		
+		background_define_script(spr_stage_gemmine_bg, 0, 0, 1, 0, 0, 0, 0, false, 0),
+			background_define_script(spr_stage_gemmine_bg_3, 0, 0, 1, .5, .5, 0, 0, false, 0),
+			background_define_script(spr_stage_gemmine_bg_1, 0, 0, 1, .6, .6, 0, 0, false, 0),
+			background_define_script(spr_gemmine_rock_tower, 0, 0, 1, .7, .7, 0, 0, false, 0),
+			background_define_script(spr_gemmine_landbg, 0, 0, 1, .7, .7, 0, 0, false, 0),
 		//background_define(spr_stage_ranch_background2, 0, 64, 2, 0.1, 0.1),
 		//background_define(spr_stage_campground_trees1, 0, 118, 2, 0.2, 0.3),
 		//background_define(spr_stage_campground_trees2, 0, 158, 2, 0.5, 0.5),
