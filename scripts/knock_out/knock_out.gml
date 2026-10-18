@@ -91,6 +91,7 @@ function knock_out()
 		if (match_has_stock_set())
 			{
 			stock--;
+			if (global.arcadeMode) {global.arcadeStocks--;}
 			}
 
 		//Lose if no stocks left

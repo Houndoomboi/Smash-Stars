@@ -123,6 +123,7 @@ else if (meta_state == GAME_META_STATE.paused)
 					break;
 				case "EXIT":
 					//Skip over the win screen
+					global.arcadeStocks = -1;
 					game_finish(engine().win_screen_next_room);
 					exit;
 				default: crash("[obj_game: Step] Pause menu choice is not valid (", pause_menu_current, ")"); break;
