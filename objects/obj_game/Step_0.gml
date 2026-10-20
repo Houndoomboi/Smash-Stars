@@ -113,7 +113,8 @@ else if (meta_state == GAME_META_STATE.paused)
 					frame_advance_active = true;
 					break;
 				case "RESTART":
-					game_reset();
+					if (global.arcadeMode) {game_finish();} //debug tool, remove before done
+					else {game_reset();}
 					exit;
 				case "SAVE CLIP":
 					if (clip_can_record())
@@ -123,7 +124,7 @@ else if (meta_state == GAME_META_STATE.paused)
 					break;
 				case "EXIT":
 					//Skip over the win screen
-					global.arcadeStocks = -1;
+					if (global.arcadeMode) {global.arcadeStocks = -1;}
 					game_finish(engine().win_screen_next_room);
 					exit;
 				default: crash("[obj_game: Step] Pause menu choice is not valid (", pause_menu_current, ")"); break;

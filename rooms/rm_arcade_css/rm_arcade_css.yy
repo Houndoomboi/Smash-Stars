@@ -19,7 +19,6 @@
     {"name":"inst_182DC6E1_1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
     {"name":"inst_34F12524_1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
     {"name":"inst_76881FCB1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
-    {"name":"inst_503C4801_1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
     {"name":"inst_175612DA1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
     {"name":"inst_6984B59D1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
     {"name":"inst_56EF3D37_1_1","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},
@@ -96,9 +95,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":{"name":"character_name","path":"objects/obj_css_zone/obj_css_zone.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Leon",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":464.0,"y":208.0,},
-        {"$GMRInstance":"v4","%Name":"inst_503C4801_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_503C4801_1_1","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":720.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_56EF3D37_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56EF3D37_1_1","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":{"name":"character_name","path":"objects/obj_css_zone/obj_css_zone.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Crow",},

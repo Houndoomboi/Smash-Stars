@@ -477,6 +477,7 @@
     {"id":{"name":"obj_win_screen","path":"objects/obj_win_screen/obj_win_screen.yy",},},
     {"id":{"name":"Object155","path":"objects/Object155/Object155.yy",},},
     {"id":{"name":"rm_arcade_css","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},},
+    {"id":{"name":"rm_arcade_win","path":"rooms/rm_arcade_win/rm_arcade_win.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_css","path":"rooms/rm_css/rm_css.yy",},},
     {"id":{"name":"rm_darrylship","path":"rooms/rm_darrylship/rm_darrylship.yy",},},
@@ -3243,6 +3244,7 @@
     {"roomId":{"name":"rm_stage_target_sirius","path":"rooms/rm_stage_target_sirius/rm_stage_target_sirius.yy",},},
     {"roomId":{"name":"rm_arcade_css","path":"rooms/rm_arcade_css/rm_arcade_css.yy",},},
     {"roomId":{"name":"rm_stage_ranger_ranch","path":"rooms/rm_stage_ranger_ranch/rm_stage_ranger_ranch.yy",},},
+    {"roomId":{"name":"rm_arcade_win","path":"rooms/rm_arcade_win/rm_arcade_win.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

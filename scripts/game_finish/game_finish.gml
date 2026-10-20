@@ -82,7 +82,6 @@ function game_finish()
 		room_goto(rm_target_css);
 	}
 	else if (global.arcadeMode) {
-
 		setting().match_time = global.originalMatchTimer;
 		ArcadeHandler();
 	}

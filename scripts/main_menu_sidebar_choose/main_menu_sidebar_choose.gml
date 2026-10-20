@@ -8,6 +8,7 @@ function main_menu_sidebar_choose()
 	{
     global.targetMode = false;
 	global.arcadeMode = false;
+	global.arcadePlayedStages = [];
 	var _choice = argument[0];
 	switch (_choice)
 		{

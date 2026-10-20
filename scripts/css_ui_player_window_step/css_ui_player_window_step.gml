@@ -80,7 +80,12 @@ function css_ui_player_window_step()
 						engine().mis_json = mis_devices_save();
 						engine().load_css_data = true;
 						if (global.targetMode) {targetStageChooser();}
-						else if (global.arcadeMode) {ArcadeHandler();}
+						else if (global.arcadeMode) {
+							global.originalMatchTimer = setting().match_time;
+							global.originalStocks = setting().match_stock;
+							global.arcadeStocks = setting().match_stock;
+							ArcadeHandler();
+						}
 						else {room_goto(rm_sss);}
 						exit;
 						}

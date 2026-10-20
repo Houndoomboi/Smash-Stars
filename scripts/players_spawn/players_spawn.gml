@@ -119,6 +119,8 @@ function players_spawn()
 			
 			//Player name
 			player_name = profile_get(player_profile, PROFILE.name);
+			
+			if (global.arcadeMode && player_number == 0) {stock = global.arcadeStocks;}
 			}
 		}
 	}
