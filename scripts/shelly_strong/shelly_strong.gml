@@ -35,9 +35,9 @@ function shelly_strong()
 				
 				if (attack_frame == 0)
 					{
-						anim_frame = 1;
+						anim_frame = 0;
 						attack_phase++;
-						attack_frame = 7;
+						attack_frame = 6;
 						speed_set(3 * facing, 0, false, false);
 						}
 				break;
@@ -45,14 +45,20 @@ function shelly_strong()
 			//Startup
 			case 1:
 				{
+					if (attack_frame == 6)
+					anim_frame = 1;
+					if (attack_frame == 4)
+					anim_frame = 2;
+					if (attack_frame == 2)
+					anim_frame = 3;
 					
 				if (attack_frame == 0)
 					{
 						speed_set(5 * facing, 0, false, false);
-					anim_frame = 2;
+					anim_frame = 4;
 					attack_phase++;
 					attack_frame = 8;
-					var _hitbox = hitbox_create_melee(20, 10.5, 0.5, 0.6, 11, 7, 1, 23, 40, 8, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(24, 10.5, 0.5, 0.6, 11, 7, 1, 23, 40, 10, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
 					game_sound_play(Shelly_BOOM);
@@ -66,12 +72,12 @@ function shelly_strong()
 				{
 				
 				//Animation
-				if (attack_frame == 3)
-					anim_frame = 3;
+				if (attack_frame == 6)
+					anim_frame = 5;
 		
 				if (attack_frame == 0)
 					{
-					anim_frame = 4;
+					anim_frame = 6;
 					attack_phase++;
 					attack_frame = attack_connected() ? 20 : 30;
 					}
@@ -82,9 +88,9 @@ function shelly_strong()
 				{
 				//Animation
 				if (attack_frame <= 20)
-					anim_frame = 5;
+					anim_frame = 7;
 				if (attack_frame <= 10)
-					anim_frame = 6;
+					anim_frame = 8;
 		
 				if (attack_frame == 0)
 					{

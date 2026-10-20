@@ -21,7 +21,7 @@ function character_leon_init()
 		collision_box = spr_shelly_collision_box;
 	
 		//Hurtbox
-		hurtbox_sprite = spr_colt_hurtbox;
+		hurtbox_sprite = spr_leon_hurtbox;
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
@@ -64,7 +64,7 @@ function character_leon_init()
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 16;
+		dash_speed = 9.5;
 		dash_time = 9;
 		dash_accel = 8;
 	

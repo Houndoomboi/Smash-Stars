@@ -104,7 +104,7 @@ function bowser_uspec()
 						else
 							{
 							//Aerial version
-							var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+							var _hitbox = hitbox_create_magnetbox(0, 5, 1, 1, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 							_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 							_hitbox.shieldstun_scaling = 0;
 							attack_phase = 1;
@@ -116,7 +116,7 @@ function bowser_uspec()
 					//Grounded
 					else
 						{
-						var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+						var _hitbox = hitbox_create_magnetbox(0, 5, 1, 1, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 						_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 						_hitbox.shieldstun_scaling = 0;
 						attack_phase = 3;
@@ -152,7 +152,7 @@ function bowser_uspec()
 					{	
 					hitbox_group_reset(1);
 				
-					var _hitbox = hitbox_create_magnetbox(0, 5, 0.8, 0.5, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_magnetbox(0, 5, 1, 1, 1, 2, hsp * 4 * facing, (vsp * 4) - 2, 10, 3, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
 					_hitbox.shieldstun_scaling = 0;
 					}

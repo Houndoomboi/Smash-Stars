@@ -39,7 +39,7 @@ function nita_airspecial()
 					attack_frame = 25;
 					
 					//Initial hitbox
-					var _hitbox = hitbox_create_melee(50, 0, 1.2, 0.3, 3, 13, 0, 14, 90, 1, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(0, 0, 1.4, 1, 3, 13, 0, 14, 90, 1, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_weak1;
 					_hitbox.force_reeling = true;
@@ -70,7 +70,7 @@ function nita_airspecial()
 					speed_set(0, -22, false, false);
 					
 					//First rising hitbox
-					var _hitbox = hitbox_create_melee(50, -12, 1.2, 0.7, 4, 13, 0, 4, 90, 2, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(0, -12, 1.4, 0.7, 4, 13, 0, 4, 90, 2, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_medium];
 					_hitbox.hit_sfx = snd_hit_weak0;
 					_hitbox.force_reeling = true;
@@ -81,7 +81,7 @@ function nita_airspecial()
 				if (attack_frame == 22)
 					{
 					//Second rising hitbox
-					var _hitbox = hitbox_create_melee(50, -12, 1.2, 0.7, 4, 5, 0, 4, 90, 7, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(0, -12, 1.4, 0.7, 4, 5, 0, 4, 90, 7, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_weak];
 					_hitbox.hit_sfx = snd_hit_weak1;
 					game_sound_play(Bruce_Growl);
@@ -145,7 +145,7 @@ function nita_airspecial()
 					speed_set(0, 20, false, false);
 					
 					//Falling hitbox
-					var _hitbox = hitbox_create_melee(48, 14, 1.3, 0.5, 8, 12, 0.8, 8, 275, 300, SHAPE.square, 2, FLIPPER.from_player_center_horizontal);
+					var _hitbox = hitbox_create_melee(0, 14, 1.4, 0.75, 8, 12, 0.8, 8, 275, 300, SHAPE.square, 2, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium];
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.techable = false;
@@ -179,14 +179,14 @@ function nita_airspecial()
 					hitbox_destroy_attached_all();
 					
 					//Ground-only hitbox
-					var _hitbox = hitbox_create_melee(30, 14, 2.3, 0.3, 5, 13, 0.5, 10, 65, 3, SHAPE.square, 3, FLIPPER.from_player_center_horizontal);
+					var _hitbox = hitbox_create_melee(0, 14, 2.3, 0.3, 5, 13, 0.5, 10, 65, 3, SHAPE.square, 3, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_strong];
 					_hitbox.hit_sfx = snd_hit_strong1;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.custom_hitstun = 25;
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;
 					
-					var _hitbox = hitbox_create_melee(46, -14, 1.3, 1.2, 5, 13, 0.5, 10, 65, 1, SHAPE.square, 3, FLIPPER.from_player_center_horizontal);
+					var _hitbox = hitbox_create_melee(0, -14, 1.4, 1.2, 5, 13, 0.5, 10, 65, 1, SHAPE.square, 3, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_strong];
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.custom_hitstun = 25;

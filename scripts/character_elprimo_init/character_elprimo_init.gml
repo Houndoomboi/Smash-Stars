@@ -21,7 +21,7 @@ function character_elprimo_init()
 		collision_box = spr_shelly_collision_box;
 	
 		//Hurtbox
-		hurtbox_sprite = spr_colt_hurtbox;
+		hurtbox_sprite = spr_primo_hurtbox;
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight

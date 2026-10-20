@@ -40,6 +40,14 @@ function nita_strong()
 			//Startup
 			case 1:
 				{
+				if (attack_frame == 12)
+					anim_frame = 1;
+				if (attack_frame == 10)
+					anim_frame = 2;	
+				if (attack_frame == 8)
+					anim_frame = 3;	
+				if (attack_frame == 6)
+					anim_frame = 5;	
 				if (attack_frame == 4)
 					anim_frame = 6;	
 				if (attack_frame == 0)
@@ -47,7 +55,7 @@ function nita_strong()
 					anim_frame = 7;
 					attack_phase++;
 					attack_frame = 8;
-					var _hitbox = hitbox_create_melee(62, 0, 0.9, 0.4, 14, 8.2, 0.8, 10, 50, 8, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(72, 5, 0.9, 0.7, 14, 8.2, 0.8, 10, 50, 8, SHAPE.rotation, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					hitbox_sprite_angle_set(_hitbox, 50);
 					_hitbox.hit_sfx = Nita_Strong;

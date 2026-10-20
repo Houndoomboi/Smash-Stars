@@ -21,7 +21,7 @@ function character_darryl_init()
 		collision_box = spr_shelly_collision_box;
 	
 		//Hurtbox
-		hurtbox_sprite = spr_colt_hurtbox;
+		hurtbox_sprite = spr_darryl_hurtbox;
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
@@ -64,7 +64,7 @@ function character_darryl_init()
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 10;
+		dash_speed = 8;
 		dash_time = 9;
 		dash_accel = 8;
 	

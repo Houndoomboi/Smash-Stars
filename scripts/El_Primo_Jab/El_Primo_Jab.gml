@@ -37,7 +37,7 @@ function El_Primo_Jab()
 					attack_frame = 8;
 					game_sound_play(snd_punch0);
 					speed_set(facing * 2, 0, true, false);
-					var _hitbox = hitbox_create_melee(20, 0, 0.5, 0.3, 2, 4, 0, 2, 75, 4, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(60, -7, 0.75, 0.5, 2, 4, 0, 2, 75, 4, SHAPE.circle, 0);
 					_hitbox.knockback_state = PLAYER_STATE.flinch;
 					_hitbox.can_be_parried = false;
 					game_sound_play(prng_choose(1,Fist_Vfx, snd_hit_wind));
@@ -88,7 +88,7 @@ function El_Primo_Jab()
 					attack_frame = 3;
 					game_sound_play(snd_punch1);
 					speed_set(facing * 3, 0, false, false);
-					var _hitbox = hitbox_create_magnetbox(20, 0, 0.7, 0.3, 2, 3, 14, 5, 16, 4, SHAPE.circle, 1);
+					var _hitbox = hitbox_create_magnetbox(60, -7, 0.75, 0.5, 2, 3, 14, 5, 16, 4, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
@@ -136,7 +136,7 @@ function El_Primo_Jab()
 					attack_frame = 15;
 					game_sound_play(snd_punch0);
 					speed_set(facing * 6, 0, false, false);
-					var _hitbox = hitbox_create_melee(30, -5, 0.7, 0.3, 9, 9, 0.4, 5, 40, 4, SHAPE.circle, 2);
+					var _hitbox = hitbox_create_melee(60, -7, 0.75, 0.5, 9, 9, 0.4, 5, 40, 4, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong2;
 					}

@@ -25,27 +25,26 @@ function spike_airstrong()
 				
 				landing_lag = 18;
 				speed_set(0, -1, true, true);
-				attack_frame = 11;
+				attack_frame = 4;
 				return;
 				}
 			//Startup
 			case 0:
 				{
-				if (attack_frame == 11)
+				if (attack_frame == 4)
 					anim_frame = 1;
-				if (attack_frame == 9)
+				if (attack_frame == 2)
 					anim_frame = 2;
-				if (attack_frame == 7)
-					anim_frame = 3;
+			
 				
 				
 				if (attack_frame == 0)
 					{
-					anim_frame = 4;
+					anim_frame = 3;
 					attack_phase++;
 					attack_frame = 20;
 					game_sound_play(snd_punch1);
-					var _hitbox = hitbox_create_melee(16, 0, 0.5, 1, 11, 6, 0.7, 10, 40, 2, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(40, 10, 0.5, 1, 11, 6, 0.7, 10, 40, 2, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong0;
 					_hitbox.hitstun_scaling = 1.1;
@@ -57,16 +56,18 @@ function spike_airstrong()
 				{
 				//Animation
 				if (attack_frame == 14)
-					anim_frame = 5;
+					anim_frame = 4;
 				if (attack_frame == 12)
+					anim_frame = 5;
+				if (attack_frame == 10)
 					anim_frame = 6;
-				if (attack_frame == 10)
-					anim_frame = 7;
 				if (attack_frame == 8)
+					anim_frame = 7;
+				if (attack_frame == 6)
 					anim_frame = 8;
-				if (attack_frame == 9)
+				if (attack_frame == 4)
 					anim_frame = 9;
-				if (attack_frame == 10)
+				if (attack_frame == 2)
 					anim_frame = 10;
 				
 				if (attack_frame == 0)

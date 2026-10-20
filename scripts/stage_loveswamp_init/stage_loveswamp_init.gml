@@ -10,11 +10,10 @@ function stage_loveswamp_init()
 	background = 
 		[
 		background_define_script(spr_swamp_skybox, 0, 0, 1, 0, 0, 0, 0, false, 0),
-		background_define_script(spr_swamp_tower, 0, 0, 1, .5, .5, 0, 0, false, 0),
-		background_define_script(spr_swamp_mountain, 0, 0, 1, .5, .5, 0, 0, false, 0),
-		background_define_script(spr_swamp_clouds, 0, 0, 1, .5, .5, 0, 0, false, 0),
-		background_define_script(spr_swamp_meadow_1, 0, 0, 1, .5, .5, 0, 0, false, 0),
-		background_define_script(spr_swamp_field, 0, 0, 1, .5, .5, 0, 0, false, 0),
+		background_define_script(spr_swamp_trees, 0, 0, 1, .5, 0, 0, 0, false, 0),
+		background_define_script(spr_swamp_trees, 0, 0, 1, .5, 0, 0, 0, false, 0),
+		background_define_script(spr_swamp_trees, 0, 0, 1, .5, 0, 0, 0, false, 0),
+		background_define_script(spr_swamp_trees, 0, 0, 1, .5, 0, 0, 0, false, 0),
 		//background_define(spr_stage_ranch_background2, 0, 64, 2, 0.1, 0.1),
 		//background_define(spr_stage_campground_trees1, 0, 118, 2, 0.2, 0.3),
 		//background_define(spr_stage_campground_trees2, 0, 158, 2, 0.5, 0.5),

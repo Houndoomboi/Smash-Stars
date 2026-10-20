@@ -64,7 +64,7 @@ function character_colt_init()
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 10;
+		dash_speed = 8;
 		dash_time = 9;
 		dash_accel = 8;
 	
