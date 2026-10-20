@@ -56,7 +56,7 @@ mis_device_connect_callback_set
 	function(_device_id) 
 		{
 			
-		if (array_length(css_players_get_array()) < 1 || !global.targetMode) {
+		if (array_length(css_players_get_array()) < 1 || (!global.targetMode && !global.arcadeMode)) {
 		//Add a new player to the Character Select Screen
 		var _cursor_index = engine().css_index_current;
 		var _group = group_start_number + engine().css_index_current;

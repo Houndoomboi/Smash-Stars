@@ -2,10 +2,13 @@
 ///@param {int} choice_number			The number of the choice in the menu array
 /*
 Chooses an option from the main menu sidebar.
+Also edited to work with various menu buttons, and resets special gamemode variables when option is chosen
 */
 function main_menu_sidebar_choose()
 	{
     global.targetMode = false;
+	global.arcadeMode = false;
+	global.arcadePlayedStages = [];
 	var _choice = argument[0];
 	switch (_choice)
 		{
@@ -74,6 +77,15 @@ function main_menu_sidebar_choose()
 				{
 				global.targetMode = true;
 				room_goto(rm_target_css);
+				}
+			break;
+		case 10:
+			if (room != rm_arcade_css)
+				{
+				global.arcadeMode = true;
+				global.arcadeStocks = setting().match_stock;
+				global.arcadePlayedStages = [];
+				room_goto(rm_arcade_css);
 				}
 			break;
 		default: crash("[main_menu_sidebar_choose] Invalid choice (", _choice, ")");

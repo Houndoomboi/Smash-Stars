@@ -77,8 +77,13 @@ function game_finish()
 	
 	//Next room
 	if (global.targetMode) {
+		setting().match_stock = global.originalStocks;
 		setting().match_time = global.originalMatchTimer;
 		room_goto(rm_target_css);
+	}
+	else if (global.arcadeMode) {
+		setting().match_time = global.originalMatchTimer;
+		ArcadeHandler();
 	}
 	else {
 	room_goto(argument_count > 0 ? argument[0] : rm_win_screen); }

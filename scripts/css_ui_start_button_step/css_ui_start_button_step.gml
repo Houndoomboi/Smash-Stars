@@ -20,6 +20,12 @@ function css_ui_start_button_step()
 				engine().load_css_data = true;
 				
 				if (global.targetMode) {targetStageChooser();}
+				else if (global.arcadeMode) {
+					global.originalMatchTimer = setting().match_time;
+					global.originalStocks = setting().match_stock;
+					global.arcadeStocks = setting().match_stock;
+					ArcadeHandler();
+				}
 				else {room_goto(rm_sss);}
 				exit;
 				}

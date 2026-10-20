@@ -41,6 +41,12 @@ function stage_target_init()
 	
 	global.originalMatchTimer = setting().match_time;
 	setting().match_time = 0;
+	
+	if (!global.arcadeMode) {
+		global.originalStocks =  setting().match_stock;
+		setting().match_stock = 1;
+	}
+	
 	engine().singleplayer_mode = true;
 	
 	

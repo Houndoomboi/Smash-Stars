@@ -32,7 +32,7 @@ if (state != GAME_STATE.cutscene)
 				var _name = player_name;
 				
 				//Added target counter here.
-			    if (global.targetMode) { 
+			    if (global.targetMode || array_length(global.arcadePlayedStages) == 4) { 
 					text = to_string
 					(
 					"\nTargets Left: ",
@@ -45,7 +45,7 @@ if (state != GAME_STATE.cutscene)
 				draw_set_valign(fa_middle);
 				draw_set_alpha(0.5);
 				draw_set_color(_teams ? player_color_get(player_team) : c_black);
-				var rectHeight = global.targetMode ? 16 : 8;
+				var rectHeight = (global.targetMode || array_length(global.arcadePlayedStages) == 4) ? 16 : 8;
 				draw_rectangle(_x - _size, _y - rectHeight, _x + _size, _y + rectHeight, false);
 				draw_set_alpha(1);
 				draw_set_color(_teams ? c_black : c_white);
