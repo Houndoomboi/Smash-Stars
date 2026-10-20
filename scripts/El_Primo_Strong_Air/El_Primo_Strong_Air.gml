@@ -56,7 +56,7 @@ function El_Primo_Strong_Air()
 					_hitbox.hit_sfx = snd_hit_strong2;
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;
 					_hitbox.techable = false;
-					speed_set(5 * facing ,4,false,false);
+					speed_set(5 * facing,8, false, false);
                     game_sound_play(Primo_StrongAir_Sfx)
 					var _hitbox = hitbox_create_melee(5, -1, 1.5, 1.5, 10, 0, 0, 20, 90, 9, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.explosion;

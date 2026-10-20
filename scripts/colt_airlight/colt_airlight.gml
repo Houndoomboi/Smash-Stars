@@ -41,7 +41,7 @@ function colt_airlight()
 					{
 					anim_frame = 2;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(0, 0, 2, 2, 2, 4, 0.3, 2, -20, 6, SHAPE.square,0);
+					var _hitbox = hitbox_create_melee(0, -8, 1.4, 0.5, 2, 4, 0.3, 2, 60, 6, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					attack_frame = 24;
 					attack_phase++;
@@ -55,7 +55,7 @@ function colt_airlight()
 					anim_frame = 3;
 					if (attack_frame == 18){
 					anim_frame = 4;
-					var _hitbox = hitbox_create_melee(0, 0, 2, 2, 2, 4, 0.3, 2, -20, 6, SHAPE.square,1);
+					var _hitbox = hitbox_create_melee(0, -8, 1.4, 0.5, 2, 4, 0.3, 2, 60, 6, SHAPE.square,1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					}
 					if(attack_frame == 15)
@@ -68,7 +68,7 @@ function colt_airlight()
 					
 					if(attack_frame == 6){
 						anim_frame = 8
-				var _hitbox = hitbox_create_melee(0, 0, 2, 2, 3, 8, 0.5, 4, 75, 6, SHAPE.square,2);
+				var _hitbox = hitbox_create_melee(0, -8, 1.5, 0.6, 2, 4, 0.3, 2, 60, 6, SHAPE.square,2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					}
 					if(attack_frame == 3)

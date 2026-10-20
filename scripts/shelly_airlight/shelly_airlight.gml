@@ -47,7 +47,7 @@ function shelly_airlight()
 					{
 					anim_frame = 4;
 					game_sound_play(snd_swing1);
-					var _hitbox = hitbox_create_melee(30, 0, 0.3, 0.35, 5, 8, 0.6, 4, 40, 6, SHAPE.square, 0);
+					var _hitbox = hitbox_create_melee(75, 0, 1, 0.7, 5, 8, 0.6, 4, 40, 6, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					attack_frame = 16;
 					attack_phase++;

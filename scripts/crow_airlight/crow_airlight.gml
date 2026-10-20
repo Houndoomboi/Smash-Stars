@@ -26,8 +26,8 @@ function crow_airlight()
 				speed_set(0, -1, true, true);
 				attack_frame = 9;
 				
-				hurtbox_anim_match(spr_wario_dair_hurtbox);
-				collision_box_change(spr_wario_dair_collision_box);
+				hurtbox_anim_match(spr_crow_weakair);
+				collision_box_change(spr_crow_weakair);
 				return;
 				}
 			//Startup
@@ -43,7 +43,7 @@ function crow_airlight()
 			
 					attack_phase++;
 					attack_frame = 14;
-					var _hitbox = hitbox_create_melee(0, 28, 0.6, 1, 1, 6, 0, 2, 270, 13, SHAPE.square, 0, FLIPPER.autolink_center);
+					var _hitbox = hitbox_create_melee(12, 18, 0.6, 0.6, 1, 6, 0, 2, 270, 13, SHAPE.square, 0, FLIPPER.autolink_center);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					_hitbox.hit_sfx = snd_hit_weak1;
 					_hitbox.di_angle = 0;
@@ -73,7 +73,7 @@ function crow_airlight()
 					{
 					anim_frame = 6;
 				
-					var _hitbox = hitbox_create_melee(0, 28, 0.6, 1.1, 2, 6, 0.8, 12, 45, 3, SHAPE.square, 1);
+					var _hitbox = hitbox_create_melee(12, 18, 0.6, 0.7, 2, 6, 0.8, 12, 45, 3, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong0;
 					}

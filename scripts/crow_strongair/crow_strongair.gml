@@ -37,7 +37,7 @@ function crow_strongair()
 					attack_frame = 7;
 					}
 					
-				hurtbox_anim_match(spr_bayonetta_fspec_afterburner_hurtbox);
+				hurtbox_anim_match(spr_crow_strongair);
 				
 				//EX
 				ex_move_reset();
@@ -168,7 +168,7 @@ function crow_strongair()
 			
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 70, 3, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 70, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 30;
@@ -177,7 +177,7 @@ function crow_strongair()
 					
 				if (attack_frame == 7)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 85, 2, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 85, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 27;

@@ -231,7 +231,7 @@ function darryl_groundspecial()
 						
 						//Hitbox
 						var _damage = (charge >= _charge_threshold ? 10 : 4);
-						var _hitbox = hitbox_create_melee(0, 0, 0.5, 0.5, _damage, 10, 0.5, 6, 45, -1, SHAPE.circle, 0, FLIPPER.sakurai);
+						var _hitbox = hitbox_create_melee(0, 0, 1, 0.75, _damage, 10, 0.5, 6, 45, -1, SHAPE.circle, 0, FLIPPER.sakurai);
 						_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 						_hitbox.hit_sfx = snd_hit_strong0;
 						_hitbox.hitstun_scaling = 0.5;

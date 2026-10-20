@@ -24,15 +24,21 @@ function nita_jab()
 				anim_speed = 0;
 				anim_frame = 0;
 		
-				attack_frame = 5;
+				attack_frame = 4;
 				return;
 				}
 			//First Jab Startup
 			case 0:
 				{
+					
+				if (attack_frame == 4)
+				anim_frame = 1;
+				if (attack_frame == 2)
+				anim_frame = 2;
+				
 				if (attack_frame == 0)
 					{
-					anim_frame = 1;
+					anim_frame = 3;
 					attack_phase++;
 					attack_frame = 8;
 					game_sound_play(snd_punch0);
@@ -52,7 +58,7 @@ function nita_jab()
 				if (attack_frame == 0)
 					{
 					attack_phase++;
-					attack_frame = 6;
+					attack_frame = 4;
 					}
 				break;
 				}
@@ -60,7 +66,7 @@ function nita_jab()
 			case 2:
 				{
 				//Animation
-				anim_frame = 2;
+				anim_frame = 4;
 			
 				
 				//Continue to next jab
@@ -68,7 +74,7 @@ function nita_jab()
 					{
 					anim_frame = 5;
 					attack_phase++;
-					attack_frame = 3;
+					attack_frame = 2;
 					}
 				//Auto end
 				else if (attack_frame == 0)
@@ -80,12 +86,14 @@ function nita_jab()
 			//Second Jab Startup
 			case 3:
 				{
+				if (attack_frame == 2)
+				anim_frame = 6;
 				if (attack_frame == 0)
 					{
 					//Continue jab combo
-					anim_frame = 6;
+					anim_frame = 7;
 					attack_phase++;
-					attack_frame = 3;
+					attack_frame = 6;
 					game_sound_play(snd_punch1);
 					speed_set(facing * 3, 0, false, false);
 					var _hitbox = hitbox_create_magnetbox(20, 0, 0.7, 0.3, 2, 3, 14, 5, 16, 4, SHAPE.circle, 1);
@@ -98,10 +106,14 @@ function nita_jab()
 			//Second Jab Active
 			case 4:
 				{
+				if (attack_frame == 6)
+				anim_frame = 8;
+				if (attack_frame == 4)
+				anim_frame = 9;
 				if (attack_frame == 0)
 					{
 					attack_phase++;
-					attack_frame = 16;
+					attack_frame = 10;
 					}
 				break;
 				}
@@ -109,7 +121,7 @@ function nita_jab()
 			case 5:
 				{
 				//Animation
-				anim_frame = 8;
+				anim_frame = 11;
 			
 				
 				//Continue to next jab
@@ -117,7 +129,7 @@ function nita_jab()
 					{
 					attack_phase++;
 					attack_frame = 4;
-					anim_frame = 9;
+					anim_frame = 12;
 					}
 				//Auto end
 				else if (attack_frame == 0)
@@ -131,7 +143,7 @@ function nita_jab()
 				{
 				if (attack_frame == 0)
 					{
-					anim_frame = 11;
+					anim_frame = 13;
 					attack_phase++;
 					attack_frame = 15;
 					game_sound_play(snd_punch0);
@@ -147,7 +159,7 @@ function nita_jab()
 				{
 				if (attack_frame == 0)
 					{
-					anim_frame = 8;
+					anim_frame = 14;
 					attack_phase++;
 					attack_frame = 10;
 					}
@@ -156,6 +168,8 @@ function nita_jab()
 			//Third Jab Endlag
 			case 8:
 				{
+				if (attack_frame == 10)
+					anim_frame = 15;
 				if (attack_frame == 0)
 					{
 					attack_stop(PLAYER_STATE.idle);
