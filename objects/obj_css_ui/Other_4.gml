@@ -7,6 +7,8 @@ css_back_button_timer = 0; //Timer for holding the back button to open the main 
 
 //Match settings
 match_settings_y = -256;
+
+
 match_settings_choices =
 	[
 	"Stock",
@@ -19,6 +21,9 @@ match_settings_choices =
 	//"EX Meter",
 	//"Final Smash Meter",
 	];
+	
+if (global.arcadeMode) {match_settings_choices = ["Stock"];}
+
 match_settings_current = 0;
 match_settings_selector = noone;
 var _vals = stamina_valid_values;

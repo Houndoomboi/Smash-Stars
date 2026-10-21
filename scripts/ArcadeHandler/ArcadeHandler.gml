@@ -1,13 +1,23 @@
 function ArcadeHandler(){
 	stageArray = [rm_stage_giftshop,rm_stage_diner,rm_darrylship,rm_primoring,rm_gemmine,rm_mortuary,
 	rm_stage_ranger_ranch,rm_rumblejungle,rm_stage_loveswamp];
+	charArray = ["Shelly","Colt","Spike","Crow","Darryl","El Primo","Leon","Mortis","Nita",
+	"Poco"]
 	
-	var chosenStage = nextStage(stageArray);
+	var chosenStage;
+	
+	if (array_length(global.arcadePlayedStages) != 3) {
+		chosenStage = nextStage(stageArray);
+	} else {
+		array_push(global.arcadePlayedStages,rm_stage_target);
+	}
+	var chosenCharacter = nextChar(charArray);
 	while (array_length(engine().player_data) > 1) {array_delete(engine().player_data,1,1);}
 	
 	
 	if (global.arcadeStocks <= 0) {
 		global.arcadePlayedStages = [];
+		global.arcadePlayedCharacters = [];
 		room_goto(rm_arcade_css);
 	}
 	
@@ -15,21 +25,22 @@ function ArcadeHandler(){
 		
 		if (global.arcadeStocks == global.originalStocks 
 		&& array_length(global.arcadePlayedStages) == 9) {
-			addRandomCPU();
-			addRandomCPU();
+			addRandomCPU("");
+			addRandomCPU("");
 			room_goto(rm_stage_ranger_ranch);
 		}
 		else {
 			global.arcadePlayedStages = [];
+			global.arcadePlayedCharacters = [];
 			room_goto(rm_arcade_css);
 		}
 	}
 	else if (array_length(global.arcadePlayedStages) == 8) {
-		addRandomCPU();
-		addRandomCPU();
-		addRandomCPU();
-		addRandomCPU();
-		addRandomCPU();
+		addRandomCPU("");
+		addRandomCPU("");
+		addRandomCPU("");
+		addRandomCPU("");
+		addRandomCPU("");
 		room_goto(rm_stage_ranger_ranch);
 	}
 	else if (array_length(global.arcadePlayedStages) == 4) {
@@ -37,7 +48,7 @@ function ArcadeHandler(){
 	}
     
 	else {
-		addRandomCPU();
+		addRandomCPU(chosenCharacter);
 		room_goto(chosenStage);
 	}
 	
@@ -57,7 +68,19 @@ function nextStage(stageArray) {
 	}
 }
 
-function addRandomCPU() {
+function nextChar(charArray) {
+	shuffled = array_shuffle(charArray);
+	for (i = 0; i < array_length(shuffled); i++) {
+		if (!array_contains(global.arcadePlayedCharacters,shuffled[i])) {
+			array_push(global.arcadePlayedCharacters,shuffled[i]);
+			return shuffled[i];
+		}
+	}
+}
+
+function addRandomCPU(character) {
+	
+	var characterPicked = character == "" ? character_choose_random() : character_find(character);
 	
 	var _cursor_index = engine().css_index_current;
 	var _group = 1;
@@ -75,7 +98,7 @@ function addRandomCPU() {
 		
 	player_data_create
 		(
-		character_choose_random(),
+		characterPicked,
 		1, 
 		-1, 
 		DEVICE.none, 

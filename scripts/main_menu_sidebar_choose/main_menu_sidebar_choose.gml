@@ -9,6 +9,7 @@ function main_menu_sidebar_choose()
     global.targetMode = false;
 	global.arcadeMode = false;
 	global.arcadePlayedStages = [];
+	global.arcadePlayedCharacters = [];
 	var _choice = argument[0];
 	switch (_choice)
 		{
@@ -82,9 +83,11 @@ function main_menu_sidebar_choose()
 		case 10:
 			if (room != rm_arcade_css)
 				{
+				match_settings_default();
 				global.arcadeMode = true;
 				global.arcadeStocks = setting().match_stock;
 				global.arcadePlayedStages = [];
+				global.arcadePlayedCharacters = [];
 				room_goto(rm_arcade_css);
 				}
 			break;

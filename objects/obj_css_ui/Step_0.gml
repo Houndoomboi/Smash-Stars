@@ -183,7 +183,14 @@ else if (state == CSS_STATE.match_settings)
 		switch (_choice)
 			{
 			case "Stock":
-				setting().match_stock = modulo(setting().match_stock + _rl, stock_value_limit + 1);
+				if (!global.arcadeMode) {
+					setting().match_stock = modulo(setting().match_stock + _rl, stock_value_limit + 1);
+				}
+				else {
+					setting().match_stock = modulo(setting().match_stock + _rl, 6 + 1);
+					if (setting().match_stock == 0) {setting().match_stock = 5;}
+					if (setting().match_stock == 6) {setting().match_stock = 1;}
+				}
 				break;
 			case "Time":
 				setting().match_time = modulo(setting().match_time + _rl, time_value_limit + 1);
