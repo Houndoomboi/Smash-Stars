@@ -44,7 +44,7 @@ function mortis_lightground()
 					{
 					anim_frame = 4;
 					game_sound_play(ShovelSlash);
-					var _hitbox = hitbox_create_melee(10, 0, 2, 2, 2, 4, 0.3, 2, -20, 6, SHAPE.square,0);
+					var _hitbox = hitbox_create_melee(40, -8, 1, 1, 2, 4, 0.3, 2, -20, 6, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					attack_frame = 24;
 					attack_phase++;
@@ -58,7 +58,7 @@ function mortis_lightground()
 					anim_frame = 5;
 					if (attack_frame == 18){
 					anim_frame = 6;
-					var _hitbox = hitbox_create_melee(10, 0, 2, 2, 2, 4, 0.3, 3, -20, 6, SHAPE.square,1);
+					var _hitbox = hitbox_create_melee(40, -8, 1, 1, 2, 4, 0.3, 3, -20, 6, SHAPE.square,1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_weak;
 					}
 					if(attack_frame == 15)
@@ -71,7 +71,7 @@ function mortis_lightground()
 					
 					if(attack_frame == 6){
 						anim_frame = 10;
-				var _hitbox = hitbox_create_melee(20, 0, 2, 2, 3, 6, 0.8, 5, 80, 6, SHAPE.square,2);
+				var _hitbox = hitbox_create_melee(40, -8, 1, 1, 3, 6, 0.8, 5, 80, 6, SHAPE.square,2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					}
 					if(attack_frame == 3)

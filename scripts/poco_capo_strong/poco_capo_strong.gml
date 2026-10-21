@@ -70,10 +70,10 @@ function poco_capo_strong(){
 						if (charge % 8 == 0)
 							{
 							if (anim_frame == 6)
-								anim_frame = 5;
+								anim_frame = 4;
 							else
 								{
-								anim_frame = 4;
+								anim_frame = 3;
 								
 								//Shine VFX
 								vfx_create(spr_shine_attack, 1, 0, 8, x + prng_number(0, 20, -20), y + prng_number(1, 20, -20), 1, prng_number(0, 360));
@@ -92,13 +92,13 @@ function poco_capo_strong(){
 				 if (attack_frame == 5)
 				speed_set(8, 0, false, false);
 				if (attack_frame == 4)
-					anim_frame = 7;
+					anim_frame = 5;
 				if (attack_frame == 2)
-					anim_frame = 8;
+					anim_frame = 6;
 					
 				if (attack_frame == 0)
 					{
-					anim_frame = 8;
+					anim_frame = 7;
 					attack_phase = 3;
 					attack_frame = 8;
 					
@@ -142,13 +142,13 @@ function poco_capo_strong(){
 				if (attack_frame == 5)
 				speed_set(lerp(12, 15, (charge / smash_attack_charge_max)) * facing, 0, false, false);
 				if (attack_frame == 4)
-					anim_frame = 7;
+					anim_frame = 5;
 				if (attack_frame == 2)
-					anim_frame = 8;
+					anim_frame = 6;
 					
 				if (attack_frame == 0)
 					{
-					anim_frame = 8;
+					anim_frame = 7;
 					attack_phase = 3;
 					attack_frame = 8;
 					
