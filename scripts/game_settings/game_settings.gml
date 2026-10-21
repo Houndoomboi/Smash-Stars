@@ -34,8 +34,8 @@ function setting()
 		local_frame_skip :					true, //{bool} Whether frames can be skipped locally if the game is running under 60fps or not.
 		negative_input_delay :				0, //{int} The number of frames backwards players' inputs will be applied, during local matches. Must be greater than or equal to 0. Warning: Using negative input delay will increase performance and cause visual artifacts.
 		//Visibility
-		show_hitboxes :						true, //{bool} Whether to make hitboxes visible or not.
-		show_hurtboxes :					true, //{bool} Whether to make hurtboxes visible or not.
+		show_hitboxes :						false, //{bool} Whether to make hitboxes visible or not.
+		show_hurtboxes :					false, //{bool} Whether to make hurtboxes visible or not.
 		show_collision_boxes :				false, //{bool} Whether to make collision boxes visible or not.
 		show_launch_trajectories :			false, //{bool} Whether to make the launch trajectory of the last move visible or not.
 		show_damage_numbers :				false, //{bool} Whether to show damage numbers when attacks hit or not.
