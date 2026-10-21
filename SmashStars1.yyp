@@ -3123,6 +3123,7 @@
     {"id":{"name":"spr_stage_thumbnails","path":"sprites/spr_stage_thumbnails/spr_stage_thumbnails.yy",},},
     {"id":{"name":"spr_steve_nspec_build","path":"sprites/spr_steve_nspec_build/spr_steve_nspec_build.yy",},},
     {"id":{"name":"spr_swamp_alli","path":"sprites/spr_swamp_alli/spr_swamp_alli.yy",},},
+    {"id":{"name":"spr_swamp_boats_1","path":"sprites/spr_swamp_boats_1/spr_swamp_boats_1.yy",},},
     {"id":{"name":"spr_swamp_foreground","path":"sprites/spr_swamp_foreground/spr_swamp_foreground.yy",},},
     {"id":{"name":"spr_swamp_frog","path":"sprites/spr_swamp_frog/spr_swamp_frog.yy",},},
     {"id":{"name":"spr_swamp_house","path":"sprites/spr_swamp_house/spr_swamp_house.yy",},},
