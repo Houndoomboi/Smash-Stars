@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Ring",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":146.67007,
+  "exportDir":"",
+  "name":"Ring",
+  "parent":{
+    "name":"El Primo's Ring",
+    "path":"folders/Stages/El Primo's Ring.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Ring.wav",
+  "volume":0.62,
+}

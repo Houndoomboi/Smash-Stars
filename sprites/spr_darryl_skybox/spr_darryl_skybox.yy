@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_darryl_skybox",
   "bboxMode":0,
-  "bbox_bottom":799,
+  "bbox_bottom":1079,
   "bbox_left":0,
-  "bbox_right":1599,
+  "bbox_right":1919,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8178c423-58eb-4e7e-8d68-6944ea59de20","name":"8178c423-58eb-4e7e-8d68-6944ea59de20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc41c095-07bd-46d0-b65d-b5ede26e7612","name":"dc41c095-07bd-46d0-b65d-b5ede26e7612","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":800,
+  "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0206ae45-7175-4b46-a217-772311155809","blendMode":0,"displayName":"default","isLocked":false,"name":"0206ae45-7175-4b46-a217-772311155809","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"69905dfc-e1b3-4889-9e43-cc56745dcadb","blendMode":0,"displayName":"default","isLocked":false,"name":"69905dfc-e1b3-4889-9e43-cc56745dcadb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_darryl_skybox",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8178c423-58eb-4e7e-8d68-6944ea59de20","path":"sprites/spr_darryl_skybox/spr_darryl_skybox.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"68b4b0b3-9614-43e6-a4bb-427560712e53","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc41c095-07bd-46d0-b65d-b5ede26e7612","path":"sprites/spr_darryl_skybox/spr_darryl_skybox.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"394ed7c8-1c3b-411e-938c-863d7f827878","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1600,
+  "width":1920,
 }
