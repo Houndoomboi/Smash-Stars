@@ -315,6 +315,7 @@ function game_advance_frame()
 					}
 				else
 					{
+					if (global.arcadeMode) {global.arcadeStocks = -1;}	
 					game_finish();
 					}
 					

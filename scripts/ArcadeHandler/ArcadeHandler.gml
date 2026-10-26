@@ -4,29 +4,34 @@ function ArcadeHandler(){
 	charArray = ["Shelly","Colt","Spike","Crow","Darryl","El Primo","Leon","Mortis","Nita",
 	"Poco"]
 	
-	var chosenStage;
+	match_settings_default();
 	
-	if (array_length(global.arcadePlayedStages) != 3) {
-		chosenStage = nextStage(stageArray);
-	} else {
-		array_push(global.arcadePlayedStages,rm_stage_target);
-	}
+	var chosenStage = nextStage(stageArray, array_length(global.arcadePlayedStages));
 	var chosenCharacter = nextChar(charArray);
+	var stageNum = array_length(global.arcadePlayedStages);
+	
 	while (array_length(engine().player_data) > 1) {array_delete(engine().player_data,1,1);}
 	
 	
+	//end game if out of stocks or special condition
 	if (global.arcadeStocks <= 0) {
 		global.arcadePlayedStages = [];
 		global.arcadePlayedCharacters = [];
 		room_goto(rm_arcade_css);
 	}
-	
-	else if (array_length(global.arcadePlayedStages) > 8) {
+	//either end game at last stage or advance to secret if at full lives
+	else if (stageNum > 8) {
 		
 		if (global.arcadeStocks == global.originalStocks 
 		&& array_length(global.arcadePlayedStages) == 9) {
-			addRandomCPU("");
-			addRandomCPU("");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			addRandomCPU("Colt");
+			
 			room_goto(rm_stage_ranger_ranch);
 		}
 		else {
@@ -35,18 +40,28 @@ function ArcadeHandler(){
 			room_goto(rm_arcade_css);
 		}
 	}
-	else if (array_length(global.arcadePlayedStages) == 8) {
+	//target mode
+	else if (stageNum == 4) {
+		targetStageChooser();
+	}
+	//2v2
+	else if (stageNum == 5 ) {
+		addRandomCPU(chosenCharacter,false);
+		addRandomCPU(nextChar(charArray));
+		addRandomCPU(nextChar(charArray));
+		setting().match_team_mode = true;
+		room_goto(chosenStage);
+	}
+	//Many battle
+	else if (stageNum == 8) {
 		addRandomCPU("");
 		addRandomCPU("");
 		addRandomCPU("");
 		addRandomCPU("");
 		addRandomCPU("");
 		room_goto(rm_stage_ranger_ranch);
-	}
-	else if (array_length(global.arcadePlayedStages) == 4) {
-		targetStageChooser();
-	}
-    
+	}	
+    //Normal 1v1
 	else {
 		addRandomCPU(chosenCharacter);
 		room_goto(chosenStage);
@@ -58,7 +73,13 @@ function ArcadeHandler(){
 }
 
 
-function nextStage(stageArray) {
+function nextStage(stageArray,stageNum) {
+	
+	if (array_contains([3,8],stageNum)) {
+		array_push(global.arcadePlayedStages,rm_stage_target);
+		return rm_stage_target;
+	}
+	
 	shuffled = array_shuffle(stageArray);
 	for (i = 0; i < array_length(shuffled); i++) {
 		if (!array_contains(global.arcadePlayedStages,shuffled[i])) {
@@ -78,7 +99,7 @@ function nextChar(charArray) {
 	}
 }
 
-function addRandomCPU(character) {
+function addRandomCPU(character, team = true) {
 	
 	var characterPicked = character == "" ? character_choose_random() : character_find(character);
 	
@@ -90,7 +111,7 @@ function addRandomCPU(character) {
 	
 	var _profile = profile_create
 		(
-		"Rival",
+		team ? "Rival" : "Good Random",
 		_cc, 
 		true
 		);
@@ -106,7 +127,7 @@ function addRandomCPU(character) {
 		true, 
 		true, 
 		false, 
-		true, 
+		team, 
 		css_ui_player_custom_struct_build
 			(
 			-1,
