@@ -256,17 +256,17 @@ function character_sirius_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1;
+		sprite_scale = 2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_sirius_enter, anim_define(spr_sirius_idle));
 		my_sprites[$ "Idle"				] = spr_sirius_idle;
 		my_sprites[$ "Crouch"			] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
-		my_sprites[$ "Walk"				] = spr_spike_walk;
-		my_sprites[$ "Walk_Turn"		] = spr_spike_walk;
-		my_sprites[$ "Dash"				] = spr_spike_walk;
-		my_sprites[$ "Run"				] = spr_spike_walk;
-		my_sprites[$ "Run_Turn"			] = spr_spike_walk;
-		my_sprites[$ "Run_Stop"			] = spr_spike_walk;
+		my_sprites[$ "Walk"				] = anim_define(spr_sirius_runstart, anim_define(spr_sirius_run));
+		my_sprites[$ "Walk_Turn"		] = spr_sirius_runstart;
+		my_sprites[$ "Dash"				] = spr_sirius_runstart;
+		my_sprites[$ "Run"				] = spr_sirius_run;
+		my_sprites[$ "Run_Turn"			] = spr_sirius_runstart;
+		my_sprites[$ "Run_Stop"			] = spr_sirius_idle;
 				 
 		my_sprites[$ "Jumpsquat"		] = spr_spike_jump;
 		my_sprites[$ "Jump_Rise"		] = anim_define(spr_spike_jump, anim_define(spr_spike_jump_mid));

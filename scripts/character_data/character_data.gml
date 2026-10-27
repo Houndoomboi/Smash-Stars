@@ -161,6 +161,20 @@ function character_data_get_all()
 			//shelly_cpu_script,
 			),
 		character_define
+			( 
+			"Sirius",
+			character_sirius_init,
+			spr_poco_palette,
+			spr_sirius_portrait,
+			spr_sirius_portrait,
+			spr_poco_HUD,
+			spr_poco_stockicon,
+			spr_sirius_portrait,
+			song_default_victory,
+			["texture_character_shelly", "texture_character_basic"],
+			//shelly_cpu_script,
+			),
+		character_define
 			(
 			"Random",
 			-1,

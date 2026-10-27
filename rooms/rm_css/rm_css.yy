@@ -38,6 +38,7 @@
     {"name":"inst_314BEAC2","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_2D2A58D5","path":"rooms/rm_css/rm_css.yy",},
     {"name":"inst_6854ED10","path":"rooms/rm_css/rm_css.yy",},
+    {"name":"inst_5EEFB96E","path":"rooms/rm_css/rm_css.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -103,6 +104,10 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":464.0,"y":208.0,},
         {"$GMRInstance":"v4","%Name":"inst_503C4801","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_503C4801","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":720.0,"y":208.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5EEFB96E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EEFB96E","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":{"name":"character_name","path":"objects/obj_css_zone/obj_css_zone.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sirius",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":720.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_56EF3D37","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56EF3D37","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
