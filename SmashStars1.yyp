@@ -1332,6 +1332,7 @@
     {"id":{"name":"NitaVoicelines_Hurt","path":"scripts/NitaVoicelines_Hurt/NitaVoicelines_Hurt.yy",},},
     {"id":{"name":"nudge_x","path":"scripts/nudge_x/nudge_x.yy",},},
     {"id":{"name":"nudge_y","path":"scripts/nudge_y/nudge_y.yy",},},
+    {"id":{"name":"obj_string_inputter_cheatcodes_switch_script","path":"scripts/obj_string_inputter_cheatcodes_switch_script/obj_string_inputter_cheatcodes_switch_script.yy",},},
     {"id":{"name":"object_is","path":"scripts/object_is/object_is.yy",},},
     {"id":{"name":"on_ground","path":"scripts/on_ground/on_ground.yy",},},
     {"id":{"name":"on_plat","path":"scripts/on_plat/on_plat.yy",},},

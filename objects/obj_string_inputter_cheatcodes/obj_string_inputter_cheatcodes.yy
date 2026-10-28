@@ -10,8 +10,8 @@
   "name":"obj_string_inputter_cheatcodes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Menus/General/Objects.yy",
+    "name":"Main Menu Screen",
+    "path":"folders/Menus/Main Menu Screen.yy",
   },
   "parentObjectId":{
     "name":"obj_popup",
