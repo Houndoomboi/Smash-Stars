@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sirius_passive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sirius_passive",
+  "parent":{
+    "name":"Sirius",
+    "path":"folders/Characters/Sirius.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

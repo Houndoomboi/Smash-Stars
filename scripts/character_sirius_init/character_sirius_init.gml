@@ -21,66 +21,66 @@ function character_sirius_init()
 		collision_box = spr_spike_collision_box;
 	
 		//Hurtbox
-		hurtbox_sprite = spr_spike_hurtbox;
+		hurtbox_sprite = spr_shelly_hurtbox;
 		hurtbox_crouch_sprite = spr_basic_hurtbox_crouch;
 	
 		//Weight
 		weight_multiplier = 0.9;
 	
 		//Gravity
-		grav = 0.5;
-		hitstun_grav = 0.5;
+		grav = 0.4;
+		hitstun_grav = 0.45;
 	
 		//Falling
-		max_fall_speed = 10;
-		fastfall_speed = 14;
+		max_fall_speed = 8;
+		fastfall_speed = 13;
 	
 		//Jumping
 		jumpsquat_time = 3;
-		jump_speed = 11.5;
+		jump_speed = 10;
 		jump_horizontal_accel = 3;
 		shorthop_speed = 6.5;
-		double_jump_speed = 10.5;
-		double_jump_horizontal_accel = 2;
+		double_jump_speed = 10;
+		double_jump_horizontal_accel = 6;
 		max_double_jumps = 1;
-		land_time = 4;
+		land_time = 3;
 	
 		//Aerial Movment
 		air_accel = 0.35;
-		max_air_speed = 5.25;
-		max_air_speed_dash = 6.75;
+		max_air_speed = 6;
+		max_air_speed_dash = 6.5;
 		air_friction = 0.04;
 	
 		//Ground Movement
-		ground_friction = 0.75;
+		ground_friction = 0.5;
 		crouch_friction = 1;
 		slide_friction = 0.35;
 		hard_landing_friction = 0.6;
 		jostle_strength = jostle_strength_default;
 	
 		//Walking
-		walk_speed = 7.3;
+		walk_speed = 3;
 		walk_accel = 0.5;
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 8;
+		dash_speed = 7.5;
 		dash_time = 9;
-		dash_accel = 8;
+		dash_accel = 4;
 	
 		//Running
-		run_speed = 7.3;
+		run_speed = 7;
 		run_accel = 0.8;
 		run_turn_time = 5;
 		run_turn_accel = 1;
-		run_stop_time = 4;
+		run_stop_time = 8;
 	
 		//Ledges
 		ledge_jump_vsp = 12;
 		ledge_jump_hsp = 2;
 		ledge_jump_time = ledge_jump_time_default;
 		ledge_getup_time = ledge_getup_time_default;
-		ledge_getup_finish_x = 40;
+		ledge_getup_finish_x = 48;
 		ledge_getup_finish_y = -46;
 		ledge_roll_time = ledge_roll_time_default;
 		ledge_attack_time = ledge_attack_time_default;
@@ -167,8 +167,8 @@ function character_sirius_init()
 			{
 			wall_jump_startup = 2;
 			wall_jump_time = 8;
-			wall_jump_hsp = 7;
-			wall_jump_vsp = -8;
+			wall_jump_hsp = 8;
+			wall_jump_vsp = -6;
 			max_wall_jumps = 1;
 			can_wall_cling = false;
 			}
@@ -181,9 +181,9 @@ function character_sirius_init()
 			wall_jump_vsp = -9;
 			can_wall_cling = false;
 			}
-	
+		
 		//Rolling
-		roll_speed = 9;
+		roll_speed = 8;
 		roll_startup = roll_startup_default;
 		roll_active = roll_active_default;
 		roll_endlag = roll_endlag_default;
@@ -211,6 +211,10 @@ function character_sirius_init()
 		//Custom Scripts
 		draw_script = -1;
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
+		callback_add(callback_passive, sirius_passive, CALLBACK_TYPE.permanent);
+		knockout_voice1 = snd_hit_explosion1
+		
+		knockout_voice2 = snd_hit_explosion0
 		}
 
 	//States
@@ -268,15 +272,15 @@ function character_sirius_init()
 		my_sprites[$ "Run_Turn"			] = spr_sirius_runstart;
 		my_sprites[$ "Run_Stop"			] = spr_sirius_idle;
 				 
-		my_sprites[$ "Jumpsquat"		] = spr_spike_jump;
-		my_sprites[$ "Jump_Rise"		] = anim_define(spr_spike_jump, anim_define(spr_spike_jump_mid));
-		my_sprites[$ "Jump_Mid"			] = spr_spike_jump_mid;
-		my_sprites[$ "Jump_Fall"		] = anim_define(spr_spike_airdodge, anim_define(spr_spike_fall));
-		my_sprites[$ "Fastfall"			] = spr_spike_fall;
-		my_sprites[$ "DJump_Rise"		] = anim_define(spr_spike_jump, anim_define(spr_spike_jump_mid));
-		my_sprites[$ "DJump_Mid"		] = spr_spike_jump_mid;
-		my_sprites[$ "DJump_Fall"		] = anim_define(spr_spike_airdodge, anim_define(spr_spike_fall));
-		my_sprites[$ "DFastfall"		] = spr_spike_fall;
+		my_sprites[$ "Jumpsquat"		] = spr_sirius_jumpsquat;
+		my_sprites[$ "Jump_Rise"		] = anim_define(spr_Sirius_jump, anim_define(spr_Sirius_jumpmid));
+		my_sprites[$ "Jump_Mid"			] = spr_Sirius_jumpmid;
+		my_sprites[$ "Jump_Fall"		] = anim_define(spr_sirius_fall, anim_define(spr_sirius_fall));
+		my_sprites[$ "Fastfall"			] = spr_sirius_fall;
+		my_sprites[$ "DJump_Rise"		] = anim_define(spr_sirius_djump, anim_define(spr_Sirius_jumpmid));
+		my_sprites[$ "DJump_Mid"		] = spr_Sirius_jumpmid;
+		my_sprites[$ "DJump_Fall"		] = anim_define(spr_sirius_fall, anim_define(spr_sirius_fall));
+		my_sprites[$ "DFastfall"		] = spr_sirius_fall;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_spike_airdodge, 0, anim_calculate_speed(spr_spike_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_spike_airdodge;
@@ -319,7 +323,7 @@ function character_sirius_init()
 		my_sprites[$ "Wall_Jump"		] = spr_spike_jump;
 	
 		my_sprites[$ "Star_KO"			] = spr_spike_hurt;
-		my_sprites[$ "Screen_KO"		] = spr_spike_screenko;
+		my_sprites[$ "Screen_KO"		] = spr_sirius_screen_KO;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_spike_hurt;

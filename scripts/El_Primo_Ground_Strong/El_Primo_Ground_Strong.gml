@@ -59,7 +59,7 @@ function El_Primo_Ground_Strong()
 						speed_set(7 * facing, 0, false, false);
 					anim_frame = 6;
 					attack_phase++;
-					attack_frame = 6;
+					attack_frame = 8;
 					var _hitbox = hitbox_create_melee(40, 0, 1, 0.6, 11, 9, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.hit_sfx = snd_hit_strong1;
