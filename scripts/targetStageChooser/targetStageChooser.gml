@@ -18,7 +18,8 @@ function targetStageChooser(){
 	case 7: room_goto(rm_stage_target_poco); break; //poco
 	case 8: room_goto(rm_stage_target_darryl); break; //darryl
 	case 9: room_goto(rm_stage_target_leon); break; //leon
-	case 10: room_goto(rm_stage_target_sirius); break; //sirius most likely
+	//sirius wasn't 10 idk who is 10 oh its Poco_P which is for some reason defined after leon and darryl?
+	case 11: room_goto(rm_stage_target_sirius); break; //sirius 
 	default: room_goto(rm_stage_target); break;
 	
 	}

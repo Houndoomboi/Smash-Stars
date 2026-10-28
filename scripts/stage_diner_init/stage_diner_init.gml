@@ -15,7 +15,7 @@ function stage_diner_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(Ranch);
+	stage_music_set(Diner);
 	
 	//Stage passive
 	callback_stage_passive = [];

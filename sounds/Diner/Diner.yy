@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Diner",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":290.66666,
+  "exportDir":"",
+  "name":"Diner",
+  "parent":{
+    "name":"Bull's Diner",
+    "path":"folders/Stages/Bull's Diner.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Diner.wav",
+  "volume":1.0,
+}

@@ -90,7 +90,8 @@ function main_menu_sidebar_choose()
 				global.arcadePlayedCharacters = [];
 				room_goto(rm_arcade_css);
 				}
-					case 11:
+			break;
+		case 11:
 			if (room != rm_main_menu_cheatcodes_menu)
 				{
 				room_goto(rm_main_menu_cheatcodes_menu);

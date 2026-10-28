@@ -15,7 +15,7 @@ function stage_target_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(GiftShop);
+	stage_music_set(Target);
 	
 	//Stage passive
 	callback_stage_passive = [];

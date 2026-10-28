@@ -21,7 +21,7 @@ function stage_primoring_init()
 	foreground = [];
 	
 	//Music
-	stage_music_set(-1);
+	stage_music_set(Ring);
 	
 	//Stage passive
 	callback_stage_passive = [];

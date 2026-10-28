@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Target",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":137.80898,
+  "exportDir":"",
+  "name":"Target",
+  "parent":{
+    "name":"Target",
+    "path":"folders/Stages/Target.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Target.mp3",
+  "volume":1.0,
+}
