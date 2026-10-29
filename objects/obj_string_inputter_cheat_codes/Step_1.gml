@@ -60,6 +60,7 @@ for (var i = 0; i < array_length(_array); i++)
 				//Submitting the default string
 				menu_sound_play(snd_menu_back);
 				inputter_callback(inputter_default, inputter_custom);
+				room_goto(rm_main_menu)
 				exit;
 				}
 			}
@@ -71,6 +72,7 @@ for (var i = 0; i < array_length(_array); i++)
 				{
 				menu_sound_play(snd_menu_select);
 				inputter_callback(inputter_string, inputter_custom);
+				room_goto(rm_main_menu)
 				exit;
 				}
 			}
@@ -102,6 +104,7 @@ for (var i = 0; i < array_length(_array); i++)
 				//Submitting the default string
 				menu_sound_play(snd_menu_back);
 				inputter_callback(inputter_default, inputter_custom);
+				room_goto(rm_main_menu)
 				exit;
 				}
 			}
@@ -165,6 +168,7 @@ for (var i = 0; i < array_length(_array); i++)
 					{
 					menu_sound_play(snd_menu_select);
 					inputter_callback(inputter_string, inputter_custom);
+					room_goto(rm_main_menu)
 					exit;
 					}
 				}

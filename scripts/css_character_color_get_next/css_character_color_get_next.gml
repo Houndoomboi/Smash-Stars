@@ -31,7 +31,7 @@ function css_character_color_get_next()
 			{
 			_col = _num - 1;
 			}
-				
+		
 		//Make sure no other players are using that color
 		var _already_taken = false;
 		for (var i = 0; i < array_length(engine().css_player_data); i++)

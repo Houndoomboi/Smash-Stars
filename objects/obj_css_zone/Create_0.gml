@@ -22,6 +22,13 @@ sprite = character_data_get(character, CHARACTER_DATA.css_zone);
 name = character_data_get(character, CHARACTER_DATA.name);
 selected_animation_time = 0;
 
+
+//Checking if Sirius is unlocked
+if (character_name == "Sirius" && !engine().stats.unlock_sirius)
+  {
+  instance_destroy();
+  }
+
 //Surface
 surf = noone;
 surf_drawn = false;
