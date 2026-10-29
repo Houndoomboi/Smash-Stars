@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"obj_string_inputter_cheatcodes_switch_script",
+  "%Name":"cheat_codes_check_script",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"obj_string_inputter_cheatcodes_switch_script",
+  "name":"cheat_codes_check_script",
   "parent":{
     "name":"Main Menu Screen",
     "path":"folders/Menus/Main Menu Screen.yy",

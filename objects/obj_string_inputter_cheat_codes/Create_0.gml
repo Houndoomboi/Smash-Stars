@@ -7,14 +7,14 @@ You can use the function <string_inputter_get_string> to create an instance, and
 ///@description
 inputter_letters = valid_string_characters;
 inputter_letter_count = array_length(inputter_letters);
-inputter_prompt = "ENTER A CHEAT CODE!:";
+inputter_prompt = "Enter a Cheat Code!:";
 inputter_string = "";
-inputter_max_length = 16;
+inputter_max_length = 12;
 inputter_current = 0;
 inputter_default = "";
-inputter_callback = obj_string_inputter_cheatcodes_switch_script;
+inputter_callback = cheat_codes_check_script;
 inputter_custom = undefined;
-inputter_row_length = 16;
+inputter_row_length = 10;
 inputter_hidden = false;
 
 //Menu input system

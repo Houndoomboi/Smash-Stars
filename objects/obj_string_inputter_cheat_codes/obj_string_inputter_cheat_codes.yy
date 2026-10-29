@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_string_inputter_cheatcodes",
+  "%Name":"obj_string_inputter_cheat_codes",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_string_inputter_cheatcodes",
+  "name":"obj_string_inputter_cheat_codes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu Screen",
-    "path":"folders/Menus/Main Menu Screen.yy",
+    "name":"Objects",
+    "path":"folders/Menus/General/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_popup",

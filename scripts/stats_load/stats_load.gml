@@ -14,6 +14,7 @@ function stats_load()
         local_matches : 0,
         online_matches : 0,
         online_wins : 0,
+		unlock_sirius : false,
         };
     
     //Attempt to load the file
