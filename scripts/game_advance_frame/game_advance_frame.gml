@@ -315,7 +315,8 @@ function game_advance_frame()
 					}
 				else
 					{
-					if (global.arcadeMode) {global.arcadeStocks = -1;}	
+					if (global.arcadeMode && array_length(global.arcadePlayedStages) != 4) 
+					{global.arcadeStocks = -1;}	
 					game_finish();
 					}
 					

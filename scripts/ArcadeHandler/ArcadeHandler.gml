@@ -12,12 +12,11 @@ function ArcadeHandler(){
 	
 	while (array_length(engine().player_data) > 1) {array_delete(engine().player_data,1,1);}
 	
-	
 	//end game if out of stocks or special condition
 	if (global.arcadeStocks <= 0) {
 		global.arcadePlayedStages = [];
 		global.arcadePlayedCharacters = [];
-		room_goto(rm_arcade_css);
+		room_goto(rm_arcade_win);
 	}
 	//either end game at last stage or advance to secret if at full lives
 	else if (stageNum > 8) {
@@ -37,7 +36,7 @@ function ArcadeHandler(){
 		else {
 			global.arcadePlayedStages = [];
 			global.arcadePlayedCharacters = [];
-			room_goto(rm_arcade_css);
+			room_goto(rm_arcade_win);
 		}
 	}
 	//target mode
