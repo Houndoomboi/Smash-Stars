@@ -6,17 +6,17 @@ var _character = css_player_get(_array[@ 0], CSS_PLAYER.character);
 	
 switch (_character) {
 	case 0: winImage = spr_colt_arcadeWin; break; //colt
-	case 1: winImage = spr_shelly_idle; break; //shelly
-	case 2: winImage = spr_spike_idle; break; //spike
-	case 3: winImage = spr_elprimo_idle; break; //el primo
-	case 4: winImage = spr_crow_idle; break; //crow
-	case 5: winImage = spr_nita_idle; break; //nita
-	case 6: winImage = spr_mortis_idle; break; //mortis
-	case 7: winImage = spr_poco_idle; break; //poco
-	case 8: winImage = spr_darryl_idle; break; //darryl
-	case 9: winImage = spr_leon_idle; break; //leon
+	case 1: winImage = spr_shelly_arcadeWin; break; //shelly
+	case 2: winImage = spr_spike_arcadeWin; break; //spike
+	case 3: winImage = spr_primo_arcadeWin; break; //el primo
+	case 4: winImage = spr_crow_arcadeWin; break; //crow
+	case 5: winImage = spr_nita_arcadeWin; break; //nita
+	case 6: winImage = spr_mortis_arcadeWin; break; //mortis
+	case 7: winImage = spr_poco_arcadeWin; break; //poco
+	case 8: winImage = spr_darryl_portrait; break; //darryl
+	case 9: winImage = spr_leon_arcadeWin; break; //leon
 	//case 10 is Poco P
-	case 11: winImage = spr_sirius_idle; break; //sirius 
+	case 11: winImage = spr_sirius_portrait; break; //sirius 
 	default: winImage = spr_extras; break;
 }
 
