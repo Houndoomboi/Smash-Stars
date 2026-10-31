@@ -264,7 +264,7 @@ function character_sirius_init()
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_sirius_enter, anim_define(spr_sirius_idle));
 		my_sprites[$ "Idle"				] = spr_sirius_idle;
-		my_sprites[$ "Crouch"			] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
+		my_sprites[$ "Crouch"			] = anim_define(spr_sirius_crouch, anim_define(spr_sirius_crouch_loop));
 		my_sprites[$ "Walk"				] = anim_define(spr_sirius_runstart, anim_define(spr_sirius_run));
 		my_sprites[$ "Walk_Turn"		] = spr_sirius_runstart;
 		my_sprites[$ "Dash"				] = spr_sirius_runstart;
@@ -327,7 +327,7 @@ function character_sirius_init()
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
 		my_sprites[$ "Grabbed"			] = spr_spike_hurt;
-		my_sprites[$ "Grab_Release"		] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
+		my_sprites[$ "Grab_Release"		] = anim_define(spr_sirius_crouch, anim_define(spr_sirius_crouch_loop));
 		}
 	}
 /* Copyright 2025 Springroll Games / Yosi */

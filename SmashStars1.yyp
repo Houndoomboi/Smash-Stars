@@ -2931,6 +2931,8 @@
     {"id":{"name":"spr_sidebar_private_lobby","path":"sprites/spr_sidebar_private_lobby/spr_sidebar_private_lobby.yy",},},
     {"id":{"name":"spr_sidebar_quickplay","path":"sprites/spr_sidebar_quickplay/spr_sidebar_quickplay.yy",},},
     {"id":{"name":"spr_sidebar_replays","path":"sprites/spr_sidebar_replays/spr_sidebar_replays.yy",},},
+    {"id":{"name":"spr_sirius_crouch_loop","path":"sprites/spr_sirius_crouch_loop/spr_sirius_crouch_loop.yy",},},
+    {"id":{"name":"spr_sirius_crouch","path":"sprites/spr_sirius_crouch/spr_sirius_crouch.yy",},},
     {"id":{"name":"spr_sirius_djump","path":"sprites/spr_sirius_djump/spr_sirius_djump.yy",},},
     {"id":{"name":"spr_sirius_enter","path":"sprites/spr_sirius_enter/spr_sirius_enter.yy",},},
     {"id":{"name":"spr_sirius_fall","path":"sprites/spr_sirius_fall/spr_sirius_fall.yy",},},
