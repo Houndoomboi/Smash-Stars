@@ -10,6 +10,7 @@ function main_menu_sidebar_choose()
 	global.arcadeMode = false;
 	global.arcadePlayedStages = [];
 	global.arcadePlayedCharacters = [];
+	global.ffaChars = [];
 	var _choice = argument[0];
 	switch (_choice)
 		{
@@ -88,6 +89,7 @@ function main_menu_sidebar_choose()
 				global.arcadeStocks = setting().match_stock;
 				global.arcadePlayedStages = [];
 				global.arcadePlayedCharacters = [];
+				global.arcadeTransitionDone = true;
 				room_goto(rm_arcade_css);
 				}
 			break;

@@ -206,6 +206,7 @@ function game_win_conditions()
 		{
 		if (game_time >= (setting().match_time * 60 * 60))
 			{
+			if (global.arcadeMode) {global.arcadeStocks = -1;}
 			//Free for alls
 			if (!setting().match_team_mode)
 				{

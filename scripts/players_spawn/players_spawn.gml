@@ -122,6 +122,7 @@ function players_spawn()
 			
 			if (global.arcadeMode && player_number == 0) {stock = global.arcadeStocks;}
 			if (global.arcadeMode && player_number != 0) {stock = 1;}
+			if (array_length(global.arcadePlayedStages) == 9) {stock = 3;}
 			}
 		}
 	}

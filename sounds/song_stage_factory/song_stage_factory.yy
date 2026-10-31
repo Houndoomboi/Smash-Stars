@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":106.7102,
+  "duration":106.710205,
   "exportDir":"",
   "name":"song_stage_factory",
   "parent":{

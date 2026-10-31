@@ -20,6 +20,8 @@ if (_confirm || _start)
 	//Stop victory theme
 	audio_stop_all();
 	menu_sound_play(snd_menu_start);
+	global.arcadePlayedStages = [];
+	global.arcadePlayedCharacters = [];
 	room_goto(rm_arcade_css);
 	exit;
 	}

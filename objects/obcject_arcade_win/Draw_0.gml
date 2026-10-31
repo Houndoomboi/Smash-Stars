@@ -33,15 +33,34 @@ draw_set_valign(fa_top);
 draw_text(screen_width - 215, 14, "YOU WIN!!!");
 draw_text(screen_width - 215, 94, "Lives left:");
 draw_text(screen_width - 215, 134, livesString);
+
+if (array_length(global.arcadePlayedStages) == 10) {
+draw_text(screen_width - 215, 214, "Cheat Code");
+draw_text(screen_width - 215, 254, "'STARRMAN'");
+draw_text(screen_width - 215, 294, "For Sirius!");
+	
+}
+
+
 draw_text(screen_width - 215, screen_height - 120, "Press");
 draw_text(screen_width - 215, screen_height - 80, "Confirm To");
 draw_text(screen_width - 215, screen_height - 40, "Continue...");
+
+
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_text(screen_width - 210, 10, "YOU WIN!!!");
 draw_text(screen_width - 210, 90, "Lives left:");
 draw_text(screen_width - 210, 130, livesString);
+
+if (array_length(global.arcadePlayedStages) == 10) {
+draw_text(screen_width - 210, 210, "Cheat Code");
+draw_text(screen_width - 210, 250, "'STARRMAN'");
+draw_text(screen_width - 210, 290, "For Sirius!");
+}
+
 draw_text(screen_width - 210, screen_height - 124, "Press");
 draw_text(screen_width - 210, screen_height - 84, "Confirm To");
 draw_text(screen_width - 210, screen_height - 44, "Continue...");
+
