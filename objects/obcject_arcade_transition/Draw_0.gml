@@ -10,7 +10,7 @@ if (stageNum == 4) {
 	goalString = "Break All the Targets!";
 } else if (stageNum == 5) {
 	draw_sprite_ext(_stage, 0, 113, 74, 1, 1, 0, c_white, 1);
-	_nameArray = ["You","Good Random","Rival","Rival"];
+	_nameArray = ["You","G. Random","Rival","Rival"];
 	goalString = "2v2";
 } else if (stageNum == 8) {
 	draw_sprite_ext(_stage, 0, 113, 74, 1, 1, 0, c_white, 1);
@@ -35,12 +35,12 @@ draw_set_color(c_black);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_text(235, 4, "Next Stage:");
-draw_text(235, 44, _stageName);
-draw_text(235, 84, goalString);
+draw_text(230, 4, "Next Stage:");
+draw_text(230, 44, _stageName);
+draw_text(230, 84, goalString);
 
-draw_text(screen_width - 215, 4, "Lives left:");
-draw_text(screen_width - 215, 44, livesString);
+draw_text(screen_width - 205, 4, "Lives left:");
+draw_text(screen_width - 80, 44, livesString);
 
 draw_text(10, screen_height - 80, "You are on:");
 draw_text(10, screen_height - 40, stagesString);
@@ -52,15 +52,15 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_text(230, 0, "Next Stage:");
-draw_text(230, 40, _stageName);
-draw_text(230, 80, goalString);
+draw_text(235, 0, "Next Stage:");
+draw_text(235, 40, _stageName);
+draw_text(235, 80, goalString);
 
-draw_text(screen_width - 210, 0, "Lives left:");
-draw_text(screen_width - 210, 40, livesString);
+draw_text(screen_width - 200, 0, "Lives left:");
+draw_text(screen_width - 75, 40, livesString);
 
-draw_text(5, screen_height - 84, "You are on:");
-draw_text(5, screen_height - 44, stagesString);
+draw_text(15, screen_height - 84, "You are on:");
+draw_text(15, screen_height - 44, stagesString);
 
 draw_text(screen_width - 550, screen_height - 44, "Press Confirm To Continue...");
 
@@ -74,8 +74,8 @@ draw_set_valign(fa_middle);
 
 
 
-var _xscale = 0.65 - (array_length(engine().player_data) * 0.05);
-var _yscale = 0.65 - (array_length(engine().player_data) * 0.05);
+var _xscale = 1 - (array_length(engine().player_data) * 0.1);
+var _yscale = 1 - (array_length(engine().player_data) * 0.1);
 		
 for (var i = 0; i < array_length(engine().player_data); i++)
 	{
