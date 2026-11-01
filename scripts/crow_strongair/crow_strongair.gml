@@ -94,7 +94,7 @@ function crow_strongair()
 						landing_lag = 12;
 				
 						//Hitbox
-						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 270, 13, SHAPE.rotation, 0);
+						var _hitbox = hitbox_create_melee(16, 16, 0.9, 0.5, 4, 11, 0.20, 10, 300, 13, SHAPE.rotation, 0);
 						hitbox_sprite_angle_set(_hitbox, -45);
 						_hitbox.custom_hitstun = 35;
 						_hitbox.di_angle = 3;
@@ -168,7 +168,7 @@ function crow_strongair()
 			
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 70, 5, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 0, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 30;
@@ -177,7 +177,7 @@ function crow_strongair()
 					
 				if (attack_frame == 7)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 85, 5, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.5, 5, 8, 0.2, 8, 300, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 27;
@@ -186,7 +186,7 @@ function crow_strongair()
 					
 				if (attack_frame == 5)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1, 0.4, 5, 8, 0.2, 6, 100, 5, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1, 0.4, 5, 8, 0.2, 6, 300, 5, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.di_angle = 3;
 					_hitbox.custom_hitstun = 25;
@@ -364,7 +364,7 @@ function crow_strongair()
 				//Late hitbox
 				if (attack_frame == 10)
 					{
-					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 0.8, 20, 220, 10, SHAPE.rotation, 0);
+					var _hitbox = hitbox_create_melee(24, -8, 1.0, 0.6, 10, 6, 0.8, 20, 300, 10, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 20);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_strong1;
