@@ -282,47 +282,47 @@ function character_sirius_init()
 		my_sprites[$ "DJump_Fall"		] = anim_define(spr_sirius_fall, anim_define(spr_sirius_fall));
 		my_sprites[$ "DFastfall"		] = spr_sirius_fall;
 				 
-		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_spike_airdodge, 0, anim_calculate_speed(spr_spike_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
-		my_sprites[$ "Waveland"			] = spr_spike_airdodge;
-		my_sprites[$ "Rolling"			] = spr_spike_airdodge;
-		my_sprites[$ "Shield"			] = anim_define(spr_spike_block, anim_define(spr_spike_block_loop));
-		my_sprites[$ "Shield_Release"	] = spr_spike_block_loop;
-		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_spike_hurt, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
+		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_sirius_airdodge, 0, anim_calculate_speed(spr_sirius_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
+		my_sprites[$ "Waveland"			] = spr_sirius_crouch_loop;
+		my_sprites[$ "Rolling"			] = spr_sirius_airdodge;
+		my_sprites[$ "Shield"			] = anim_define(spr_sirius_shield, anim_define(spr_sirius_shield_loop));
+		my_sprites[$ "Shield_Release"	] = spr_sirius_shield_loop;
+		my_sprites[$ "Shield_Break"		] = anim_define_ext(spr_sirius_dizzy, 0, 0.12, 1, 0, 1, 0, 0, true, -1);
 		my_sprites[$ "Parry_Stun"		] = spr_basic_parry_stun;
-		my_sprites[$ "Spot_Dodge"		] = spr_spike_airdodge;
-		my_sprites[$ "Bury"				] = spr_colt_bury
+		my_sprites[$ "Spot_Dodge"		] = spr_sirius_airdodge;
+		my_sprites[$ "Bury"				] = spr_sirius_bury
 				 
-		my_sprites[$ "Hitlag"			] = spr_spike_hurt;
-		my_sprites[$ "Hitstun"			] = spr_spike_hurt;
-		my_sprites[$ "Tumble"			] = spr_spike_hurt;
-		my_sprites[$ "Helpless"			] = spr_spike_fall;
-		my_sprites[$ "Magnet"			] = spr_spike_hurt;
-		my_sprites[$ "Flinch"			] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
-		my_sprites[$ "Landing_Lag"		] = anim_define(spr_spike_crouch, anim_define(spr_spike_crouch_loop));
-		my_sprites[$ "Balloon"			] = spr_spike_hurt;
-		my_sprites[$ "Reeling"			] = spr_spike_hurt;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_basic_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_basic_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Hitlag"			] = spr_sirius_hit;
+		my_sprites[$ "Hitstun"			] = spr_sirius_hit;
+		my_sprites[$ "Tumble"			] = spr_sirius_hit;
+		my_sprites[$ "Helpless"			] = spr_sirius_fall;
+		my_sprites[$ "Magnet"			] = spr_sirius_hit;
+		my_sprites[$ "Flinch"			] = anim_define(spr_sirius_hit, anim_define(spr_sirius_crouch_loop));
+		my_sprites[$ "Landing_Lag"		] = anim_define(spr_sirius_crouch, anim_define(spr_sirius_crouch_loop));
+		my_sprites[$ "Balloon"			] = spr_sirius_hit;
+		my_sprites[$ "Reeling"			] = spr_sirius_hit;
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_sirius_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_sirius_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
 	
-		my_sprites[$ "Tech_Rolling"		] = spr_basic_rolling; 
+		my_sprites[$ "Tech_Rolling"		] = spr_sirius_airdodge; 
 		my_sprites[$ "Teching"			] = spr_basic_teching;
 		my_sprites[$ "Teching_Wall"		] = spr_basic_teching;
 		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_basic_wall_jump;
 				 
-		my_sprites[$ "Ledge_Snap"		] = spr_spike_ledge;
-		my_sprites[$ "Ledge_Hang"		] = spr_spike_ledge;
-		my_sprites[$ "Ledge_Getup"		] = spr_spike_idle;
-		my_sprites[$ "Ledge_Jump"		] = spr_spike_jump;
-		my_sprites[$ "Ledge_Roll"		] = spr_spike_weakair;
+		my_sprites[$ "Ledge_Snap"		] = Sprite1201;
+		my_sprites[$ "Ledge_Hang"		] = Sprite1201;
+		my_sprites[$ "Ledge_Getup"		] = spr_sirius_idle;
+		my_sprites[$ "Ledge_Jump"		] = spr_Sirius_jump;
+		my_sprites[$ "Ledge_Roll"		] = spr_sirius_airdodge;
 		my_sprites[$ "Ledge_Attack"		] = spr_spike_strong;
 		my_sprites[$ "Ledge_Tether"		] = anim_define_ext(spr_basic_ledge_tether, 0, 0.3, 1, 0, 1, 0, 16, true, -1);
 		my_sprites[$ "Ledge_Trump"		] = spr_basic_ledge_trump;
 		my_sprites[$ "Wall_Cling"		] = -1;
 		my_sprites[$ "Wall_Jump"		] = spr_spike_jump;
 	
-		my_sprites[$ "Star_KO"			] = spr_spike_hurt;
+		my_sprites[$ "Star_KO"			] = spr_sirius_hit;
 		my_sprites[$ "Screen_KO"		] = spr_sirius_screen_KO;
 				 
 		my_sprites[$ "Grabbing"			] = spr_basic_grabbing;
