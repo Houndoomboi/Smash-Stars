@@ -4,8 +4,12 @@ function main_menu_extras_button_step()
 	
 	if (ui_clicked)
 		{
-		menu_sound_play(snd_menu_alert);
+		if (room != rm_main_menu_extras_submenu ||
+		array_length(layer_get_all_elements("Input")) == 0) {
+			menu_sound_play(snd_menu_alert);
+		}
 		main_menu_sidebar_choose(name);
+		
 		}
 	if (ui_hovered) 
 		{			

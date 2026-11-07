@@ -94,10 +94,9 @@ function main_menu_sidebar_choose()
 				}
 			break;
 		case 11:
-			if (room != rm_main_menu_cheatcodes_menu)
-				{
-				room_goto(rm_main_menu_cheatcodes_menu);
-				}
+			if (array_length(layer_get_all_elements("Input")) == 0) {
+				instance_create_layer(0,0,"Input",obj_string_inputter_cheat_codes);
+			}
 			break;
 		default: crash("[main_menu_sidebar_choose] Invalid choice (", _choice, ")");
 		

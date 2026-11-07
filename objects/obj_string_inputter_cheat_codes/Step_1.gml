@@ -59,8 +59,7 @@ for (var i = 0; i < array_length(_array); i++)
 				{
 				//Submitting the default string
 				menu_sound_play(snd_menu_back);
-				inputter_callback(inputter_default, inputter_custom);
-				room_goto(rm_main_menu)
+				instance_destroy();
 				exit;
 				}
 			}
@@ -103,8 +102,7 @@ for (var i = 0; i < array_length(_array); i++)
 				{
 				//Submitting the default string
 				menu_sound_play(snd_menu_back);
-				inputter_callback(inputter_default, inputter_custom);
-				room_goto(rm_main_menu)
+				instance_destroy();
 				exit;
 				}
 			}
