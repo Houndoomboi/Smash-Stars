@@ -23,11 +23,18 @@ name = character_data_get(character, CHARACTER_DATA.name);
 selected_animation_time = 0;
 
 
-//Checking if Sirius is unlocked
-if (character_name == "Sirius" && !engine().stats.unlock_sirius)
-  {
-  instance_destroy();
-  }
+
+
+//Checking if characters in locked array are unlocked
+
+for (i = 0; i < array_length(default_locked_characters); i++) {
+	if (default_locked_characters[i] == character_name && 
+	!array_contains(engine().stats.unlocked_characters,default_locked_characters[i])) {
+		instance_destroy();
+	}
+
+}
+
 
 //Surface
 surf = noone;

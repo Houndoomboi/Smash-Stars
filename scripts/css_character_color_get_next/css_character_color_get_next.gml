@@ -15,6 +15,7 @@ function css_character_color_get_next()
 	var _current = argument_count > 2 ? argument[2] : 0;
 	var _dir = argument_count > 3 ? argument[3] : 1;
 	var _col = _current;
+	
 		
 	//Loop through all possible colors in the character's palette
 	var _num = character_data_get(_character, CHARACTER_DATA.palette_data).columns;
@@ -47,6 +48,26 @@ function css_character_color_get_next()
 				break;
 				}
 			}
+			
+		var _lockedSkins = css_character_locked_skins();
+			
+		var _names = struct_get_names(_lockedSkins);
+		var _len = array_length(_names);
+	
+		for (var i = 0; i < _len; i++)
+			{
+			var _key = _names[i];	
+			if (struct_get(_lockedSkins,_key)[0] == _character 
+			&& struct_get(_lockedSkins,_key)[1] == _col)
+				{
+				if (!array_contains(engine().stats.unlocked_skins,_key)) 
+					{
+					_already_taken = true;
+					break;
+					}
+				}
+			}	
+			
 		if (!_already_taken)
 			{
 			return _col;

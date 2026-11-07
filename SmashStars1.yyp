@@ -856,6 +856,7 @@
     {"id":{"name":"CrowVoicelines","path":"scripts/CrowVoicelines/CrowVoicelines.yy",},},
     {"id":{"name":"css_can_start_match","path":"scripts/css_can_start_match/css_can_start_match.yy",},},
     {"id":{"name":"css_character_color_get_next","path":"scripts/css_character_color_get_next/css_character_color_get_next.yy",},},
+    {"id":{"name":"css_character_locked_skins","path":"scripts/css_character_locked_skins/css_character_locked_skins.yy",},},
     {"id":{"name":"css_engine_player_data_load","path":"scripts/css_engine_player_data_load/css_engine_player_data_load.yy",},},
     {"id":{"name":"css_engine_player_data_save","path":"scripts/css_engine_player_data_save/css_engine_player_data_save.yy",},},
     {"id":{"name":"css_player_add","path":"scripts/css_player_add/css_player_add.yy",},},

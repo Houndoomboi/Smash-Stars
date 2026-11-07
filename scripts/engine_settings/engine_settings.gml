@@ -7,6 +7,11 @@ It is automatically run at the start of the game.
 /*
 - Cannot be changed during gameplay
 */
+
+//Locked Characters
+#macro default_locked_characters	    ["Sirius"]
+
+
 //Version
 #macro game_name						"Platform Fighter Engine" //{string} The name of the game.
 #macro version_string					"1.4.7" //{string} The current game version.
