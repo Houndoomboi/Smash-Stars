@@ -29,10 +29,10 @@ function stage_darrylship_init()
 	//Blastzones
 	blastzones = 
 		{
-		left :80, 
-		top : 199, 
-		right : 1830, 
-		bottom : 1224,
+		left :0, 
+		top : 0, 
+		right : room_width, 
+		bottom : room_height,
 		};
 	
 	//Stage settings

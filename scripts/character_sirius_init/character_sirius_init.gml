@@ -311,8 +311,8 @@ function character_sirius_init()
 		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_basic_wall_jump;
 				 
-		my_sprites[$ "Ledge_Snap"		] = Sprite1201;
-		my_sprites[$ "Ledge_Hang"		] = Sprite1201;
+		my_sprites[$ "Ledge_Snap"		] = spr_sirius_ledge;
+		my_sprites[$ "Ledge_Hang"		] = spr_sirius_ledge;
 		my_sprites[$ "Ledge_Getup"		] = spr_sirius_idle;
 		my_sprites[$ "Ledge_Jump"		] = spr_Sirius_jump;
 		my_sprites[$ "Ledge_Roll"		] = spr_sirius_airdodge;

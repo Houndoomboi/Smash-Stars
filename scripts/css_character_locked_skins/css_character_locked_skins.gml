@@ -10,8 +10,11 @@
 function css_character_locked_skins() {
 	lockedSkins = {
 		dumplingDarryl: [character_find("Darryl"),2],
-		ralseiPoco: [character_find("Poco"),9]
-	
+		ralseiPoco: [character_find("Poco"),9],
+		inklinggurlShelly: [character_find("Shelly"),6],
+		inklingboyShelly: [character_find("Shelly"),7],
+		roryknightSirius: [character_find("Sirius"),9],
+	    HollySirius: [character_find("Sirius"),13]
 	
 	
 

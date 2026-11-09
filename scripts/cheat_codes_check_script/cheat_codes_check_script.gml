@@ -14,7 +14,7 @@ function cheat_codes_check_script() {
 		//define skins locked by default in css_character_locked_skins 
 		//Then use the same string you used to lock the skin here
 		
-		case "SOY_SAUCE":
+		case "SOYSAUCE":
 			unique_array_push(engine().stats.unlocked_skins,"dumplingDarryl");
 			stats_save();
 			popup_create("something something dumpling idk this is gonna be removed anyways");
@@ -23,6 +23,22 @@ function cheat_codes_check_script() {
 			unique_array_push(engine().stats.unlocked_skins,"ralseiPoco");
 			stats_save();
 			popup_create("Okay...");
+			break;
+			case "SPLATATTACK":
+			unique_array_push(engine().stats.unlocked_skins,"inklinggurlShelly");
+			unique_array_push(engine().stats.unlocked_skins,"inklingboyShelly");
+			stats_save();
+			popup_create("Stay Fresh!");
+			break;
+			case "KNIGHTTHEORY":
+			unique_array_push(engine().stats.unlocked_skins,"roryknightSirius");
+			stats_save();
+			popup_create("......");
+			break;
+			case "HOLLYJOLLY":
+			unique_array_push(engine().stats.unlocked_skins,"HollySirius");
+			stats_save();
+			popup_create("Merry Christmas I guess...");
 			break;
 		
 		#region Easter Eggs
