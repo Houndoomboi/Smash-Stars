@@ -14,7 +14,8 @@ function stage_choose_random()
 		var _name = stage_data_get(i, STAGE_DATA.name, true);
 		var _room = stage_data_get(i, STAGE_DATA.room, true);
 		//Check if the stage is banned
-		if (!array_contains(_banned, _name) && !array_contains(_banned, _room))
+		if ((!array_contains(_banned, _name) && !array_contains(_banned, _room)) &&
+		string_pos("Target Practice!",_name) == 0)
 			{
 			array_push(_possible, _room);
 			}
