@@ -10,6 +10,13 @@ function character_choose_random()
 	{
     //Create an array of all characters that are NOT the random button, and choose one
     var _banned = argument_count > 0 ? argument[0] : [];
+	
+	
+	for (var j = 0; j < array_length(default_locked_characters); j++) {
+		if (!array_contains(engine().stats.unlocked_characters,default_locked_characters[j])) {
+			array_push(_banned,default_locked_characters[j]);
+		}
+	}
 	var _possible = [];
 	var _total = character_count();
 	for (var i = 0; i < _total; i++)
@@ -17,6 +24,7 @@ function character_choose_random()
 		var _name = character_data_get(i, CHARACTER_DATA.name);
 		if (_name != "Random")
 			{
+			
 			//Check if the character is banned
 			if (!array_contains(_banned, _name))
 				{
@@ -25,6 +33,8 @@ function character_choose_random()
 			}
 		}
 	assert(array_length(_possible) > 0, "[character_choose_random] Either there are no characters besides Random in character_data, or every other character has been banned.");
+	
+	
 	return _possible[@ irandom(array_length(_possible) - 1)];
 	}
 /* Copyright 2026 Springroll Games / Yosi */
