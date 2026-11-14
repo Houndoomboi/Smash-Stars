@@ -264,7 +264,7 @@ function character_mortis_init()
 	//Animations / Sprites
 	if (_set_sprites)
 		{
-		sprite_scale = 1;
+		sprite_scale = 2;
 	
 		my_sprites[$ "Entrance"			] = anim_define(spr_mortis_idle, anim_define(spr_mortis_idle));
 		my_sprites[$ "Idle"				] = spr_mortis_idle;

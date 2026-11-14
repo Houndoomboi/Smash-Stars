@@ -35,7 +35,7 @@ function stage_target_init()
 	//Stage settings
 	setting().daynight_cycle_enable = false;
 	setting().stage_background_color = noone;
-	setting().slope_collisions_enable = false;
+	setting().slope_collisions_enable = true;
 	setting().background_is_static = false;
 	setting().screen_shader_script = -1;
 	

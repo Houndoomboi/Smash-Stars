@@ -98,7 +98,7 @@ function mortis_groundspecial()
 					anim_frame = 9;
 				if (attack_frame == 15)
 					{
-					sprite_scale = 1;
+					sprite_scale = 2;
 					attack_stop(PLAYER_STATE.idle);
 					}
 				break;
