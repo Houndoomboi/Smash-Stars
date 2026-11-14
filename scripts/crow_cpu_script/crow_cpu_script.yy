@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"crow_cpu_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"crow_cpu_script",
+  "parent":{
+    "name":"Crow",
+    "path":"folders/Characters/Crow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

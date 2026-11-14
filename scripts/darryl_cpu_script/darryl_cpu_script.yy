@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"darryl_cpu_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"darryl_cpu_script",
+  "parent":{
+    "name":"Darryl",
+    "path":"folders/Characters/Darryl.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

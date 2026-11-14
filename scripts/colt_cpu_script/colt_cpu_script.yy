@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"colt_cpu_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"colt_cpu_script",
+  "parent":{
+    "name":"Colt",
+    "path":"folders/Characters/Colt.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

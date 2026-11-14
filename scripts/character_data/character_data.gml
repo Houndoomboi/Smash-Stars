@@ -18,7 +18,7 @@ function character_data_get_all()
 			spr_colt_portraitplaceholder,
 			song_default_victory,
 			["texture_character_blocky", "texture_character_basic"],
-			blocky_cpu_script,
+			colt_cpu_script,
 			),
 		character_define
 			(
@@ -46,7 +46,7 @@ function character_data_get_all()
 			spr_spike_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -60,7 +60,7 @@ function character_data_get_all()
 			spr_elprimo_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -74,7 +74,7 @@ function character_data_get_all()
 			spr_crow_portraitplaceholder,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -88,7 +88,7 @@ function character_data_get_all()
 			spr_nita_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -102,7 +102,7 @@ function character_data_get_all()
 			spr_mortis_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			( 
@@ -116,7 +116,7 @@ function character_data_get_all()
 			spr_poco_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -130,7 +130,7 @@ function character_data_get_all()
 			spr_darryl_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			(
@@ -144,7 +144,7 @@ function character_data_get_all()
 			spr_leon_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 			character_define
 			( 
@@ -158,7 +158,7 @@ function character_data_get_all()
 			spr_poco_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 		character_define
 			( 
@@ -172,7 +172,7 @@ function character_data_get_all()
 			spr_sirius_portrait,
 			song_default_victory,
 			["texture_character_shelly", "texture_character_basic"],
-			//shelly_cpu_script,
+			shelly_cpu_script,
 			),
 		character_define
 			(
