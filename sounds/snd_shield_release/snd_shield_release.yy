@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.714286,
+  "duration":1.7113832,
   "exportDir":"",
   "name":"snd_shield_release",
   "parent":{

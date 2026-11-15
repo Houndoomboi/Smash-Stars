@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.73424,
+  "duration":1.7342404,
   "exportDir":"",
   "name":"snd_blastzone",
   "parent":{

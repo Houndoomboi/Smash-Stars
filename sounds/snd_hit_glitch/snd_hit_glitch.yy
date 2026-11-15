@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.511723,
+  "duration":0.51172334,
   "exportDir":"",
   "name":"snd_hit_glitch",
   "parent":{

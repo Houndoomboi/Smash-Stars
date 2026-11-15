@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.115011,
+  "duration":0.115011334,
   "exportDir":"",
   "name":"snd_parry",
   "parent":{

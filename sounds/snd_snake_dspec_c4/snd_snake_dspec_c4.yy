@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.12322,
+  "duration":0.12321995,
   "exportDir":"",
   "name":"snd_snake_dspec_c4",
   "parent":{

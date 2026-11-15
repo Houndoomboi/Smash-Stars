@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.428571,
+  "duration":3.4285715,
   "exportDir":"",
   "name":"snd_activation",
   "parent":{

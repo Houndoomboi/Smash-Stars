@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.140454,
+  "duration":0.14045352,
   "exportDir":"",
   "name":"snd_hit_strong1",
   "parent":{

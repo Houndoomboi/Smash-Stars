@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.72263,
+  "duration":1.7226304,
   "exportDir":"",
   "name":"snd_waveland",
   "parent":{

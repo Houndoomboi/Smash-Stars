@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.83839,
+  "duration":0.83839005,
   "exportDir":"",
   "name":"snd_hit_electro",
   "parent":{

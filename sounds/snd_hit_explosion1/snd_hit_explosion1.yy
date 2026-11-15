@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.15059,
+  "duration":0.15058957,
   "exportDir":"",
   "name":"snd_hit_explosion1",
   "parent":{

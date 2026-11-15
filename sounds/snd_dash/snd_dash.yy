@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.713923,
+  "duration":1.7139229,
   "exportDir":"",
   "name":"snd_dash",
   "parent":{
