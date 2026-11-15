@@ -229,7 +229,7 @@ function character_sirius_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = spike_jab;
+		my_attacks[$ "Jab"			] = sirius_jab;
 				 
 		my_attacks[$ "Fsmash"		] = spike_strong;
 				 

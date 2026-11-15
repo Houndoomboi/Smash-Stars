@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sirius_jab",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sirius_jab",
+  "parent":{
+    "name":"Sirius",
+    "path":"folders/Characters/Sirius.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
