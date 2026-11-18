@@ -42,7 +42,7 @@ function dr_mario_fair()
 					anim_frame = 4;
 					var _hitbox = hitbox_create_melee(34, 16, 0.6, 0.5, 17, 5, 1.3, 18, 45, 5, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.6;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 				

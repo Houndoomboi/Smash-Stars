@@ -46,7 +46,7 @@ function rad_bair()
 
 					var _hitbox = hitbox_create_melee(-24, -2, 1, 1, 5, 6, 0.7, 4, 60, 3, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_strong];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				break;
 				}

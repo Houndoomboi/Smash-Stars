@@ -181,7 +181,7 @@ function nita_airspecial()
 					//Ground-only hitbox
 					var _hitbox = hitbox_create_melee(0, 14, 2.3, 0.3, 5, 13, 0.5, 10, 65, 3, SHAPE.square, 3, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_medium, HIT_VFX.normal_strong];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.custom_hitstun = 25;
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;

@@ -40,7 +40,7 @@ function jigglypuff_dspec_rest()
 					attack_frame = 36;
 					var _hitbox = hitbox_create_melee(0, 0, 0.3, 0.3, 25, 6, 2, 25, 90, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.emphasis];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					}
 				break;
 				}

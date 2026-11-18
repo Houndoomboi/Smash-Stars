@@ -50,7 +50,7 @@ function spike_strong()
 					var _hitbox = hitbox_create_melee(112, 0, 0.9, 0.6, 14, 8, 0.5, 10, 50, 8, SHAPE.rotation, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					hitbox_sprite_angle_set(_hitbox, 50);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					}

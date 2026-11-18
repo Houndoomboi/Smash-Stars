@@ -81,7 +81,7 @@ function blocky_fthrow()
 						{
 						var _hitbox = hitbox_create_targetbox(24, 24, 2, 2, 9, 8, 0.6, 18, 55, 1, SHAPE.circle, 0, grabbed_id);
 						_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						}
 					speed_set(-5 * facing, -9, false, false);

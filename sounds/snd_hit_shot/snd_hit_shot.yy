@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.9558277,
+  "duration":1.6762584,
   "exportDir":"",
   "name":"snd_hit_shot",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_hit_shot.wav",
-  "volume":1.0,
+  "volume":0.64,
 }

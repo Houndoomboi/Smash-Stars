@@ -21,7 +21,7 @@ if (_s.self_hitlag_frame == 0)
 			//Effects
 			var _vfx = vfx_create(spr_snake_dspec_c4_explosion, 1, 0, 34, x, y, 2, 0);
 			_vfx.important = true;
-			game_sound_play(snd_hit_explosion3);
+			game_sound_play(snd_hit_explosion_retro);
 			camera_shake(5);
 			}
 		}

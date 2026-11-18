@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"El Primo",
-    "path":"folders/Characters/El Primo.yy",
+    "name":"Sprites",
+    "path":"folders/Characters/El Primo/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

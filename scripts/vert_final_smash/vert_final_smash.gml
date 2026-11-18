@@ -91,7 +91,7 @@ function vert_final_smash()
 					hitbox_destroy_attached_all();
 					var _hitbox = hitbox_create_magnetbox(56, 0, 1.3, 0.8, 1, 1, 0, 0, 15, 20, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = [snd_hit_strong0, snd_hit_strong1];
+					_hitbox.hit_sfx = [snd_hit_strong0, snd_hit_strongfist];
 					
 					//Move to foreground
 					player_renderer_set(obj_player_renderer_foreground);
@@ -130,7 +130,7 @@ function vert_final_smash()
 					//Late multihit hitbox
 					var _hitbox = hitbox_create_magnetbox(56, 0, 1.3, 0.8, 1, 2, 0, 0, 40, 10, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = [snd_hit_strong1, snd_hit_strong2];
+					_hitbox.hit_sfx = [snd_hit_strongfist, snd_hit_strong2];
 					}
 					
 				if (attack_frame == 0)
@@ -177,7 +177,7 @@ function vert_final_smash()
 					var _hitbox = hitbox_create_melee(58, -16, 0.9, 1.3, 18, 8, 1.5, 20, 65, 2, SHAPE.circle, 2);
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.lines, HIT_VFX.emphasis];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hitstun_scaling = 0.25;
 					

@@ -53,7 +53,7 @@ function basic_bair_shield()
 					//Initial hit
 					var _hitbox = hitbox_create_melee(-44, 0, 0.45, 0.85, 18, 6, 0.9, 10, 148, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.electric, HIT_VFX.lines];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					
 					//Shield hurtbox + Reflector hurtbox

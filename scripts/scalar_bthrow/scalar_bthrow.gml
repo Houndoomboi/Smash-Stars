@@ -92,7 +92,7 @@ function scalar_bthrow()
 					_hitbox.hitstun_scaling = 0.5;
 					var _hitbox = hitbox_create_melee(-70, 5, 1.5, 0.8, 10, 7, 0.7, 7, 135, 4, SHAPE.square, 0, grabbed_id);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					
 					camera_shake(0, 12);
 					}

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.158163,
+  "duration":0.99179137,
   "exportDir":"",
   "name":"snd_hit_weak1",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_hit_weak1.wav",
-  "volume":1.0,
+  "volume":0.39,
 }

@@ -159,7 +159,7 @@ function terry_buster_wolf()
 					if (on_ground())
 						{
 						var _hitbox = hitbox_create_melee(56, 0, 1.1, 0.7, 20, 6, 1.1, 15, 40, 4, SHAPE.square, 1);
-						_hitbox.hit_sfx = snd_hit_explosion3;
+						_hitbox.hit_sfx = snd_hit_explosion_retro;
 						_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.normal_strong];
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.hitstun_scaling = 0.5;
@@ -167,12 +167,12 @@ function terry_buster_wolf()
 					else
 						{
 						var _hitbox = hitbox_create_melee(56, 0, 1.1, 0.7, 15, 5, 1.1, 8, 45, 4, SHAPE.square, 1);
-						_hitbox.hit_sfx = snd_hit_explosion3;
+						_hitbox.hit_sfx = snd_hit_explosion_retro;
 						_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.normal_strong];
 						_hitbox.hitstun_scaling = 0.5;
 						}
 					var _hitbox = hitbox_create_melee(108, 0, 3, 1.8, 5, 7, 0.6, 3, 50, 5, SHAPE.square, 1);
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 				
 					//VFX

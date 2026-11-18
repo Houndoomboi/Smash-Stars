@@ -267,7 +267,7 @@ function zss_uspec()
 						hitbox_group_reset(2);
 						var _hitbox = hitbox_create_magnetbox(6, -8, 1.4, 0.6, 2, 1, 28, -48, 15, 3, SHAPE.circle, 2, true);
 						_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.hitlag_scaling = 0;
 							
 						if (stick_tilted(Lstick, DIR.left))

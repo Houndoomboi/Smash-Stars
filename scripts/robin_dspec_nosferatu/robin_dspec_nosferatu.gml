@@ -189,7 +189,7 @@ function robin_dspec_nosferatu()
 					_hitbox.custom_hitstun = 25;
 					_hitbox.di_angle = 0;
 					_hitbox.hit_vfx_style = [HIT_VFX.magic, HIT_VFX.normal_medium];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					}
 					
 				if (attack_frame == 0)

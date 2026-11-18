@@ -320,7 +320,7 @@ function byleth_uspec()
 						{
 						var _hitbox = hitbox_create_targetbox(0, 0, 2, 2, 6, 5, 2, 1, 260, 1, SHAPE.square, 1, grabbed_id);
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.explosion];
-						_hitbox.hit_sfx = snd_hit_explosion0;
+						_hitbox.hit_sfx = snd_hit_explosion;
 						_hitbox.techable = false;
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						}

@@ -329,7 +329,7 @@ function scalar_nspec()
 						_hitbox.hitstun_scaling = 0.5;
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.lines];
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.force_reeling = true;
 						}
 					else

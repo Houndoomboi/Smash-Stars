@@ -89,7 +89,7 @@ function rad_fsmash()
 					var _hitbox = hitbox_create_melee(88, -74, 1.5, 0.5, _damage, 5.5, 1, 20, 40, 2, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 27);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_strong];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;

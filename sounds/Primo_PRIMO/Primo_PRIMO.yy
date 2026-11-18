@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Primo_PRIMO.ogg",
-  "volume":0.69,
+  "volume":0.4,
 }

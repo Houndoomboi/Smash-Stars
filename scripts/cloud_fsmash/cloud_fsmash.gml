@@ -132,7 +132,7 @@ function cloud_fsmash()
 					var _damage = calculate_smash_damage(12);
 					var _hitbox = hitbox_create_melee(44, 0, 1.2, 0.7, _damage, 7, 1.2, 19, 40, 2, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.custom_hitstun = 45;
 					_hitbox.shieldstun_scaling = 0.3;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;

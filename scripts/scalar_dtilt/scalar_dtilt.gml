@@ -44,7 +44,7 @@ function scalar_dtilt()
 					//Ledge hitbox
 					var _hitbox = hitbox_create_melee(42, 30, 1, 0.4, 7, 10, 0.4, 7, 35, 2, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.75;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hit_restriction = HIT_RESTRICTION.ledge_only;
@@ -52,7 +52,7 @@ function scalar_dtilt()
 					//Normal hitbox
 					var _hitbox = hitbox_create_melee(42, 20, 1, 0.4, 7, 10, 0.4, 7, 35, 2, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.75;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					}

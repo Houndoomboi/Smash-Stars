@@ -107,7 +107,7 @@ function blocky_final_smash()
 					var _hitbox = hitbox_create_melee(64, -24, 2, 2, 30, 3, 1.7, 18, 40, 14, SHAPE.circle, 0);
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.slash_strong];
-					_hitbox.hit_sfx = snd_hit_explosion0;
+					_hitbox.hit_sfx = snd_hit_explosion;
 					_hitbox.hitstun_scaling = 0.4;
 					}
 					

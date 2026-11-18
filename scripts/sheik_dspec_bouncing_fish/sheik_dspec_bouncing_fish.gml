@@ -75,7 +75,7 @@ function sheik_dspec_bouncing_fish()
 				
 					var _hitbox = hitbox_create_melee(50, 0, 0.7, 1, 12, 5, 1, 10, 45, 5, SHAPE.circle, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = [HIT_VFX.splash, HIT_VFX.normal_medium];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				
 				if (run && cancel_ground_check()) break;

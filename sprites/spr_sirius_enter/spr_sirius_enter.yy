@@ -39,8 +39,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sirius",
-    "path":"folders/Characters/Sirius.yy",
+    "name":"Sprites",
+    "path":"folders/Characters/Sirius/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

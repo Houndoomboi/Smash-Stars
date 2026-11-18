@@ -60,7 +60,7 @@ function shelly_strong()
 					attack_frame = 8;
 					var _hitbox = hitbox_create_melee(24, 10.5, 0.5, 0.6, 11, 7, 1, 23, 40, 10, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					game_sound_play(Shelly_BOOM);
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;

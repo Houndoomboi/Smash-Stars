@@ -60,14 +60,14 @@ function ryu_dtilt()
 					//Ledge hitbox
 					var _hitbox = hitbox_create_melee(24, 26, 1.1, 0.3, 6, 7, 0.3, 7, 45, 4, SHAPE.square, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.custom_hitstun = 23;
 					_hitbox.hit_restriction = HIT_RESTRICTION.ledge_only;
 					
 					//Normal hitbox
 					var _hitbox = hitbox_create_melee(24, 16, 1.1, 0.3, 6, 7, 0.3, 7, 45, 4, SHAPE.square, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.custom_hitstun = 23;
 					_hitbox.shieldstun_scaling = 1.2;
 					_hitbox.pre_hit_script = trip_pre_hit;

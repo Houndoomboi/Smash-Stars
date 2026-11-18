@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Ring.wav",
-  "volume":0.62,
+  "volume":0.6,
 }

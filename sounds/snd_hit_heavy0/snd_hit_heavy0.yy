@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":2.1320407,
   "exportDir":"",
   "name":"snd_hit_heavy0",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_hit_heavy0.ogg",
-  "volume":0.4,
+  "soundFile":"snd_hit_heavy0.wav",
+  "volume":1.0,
 }

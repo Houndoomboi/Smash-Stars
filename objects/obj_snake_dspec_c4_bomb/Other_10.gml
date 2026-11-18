@@ -88,13 +88,13 @@ else
 						
 		//Sweetspot
 		var _hitbox = hitbox_create_melee(0, 0, 1, 1, 5, 7, 0.6, 5, 90, 1, SHAPE.circle, 0);
-		_hitbox.hit_sfx = snd_hit_explosion3;
+		_hitbox.hit_sfx = snd_hit_explosion_retro;
 		_hitbox.hit_vfx_style = HIT_VFX.explosion;
 		_hitbox.custom_hitstun = 20;
 						
 		//Weak hitbox
 		var _hitbox = hitbox_create_melee(0, 0, 2.5, 2.5, 3, 6, 0.5, 3, 90, 5, SHAPE.circle, 0);
-		_hitbox.hit_sfx = snd_hit_explosion3;
+		_hitbox.hit_sfx = snd_hit_explosion_retro;
 		_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 		_hitbox.custom_hitstun = 20;
 						

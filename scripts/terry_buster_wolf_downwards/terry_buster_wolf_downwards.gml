@@ -164,12 +164,12 @@ function terry_buster_wolf_downwards()
 					//Hitbox
 					var _hitbox = hitbox_create_melee(4, 56, 1.1, 0.7, 20, 5, 1.6, 12, 280, 4, SHAPE.rotation, 1);
 					_hitbox.image_angle = facing == 1 ? 280 : 80;
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.normal_strong];
 					_hitbox.techable = false;
 					var _hitbox = hitbox_create_melee(4, 108, 3, 1.8, 5, 7, 0.6, 3, 45, 5, SHAPE.rotation, 1);
 					_hitbox.image_angle = facing == 1 ? 280 : 80;
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 				
 					//VFX

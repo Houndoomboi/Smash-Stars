@@ -183,7 +183,7 @@ function link_fsmash()
 					var _damage = calculate_smash_damage(13);
 					var _hitbox = hitbox_create_melee(70, -8, 0.8, 0.7, _damage, 5.5, 1.1, 9, 45, 2, SHAPE.circle, 1);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 				

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7342404,
+  "duration":0.5537869,
   "exportDir":"",
   "name":"snd_collide",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_collide.wav",
-  "volume":0.6,
+  "volume":0.69,
 }

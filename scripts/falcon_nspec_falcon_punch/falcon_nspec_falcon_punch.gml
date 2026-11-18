@@ -64,7 +64,7 @@ function falcon_nspec_falcon_punch()
 						}
 				
 					var _hitbox = hitbox_create_melee(15, -2, 1.3, 0.8, 20, _attack_power, 1.3, 30, 35, 5, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_explosion0;
+					_hitbox.hit_sfx = snd_hit_explosion;
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.emphasis];
 					_hitbox.techable = false;
 					_hitbox.shieldstun_scaling = 1;

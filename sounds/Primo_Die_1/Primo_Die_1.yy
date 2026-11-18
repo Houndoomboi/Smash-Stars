@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Primo_Die_1.ogg",
-  "volume":0.62,
+  "volume":0.4,
 }

@@ -373,7 +373,7 @@ function scalar_final_smash()
 					
 					var _hitbox = hitbox_create_melee(0, 8, 2, 1.4, 30, 12, 1.0, 30, 90, 4, SHAPE.square, 1);
 					_hitbox.hit_vfx_style = [HIT_VFX.emphasis, HIT_VFX.normal_strong, HIT_VFX.lines];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hitstun_scaling = 0.25;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;

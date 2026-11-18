@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":0.62968254,
   "exportDir":"",
   "name":"snd_hit_light",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_hit_light.ogg",
-  "volume":0.4,
+  "soundFile":"snd_hit_light.wav",
+  "volume":1.0,
 }

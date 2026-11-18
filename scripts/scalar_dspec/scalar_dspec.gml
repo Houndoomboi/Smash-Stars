@@ -243,7 +243,7 @@ function scalar_dspec()
 					//Sweetspot
 					var _hitbox = hitbox_create_melee(0, 0, 2.4, 1.5, 12, 10, 1.1, 18, 80, 3, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.emphasis, HIT_VFX.explosion, HIT_VFX.normal_strong];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
 					_hitbox.techable = false;

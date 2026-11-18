@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Poco (Da Capo)",
-    "path":"folders/Characters/Poco (Da Capo).yy",
+    "name":"Sprites",
+    "path":"folders/Characters/Poco (Da Capo)/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -222,7 +222,7 @@ function rad_uspec()
 						//Melee Hitbox
 						var _hitbox = hitbox_create_melee(-abs(lengthdir_x(60, _dir)), -lengthdir_y(60, _dir), 3, 0.4, 6, 7, 0.7, 13, 45, 4, SHAPE.rotation, 0);
 						hitbox_sprite_angle_set(_hitbox, _dir, true);
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 						
 						//Freeze frames

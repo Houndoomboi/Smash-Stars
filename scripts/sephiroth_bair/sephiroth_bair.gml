@@ -62,7 +62,7 @@ function sephiroth_bair()
 					//Middle hitbox
 					var _hitbox = hitbox_create_melee(-72, -10, 0.7, 0.5, 12, 6, 1, 13, 150, 2, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					

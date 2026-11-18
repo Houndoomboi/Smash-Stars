@@ -53,7 +53,7 @@ function rad_fthrow()
 					speed_set(-2 * facing, 0, true, false);
 					var _hitbox = hitbox_create_targetbox(-45, -10, 1.3, 1.3, 7, 8, 0.7, 5, 40, 1, SHAPE.square, 0, grabbed_id);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
 					}

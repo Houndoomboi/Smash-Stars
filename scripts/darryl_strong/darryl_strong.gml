@@ -63,7 +63,7 @@ function darryl_strong()
 					attack_frame = 12;
 					var _hitbox = hitbox_create_melee(80, 0, 0.7, 0.6, 11, 10, 0.6, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					}

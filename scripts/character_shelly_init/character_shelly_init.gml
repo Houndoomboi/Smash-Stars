@@ -275,7 +275,7 @@ function character_shelly_init()
 		my_sprites[$ "Run_Turn"			] = spr_shelly_run;
 		my_sprites[$ "Run_Stop"			] = spr_shelly_run;
 				 
-		my_sprites[$ "Jumpsquat"		] = spr_basic_jumpsquat;
+		my_sprites[$ "Jumpsquat"		] = spr_shelly_crouchloop;
 		my_sprites[$ "Jump_Rise"		] = spr_shelly_jump;
 		my_sprites[$ "Jump_Mid"			] = spr_shelly_jump;
 		my_sprites[$ "Jump_Fall"		] = spr_shelly_fall;
@@ -285,7 +285,7 @@ function character_shelly_init()
 		my_sprites[$ "DJump_Fall"		] = -1;
 		my_sprites[$ "DFastfall"		] = -1;
 				 
-		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_shelly_dodge, 0, anim_calculate_speed(spr_basic_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
+		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_shelly_dodge, 0, anim_calculate_speed(spr_shelly_dodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_shelly_crouchstart;
 		my_sprites[$ "Rolling"			] = spr_shelly_dodge;
 		my_sprites[$ "Shield"			] = anim_define(spr_shelly_shield, anim_define(spr_shelly_shield));
@@ -305,7 +305,7 @@ function character_shelly_init()
 		my_sprites[$ "Balloon"			] = spr_shelly_hit;
 		my_sprites[$ "Reeling"			] = spr_shelly_hit;
 		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_shelly_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_shelly_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_shelly_hit, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_shelly_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_shelly_knockdown, 6, 0));
 		my_sprites[$ "Getup"			] = anim_define_ext(spr_shelly_crouchloop, 0, anim_calculate_speed(spr_shelly_idle, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_shelly_dodge; 

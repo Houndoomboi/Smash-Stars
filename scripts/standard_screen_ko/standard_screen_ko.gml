@@ -64,7 +64,7 @@ function standard_screen_ko()
 				state_set(PLAYER_STATE.knocked_out);
 				
 				//Effects
-				game_sound_play(snd_hit_explosion0);
+				game_sound_play(snd_hit_explosion);
 				camera_shake(camera_death_shake);
 	
 				//VFX

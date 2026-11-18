@@ -58,7 +58,7 @@ function leon_groundstrong()
 					attack_frame = 6;
 					var _hitbox = hitbox_create_melee(100, 10.5, 1, 1, 11, 7.5, 0.6, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					}

@@ -251,7 +251,7 @@ function rad_final_smash()
 						}
 						
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.slash_weak, HIT_VFX.lines, HIT_VFX.emphasis];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.techable = false;
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
 					}

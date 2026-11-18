@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":0.53734696,
   "exportDir":"",
   "name":"snd_ledge_grab",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_ledge_grab.ogg",
-  "volume":0.5,
+  "soundFile":"snd_ledge_grab.wav",
+  "volume":0.61,
 }

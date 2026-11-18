@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.244671,
+  "duration":0.5537869,
   "exportDir":"",
   "name":"snd_hit_strong2",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_hit_strong2.wav",
-  "volume":1.0,
+  "volume":0.61,
 }

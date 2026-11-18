@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7342404,
+  "duration":2.1845353,
   "exportDir":"",
   "name":"snd_blastzone",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_blastzone.wav",
-  "volume":0.8,
+  "volume":0.71,
 }

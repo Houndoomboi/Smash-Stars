@@ -75,7 +75,7 @@ function basic_dspec_falling_attack()
 					var _hitbox = hitbox_create_melee(16, 32, 0.6, 0.6, 6, 7, 0.4, 9, 0, 90, SHAPE.circle, 0);
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.flinch;
 					}
 				break;
@@ -125,7 +125,7 @@ function basic_dspec_falling_attack()
 						
 						//Shockwave
 						var _hitbox = hitbox_create_melee(0, 0, 20, 20, 4, 13, 0.9, 20, 55, 3, SHAPE.circle, 1, FLIPPER.from_player_center_horizontal);
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.emphasis];
 						_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;
 						}

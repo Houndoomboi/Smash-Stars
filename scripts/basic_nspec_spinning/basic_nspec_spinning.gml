@@ -111,7 +111,7 @@ function basic_nspec_spinning()
 					speed_set(3*facing,-2,false,true);
 					//Hitbox
 					var _hitbox = hitbox_create_melee(35,0,0.6,0.7,10,9,0.8,15,65,20,SHAPE.circle,1);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				break;
 				}

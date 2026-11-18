@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":1.0366894,
   "exportDir":"",
   "name":"snd_impact",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_impact.ogg",
-  "volume":0.6,
+  "soundFile":"snd_impact.wav",
+  "volume":0.65,
 }

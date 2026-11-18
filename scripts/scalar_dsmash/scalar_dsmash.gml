@@ -79,14 +79,14 @@ function scalar_dsmash()
 					var _damage = calculate_smash_damage(18);
 					var _hitbox = hitbox_create_melee(0, 28, 1.6, 0.5, _damage, 8, 1.2, 11, 40, 1, SHAPE.square, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hit_restriction = HIT_RESTRICTION.ledge_only;
 					
 					//Early hit
 					var _hitbox = hitbox_create_melee(0, 18, 1.6, 0.5, _damage, 8, 1.2, 11, 40, 1, SHAPE.square, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.custom_shield_damage = 45;
 					}

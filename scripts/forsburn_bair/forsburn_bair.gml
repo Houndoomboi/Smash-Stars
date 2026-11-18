@@ -41,7 +41,7 @@ function forsburn_bair()
 					attack_frame = 14;
 					var _hitbox = hitbox_create_melee(-34, 10, 0.5, 0.4, 13, 8, 1, 8, 135, 2, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					var _hitbox = hitbox_create_melee(-54, 6, 0.75, 0.5, 4, 6, 0.6, 5, 135, 4, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					}

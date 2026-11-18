@@ -64,7 +64,7 @@ function basic_dair_stomp()
 					//Sweetspot
 					var _hitbox = hitbox_create_melee(0, 20, 0.1, 0.4, 8, 6, 1.2, 12, 280, 1, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					
 					//Sourspot
 					var _hitbox = hitbox_create_melee(0, 10, 0.6, 0.7, 6, 5, 0.7, 5, 285, 4, SHAPE.square, 0);

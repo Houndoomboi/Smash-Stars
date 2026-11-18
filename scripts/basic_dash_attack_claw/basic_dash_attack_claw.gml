@@ -70,7 +70,7 @@ function basic_dash_attack_claw()
 					_hitbox.shieldstun_scaling = 0.3;
 					var _hitbox = hitbox_create_melee(16, 6, 0.4, 0.4, 8, 8, 0.70, 4, 50, 4, SHAPE.circle, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.3;
 					}
 				break;

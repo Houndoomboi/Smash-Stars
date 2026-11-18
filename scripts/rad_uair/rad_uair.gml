@@ -55,7 +55,7 @@ function rad_uair()
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hit_restriction = HIT_RESTRICTION.aerial_only;
 					var _hitbox = hitbox_create_melee(40, 0, 0.5, 0.8, 9, 8, 0.8, 14, 290, 3, SHAPE.square, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.hit_restriction = HIT_RESTRICTION.grounded_only;

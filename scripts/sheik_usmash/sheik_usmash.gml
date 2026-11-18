@@ -80,7 +80,7 @@ function sheik_usmash()
 					_hitbox.hit_sfx = snd_hit_strong0;
 					var _hitbox = hitbox_create_melee(-20, 6, 0.7, 0.6, _damage, 9, 0.9, 4, 75, 2, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				
 				if (attack_frame == 4)

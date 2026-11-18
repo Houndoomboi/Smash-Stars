@@ -78,7 +78,7 @@ function palutena_nair()
 					anim_frame = 12;
 					var _hitbox = hitbox_create_melee(0, 0, 1.6, 1.6, 5, 6, 0.7, 10, 50, 3, SHAPE.circle, 1, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				if (attack_frame == 0)
 					{

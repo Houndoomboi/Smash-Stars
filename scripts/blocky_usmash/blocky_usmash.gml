@@ -89,7 +89,7 @@ function blocky_usmash()
 					var _damage = calculate_smash_damage(15);
 					var _hitbox = hitbox_create_melee(24, -37, 0.5, 0.9, _damage, 11, 1.1, 7, 75, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.5;
 					}
 				//Attack Third Part

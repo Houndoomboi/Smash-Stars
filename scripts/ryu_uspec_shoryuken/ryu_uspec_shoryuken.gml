@@ -98,7 +98,7 @@ function ryu_uspec_shoryuken()
 					//Late hitbox
 					var _hitbox = hitbox_create_melee(14, -20, 0.6, 1.2, 7, 8, 0.9, 8, 70, 12, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				
 				//Limit speed

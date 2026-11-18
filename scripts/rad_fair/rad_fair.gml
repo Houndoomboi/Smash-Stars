@@ -60,7 +60,7 @@ function rad_fair()
 							var _hitbox = hitbox_create_melee(42, 3, 1.3, 0.55, _damage, 8, 1.1, 12, 45, 4, SHAPE.circle, 0, FLIPPER.sakurai);
 							_hitbox.knockback_state = PLAYER_STATE.balloon;
 							_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
-							_hitbox.hit_sfx = snd_hit_strong1;
+							_hitbox.hit_sfx = snd_hit_strongfist;
 							_hitbox.shieldstun_scaling = 0.75;
 							_hitbox.hitstun_scaling = 0.6;
 							}

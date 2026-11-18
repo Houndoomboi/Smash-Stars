@@ -73,7 +73,7 @@ function darryl_airspecial()
 						//Explosion hitbox
 						var _hitbox = hitbox_create_melee(0, 0, 2.75, 2.75, 4, 5, 0.7, 6, 45, 1, SHAPE.circle, 0, FLIPPER.from_hitbox_center_horizontal);
 						_hitbox.hit_vfx_style = [HIT_VFX.normal_medium, HIT_VFX.lines];
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.hitstun_scaling = 0.5;
 						
 						//Body hitbox
@@ -97,7 +97,7 @@ function darryl_airspecial()
 							speed_set(0, 16, true, false);
 							var _hitbox = hitbox_create_melee(0, 5, 0.8, 0.6, 9, 8, 1.1, 9, 290, 30, SHAPE.circle, 0);
 							_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.slash_medium];
-							_hitbox.hit_sfx = snd_hit_strong1;
+							_hitbox.hit_sfx = snd_hit_strongfist;
 							attack_phase = 5;
 							landing_lag = 20;
 							}
@@ -174,7 +174,7 @@ function darryl_airspecial()
 					//Final hit
 					var _hitbox = hitbox_create_melee(0, 5, 0.8, 0.6, 4, 10, 0.4, 8, 50, 3, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.5;
 
 					attack_phase++;
@@ -257,7 +257,7 @@ function darryl_airspecial()
 					//Final hit
 					var _hitbox = hitbox_create_melee(0, 5, 0.8, 0.6, 6, 8, 0.5, 12, 55, 3, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					attack_phase++;
 					attack_frame = 25;

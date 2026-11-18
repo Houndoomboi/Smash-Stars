@@ -50,7 +50,7 @@ function scalar_uair()
 					
 					var _hitbox = hitbox_create_melee(28, 4, 0.7, 0.9, 13, 8, 1, 7, 85, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				break;
 				}
@@ -69,7 +69,7 @@ function scalar_uair()
 					anim_frame = 5;
 					var _hitbox = hitbox_create_melee(-8, -22, 1.2, 0.7, 12, 7, 0.98, 7, 85, 1, SHAPE.circle, 0, FLIPPER.from_player_center_horizontal);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				if (attack_frame == 5)
 					{

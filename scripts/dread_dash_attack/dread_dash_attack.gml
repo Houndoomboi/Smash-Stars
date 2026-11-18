@@ -54,7 +54,7 @@ function dread_dash_attack()
 					
 					//Hitboxes
 					var _hitbox = hitbox_create_melee(42, -12, 0.8, 1.2, 4, 8, 0.2, 12, 25, 2, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.techable = false;
 					_hitbox.di_angle = 0;
@@ -74,7 +74,7 @@ function dread_dash_attack()
 					
 					//Hitboxes
 					var _hitbox = hitbox_create_melee(38, -48, 0.8, 0.8, 4, 8, 0.2, 12, 25, 2, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.techable = false;
 					_hitbox.di_angle = 0;
@@ -86,7 +86,7 @@ function dread_dash_attack()
 					
 					//Hitboxes
 					var _hitbox = hitbox_create_melee(20, -62, 1.1, 0.6, 4, 8, 0.2, 12, 25, 2, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.techable = false;
 					_hitbox.di_angle = 0;

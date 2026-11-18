@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Crow_DaggerSFX.ogg",
-  "volume":0.6,
+  "volume":0.4,
 }

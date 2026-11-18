@@ -91,7 +91,7 @@ function mortis_gstrong()
 					var _damage = calculate_smash_damage(14);
 					var _hitbox = hitbox_create_melee(43, -29, 1.4, 1, _damage, 5.5, 1, 23, 40, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
@@ -134,7 +134,7 @@ function mortis_gstrong()
 					var _damage = calculate_smash_damage(10);
 					var _hitbox = hitbox_create_melee(101, 0, 0.5, 0.7, _damage, 5.5, 1, 23, 40, 1, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.normal_medium];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;

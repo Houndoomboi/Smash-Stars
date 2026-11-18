@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7142857,
+  "duration":0.40290248,
   "exportDir":"",
   "name":"snd_ko_screen",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_ko_screen.ogg",
+  "soundFile":"snd_ko_screen.wav",
   "volume":1.0,
 }

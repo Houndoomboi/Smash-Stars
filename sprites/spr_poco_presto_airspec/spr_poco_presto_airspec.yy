@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Poco (Presto)",
-    "path":"folders/Characters/Poco (Presto).yy",
+    "name":"Sprites",
+    "path":"folders/Characters/Poco (Presto)/Attacks/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -70,7 +70,7 @@ function leon_airspecial()
 					attack_phase++;
 					var _hitbox = hitbox_create_melee(0, 0, 1.2, 1.1, 12, 6, 0.7, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					

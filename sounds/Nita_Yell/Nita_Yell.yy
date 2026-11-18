@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Nita_Yell.ogg",
-  "volume":0.61,
+  "volume":0.4,
 }

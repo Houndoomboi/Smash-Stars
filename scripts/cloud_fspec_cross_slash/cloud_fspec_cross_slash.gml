@@ -143,7 +143,7 @@ function cloud_fspec_cross_slash()
 					hitbox_group_reset(0);
 					var _hitbox = hitbox_create_magnetbox(56, 0, 1, 1, 4, 5, 0, -1, 5, 1, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_weak;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					
 					if (_limit_version) then camera_shake(5);
 					}
@@ -156,14 +156,14 @@ function cloud_fspec_cross_slash()
 						{
 						var _hitbox = hitbox_create_melee(56, 0, 1, 1, 8, 6, 2, 24, 35, 3, SHAPE.square, 1);
 						_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.lines, HIT_VFX.normal_strong, HIT_VFX.emphasis];
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.di_angle = 5;
 						}
 					else
 						{
 						var _hitbox = hitbox_create_melee(56, 0, 1, 1, 8, 6, 0.8, 14, 45, 3, SHAPE.square, 1);
 						_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.lines, HIT_VFX.normal_strong];
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.hitstun_scaling = 0.5;
 						}
 					

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":0.074489795,
   "exportDir":"",
   "name":"snd_landing",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_landing.ogg",
-  "volume":0.6,
+  "soundFile":"snd_landing.wav",
+  "volume":1.0,
 }

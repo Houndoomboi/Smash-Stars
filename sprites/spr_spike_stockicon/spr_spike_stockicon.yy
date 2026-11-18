@@ -3,7 +3,7 @@
   "%Name":"spr_spike_stockicon",
   "bboxMode":0,
   "bbox_bottom":16,
-  "bbox_left":4,
+  "bbox_left":3,
   "bbox_right":15,
   "bbox_top":3,
   "collisionKind":1,

@@ -57,7 +57,7 @@ function crow_groundstrong()
 					game_sound_play(Crow_GroundStrongSFX)
 					var _hitbox = hitbox_create_melee(0, 0, 0.5, 1.5, 5, 8, 0.5, 23, 80, 12, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					}

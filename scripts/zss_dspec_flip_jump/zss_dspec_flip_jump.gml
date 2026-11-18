@@ -137,7 +137,7 @@ function zss_dspec_flip_jump()
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					var _hitbox = hitbox_create_melee(-20, 36, 1, 0.4, 11, 5, 0.9, 10, 235, 3, SHAPE.rotation, 0);
 					hitbox_sprite_angle_set(_hitbox, 65);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					}
 			

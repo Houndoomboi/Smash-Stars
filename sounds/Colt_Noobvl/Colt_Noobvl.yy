@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Colt_Noobvl.ogg",
-  "volume":0.62,
+  "volume":0.4,
 }

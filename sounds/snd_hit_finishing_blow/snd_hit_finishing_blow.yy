@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8461678,
+  "duration":2.5288208,
   "exportDir":"",
   "name":"snd_hit_finishing_blow",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_hit_finishing_blow.ogg",
-  "volume":0.6,
+  "soundFile":"snd_hit_finishing_blow.wav",
+  "volume":1.0,
 }

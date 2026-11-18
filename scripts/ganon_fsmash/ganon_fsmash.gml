@@ -92,7 +92,7 @@ function ganon_fsmash()
 					var _damage = calculate_smash_damage(20);
 					var _hitbox = hitbox_create_melee(32, -20, 2, 0.8, _damage, 8, 1.2, 15, 45, 3, SHAPE.circle, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.extra_hitlag = 5;
 					_hitbox.shieldstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
@@ -110,14 +110,14 @@ function ganon_fsmash()
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						var _hitbox = hitbox_create_melee(48, 24, 4, 0.2, 5, 8, 0.7, 6, 90, 4, SHAPE.square, 2);
 						_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-						_hitbox.hit_sfx = snd_hit_explosion0;
+						_hitbox.hit_sfx = snd_hit_explosion;
 						}
 					else
 						{
 						var _damage = calculate_smash_damage(20);
 						var _hitbox = hitbox_create_melee(42, 0, 2, 0.8, _damage, 8, 1, 20, 45, 4, SHAPE.circle, 0, FLIPPER.sakurai);
 						_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-						_hitbox.hit_sfx = snd_hit_strong1;
+						_hitbox.hit_sfx = snd_hit_strongfist;
 						_hitbox.shieldstun_scaling = 0.5;
 						_hitbox.knockback_state = PLAYER_STATE.balloon;
 						_hitbox.custom_hitstun = 35;

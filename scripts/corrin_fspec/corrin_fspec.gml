@@ -422,7 +422,7 @@ function corrin_fspec()
 				
 					//Initial Hitboxes
 					var _hitbox = hitbox_create_melee(120, 0, 0.5, 0.6, 7, 11, 0.75, 6, 50, 3, SHAPE.circle, 2);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					var _hitbox = hitbox_create_melee(70, 0, 1.5, 0.4, 7, 11, 0.75, 6, 50, 3, SHAPE.square, 2);
 					_hitbox.hit_sfx = snd_hit_strong0;

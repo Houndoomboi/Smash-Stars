@@ -108,7 +108,7 @@ function ridley_fair()
 					anim_frame = 7;
 					var _hitbox = hitbox_create_melee(68, -14, 0.2, 0.2, 6, 8, 0.9, 10, 45, 3, SHAPE.circle, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					var _hitbox = hitbox_create_melee(32, -8, 1.1, 0.6, 5, 8, 0.8, 10, 45, 3, SHAPE.square, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					_hitbox.hit_sfx = snd_hit_strong0;

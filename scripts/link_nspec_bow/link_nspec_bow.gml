@@ -82,7 +82,7 @@ function link_nspec_bow()
 					_proj.destroy_on_hit = !_fully_charged;
 					_proj.grav = _grav;
 					_proj.base_hitlag = _hitlag;
-					_proj.hit_sfx = _fully_charged ? snd_hit_strong1 : snd_hit_weak1;
+					_proj.hit_sfx = _fully_charged ? snd_hit_strongfist : snd_hit_weak1;
 					_proj.hit_vfx_style = _fully_charged ? [HIT_VFX.explosion, HIT_VFX.slash_medium] : HIT_VFX.slash_medium;
 					_proj.knockback_state = _fully_charged ? PLAYER_STATE.balloon : PLAYER_STATE.hitstun;
 					_proj.can_lock = !_fully_charged;

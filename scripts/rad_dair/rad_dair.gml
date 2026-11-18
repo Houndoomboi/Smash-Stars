@@ -44,7 +44,7 @@ function rad_dair()
 					
 					var _hitbox = hitbox_create_melee(2, 38, 0.8, 0.4, 8, 6.5, 0.5, 8, 290, 1, SHAPE.circle, 0, FLIPPER.from_hitbox_center_horizontal);
 					_hitbox.hit_vfx_style = [HIT_VFX.slash_strong, HIT_VFX.shine];
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 0.65;
 					}
 				break;

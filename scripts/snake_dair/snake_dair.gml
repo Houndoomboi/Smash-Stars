@@ -89,7 +89,7 @@ function snake_dair()
 					var _hitbox = hitbox_create_melee(0, 36, 0.6, 1, 10, 6, 0.6, 10, 40, 2, SHAPE.circle, 3);
 					_hitbox.di_angle = 10;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hitstun_scaling = 2;
 					}
 				

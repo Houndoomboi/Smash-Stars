@@ -57,7 +57,7 @@ function item_bat_attack_default_script()
 					
 					var _hitbox = hitbox_create_melee(32, 4, 1, 0.4, 41, 41, 0, 13, 40, 2, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.lines, HIT_VFX.emphasis, HIT_VFX.slash_medium];
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.techable = false;
 					_hitbox.background_clear_allow = false;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;

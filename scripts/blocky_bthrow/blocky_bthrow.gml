@@ -43,7 +43,7 @@ function blocky_bthrow()
 					attack_phase++;
 					attack_frame = 15;
 					var _hitbox = hitbox_create_melee(-32, -2, 1, 0.6, 9, 5.8, 1.4, 11, 145, 5, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					}

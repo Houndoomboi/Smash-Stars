@@ -48,7 +48,7 @@ function terry_power_geyser()
 					attack_phase++;
 					attack_frame = 9;
 					
-					game_sound_play(snd_hit_explosion3);
+					game_sound_play(snd_hit_explosion_retro);
 					
 					invulnerability_set(INV.superarmor, 9);
 					

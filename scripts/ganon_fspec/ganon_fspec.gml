@@ -186,7 +186,7 @@ function ganon_fspec()
 					{
 					anim_frame = 15;
 					var _hitbox = hitbox_create_melee(32, -16, 0.5, 0.5, 12, 10, 0, 5, 270, 1, SHAPE.square, 1);
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.magic];
 					_hitbox.di_angle = 0;
 					}
@@ -224,7 +224,7 @@ function ganon_fspec()
 					attack_phase++;
 					attack_frame = 20;
 					var _hitbox = hitbox_create_melee(16, 16, 1, 0.4, 15, 5, 1, 15, 60, 4, SHAPE.square, 1);
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = [HIT_VFX.explosion, HIT_VFX.normal_strong];
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					speed_set(0, 0, false, false);

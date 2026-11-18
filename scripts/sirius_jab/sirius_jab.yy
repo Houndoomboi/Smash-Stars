@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sirius_jab",
   "parent":{
-    "name":"Sirius",
-    "path":"folders/Characters/Sirius.yy",
+    "name":"Scripts",
+    "path":"folders/Characters/Sirius/Attacks/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

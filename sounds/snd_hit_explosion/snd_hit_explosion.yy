@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_hit_strong1",
+  "%Name":"snd_hit_explosion",
   "audioGroupId":{
     "name":"audiogroup_sound_effects",
     "path":"audiogroups/audiogroup_sound_effects",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.14045352,
+  "duration":2.5011566,
   "exportDir":"",
-  "name":"snd_hit_strong1",
+  "name":"snd_hit_explosion",
   "parent":{
     "name":"Hit Sounds",
     "path":"folders/Effects/Sounds/Hit Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_hit_strong1.wav",
-  "volume":1.0,
+  "soundFile":"snd_hit_explosion.wav",
+  "volume":0.79,
 }

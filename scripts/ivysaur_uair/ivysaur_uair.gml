@@ -50,7 +50,7 @@ function ivysaur_uair()
 					attack_frame = 10;
 					speed_set(0, 4, true, true);
 					var _hitbox = hitbox_create_melee(2, -50, 0.5, 0.5, 10, 8, 1, 12, 90, 1, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					var _hitbox = hitbox_create_melee(2, -50, 1.5, 1.5, 9, 10, 0.4, 8, 90, 4, SHAPE.circle, 0);
 					_hitbox.hit_sfx = snd_hit_weak1;
@@ -60,9 +60,9 @@ function ivysaur_uair()
 					if (prng_number(0, 9) == 0)
 						{
 						//Choose a random voiceline
-						game_sound_play(prng_choose(1, snd_hit_strong0, snd_hit_strong1, snd_hit_strong2));
+						game_sound_play(prng_choose(1, snd_hit_strong0, snd_hit_strongfist, snd_hit_strong2));
 						}
-					game_sound_play(snd_hit_explosion3);
+					game_sound_play(snd_hit_explosion_retro);
 					vfx_create_color(spr_samus_fair_burst, 1, 0, 20, x, y - 50, 2, 0);
 					}
 				break;

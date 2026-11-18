@@ -55,7 +55,7 @@ function game_and_watch_dsmash()
 					//Sourspot
 					var _damage = calculate_smash_damage(13, charge);
 					var _hitbox = hitbox_create_melee(0, 16, 1, 0.5, _damage, 7, 1, 7, 20, 2, SHAPE.square, 0, FLIPPER.from_player_center_horizontal);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.di_angle = 10;
 				

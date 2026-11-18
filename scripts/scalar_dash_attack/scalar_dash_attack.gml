@@ -67,7 +67,7 @@ function scalar_dash_attack()
 					//Weak late hit
 					var _hitbox = hitbox_create_melee(12, 6, 1.1, 0.5, 7, 8, 0.9, 6, 50, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					}
 				
 				//Animation

@@ -85,7 +85,7 @@ function scalar_fspec()
 					speed_set(11 * facing, 0, false, false);
 					
 					var _hitbox = hitbox_create_melee(36, 30, 0.9, 0.2, 8, 9, 0.4, 13, 75, 17, SHAPE.square, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.custom_hitstun = 21;
 					}
@@ -219,7 +219,7 @@ function scalar_fspec()
 					
 					//Hitbox
 					var _hitbox = hitbox_create_melee(6, 6, 1.3, 1.3, 13, 8, 0.8, 18, 39, 17, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_explosion3;
+					_hitbox.hit_sfx = snd_hit_explosion_retro;
 					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.explosion, HIT_VFX.lines];
 					_hitbox.knockback_formula = KNOCKBACK_FORMULA.stronger;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;

@@ -212,9 +212,9 @@ function character_sirius_init()
 		draw_script = -1;
 		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		callback_add(callback_passive, sirius_passive, CALLBACK_TYPE.permanent);
-		knockout_voice1 = snd_hit_explosion1
+		knockout_voice1 = snd_hit_explosion
 		
-		knockout_voice2 = snd_hit_explosion0
+		knockout_voice2 = snd_hit_explosion
 		}
 
 	//States
@@ -301,12 +301,12 @@ function character_sirius_init()
 		my_sprites[$ "Landing_Lag"		] = anim_define(spr_sirius_crouch, anim_define(spr_sirius_crouch_loop));
 		my_sprites[$ "Balloon"			] = spr_sirius_hit;
 		my_sprites[$ "Reeling"			] = spr_sirius_hit;
-		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_sirius_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Lock"				] = anim_define_ext(spr_sirius_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_basic_knockdown, 6, 0));
-		my_sprites[$ "Getup"			] = anim_define_ext(spr_basic_getup, 0, anim_calculate_speed(spr_basic_getup, getup_active + getup_endlag));
+		my_sprites[$ "Knockdown"		] = anim_define_ext(spr_sirius_knockdown, 2, 0.7, 1, 0, 1, 0, 0, false, anim_define_ext(spr_sirius_knockdown, 6, 0));
+		my_sprites[$ "Lock"				] = anim_define_ext(spr_sirius_knockdown, 0, 0.5, 1, 0, 1, 0, 0, false, anim_define_ext(spr_sirius_knockdown, 6, 0));
+		my_sprites[$ "Getup"			] = anim_define_ext(spr_sirius_crouch_loop, 0, anim_calculate_speed(spr_sirius_crouch, getup_active + getup_endlag));
 	
 		my_sprites[$ "Tech_Rolling"		] = spr_sirius_airdodge; 
-		my_sprites[$ "Teching"			] = spr_basic_teching;
+		my_sprites[$ "Teching"			] = spr_sirius_crouch_loop;
 		my_sprites[$ "Teching_Wall"		] = spr_basic_teching;
 		my_sprites[$ "Teching_Ceiling"	] = spr_basic_teching;
 		my_sprites[$ "Tech_Wall_Jump"	] = spr_basic_wall_jump;

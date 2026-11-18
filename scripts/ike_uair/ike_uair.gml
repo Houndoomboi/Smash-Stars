@@ -56,7 +56,7 @@ function ike_uair()
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					var _hitbox = hitbox_create_melee(-30, -16, 0.9, 1.1, 7, 8, 0.8, 10, 95, 5, SHAPE.circle, 0);
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.hit_vfx_style = HIT_VFX.slash_medium;
 					}
 				if (attack_frame == 2)

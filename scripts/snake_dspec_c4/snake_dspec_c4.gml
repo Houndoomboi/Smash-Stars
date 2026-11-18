@@ -145,24 +145,24 @@ function snake_dspec_c4()
 								{
 								//Sweetspot
 								var _hitbox = hitbox_create_melee(0, 0, 1, 1, 11, 7, 0.6, 11, 90, 1, SHAPE.circle, 0);
-								_hitbox.hit_sfx = snd_hit_explosion3;
+								_hitbox.hit_sfx = snd_hit_explosion_retro;
 								_hitbox.hit_vfx_style = HIT_VFX.explosion;
 						
 								//Weak hitbox
 								var _hitbox = hitbox_create_melee(0, 0, 2.5, 2.5, 5, 6, 0.5, 7, 90, 5, SHAPE.circle, 0);
-								_hitbox.hit_sfx = snd_hit_explosion3;
+								_hitbox.hit_sfx = snd_hit_explosion_retro;
 								_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 								}
 							else
 								{
 								//Sweetspot
 								var _hitbox = hitbox_create_melee(0, 0, 1, 1, 11, 10, 1, 11, 90, 1, SHAPE.circle, 0);
-								_hitbox.hit_sfx = snd_hit_explosion3;
+								_hitbox.hit_sfx = snd_hit_explosion_retro;
 								_hitbox.hit_vfx_style = HIT_VFX.explosion;
 						
 								//Weak hitbox
 								var _hitbox = hitbox_create_melee(0, 0, 2.5, 2.5, 5, 8, 0.9, 7, 90, 5, SHAPE.circle, 0);
-								_hitbox.hit_sfx = snd_hit_explosion3;
+								_hitbox.hit_sfx = snd_hit_explosion_retro;
 								_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 								}
 						

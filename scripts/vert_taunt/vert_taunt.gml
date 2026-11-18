@@ -74,7 +74,7 @@ function vert_taunt()
 						//Explosion
 						if (charge >= 360)
 							{
-							game_sound_play(snd_hit_explosion3);
+							game_sound_play(snd_hit_explosion_retro);
 							background_clear_activate(30, palette_color_get(palette_data, 0));
 							var _hitbox = hitbox_create_melee(0, 0, 20, 20, 41, 60, 0, 16, 30, 1, SHAPE.circle, 0, FLIPPER.from_hitbox_center_horizontal);
 							_hitbox.techable = false;

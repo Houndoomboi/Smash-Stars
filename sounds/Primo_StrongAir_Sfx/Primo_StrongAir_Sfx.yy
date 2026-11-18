@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Primo_StrongAir_Sfx.ogg",
-  "volume":0.7,
+  "volume":0.4,
 }

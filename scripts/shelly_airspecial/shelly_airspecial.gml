@@ -37,7 +37,7 @@ function shelly_airspecial()
 					speed_set(6 * facing, -14, false, false)
 					var _hitbox = hitbox_create_melee(40, 0, 0.5, 1, 11, 7, 1, 23, 40, 8, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strong1;
+					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.shieldstun_scaling = 0.1;
 					_hitbox.hitstun_scaling = 0.5;
 					}
