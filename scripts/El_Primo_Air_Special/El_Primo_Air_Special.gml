@@ -125,7 +125,7 @@ function El_Primo_Air_Special()
 				//VFX
 				if (attack_frame % 3 == 0)
 					{
-					vfx_create_color(spr_scalar_fspec_trail, 1, 0, 18, x + prng_number(0, 15, -15), y + prng_number(1, 15, -15), 2, prng_choose(0, 0, 90, 180, 270), "VFX_Layer_Below");
+					vfx_create_color(spr_fx_fire, 1, 0, 18, x + prng_number(0, 15, -15), y + prng_number(1, 15, -15), 2, prng_choose(0, 0, 90, 180, 270), "VFX_Layer_Below");
 					}
 					
 				//Animation
