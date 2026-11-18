@@ -2949,6 +2949,7 @@
     {"id":{"name":"spr_sirius_djump","path":"sprites/spr_sirius_djump/spr_sirius_djump.yy",},},
     {"id":{"name":"spr_sirius_enter","path":"sprites/spr_sirius_enter/spr_sirius_enter.yy",},},
     {"id":{"name":"spr_sirius_fall","path":"sprites/spr_sirius_fall/spr_sirius_fall.yy",},},
+    {"id":{"name":"spr_sirius_ground_strong","path":"sprites/spr_sirius_ground_strong/spr_sirius_ground_strong.yy",},},
     {"id":{"name":"spr_sirius_groundweak","path":"sprites/spr_sirius_groundweak/spr_sirius_groundweak.yy",},},
     {"id":{"name":"spr_sirius_hit","path":"sprites/spr_sirius_hit/spr_sirius_hit.yy",},},
     {"id":{"name":"spr_sirius_idle","path":"sprites/spr_sirius_idle/spr_sirius_idle.yy",},},
