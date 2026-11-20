@@ -41,8 +41,8 @@ function colt_airspecial()
 					anim_frame = 4;
 					attack_phase++;
 					global.AirSpecialUsed++
-					if (!hsp * facing == 0){ speed_set(4 * facing, -11.5, false, false);}
-					else{ speed_set(0, -11.5, true, false)}
+					if (!hsp * facing == 0){ speed_set(7 * facing, -13, false, false);}
+					else{ speed_set(0, -13, true, false)}
 					var _proj = hitbox_create_projectile(32, 8, 0.4, 0.4, 5, 6, 0.8, 0, 30, SHAPE.circle, 0, 10);
 					_proj.bounce_multiplier = 0;
 					_proj.destroy_on_blocks = true;

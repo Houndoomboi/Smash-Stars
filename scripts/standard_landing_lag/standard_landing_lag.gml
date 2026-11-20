@@ -47,6 +47,7 @@ function standard_landing_lag()
 				{
 				//Return to idle state
 				state_set(PLAYER_STATE.idle);
+				global.AirSpecialUsed = 0
 				run = false;
 				}
 

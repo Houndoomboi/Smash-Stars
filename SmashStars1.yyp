@@ -308,7 +308,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.1.0.27",
   },
   "name":"SmashStars1",
   "resources":[
@@ -1629,6 +1629,7 @@
     {"id":{"name":"simple_attack_define","path":"scripts/simple_attack_define/simple_attack_define.yy",},},
     {"id":{"name":"simple_attack_definitions","path":"scripts/simple_attack_definitions/simple_attack_definitions.yy",},},
     {"id":{"name":"simple_attack_runner","path":"scripts/simple_attack_runner/simple_attack_runner.yy",},},
+    {"id":{"name":"sirius_groundstrong","path":"scripts/sirius_groundstrong/sirius_groundstrong.yy",},},
     {"id":{"name":"sirius_jab","path":"scripts/sirius_jab/sirius_jab.yy",},},
     {"id":{"name":"sirius_passive","path":"scripts/sirius_passive/sirius_passive.yy",},},
     {"id":{"name":"snake_dair","path":"scripts/snake_dair/snake_dair.yy",},},
@@ -2942,6 +2943,7 @@
     {"id":{"name":"spr_sidebar_quickplay","path":"sprites/spr_sidebar_quickplay/spr_sidebar_quickplay.yy",},},
     {"id":{"name":"spr_sidebar_replays","path":"sprites/spr_sidebar_replays/spr_sidebar_replays.yy",},},
     {"id":{"name":"spr_sirius_airdodge","path":"sprites/spr_sirius_airdodge/spr_sirius_airdodge.yy",},},
+    {"id":{"name":"spr_sirius_airspecial","path":"sprites/spr_sirius_airspecial/spr_sirius_airspecial.yy",},},
     {"id":{"name":"spr_sirius_bury","path":"sprites/spr_sirius_bury/spr_sirius_bury.yy",},},
     {"id":{"name":"spr_sirius_crouch_loop","path":"sprites/spr_sirius_crouch_loop/spr_sirius_crouch_loop.yy",},},
     {"id":{"name":"spr_sirius_crouch","path":"sprites/spr_sirius_crouch/spr_sirius_crouch.yy",},},
@@ -2966,6 +2968,7 @@
     {"id":{"name":"spr_sirius_shield_loop","path":"sprites/spr_sirius_shield_loop/spr_sirius_shield_loop.yy",},},
     {"id":{"name":"spr_sirius_shield","path":"sprites/spr_sirius_shield/spr_sirius_shield.yy",},},
     {"id":{"name":"spr_sirius_stockicons","path":"sprites/spr_sirius_stockicons/spr_sirius_stockicons.yy",},},
+    {"id":{"name":"spr_sirius_taunt","path":"sprites/spr_sirius_taunt/spr_sirius_taunt.yy",},},
     {"id":{"name":"spr_slope","path":"sprites/spr_slope/spr_slope.yy",},},
     {"id":{"name":"spr_snake_dair_collision_box","path":"sprites/spr_snake_dair_collision_box/spr_snake_dair_collision_box.yy",},},
     {"id":{"name":"spr_snake_dair_hurtbox","path":"sprites/spr_snake_dair_hurtbox/spr_snake_dair_hurtbox.yy",},},

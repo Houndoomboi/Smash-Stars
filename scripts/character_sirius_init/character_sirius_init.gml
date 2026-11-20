@@ -231,7 +231,7 @@ function character_sirius_init()
 		{
 		my_attacks[$ "Jab"			] = sirius_jab;
 				 
-		my_attacks[$ "Fsmash"		] = spike_strong;
+		my_attacks[$ "Fsmash"		] = sirius_groundstrong;
 				 
 		my_attacks[$ "Nair"			] = spike_airlight;
 		my_attacks[$ "Dair"			] = spike_airstrong;

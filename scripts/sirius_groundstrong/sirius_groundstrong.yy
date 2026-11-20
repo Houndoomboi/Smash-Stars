@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sirius_groundstrong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sirius_groundstrong",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Characters/Sirius/Attacks/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
