@@ -1,4 +1,4 @@
-function leon_airspecial()
+function sirius_airspecial()
 	{
 	//Up Special
 	var run = true;
@@ -14,38 +14,32 @@ function leon_airspecial()
 			case PHASE.start:
 				{
 				//Animation
-				anim_sprite = spr_leon_teleport;
+				anim_sprite = spr_sirius_airspecial;
 				anim_speed = 0;
 				anim_frame = 0;
 			
 				speed_set(0, 0, false, false);
-				attack_frame = 24;
+				attack_frame = 15;
 				return;
 				}
 			//Startup
 			case 0:
 				{
 				//Animation
-				if (attack_frame == 24)
-					anim_frame = 1;
-				if (attack_frame == 21)
-					anim_frame = 2;
-				if (attack_frame == 18)
-					anim_frame = 3;
 				if (attack_frame == 15)
-					anim_frame = 4;
+					anim_frame = 1;
 				if (attack_frame == 12)
-					anim_frame = 5;
+					anim_frame = 2;
 				
 				if (attack_frame == 9)
 					{
-					anim_frame = 6;
+					anim_frame = 3;
 				if (attack_frame == 6)
-					anim_frame = 7;
+					anim_frame = 4;
 				if (attack_frame == 3)
-					anim_frame = 8;
+					anim_frame = 5;
 				if (attack_frame == 0)
-					anim_frame = 9;
+					anim_frame = 6;
 				
 				
 					//Invulnerability
@@ -61,18 +55,14 @@ function leon_airspecial()
 				{
 				//Animation
 				if (attack_frame == 6)
-					anim_frame = 10;
+					anim_frame = 7;
 				
 				if (attack_frame == 0)
 					{
-					anim_frame = 11;
+					anim_frame = 8;
 					game_sound_play(prng_choose(1, Leon_sneakytime, Leon_Invisibility));
 					attack_phase++;
-					var _hitbox = hitbox_create_melee(0, 0, 1.2, 1.1, 12, 6, 0.7, 23, 40, 8, SHAPE.square, 0);
-					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-					_hitbox.hit_sfx = snd_hit_strongfist;
-					_hitbox.shieldstun_scaling = 0.1;
-					_hitbox.hitstun_scaling = 0.5;
+					
 					
 					
 					//Teleport
@@ -124,17 +114,13 @@ function leon_airspecial()
 						
 				//Animation
 				if (attack_frame == 18)
-					anim_frame = 12;
+					anim_frame = 9;
 				if (attack_frame == 15)
-					anim_frame = 13;
+					anim_frame = 10;
 				if (attack_frame == 12)
-					anim_frame = 14;
+					anim_frame = 11;
 				if (attack_frame == 9)
-					anim_frame = 15;
-				if (attack_frame == 6)
-					anim_frame = 16;
-				if (attack_frame == 3)
-					anim_frame = 17;
+					anim_frame = 12;
 				
 				if (attack_frame == 0)
 					{
@@ -153,7 +139,7 @@ function leon_airspecial()
 				if (attack_frame == 6)
 					anim_frame = 9;
 				if (attack_frame == 3)
-					anim_frame = 10;
+					anim_frame = 1;
 			
 				if (attack_frame == 0)
 					{

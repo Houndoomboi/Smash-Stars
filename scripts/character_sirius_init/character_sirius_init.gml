@@ -237,7 +237,7 @@ function character_sirius_init()
 		my_attacks[$ "Dair"			] = spike_airstrong;
 				 
 		my_attacks[$ "Nspec"		] = spike_special;
-		my_attacks[$ "Uspec"		] = spike_airspecial;
+		my_attacks[$ "Uspec"		] = sirius_airspecial;
 				 
 		my_attacks[$ "Grab"			] = spike_grab;
 		my_attacks[$ "Dash_Grab"	] = spike_grab;
