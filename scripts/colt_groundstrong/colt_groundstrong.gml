@@ -24,7 +24,7 @@ function colt_groundstrong()
 				anim_speed = 0;
 				anim_frame = 0;
 
-				attack_frame = 28
+				attack_frame = 17
 				
 				hurtbox_anim_match();
 				return;
@@ -32,11 +32,11 @@ function colt_groundstrong()
 			case 0:
 				{
 				//Animation
-				if (attack_frame == 20)
-					anim_frame = 1;
 				if (attack_frame == 12)
-					anim_frame = 2;	
+					anim_frame = 1;
 				if (attack_frame == 6)
+					anim_frame = 2;
+				if (attack_frame == 3)
 					anim_frame = 3;
 				if (attack_frame == 0)
 					{
@@ -53,31 +53,33 @@ function colt_groundstrong()
 				{
 				//Animation
 				
-				
-				if (attack_frame == 12)
+				if (attack_frame == 11)
 				{
-					var _hitbox = hitbox_create_melee(80, 0, 1.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,0);
+					var _hitbox = hitbox_create_melee(80, 0, 3.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
+			     var _vfx = vfx_create(spr_colt_bullet_vfx, 1, 0, 36, x, y, 2, 0, "VFX_Layer");
+					_vfx.vfx_xscale = 2 * facing;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 5;
+					
 				}
 				if (attack_frame == 9){
-					var _hitbox = hitbox_create_melee(80, 0, 1.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,1);
+					var _hitbox = hitbox_create_melee(80, 0, 3.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,1);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 6;
 				}
 				if (attack_frame == 6){
-					var _hitbox = hitbox_create_melee(80, 0, 1.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 2);
+					var _hitbox = hitbox_create_melee(80, 0, 3.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square, 2);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
 					anim_frame = 7;
 				}
-				if (attack_frame == 2){
-					var _hitbox = hitbox_create_melee(80, 0, 1.85, 1, 4, 7, 0.4, 2, 0, 3, SHAPE.square, 3);
+				if (attack_frame == 3){
+					var _hitbox = hitbox_create_melee(80, 0, 3.85, 1, 5, 7.5, 0.5, 2, 45, 3, SHAPE.square, 3);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;

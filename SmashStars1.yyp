@@ -308,7 +308,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.1.0.27",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -2144,6 +2144,7 @@
     {"id":{"name":"spr_bayonetta_fspec_afterburner_hurtbox","path":"sprites/spr_bayonetta_fspec_afterburner_hurtbox/spr_bayonetta_fspec_afterburner_hurtbox.yy",},},
     {"id":{"name":"spr_bayonetta_fspec_afterburner","path":"sprites/spr_bayonetta_fspec_afterburner/spr_bayonetta_fspec_afterburner.yy",},},
     {"id":{"name":"spr_belmont_dtilt","path":"sprites/spr_belmont_dtilt/spr_belmont_dtilt.yy",},},
+    {"id":{"name":"spr_black_bar_arcade","path":"sprites/spr_black_bar_arcade/spr_black_bar_arcade.yy",},},
     {"id":{"name":"spr_blank","path":"sprites/spr_blank/spr_blank.yy",},},
     {"id":{"name":"spr_block_centered","path":"sprites/spr_block_centered/spr_block_centered.yy",},},
     {"id":{"name":"spr_block_moving_point","path":"sprites/spr_block_moving_point/spr_block_moving_point.yy",},},
@@ -2196,6 +2197,7 @@
     {"id":{"name":"spr_colt_airdodge","path":"sprites/spr_colt_airdodge/spr_colt_airdodge.yy",},},
     {"id":{"name":"spr_colt_airspecial","path":"sprites/spr_colt_airspecial/spr_colt_airspecial.yy",},},
     {"id":{"name":"spr_colt_arcadeWin","path":"sprites/spr_colt_arcadeWin/spr_colt_arcadeWin.yy",},},
+    {"id":{"name":"spr_colt_bullet_vfx","path":"sprites/spr_colt_bullet_vfx/spr_colt_bullet_vfx.yy",},},
     {"id":{"name":"spr_colt_bury","path":"sprites/spr_colt_bury/spr_colt_bury.yy",},},
     {"id":{"name":"spr_colt_crouch_loop","path":"sprites/spr_colt_crouch_loop/spr_colt_crouch_loop.yy",},},
     {"id":{"name":"spr_colt_crouch","path":"sprites/spr_colt_crouch/spr_colt_crouch.yy",},},
