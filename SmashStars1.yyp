@@ -1629,6 +1629,7 @@
     {"id":{"name":"simple_attack_define","path":"scripts/simple_attack_define/simple_attack_define.yy",},},
     {"id":{"name":"simple_attack_definitions","path":"scripts/simple_attack_definitions/simple_attack_definitions.yy",},},
     {"id":{"name":"simple_attack_runner","path":"scripts/simple_attack_runner/simple_attack_runner.yy",},},
+    {"id":{"name":"sirius_airspecial","path":"scripts/sirius_airspecial/sirius_airspecial.yy",},},
     {"id":{"name":"sirius_groundstrong","path":"scripts/sirius_groundstrong/sirius_groundstrong.yy",},},
     {"id":{"name":"sirius_jab","path":"scripts/sirius_jab/sirius_jab.yy",},},
     {"id":{"name":"sirius_passive","path":"scripts/sirius_passive/sirius_passive.yy",},},

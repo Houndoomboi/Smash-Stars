@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sirius_airspecial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sirius_airspecial",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Characters/Leon/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
