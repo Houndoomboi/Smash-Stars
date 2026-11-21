@@ -95,7 +95,7 @@ function sirius_groundstrong(){
 					
 				if (attack_frame == 0)
 					{
-					anim_frame = 5;
+					anim_frame = 4;
 					attack_phase = 3;
 					attack_frame = 8;
 					//*Chrom
@@ -141,7 +141,7 @@ function sirius_groundstrong(){
 					
 				if (attack_frame == 0)
 					{
-					anim_frame = 5;
+					anim_frame = 4;
 					attack_phase = 3;
 					attack_frame = 8;
 					//*Chrom
@@ -215,7 +215,7 @@ function sirius_groundstrong(){
 					{
 					anim_frame = 7;
 					attack_phase++;
-					attack_frame = 20;
+					attack_frame = 30;
 					}
 				break;
 				}
