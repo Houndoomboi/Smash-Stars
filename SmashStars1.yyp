@@ -308,7 +308,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.1.0.27",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"SmashStars1",
   "resources":[
@@ -2196,8 +2196,9 @@
     {"id":{"name":"spr_colt_airspecial","path":"sprites/spr_colt_airspecial/spr_colt_airspecial.yy",},},
     {"id":{"name":"spr_colt_arcadeWin","path":"sprites/spr_colt_arcadeWin/spr_colt_arcadeWin.yy",},},
     {"id":{"name":"spr_colt_bury","path":"sprites/spr_colt_bury/spr_colt_bury.yy",},},
-    {"id":{"name":"spr_colt_crouch_loop_1","path":"sprites/spr_colt_crouch_loop_1/spr_colt_crouch_loop_1.yy",},},
+    {"id":{"name":"spr_colt_crouch_loop","path":"sprites/spr_colt_crouch_loop/spr_colt_crouch_loop.yy",},},
     {"id":{"name":"spr_colt_crouch","path":"sprites/spr_colt_crouch/spr_colt_crouch.yy",},},
+    {"id":{"name":"spr_colt_djump","path":"sprites/spr_colt_djump/spr_colt_djump.yy",},},
     {"id":{"name":"spr_colt_dodge","path":"sprites/spr_colt_dodge/spr_colt_dodge.yy",},},
     {"id":{"name":"spr_colt_fall","path":"sprites/spr_colt_fall/spr_colt_fall.yy",},},
     {"id":{"name":"spr_colt_grab","path":"sprites/spr_colt_grab/spr_colt_grab.yy",},},
@@ -2207,6 +2208,7 @@
     {"id":{"name":"spr_colt_HUD","path":"sprites/spr_colt_HUD/spr_colt_HUD.yy",},},
     {"id":{"name":"spr_colt_hurtbox","path":"sprites/spr_colt_hurtbox/spr_colt_hurtbox.yy",},},
     {"id":{"name":"spr_colt_Idle","path":"sprites/spr_colt_Idle/spr_colt_Idle.yy",},},
+    {"id":{"name":"spr_colt_jump_mid","path":"sprites/spr_colt_jump_mid/spr_colt_jump_mid.yy",},},
     {"id":{"name":"spr_colt_jump","path":"sprites/spr_colt_jump/spr_colt_jump.yy",},},
     {"id":{"name":"spr_colt_knockdown","path":"sprites/spr_colt_knockdown/spr_colt_knockdown.yy",},},
     {"id":{"name":"spr_colt_ledge","path":"sprites/spr_colt_ledge/spr_colt_ledge.yy",},},
