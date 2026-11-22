@@ -90,7 +90,7 @@
   "name":"rm_stage_diner",
   "parent":{
     "name":"Bull's Diner",
-    "path":"folders/Stages/Bull's Diner.yy",
+    "path":"folders/Stages/Retropolis/Bull's Diner.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

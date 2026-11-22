@@ -26,7 +26,7 @@
   "name":"rm_arcade_transition",
   "parent":{
     "name":"Arcade",
-    "path":"folders/Stages/Arcade.yy",
+    "path":"folders/Stages/Single Player Modes/Arcade.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

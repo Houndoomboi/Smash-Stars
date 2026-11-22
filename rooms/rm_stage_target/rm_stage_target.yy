@@ -124,7 +124,7 @@
   "name":"rm_stage_target",
   "parent":{
     "name":"Target",
-    "path":"folders/Stages/Target.yy",
+    "path":"folders/Stages/Single Player Modes/Target.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

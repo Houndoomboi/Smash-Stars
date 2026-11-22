@@ -15,7 +15,7 @@
   "name":"Rumble_Jungle",
   "parent":{
     "name":"Rumble Jungle",
-    "path":"folders/Stages/Rumble Jungle.yy",
+    "path":"folders/Stages/Adventure Land/Rumble Jungle.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

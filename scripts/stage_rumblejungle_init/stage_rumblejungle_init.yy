@@ -6,7 +6,7 @@
   "name":"stage_rumblejungle_init",
   "parent":{
     "name":"Rumble Jungle",
-    "path":"folders/Stages/Rumble Jungle.yy",
+    "path":"folders/Stages/Adventure Land/Rumble Jungle.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

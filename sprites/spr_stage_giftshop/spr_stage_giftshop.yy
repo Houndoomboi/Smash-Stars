@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Gift Shop",
-    "path":"folders/Stages/Gift Shop.yy",
+    "path":"folders/Stages/Town Square/Gift Shop.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

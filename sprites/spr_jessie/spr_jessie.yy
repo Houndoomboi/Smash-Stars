@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"Bull's Diner",
-    "path":"folders/Stages/Bull's Diner.yy",
+    "path":"folders/Stages/Retropolis/Bull's Diner.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

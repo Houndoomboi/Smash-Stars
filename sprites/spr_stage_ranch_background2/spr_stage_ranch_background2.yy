@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Ranger Ranch",
-    "path":"folders/Stages/Ranger Ranch.yy",
+    "path":"folders/Stages/Frontier World/Ranger Ranch.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

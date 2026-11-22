@@ -15,7 +15,7 @@
   "name":"GiftShop",
   "parent":{
     "name":"Gift Shop",
-    "path":"folders/Stages/Gift Shop.yy",
+    "path":"folders/Stages/Town Square/Gift Shop.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

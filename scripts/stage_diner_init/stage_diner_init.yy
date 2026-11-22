@@ -6,7 +6,7 @@
   "name":"stage_diner_init",
   "parent":{
     "name":"Bull's Diner",
-    "path":"folders/Stages/Bull's Diner.yy",
+    "path":"folders/Stages/Retropolis/Bull's Diner.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

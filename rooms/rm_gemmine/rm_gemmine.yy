@@ -123,7 +123,7 @@
   "name":"rm_gemmine",
   "parent":{
     "name":"Gem Mine",
-    "path":"folders/Stages/Gem Mine.yy",
+    "path":"folders/Stages/Frontier World/Gem Mine.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -474,7 +474,7 @@ if (state != GAME_STATE.cutscene)
 							(23 * _hs) + _x + prng_number(0, _player.damage_text_random, -_player.damage_text_random),
 							_y + prng_number(1, _player.damage_text_random, -_player.damage_text_random),
 							_percent,
-							spr_damage_font_medium,
+							spr_damage_font_small,
 							17 * _hs,
 							_hs,
 							calculate_damage_color(_player.damage),

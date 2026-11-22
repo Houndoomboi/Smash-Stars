@@ -15,7 +15,7 @@
   "name":"Mortuary",
   "parent":{
     "name":"Mortis Mortuary",
-    "path":"folders/Stages/Mortis Mortuary.yy",
+    "path":"folders/Stages/Haunted Haven/Mortis Mortuary.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

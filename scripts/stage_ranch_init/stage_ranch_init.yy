@@ -6,7 +6,7 @@
   "name":"stage_ranch_init",
   "parent":{
     "name":"Ranger Ranch",
-    "path":"folders/Stages/Ranger Ranch.yy",
+    "path":"folders/Stages/Frontier World/Ranger Ranch.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

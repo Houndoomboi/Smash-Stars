@@ -32,7 +32,7 @@
   "origin":9,
   "parent":{
     "name":"Mortis Mortuary",
-    "path":"folders/Stages/Mortis Mortuary.yy",
+    "path":"folders/Stages/Haunted Haven/Mortis Mortuary.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

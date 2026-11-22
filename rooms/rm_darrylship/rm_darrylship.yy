@@ -104,7 +104,7 @@
   "name":"rm_darrylship",
   "parent":{
     "name":"Darryl's ship",
-    "path":"folders/Stages/Darryl's ship.yy",
+    "path":"folders/Stages/Adventure Land/Darryl's ship.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

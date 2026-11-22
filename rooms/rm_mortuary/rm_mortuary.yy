@@ -112,7 +112,7 @@
   "name":"rm_mortuary",
   "parent":{
     "name":"Mortis Mortuary",
-    "path":"folders/Stages/Mortis Mortuary.yy",
+    "path":"folders/Stages/Haunted Haven/Mortis Mortuary.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

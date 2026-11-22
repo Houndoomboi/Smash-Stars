@@ -87,7 +87,15 @@ function stage_data_get_all()
 			["texture_stage_factory"],
 			0
 			),
-			
+		stage_define
+			(
+			"Bizarre Circus",
+			stage_bizarre_circus_init,
+			rm_stage_bizarre_circus,
+			spr_stage_giftshop_icon,
+			["texture_stage_factory"],
+			0
+			),
 			
 			
 		//Target Practice Stages (They all need to be defined)

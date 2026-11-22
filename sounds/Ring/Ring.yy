@@ -15,7 +15,7 @@
   "name":"Ring",
   "parent":{
     "name":"El Primo's Ring",
-    "path":"folders/Stages/El Primo's Ring.yy",
+    "path":"folders/Stages/Mystic Mountain/El Primo's Ring.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

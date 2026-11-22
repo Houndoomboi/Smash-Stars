@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Gem Mine",
-    "path":"folders/Stages/Gem Mine.yy",
+    "path":"folders/Stages/Frontier World/Gem Mine.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

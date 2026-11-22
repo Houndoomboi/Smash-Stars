@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gem Mine",
-    "path":"folders/Stages/Gem Mine.yy",
+    "path":"folders/Stages/Frontier World/Gem Mine.yy",
   },
   "parentObjectId":{
     "name":"obj_platform_moving",

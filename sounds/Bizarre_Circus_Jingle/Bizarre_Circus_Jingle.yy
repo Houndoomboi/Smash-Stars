@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Bizarre_Circus_Jingle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":116.90497,
+  "exportDir":"",
+  "name":"Bizarre_Circus_Jingle",
+  "parent":{
+    "name":"Bizarre Circus",
+    "path":"folders/Stages/Creepsville/Bizarre Circus.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Bizarre_Circus_Jingle.mp3",
+  "volume":0.6,
+}

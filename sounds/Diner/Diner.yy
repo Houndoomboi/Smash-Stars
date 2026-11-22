@@ -15,7 +15,7 @@
   "name":"Diner",
   "parent":{
     "name":"Bull's Diner",
-    "path":"folders/Stages/Bull's Diner.yy",
+    "path":"folders/Stages/Retropolis/Bull's Diner.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Rumble Jungle",
-    "path":"folders/Stages/Rumble Jungle.yy",
+    "path":"folders/Stages/Adventure Land/Rumble Jungle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

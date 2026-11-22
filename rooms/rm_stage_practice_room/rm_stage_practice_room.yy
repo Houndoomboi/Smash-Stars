@@ -142,7 +142,7 @@
   "name":"rm_stage_practice_room",
   "parent":{
     "name":"Practice Room",
-    "path":"folders/Stages/Practice Room.yy",
+    "path":"folders/Stages/Single Player Modes/Practice Room.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

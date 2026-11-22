@@ -110,7 +110,7 @@
   "name":"rm_rumblejungle",
   "parent":{
     "name":"Rumble Jungle",
-    "path":"folders/Stages/Rumble Jungle.yy",
+    "path":"folders/Stages/Adventure Land/Rumble Jungle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

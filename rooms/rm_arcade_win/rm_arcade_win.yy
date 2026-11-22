@@ -19,7 +19,7 @@
   "name":"rm_arcade_win",
   "parent":{
     "name":"Arcade",
-    "path":"folders/Stages/Arcade.yy",
+    "path":"folders/Stages/Single Player Modes/Arcade.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

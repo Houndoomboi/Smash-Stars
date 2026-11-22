@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Darryl's ship",
-    "path":"folders/Stages/Darryl's ship.yy",
+    "path":"folders/Stages/Adventure Land/Darryl's ship.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

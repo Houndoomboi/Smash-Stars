@@ -6,7 +6,7 @@
   "name":"stage_mortuary_init",
   "parent":{
     "name":"Mortis Mortuary",
-    "path":"folders/Stages/Mortis Mortuary.yy",
+    "path":"folders/Stages/Haunted Haven/Mortis Mortuary.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

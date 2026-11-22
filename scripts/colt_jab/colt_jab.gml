@@ -42,7 +42,7 @@ function colt_jab()
 			
 					attack_phase++;
 					attack_frame = 6;
-					var _hitbox = hitbox_create_magnetbox(23, -1.5, 0.5, 0.7, 2, 3, -16, 6, 16, 6, SHAPE.square, 0);
+					var _hitbox = hitbox_create_magnetbox(23, -1.5, 0.5, 0.7, 2, 3, 4, 6, 16, 6, SHAPE.square, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;

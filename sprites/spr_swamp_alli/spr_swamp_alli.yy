@@ -46,7 +46,7 @@
   "origin":0,
   "parent":{
     "name":"Swamp of Love",
-    "path":"folders/Stages/Swamp of Love.yy",
+    "path":"folders/Stages/Haunted Haven/Swamp of Love.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

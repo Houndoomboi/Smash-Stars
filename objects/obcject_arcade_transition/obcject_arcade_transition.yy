@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Arcade",
-    "path":"folders/Stages/Arcade.yy",
+    "path":"folders/Stages/Single Player Modes/Arcade.yy",
   },
   "parentObjectId":null,
   "persistent":false,

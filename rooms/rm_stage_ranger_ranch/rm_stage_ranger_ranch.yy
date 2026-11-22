@@ -98,7 +98,7 @@
   "name":"rm_stage_ranger_ranch",
   "parent":{
     "name":"Ranger Ranch",
-    "path":"folders/Stages/Ranger Ranch.yy",
+    "path":"folders/Stages/Frontier World/Ranger Ranch.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
