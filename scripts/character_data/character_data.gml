@@ -25,7 +25,7 @@ function character_data_get_all()
 			"Shelly",
 			character_shelly_init,
 			spr_shelly_palette,
-			spr_shelly_portrait,
+			spr_shelly_css_icon,
 			spr_shelly_portrait,
 			spr_shelly_HUD,
 			spr_shelly_stockicon,
