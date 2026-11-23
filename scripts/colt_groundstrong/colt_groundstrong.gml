@@ -57,7 +57,7 @@ function colt_groundstrong()
 				{
 					var _hitbox = hitbox_create_melee(80, 0, 3.85, 1, 2, 3, 0.1, 2, 0, 3, SHAPE.square,0);
 					_hitbox.hit_vfx_style = HIT_VFX.normal_medium;
-			     var _vfx = vfx_create(spr_colt_bullet_vfx, 1, 0, 36, x, y, 2, 0, "VFX_Layer");
+			     var _vfx = vfx_create_color(spr_colt_bullet_vfx, 1, 0, 36, x, y, 2, 0, "VFX_Layer");
 					_vfx.vfx_xscale = 2 * facing;
 					_hitbox.can_be_parried = false;
 					_hitbox.can_lock = true;
