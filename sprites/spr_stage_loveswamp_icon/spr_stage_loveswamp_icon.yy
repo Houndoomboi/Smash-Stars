@@ -23,7 +23,7 @@
   ],
   "name":"spr_stage_loveswamp_icon",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Swamp of Love",
     "path":"folders/Stages/Haunted Haven/Swamp of Love.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":100,
+    "xorigin":96,
     "yorigin":100,
   },
   "swatchColours":null,
