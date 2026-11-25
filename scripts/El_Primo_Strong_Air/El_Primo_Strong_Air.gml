@@ -29,7 +29,7 @@ function El_Primo_Strong_Air()
 					{
 					attack_frame = 18;
 					attack_phase = 0;
-					speed_set(0, 20, true, false);
+					speed_set(0, 0, true, false);
 					}
 				else
 					{
