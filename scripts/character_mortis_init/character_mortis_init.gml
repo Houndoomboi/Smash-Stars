@@ -281,10 +281,10 @@ function character_mortis_init()
 		my_sprites[$ "Jump_Mid"			] = spr_mortis_fall;
 		my_sprites[$ "Jump_Fall"		] = spr_mortis_fall;
 		my_sprites[$ "Fastfall"			] = spr_mortis_fall;
-		my_sprites[$ "DJump_Rise"		] = anim_define(spr_mortis_jump, anim_define(spr_mortis_jump));
-		my_sprites[$ "DJump_Mid"		] = -1;
-		my_sprites[$ "DJump_Fall"		] = -1;
-		my_sprites[$ "DFastfall"		] = -1;
+		my_sprites[$ "DJump_Rise"		] = spr_mortis_jump;
+		my_sprites[$ "DJump_Mid"		] = spr_mortis_fall;
+		my_sprites[$ "DJump_Fall"		] = spr_mortis_fall;
+		my_sprites[$ "DFastfall"		] = spr_mortis_fall;
 				 
 		my_sprites[$ "Airdodge"			] = anim_define_ext(spr_mortis_airdodge, 0, anim_calculate_speed(spr_mortis_airdodge, airdodge_startup + airdodge_active + airdodge_endlag));
 		my_sprites[$ "Waveland"			] = spr_mortis_crouch;
