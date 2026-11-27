@@ -150,10 +150,10 @@ function Poco_Ground_Special(){
 							SHAPE.circle,
 							1, 
 							0,
-							FLIPPER.from_hitbox_center,
+							FLIPPER.from_hitbox_center
 							);
 						_proj.base_hitlag = 20;
-						_proj.hit_sfx = snd_hit_explosion1;
+						_proj.hit_sfx = snd_hit_explosion;
 						_proj.overlay_scale = 1;
 						_proj.hit_vfx_style = HIT_VFX.electric;
 						}
@@ -179,10 +179,10 @@ function Poco_Ground_Special(){
 							SHAPE.circle,
 							_speed, 
 							0,
-							FLIPPER.sakurai,
+							FLIPPER.sakurai
 							);
 						_proj.base_hitlag = (_percent == 1) ? 18 : ceil(lerp(7, 14, _percent));
-						_proj.hit_sfx = snd_hit_explosion1;
+						_proj.hit_sfx = snd_hit_explosion;
 						_proj.overlay_scale = _size;
 						_proj.hit_vfx_style = (_percent == 1) ? [HIT_VFX.explosion, HIT_VFX.electric] : HIT_VFX.electric;
 						}

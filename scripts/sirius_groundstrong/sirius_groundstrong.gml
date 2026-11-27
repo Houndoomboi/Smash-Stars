@@ -90,25 +90,14 @@ function sirius_groundstrong()
 					{
 					anim_frame = 5;
 					var _damage = calculate_smash_damage(20);
-					var _hitbox = hitbox_create_melee(80, -20, 2, 0.8, _damage, 8, 1.2, 15, 45, 3, SHAPE.circle, 0, FLIPPER.sakurai);
+					var _hitbox = hitbox_create_melee(80, -20, 2, 0.8, _damage, 7.5, 1, 15, 30, 3, SHAPE.circle, 0, FLIPPER.sakurai);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
 					_hitbox.hit_sfx = snd_hit_strongfist;
 					_hitbox.extra_hitlag = 5;
 					_hitbox.shieldstun_scaling = 0.5;
 					_hitbox.knockback_state = PLAYER_STATE.balloon;
 					_hitbox.custom_hitstun = 35;
-					}
-				
-						{
-						var _damage = calculate_smash_damage(20);
-						var _hitbox = hitbox_create_melee(42, 0, 2, 0.8, _damage, 8, 1, 20, 45, 4, SHAPE.circle, 0, FLIPPER.sakurai);
-						_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
-						_hitbox.hit_sfx = snd_hit_strongfist;
-						_hitbox.shieldstun_scaling = 0.5;
-						_hitbox.knockback_state = PLAYER_STATE.balloon;
-						_hitbox.custom_hitstun = 35;
-						}
-				
+					}				
 				if (attack_frame == 2)
 					{
 					anim_frame = 6;
@@ -117,7 +106,7 @@ function sirius_groundstrong()
 				if (attack_frame == 0)
 					{
 					attack_phase++;
-					attack_frame = attack_connected() ? 18 : 24;
+					attack_frame = attack_connected() ? 18 : 28;
 					}
 				break;
 				}
