@@ -183,7 +183,7 @@ function poco_capo_counter()
 					{
 					anim_frame = 11;
 					apply_damage(id, -8);
-					var _hitbox = hitbox_create_melee(0, 0, 3, 1.9, 10, 10, 1, 10, 40, 4, SHAPE.circle, 0);
+					var _hitbox = hitbox_create_melee(0, 0, 3, 1.9, 10, 7, 1, 10, 40, 4, SHAPE.circle, 0);
 					_hitbox.hit_vfx_style = HIT_VFX.slash_strong;
 					_hitbox.hit_sfx = snd_hit_strong0;
 					}

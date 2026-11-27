@@ -52,7 +52,7 @@ function character_spike_init()
 		air_friction = 0.04;
 	
 		//Ground Movement
-		ground_friction = 0.75;
+		ground_friction = 0.95;
 		crouch_friction = 1;
 		slide_friction = 0.35;
 		hard_landing_friction = 0.6;
@@ -64,7 +64,7 @@ function character_spike_init()
 		walk_turn_time = 6;
 	
 		//Dashing
-		dash_speed = 13;
+		dash_speed = 11;
 		dash_time = 9;
 		dash_accel = 8;
 	
