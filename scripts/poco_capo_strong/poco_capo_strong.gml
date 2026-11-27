@@ -226,20 +226,20 @@ function poco_capo_strong(){
 					{
 					anim_frame = 11;
 					attack_phase++;
-					attack_frame = 10;
+					attack_frame = 18;
 					}
 				break;
 				}
 				case 4:
 				{
 				//Animation
-				if (attack_frame == 10)
+				if (attack_frame == 18)
 					anim_frame = 12;
-				if (attack_frame == 8)
+				if (attack_frame == 16)
 					anim_frame = 13;
-				if (attack_frame == 6)
+				if (attack_frame == 14)
 					anim_frame = 14;
-				if (attack_frame == 4)
+				if (attack_frame == 12)
 					anim_frame = 15;
 		
 				if (attack_frame == 0)
